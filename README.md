@@ -33,3 +33,7 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Exact parity cost for all arities
 
 [Full proof and independent audit](results/parity-exact/README.md): cyclic supplied-literal AND cost and unrestricted semifilter pair-cover cost of m-bit parity are exactly 2m-3 for m>=2. This strengthens the preceding odd-arity recurrence. Historical novelty remains unverified; parity is a linear-size-circuit problem, not a P-versus-NP separation.
+
+## Route boundaries
+
+[Audited next-step limitations](research/route-boundaries/README.md): an unbounded gap for the explicit minimal canonical witness class, and the uniformity/quantifier obligations for a genuine SAT-cover algorithm. No such algorithm is supplied.
