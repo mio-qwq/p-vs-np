@@ -1,9 +1,20 @@
-# P versus NP Research
+# P versus NP research
 
-Complexity-theory research notes and reproducible experiments; P versus NP remains unresolved.
+**Neither P=NP nor P≠NP is proved here.** Two exploratory directions are developed with cross-checking: exact SAT algorithm candidates and lower-bound formulations.
 
-## Status
+## Verified scoped checkpoints
 
-This repository is at an initial research stage. It does not claim a proof of P = NP or P ≠ NP.
+- [Affine residual branching](results/affine-residual/README.md): an exact XOR-aware SAT candidate and an explicit family refuting its proposed polynomial state bound. The family defeats this specified algorithm, not all SAT algorithms; elementary preprocessing repairs this family.
+- [Pair-state unrolling](results/pair-state-unrolling/README.md): a checked corollary of a pinned public compiler, with k-round convergence, at most k² AND gates, and a precise nonuniform circuit lower-bound target. No required superpolynomial lower bound is proved.
 
-Research milestones will distinguish proved statements, experiments, conjectures, and open questions, with reproducible verification materials where applicable.
+Both checkpoints have written proofs, separate AI-assisted reviews, executable checks and negative tests where applicable. No human peer review, formal verification of these new statements, or historical-priority claim is made.
+
+[The initial research plan](RESEARCH_PLAN.md) records the earlier threshold-circuit route. Its parameter analysis remains preliminary and is not a new lower-bound result. The present dual-direction checkpoint supersedes a one-route interpretation of that plan.
+
+## Reproduction and recovery
+
+Use Python 3, standard library only. Each result directory states its commands and limitations. SHA256.json hashes all tracked checkpoint files except itself. Checks may regenerate their adjacent result logs; timing fields are environment-dependent.
+
+The unpublished first working environment was lost. Current algorithm code was reconstructed from retained specifications and tested afresh; this repository does not pretend to recover old uncommitted bytes or reuse old tests as new runs.
+
+AI systems contributed substantially to derivation, implementation, review and documentation. Releases freeze scoped research records, not a Millennium-problem solution.

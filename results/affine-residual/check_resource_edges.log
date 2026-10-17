@@ -1,0 +1,12 @@
+{
+  "sparse_label_cases": 4,
+  "largest_label_bit_length": 201,
+  "cache_toggle_equivalence_cases": 300,
+  "explicit_stack_depth_test": {
+    "recursion_limit": 50,
+    "observed_search_depth": 80,
+    "answer": true
+  },
+  "budget_limit": "state budget exceeded",
+  "candidate_sha256": "f949e6d749959a88e73f5516fd9dc0cca61fb17d55140265cb624538eaa4f941"
+}

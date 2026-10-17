@@ -1,0 +1,86 @@
+[
+  {
+    "graph": "K4",
+    "odd_charge": false,
+    "hidden": false,
+    "answer": true,
+    "n": 6,
+    "clauses": 16,
+    "stats": {
+      "calls": 1,
+      "unique_states": 0,
+      "cache_hits": 0,
+      "branches": 0,
+      "parity_blocks": 4,
+      "max_depth": 0,
+      "max_free_dimension": 0,
+      "max_literals": 0,
+      "normalize_calls": 1,
+      "input_variables": 6,
+      "expanded_variables": 6
+    }
+  },
+  {
+    "graph": "K4",
+    "odd_charge": false,
+    "hidden": true,
+    "answer": true,
+    "n": 22,
+    "clauses": 32,
+    "stats": {
+      "calls": 4,
+      "unique_states": 3,
+      "cache_hits": 0,
+      "branches": 3,
+      "parity_blocks": 0,
+      "max_depth": 3,
+      "max_free_dimension": 22,
+      "max_literals": 80,
+      "normalize_calls": 4,
+      "input_variables": 22,
+      "expanded_variables": 22
+    }
+  },
+  {
+    "graph": "K4",
+    "odd_charge": true,
+    "hidden": false,
+    "answer": false,
+    "n": 6,
+    "clauses": 16,
+    "stats": {
+      "calls": 1,
+      "unique_states": 0,
+      "cache_hits": 0,
+      "branches": 0,
+      "parity_blocks": 4,
+      "max_depth": 0,
+      "max_free_dimension": 0,
+      "max_literals": 0,
+      "normalize_calls": 1,
+      "input_variables": 6,
+      "expanded_variables": 6
+    }
+  },
+  {
+    "graph": "K4",
+    "odd_charge": true,
+    "hidden": true,
+    "answer": false,
+    "n": 22,
+    "clauses": 32,
+    "stats": {
+      "calls": 15,
+      "unique_states": 7,
+      "cache_hits": 0,
+      "branches": 7,
+      "parity_blocks": 0,
+      "max_depth": 3,
+      "max_free_dimension": 22,
+      "max_literals": 80,
+      "normalize_calls": 15,
+      "input_variables": 22,
+      "expanded_variables": 22
+    }
+  }
+]

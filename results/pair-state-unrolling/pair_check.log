@@ -1,0 +1,72 @@
+{
+  "status": "all checks passed",
+  "exhaustive": [
+    {
+      "k": 0,
+      "distinct_coordinate_functions": 2,
+      "maps_exhaustively_tested": 1,
+      "maximum_rounds_to_fixedpoint": 0
+    },
+    {
+      "k": 1,
+      "distinct_coordinate_functions": 3,
+      "maps_exhaustively_tested": 3,
+      "maximum_rounds_to_fixedpoint": 1
+    },
+    {
+      "k": 2,
+      "distinct_coordinate_functions": 6,
+      "maps_exhaustively_tested": 36,
+      "maximum_rounds_to_fixedpoint": 2
+    },
+    {
+      "k": 3,
+      "distinct_coordinate_functions": 18,
+      "maps_exhaustively_tested": 5832,
+      "maximum_rounds_to_fixedpoint": 3
+    }
+  ],
+  "random": [
+    {
+      "k": 4,
+      "maps_tested": 2000,
+      "maximum_observed_rounds": 4
+    },
+    {
+      "k": 5,
+      "maps_tested": 2000,
+      "maximum_observed_rounds": 5
+    },
+    {
+      "k": 6,
+      "maps_tested": 2000,
+      "maximum_observed_rounds": 5
+    },
+    {
+      "k": 7,
+      "maps_tested": 2000,
+      "maximum_observed_rounds": 3
+    },
+    {
+      "k": 8,
+      "maps_tested": 2000,
+      "maximum_observed_rounds": 0
+    }
+  ],
+  "tight_chain_k": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "scope": "pair-coordinate simultaneous update, not generic lattice iteration or internal gate-level schedule",
+  "seed": 20261017
+}
