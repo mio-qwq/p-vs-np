@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "n": 1,
+      "formulas": 8,
+      "assignment_evaluations": 16,
+      "projection_shortcut_failures": 1
+    },
+    {
+      "n": 2,
+      "formulas": 130,
+      "assignment_evaluations": 520,
+      "projection_shortcut_failures": 22
+    },
+    {
+      "n": 3,
+      "formulas": 3304,
+      "assignment_evaluations": 26432,
+      "projection_shortcut_failures": 99
+    }
+  ],
+  "minimal_counterexample": [
+    [
+      1
+    ],
+    [
+      -1
+    ]
+  ],
+  "counterexample_sat": false,
+  "projected_clause_shortcut": true,
+  "scope": "No shortcut was asserted by the source; this rejects a tempting proposed existential-projection shortcut."
+}
