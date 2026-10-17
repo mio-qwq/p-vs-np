@@ -1,0 +1,17 @@
+GF2 rank 2 1 radius 2 full 2 ball 2 previous 1
+GF2 rank 2 2 radius 2 full 2 ball 2 previous 1
+GF2 rank 3 1 radius 3 full 5 ball 5 previous 4
+GF2 rank 3 2 radius 3 full 6 ball 6 previous 4
+GF2 rank 4 1 radius 3 full 10 ball 10 previous 7
+GF2 rank 4 2 radius 4 full 23 ball 23 previous 15
+GF2 rank 5 1 radius 3 full 17 ball 17 previous 11
+GF2 rank 5 2 radius 5 full 78 ball 78 previous 71
+GF2 rank 6 1 radius 3 full 26 ball 26 previous 16
+GF2 rank 6 2 radius 5 full 207 ball 207 previous 176
+GF2 rank 7 1 radius 3 full 37 ball 37 previous 22
+GF2 rank 7 2 radius 5 full 458 ball 458 previous 372
+even monomial 2 nonzero 1
+even monomial 4 nonzero 2
+even monomial 6 nonzero 6
+even monomial 8 nonzero 24
+PASS

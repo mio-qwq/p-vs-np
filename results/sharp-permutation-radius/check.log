@@ -1,0 +1,24 @@
+Python 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ] platform Linux-6.18.55-x86_64-with-glibc2.41
+cube n 2 cumulative subsets 1
+cube n 3 cumulative subsets 6
+cube n 4 cumulative subsets 47
+cube n 5 cumulative subsets 344
+cube n 6 cumulative subsets 3451
+cube n 7 cumulative subsets 33222
+cube n 8 cumulative subsets 420903
+Pfaffian n 3 cumulative 6
+Pfaffian n 4 cumulative 30
+Pfaffian n 5 cumulative 270
+Pfaffian n 6 cumulative 1710
+Pfaffian n 7 cumulative 16830
+Pfaffian n 8 cumulative 137790
+integer finite-difference monomials 2352
+solver n 0 cumulative calls 775
+solver n 1 cumulative calls 1550
+solver n 2 cumulative calls 2325
+solver n 3 cumulative calls 3100
+solver n 4 cumulative calls 3875
+solver n 5 cumulative calls 4650
+solver n 6 cumulative calls 5425
+solver n 7 cumulative calls 6200
+PASS 420903 137790 2352 6200
