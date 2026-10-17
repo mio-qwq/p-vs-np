@@ -1,0 +1,8 @@
+{
+  "seed": 741903,
+  "input_circuit_cases": 27000,
+  "self_loop_deletion": "pass",
+  "duplicate_literal_factoring": "pass",
+  "least_fixed_point_negative_control": "pass",
+  "scope": "finite regression only; general proof remains separate"
+}
