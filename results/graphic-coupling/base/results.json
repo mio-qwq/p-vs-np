@@ -1,0 +1,9 @@
+{
+  "random_incident_pair_global_checks": 600,
+  "max_matching_gadget_vertices": 27,
+  "exhaustive_local_signature_checks": 4438,
+  "sat_to_arbitrary_pair_path_checks": 180,
+  "matching_oracle": "memoized exhaustive search used only for validation, not a polynomial implementation",
+  "strict_3cnf_unsat_and_single_deletion_controls": 9,
+  "direct_unsat_tjoin_control_edges": 12
+}

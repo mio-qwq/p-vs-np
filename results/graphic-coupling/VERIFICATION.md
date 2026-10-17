@@ -1,0 +1,9 @@
+# Verification record
+
+Prepared on 17 October 2026 from independently reviewed source artifacts. All 13 commands in run_checks.py were actually executed from the portable package and exited zero; CHECK_OUTPUT.txt records their stdout.
+
+The tests include 600 base random comparisons and 4,438 local signatures; 180 SAT-reduction controls; 80 distance-two comparisons; 700 quota cases; 1,100 exhaustive, 2,600 random and 600 structured matching graphs; 28 malformed-input and 10 invalid-matching checks; observed nested blossom contraction; 1,200 backend integration cases; 1,562 pair-localization configurations; 500 supplied-certificate cases; 1,813 star configurations; and independent local, hardness, target-transport and 700 simultaneous-star controls. Finite evidence supplements the written proofs and established algorithmic theorems.
+
+Packaging changes are explicit: scratch-directory imports became paths relative to __file__; pathlib imports were added where needed; the quota output's backend location became relative; documentation paths and obsolete output-file references were updated. The base report gained a historical-status banner. The star audit keeps its reviewed sections 1–3 and clearly identifies the omitted separate laminar section. No algorithmic branch, reduction, matching operation, or assertion was changed. SOURCE_PROVENANCE.json records both original and packaged SHA256 for every copied file, including unchanged files. The test runner and top-level documentation are new packaging files. Generated JSON and captured stdout are newly rerun output rather than copied evidence.
+
+The star audit's complete original report hash was 14d4d7039fe67c0b376670ce0231b94c75b0f7c7583c7a066b1c6bc02670b2d2. Its hash-bound review covered the star/certificate/quota/backend inputs. No formal verification or human peer review is claimed. Prior research files outside the root index and manifest are preserved byte-for-byte.

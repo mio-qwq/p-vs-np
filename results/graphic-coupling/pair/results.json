@@ -1,0 +1,36 @@
+{
+  "GL3_maps": 168,
+  "exhaustive_rank3_localization_vs_extension_checks": 1562,
+  "K4_opposite_pair": "no representation; extension all seven nonzero columns (Fano)",
+  "C4_two_opposite_pairs_rescue": {
+    "original_columns": [
+      3,
+      6,
+      4,
+      1
+    ],
+    "pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "row_map_images_of_units": [
+      1,
+      2,
+      6
+    ],
+    "new_columns": [
+      3,
+      4,
+      6,
+      1
+    ],
+    "all_128_target_assignment_fibers_checked": true
+  },
+  "recognizer_used": "exhaustive GL3 oracle for validation only; polynomial theorem invokes known graphic recognition"
+}

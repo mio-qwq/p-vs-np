@@ -1,0 +1,79 @@
+CHECK base/test.py
+{
+  "random_incident_pair_global_checks": 600,
+  "max_matching_gadget_vertices": 27,
+  "exhaustive_local_signature_checks": 4438,
+  "sat_to_arbitrary_pair_path_checks": 180,
+  "matching_oracle": "memoized exhaustive search used only for validation, not a polynomial implementation"
+}
+Additional UNSAT controls passed
+CHECK base/test_distance_two.py
+{
+  "exact_original_vs_distance2_tjoin_checks": 80,
+  "lifted_witnesses": 24,
+  "max_transformed_edges": 16,
+  "complete_pairing_simple_graph_and_distance2_verified": true
+}
+CHECK quota/test_quota.py
+{'quota_matching_vs_exhaustive_checks': 700, 'tested_groups_larger_than_two': 303, 'backend': 'independent standard Edmonds implementation, ../blossom/blossom.py'}
+CHECK blossom/test_blossom.py
+PASS {'exhaustive': 1100, 'random': 2600, 'structured': 600, 'malformed': 28, 'negative_matching': 10} seconds= 0.365
+CHECK blossom/test_nested.py
+PASS {'contractions': 19, 'nested_contractions': 1} attempts= 11
+Nested contraction fixture: 9 [(6, 7), (7, 1), (1, 6), (1, 0), (0, 8), (8, 4), (4, 2), (2, 6), (0, 3), (3, 5)]
+CHECK blossom/test_integration.py
+PASS integration=1200 feasible=395 max_gadget_vertices=34
+graphic.py SHA256 bab4f190d75f0d0068529b944ba08a5947d931882922679e0cec878fc84451e8
+CHECK pair/test.py
+{
+  "GL3_maps": 168,
+  "exhaustive_rank3_localization_vs_extension_checks": 1562,
+  "K4_opposite_pair": "no representation; extension all seven nonzero columns (Fano)",
+  "C4_two_opposite_pairs_rescue": {
+    "original_columns": [
+      3,
+      6,
+      4,
+      1
+    ],
+    "pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "row_map_images_of_units": [
+      1,
+      2,
+      6
+    ],
+    "new_columns": [
+      3,
+      4,
+      6,
+      1
+    ],
+    "all_128_target_assignment_fibers_checked": true
+  },
+  "recognizer_used": "exhaustive GL3 oracle for validation only; polynomial theorem invokes known graphic recognition"
+}
+CHECK pair/test_certificate.py
+{'scrambled_binary_matrix_certificate_solver_checks': 500, 'returned_witnesses': 153, 'graphic_discovery': 'not implemented; supplied certificates are checked in polynomial time'}
+CHECK star/test.py
+{'rank3_common_star_vs_extension_plus_independence_checks': 1813, 'triangle_independence_check_required': True, 'parallel_duplicate_quota_all8_targets': True}
+CHECK audit-local/check_matching_gadget.py
+exhaustive n<=3 graph/pair/parity instances 155
+2000 seeded random graph/pair/parity instances PASS
+parallel-edge controls PASS
+CHECK audit-local/check_hardness_transforms.py
+1200 distance2 transformations: exact solution bijection, simplicity, disjoint pairs, pair distances PASS
+all simple graphs n<=4: exact3coloring/local-overlap solution bijection PASS
+CHECK audit-pair/check.py
+PASS 1074 rank-two localization/extension checks with parallel columns; 500 zero-preprocessing checks; 4096 rectangular target-fiber checks
+CHECK audit-star/check_simultaneous.py
+PASS: 700 simultaneous multi-group tests with repetitions and empty groups
+ALL 13 CHECKS PASSED

@@ -1,0 +1,6 @@
+{
+  "exact_original_vs_distance2_tjoin_checks": 80,
+  "lifted_witnesses": 24,
+  "max_transformed_edges": 16,
+  "complete_pairing_simple_graph_and_distance2_verified": true
+}
