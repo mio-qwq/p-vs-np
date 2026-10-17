@@ -1,0 +1,7 @@
+PASS hashes; 945 matching BFS/metric; 49 terms/346 distinct summands; 1081 formal monomials (676 reduced); corruption detected; all 384 five-cycle targets covered
+PASS lower bound n= 2 matchings= 3 minimum nonzero distance= 1
+PASS lower bound n= 3 matchings= 15 minimum nonzero distance= 2
+PASS lower bound n= 4 matchings= 105 minimum nonzero distance= 3
+PASS lower bound n= 5 matchings= 945 minimum nonzero distance= 3
+PASS lower bound n= 6 matchings= 10395 minimum nonzero distance= 3
+PASS total lower-bound evaluations: 11463

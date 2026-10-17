@@ -1,0 +1,51 @@
+[
+  {
+    "source": "pnp-matching-radius-allfield-audit-20261017/PROOF.md",
+    "destination": "results/matching-allfield-support/PROOF.md",
+    "source_sha256": "618ac49f845f84ac510e399cd35c436f8e2b855a8bf0173aae83d265533bc04b",
+    "packaged_sha256": "618ac49f845f84ac510e399cd35c436f8e2b855a8bf0173aae83d265533bc04b",
+    "adaptation": "Byte-identical"
+  },
+  {
+    "source": "pnp-matching-radius-allfield-audit-20261017/check.py",
+    "destination": "results/matching-allfield-support/check.py",
+    "source_sha256": "50eeb24be88effd9990d6099297e24fb4dfa32d25a4e4b2f9ab492749d7bdead",
+    "packaged_sha256": "50eeb24be88effd9990d6099297e24fb4dfa32d25a4e4b2f9ab492749d7bdead",
+    "adaptation": "Byte-identical"
+  },
+  {
+    "source": "pnp-matching-odd-characteristic-20261017/DEGREE_TWO_FLIP_RADIUS.md",
+    "destination": "results/matching-degree-two-flip/DEGREE_TWO_FLIP_RADIUS.md",
+    "source_sha256": "765cb35eb5830be5b2d97601abf38be465f87a2a457f0aa64905db69b2cf0fe8",
+    "packaged_sha256": "765cb35eb5830be5b2d97601abf38be465f87a2a457f0aa64905db69b2cf0fe8",
+    "adaptation": "Byte-identical"
+  },
+  {
+    "source": "pnp-matching-odd-characteristic-20261017/orbit_certificate.json",
+    "destination": "results/matching-degree-two-flip/orbit_certificate.json",
+    "source_sha256": "9ea13e4436d83da1942fd7b98156f93bc7a0a75ee570841c3eab388de02c263d",
+    "packaged_sha256": "9ea13e4436d83da1942fd7b98156f93bc7a0a75ee570841c3eab388de02c263d",
+    "adaptation": "Byte-identical"
+  },
+  {
+    "source": "pnp-matching-odd-characteristic-20261017/check_certificate.py",
+    "destination": "results/matching-degree-two-flip/check_certificate.py",
+    "source_sha256": "0650bc444361c138a786b8f78f474d13a49db6db5ad0ce5f50ae92af210f91a2",
+    "packaged_sha256": "0650bc444361c138a786b8f78f474d13a49db6db5ad0ce5f50ae92af210f91a2",
+    "adaptation": "Byte-identical"
+  },
+  {
+    "source": "pnp-degree2-flip-review-20261017/PROOF_AUDIT.md",
+    "destination": "results/matching-degree-two-flip/audit/PROOF_AUDIT.md",
+    "source_sha256": "47957a7d6ede6395335976fdabe9ecbb50942d0c98fde8f7cb6687bb66693872",
+    "packaged_sha256": "47957a7d6ede6395335976fdabe9ecbb50942d0c98fde8f7cb6687bb66693872",
+    "adaptation": "Byte-identical"
+  },
+  {
+    "source": "pnp-degree2-flip-review-20261017/check.py",
+    "destination": "results/matching-degree-two-flip/audit/check.py",
+    "source_sha256": "440c56e93b9322927e4c42416d6b516fc8ba48e54c39c10301375b59fa62592f",
+    "packaged_sha256": "992b64becbf2c4f20d093216dbceafef5925ee840e9f6cea43ebdcc8ddf63aa7",
+    "adaptation": "Source directory made relative to checker"
+  }
+]
