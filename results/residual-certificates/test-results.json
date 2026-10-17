@@ -1,0 +1,1 @@
+{"counts": {"affine_semantics": 1202, "cnfs": 3115, "corruptions_rejected": 46, "sat": 1831, "unsat": 1284}, "shared_nodes": 2, "shared_root_children": [0, 0], "solver_sha256": "32ba57a17c8af1fc1045314fd89b849743bd6ba810fdfdb96f3a4ac9cde577c5"}

@@ -1,0 +1,428 @@
+{
+  "solver_sha256": "32ba57a17c8af1fc1045314fd89b849743bd6ba810fdfdb96f3a4ac9cde577c5",
+  "runs": [
+    {
+      "prism_r": 3,
+      "vertices": 6,
+      "variables": 33,
+      "clauses": 48,
+      "initial_blocks": 0,
+      "original": {
+        "sat": false,
+        "states": 11,
+        "cache_hits": 4,
+        "namespace_changed_hits": 0,
+        "branches": 11,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -1,
+            4
+          ],
+          "second_path": [
+            -3,
+            1,
+            -4
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            1,
+            -4
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      },
+      "with_scc": {
+        "sat": false,
+        "states": 7,
+        "cache_hits": 0,
+        "namespace_changed_hits": 0,
+        "branches": 7,
+        "witness": null,
+        "first_hit": null
+      }
+    },
+    {
+      "prism_r": 4,
+      "vertices": 8,
+      "variables": 44,
+      "clauses": 64,
+      "initial_blocks": 0,
+      "original": {
+        "sat": false,
+        "states": 23,
+        "cache_hits": 8,
+        "namespace_changed_hits": 0,
+        "branches": 23,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -1,
+            4,
+            6
+          ],
+          "second_path": [
+            -3,
+            1,
+            -4,
+            -6
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            1,
+            -4,
+            -6
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      },
+      "with_scc": {
+        "sat": false,
+        "states": 11,
+        "cache_hits": 4,
+        "namespace_changed_hits": 0,
+        "branches": 11,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -5,
+            7
+          ],
+          "second_path": [
+            -3,
+            5,
+            -7
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            5,
+            -7
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      }
+    },
+    {
+      "prism_r": 5,
+      "vertices": 10,
+      "variables": 55,
+      "clauses": 80,
+      "initial_blocks": 0,
+      "original": {
+        "sat": false,
+        "states": 47,
+        "cache_hits": 16,
+        "namespace_changed_hits": 0,
+        "branches": 47,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -1,
+            4,
+            6,
+            8
+          ],
+          "second_path": [
+            -3,
+            1,
+            -4,
+            -6,
+            -8
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            1,
+            -4,
+            -6,
+            -8
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      },
+      "with_scc": {
+        "sat": false,
+        "states": 15,
+        "cache_hits": 8,
+        "namespace_changed_hits": 0,
+        "branches": 15,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -5,
+            -7,
+            9
+          ],
+          "second_path": [
+            -3,
+            -5,
+            7,
+            -9
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            5,
+            7,
+            -9
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      }
+    },
+    {
+      "prism_r": 6,
+      "vertices": 12,
+      "variables": 66,
+      "clauses": 96,
+      "initial_blocks": 0,
+      "original": {
+        "sat": false,
+        "states": 95,
+        "cache_hits": 32,
+        "namespace_changed_hits": 0,
+        "branches": 95,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -1,
+            4,
+            6,
+            8,
+            10
+          ],
+          "second_path": [
+            -3,
+            1,
+            -4,
+            -6,
+            -8,
+            -10
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            1,
+            -4,
+            -6,
+            -8,
+            -10
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      },
+      "with_scc": {
+        "sat": false,
+        "states": 19,
+        "cache_hits": 12,
+        "namespace_changed_hits": 0,
+        "branches": 19,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -5,
+            -7,
+            -9,
+            11
+          ],
+          "second_path": [
+            -3,
+            -5,
+            -7,
+            9,
+            -11
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            5,
+            7,
+            9,
+            -11
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      }
+    },
+    {
+      "prism_r": 7,
+      "vertices": 14,
+      "variables": 77,
+      "clauses": 112,
+      "initial_blocks": 0,
+      "original": {
+        "sat": false,
+        "states": 191,
+        "cache_hits": 64,
+        "namespace_changed_hits": 0,
+        "branches": 191,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -1,
+            4,
+            6,
+            8,
+            10,
+            12
+          ],
+          "second_path": [
+            -3,
+            1,
+            -4,
+            -6,
+            -8,
+            -10,
+            -12
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            1,
+            -4,
+            -6,
+            -8,
+            -10,
+            -12
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      },
+      "with_scc": {
+        "sat": false,
+        "states": 23,
+        "cache_hits": 16,
+        "namespace_changed_hits": 0,
+        "branches": 23,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -5,
+            -7,
+            -9,
+            -11,
+            13
+          ],
+          "second_path": [
+            -3,
+            -5,
+            -7,
+            -9,
+            11,
+            -13
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            -13
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      }
+    },
+    {
+      "prism_r": 8,
+      "vertices": 16,
+      "variables": 88,
+      "clauses": 128,
+      "initial_blocks": 0,
+      "original": {
+        "sat": false,
+        "states": 383,
+        "cache_hits": 128,
+        "namespace_changed_hits": 0,
+        "branches": 383,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -1,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "second_path": [
+            -3,
+            1,
+            -4,
+            -6,
+            -8,
+            -10,
+            -12,
+            -14
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            1,
+            -4,
+            -6,
+            -8,
+            -10,
+            -12,
+            -14
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      },
+      "with_scc": {
+        "sat": false,
+        "states": 27,
+        "cache_hits": 20,
+        "namespace_changed_hits": 0,
+        "branches": 27,
+        "witness": null,
+        "first_hit": {
+          "first_path": [
+            -3,
+            -5,
+            -7,
+            -9,
+            -11,
+            -13,
+            15
+          ],
+          "second_path": [
+            -3,
+            -5,
+            -7,
+            -9,
+            -11,
+            13,
+            -15
+          ],
+          "same_interface": true,
+          "first_context_clause": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            -15
+          ],
+          "first_context_clause_already_true_on_second": true
+        }
+      }
+    }
+  ]
+}

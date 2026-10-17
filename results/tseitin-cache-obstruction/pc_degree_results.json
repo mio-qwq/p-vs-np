@@ -1,0 +1,14 @@
+{
+  "split_clause_identities": 336,
+  "prism_vertices_checked": [
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "largest_PC_degree_needed": 4,
+  "final_polynomial": "1"
+}
