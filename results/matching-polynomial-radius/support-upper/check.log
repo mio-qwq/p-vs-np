@@ -1,0 +1,7 @@
+{
+  "matchings": 11465,
+  "nonempty_cube_vertices": 57834,
+  "internal_vertices": 57194,
+  "cross_only_vertices": 640
+}
+PASS

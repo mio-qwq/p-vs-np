@@ -1,0 +1,538 @@
+{
+  "witness_checks": [
+    {
+      "n": 0,
+      "permutations": 1,
+      "nonzero_extremal": 0,
+      "general_minor_checks": 0
+    },
+    {
+      "n": 1,
+      "permutations": 1,
+      "nonzero_extremal": 0,
+      "general_minor_checks": 0
+    },
+    {
+      "n": 2,
+      "permutations": 2,
+      "nonzero_extremal": 1,
+      "general_minor_checks": 0
+    },
+    {
+      "n": 3,
+      "permutations": 6,
+      "nonzero_extremal": 2,
+      "general_minor_checks": 6
+    },
+    {
+      "n": 4,
+      "permutations": 24,
+      "nonzero_extremal": 4,
+      "general_minor_checks": 24
+    },
+    {
+      "n": 5,
+      "permutations": 120,
+      "nonzero_extremal": 24,
+      "general_minor_checks": 240
+    },
+    {
+      "n": 6,
+      "permutations": 720,
+      "nonzero_extremal": 48,
+      "general_minor_checks": 1440
+    },
+    {
+      "n": 7,
+      "permutations": 5040,
+      "nonzero_extremal": 720,
+      "general_minor_checks": 15120
+    },
+    {
+      "n": 8,
+      "permutations": 40320,
+      "nonzero_extremal": 1440,
+      "general_minor_checks": 120960
+    }
+  ],
+  "direct_universal_radius_checks": [
+    {
+      "n": 0,
+      "d": 0,
+      "field": 2,
+      "ranks_by_radius": [
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 0,
+      "d": 0,
+      "field": 3,
+      "ranks_by_radius": [
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 1,
+      "d": 0,
+      "field": 2,
+      "ranks_by_radius": [
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 1,
+      "d": 0,
+      "field": 3,
+      "ranks_by_radius": [
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 1,
+      "d": 1,
+      "field": 2,
+      "ranks_by_radius": [
+        1
+      ],
+      "radius": 0,
+      "monomials": 2
+    },
+    {
+      "n": 1,
+      "d": 1,
+      "field": 3,
+      "ranks_by_radius": [
+        1
+      ],
+      "radius": 0,
+      "monomials": 2
+    },
+    {
+      "n": 2,
+      "d": 0,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 2,
+      "d": 0,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 2,
+      "d": 1,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        2
+      ],
+      "radius": 1,
+      "monomials": 5
+    },
+    {
+      "n": 2,
+      "d": 1,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        2
+      ],
+      "radius": 1,
+      "monomials": 5
+    },
+    {
+      "n": 2,
+      "d": 2,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        2
+      ],
+      "radius": 1,
+      "monomials": 7
+    },
+    {
+      "n": 2,
+      "d": 2,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        2
+      ],
+      "radius": 1,
+      "monomials": 7
+    },
+    {
+      "n": 3,
+      "d": 0,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 3,
+      "d": 0,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 3,
+      "d": 1,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        4,
+        5
+      ],
+      "radius": 2,
+      "monomials": 10
+    },
+    {
+      "n": 3,
+      "d": 1,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        4,
+        5
+      ],
+      "radius": 2,
+      "monomials": 10
+    },
+    {
+      "n": 3,
+      "d": 2,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        4,
+        6
+      ],
+      "radius": 2,
+      "monomials": 28
+    },
+    {
+      "n": 3,
+      "d": 2,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        4,
+        6
+      ],
+      "radius": 2,
+      "monomials": 28
+    },
+    {
+      "n": 3,
+      "d": 3,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        4,
+        6
+      ],
+      "radius": 2,
+      "monomials": 34
+    },
+    {
+      "n": 3,
+      "d": 3,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        4,
+        6
+      ],
+      "radius": 2,
+      "monomials": 34
+    },
+    {
+      "n": 4,
+      "d": 0,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 4,
+      "d": 0,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 4,
+      "d": 1,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        7,
+        10,
+        10
+      ],
+      "radius": 2,
+      "monomials": 17
+    },
+    {
+      "n": 4,
+      "d": 1,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        7,
+        10,
+        10
+      ],
+      "radius": 2,
+      "monomials": 17
+    },
+    {
+      "n": 4,
+      "d": 2,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        7,
+        18,
+        23
+      ],
+      "radius": 3,
+      "monomials": 89
+    },
+    {
+      "n": 4,
+      "d": 2,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        7,
+        18,
+        23
+      ],
+      "radius": 3,
+      "monomials": 89
+    },
+    {
+      "n": 4,
+      "d": 3,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        7,
+        18,
+        24
+      ],
+      "radius": 3,
+      "monomials": 185
+    },
+    {
+      "n": 4,
+      "d": 3,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        7,
+        18,
+        24
+      ],
+      "radius": 3,
+      "monomials": 185
+    },
+    {
+      "n": 4,
+      "d": 4,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        7,
+        18,
+        24
+      ],
+      "radius": 3,
+      "monomials": 209
+    },
+    {
+      "n": 4,
+      "d": 4,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        7,
+        18,
+        24
+      ],
+      "radius": 3,
+      "monomials": 209
+    },
+    {
+      "n": 5,
+      "d": 0,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 5,
+      "d": 0,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "radius": 0,
+      "monomials": 1
+    },
+    {
+      "n": 5,
+      "d": 1,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        11,
+        17,
+        17,
+        17
+      ],
+      "radius": 2,
+      "monomials": 26
+    },
+    {
+      "n": 5,
+      "d": 1,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        11,
+        17,
+        17,
+        17
+      ],
+      "radius": 2,
+      "monomials": 26
+    },
+    {
+      "n": 5,
+      "d": 2,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        11,
+        46,
+        77,
+        78
+      ],
+      "radius": 4,
+      "monomials": 226
+    },
+    {
+      "n": 5,
+      "d": 2,
+      "field": 3,
+      "ranks_by_radius": [
+        1,
+        11,
+        46,
+        77,
+        78
+      ],
+      "radius": 4,
+      "monomials": 226
+    },
+    {
+      "n": 5,
+      "d": 3,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        11,
+        46,
+        96,
+        119
+      ],
+      "radius": 4,
+      "monomials": 826
+    },
+    {
+      "n": 5,
+      "d": 4,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        11,
+        46,
+        96,
+        120
+      ],
+      "radius": 4,
+      "monomials": 1426
+    },
+    {
+      "n": 5,
+      "d": 5,
+      "field": 2,
+      "ranks_by_radius": [
+        1,
+        11,
+        46,
+        96,
+        120
+      ],
+      "radius": 4,
+      "monomials": 1546
+    }
+  ]
+}

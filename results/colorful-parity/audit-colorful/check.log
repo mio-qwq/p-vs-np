@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "per_coloring_tests": 19955,
+  "seed": 20261017,
+  "seconds": 0.549,
+  "coverage": "exhaustive labels n<=3 as specified; every coloring; random n=4..7; every returned witness verified"
+}
