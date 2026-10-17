@@ -51,3 +51,7 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Graphic-coupling research checkpoint
 
 [Local quotas, graph certificates and representation criteria](results/graphic-coupling/README.md) package a blossom-backed restricted solver, exact pair-sum/common-star criteria and sharp locality boundaries. The incident-pair case is credited as a direct corollary of Cannon–Ishaque–Tóth (2012). Code verifies supplied graph certificates; automatic general recognition remains a classical theorem-level dependency. This does not solve general SAT or P versus NP.
+
+## Sharp permutation-polynomial support radius
+
+[Field-uniform proof and independent audit](results/sharp-permutation-radius/README.md) establish the exact radius min(n,2d+1) for degree-d functions on all permutation matrices, with constant/trivial-group exceptions. This sharpens Derksen's stated sufficient 3d bound; historical novelty remains unverified. The complete-bipartite parity-search consequence is XP (polynomial for each fixed k), with no general SAT or P versus NP conclusion.
