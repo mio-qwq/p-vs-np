@@ -1,0 +1,79 @@
+{
+  "canonical_solver_cases": 21376,
+  "random_solver_cases": 2000,
+  "pointwise_extraction_formulas": 556,
+  "affine_normalization_cases": 2800,
+  "conversion_formulas": 180,
+  "conversion_assignments": 6720,
+  "invalid_inputs_rejected": 3,
+  "negative_controls": [
+    {
+      "name": "wrong_chain_sign",
+      "cnf": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          -4
+        ]
+      ],
+      "n": 4,
+      "expected": false,
+      "mutant": true
+    },
+    {
+      "name": "wrong_parity_rhs",
+      "cnf": [
+        [
+          1,
+          -2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "n": 2,
+      "expected": true,
+      "mutant": false
+    },
+    {
+      "name": "wrong_gaussian_constant",
+      "affine_clauses": [
+        [
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "equations": [
+        [
+          1,
+          1
+        ]
+      ],
+      "expected": true,
+      "mutant": false
+    }
+  ],
+  "elapsed_seconds": 1.7098009586334229
+}

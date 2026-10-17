@@ -1,0 +1,50 @@
+{
+  "status": "all exact checks passed",
+  "parity3": {
+    "all_semifilters": 166,
+    "above_target_filters": 68,
+    "ordered_pairs_checked": 256,
+    "dual_total": "3",
+    "maximum_pair_dual_load": "1",
+    "upper_cover": [
+      [
+        3,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        7,
+        11
+      ]
+    ],
+    "exact_pair_cover_number": 3
+  },
+  "explicit_m4": {
+    "negative": [
+      0,
+      3,
+      5,
+      6,
+      9,
+      10,
+      12,
+      15
+    ],
+    "excluded_from_A": [
+      0,
+      15
+    ],
+    "excluded_from_B": [
+      3,
+      12
+    ],
+    "positive_witnesses_defeated": 8
+  },
+  "scope": "parity3 exact unrestricted cover; logarithmic upper cover only for radial threshold subclass, not unrestricted parity covers"
+}
+radial checks [(2, 1), (4, 4), (8, 64), (16, 16384)]
+{"semifilters": 166, "above_some_target_filters": 68, "all_ordered_pairs_checked": 256, "dual_weight_denominator": 2, "weighted_filters": [[65534, 2], [59624, 1], [61064, 1], [64160, 1], [64704, 1]], "maximum_scaled_pair_load": 2, "total_scaled_dual_weight": 6, "cover": [[3, 12], [13, 14], [7, 11]], "exact_fractional_cover": 3, "exact_integral_cover": 3}
+[{"dimension": 2, "positive_vertices": 2, "fixed_pairs": 1, "mixture_threshold_checks": 8, "every_neighbor_class_exactly_one": true}, {"dimension": 4, "positive_vertices": 8, "fixed_pairs": 2, "mixture_threshold_checks": 56, "every_neighbor_class_exactly_one": true}, {"dimension": 8, "positive_vertices": 128, "fixed_pairs": 3, "mixture_threshold_checks": 1280, "every_neighbor_class_exactly_one": true}]

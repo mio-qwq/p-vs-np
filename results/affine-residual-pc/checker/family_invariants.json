@@ -1,0 +1,123 @@
+{
+  "prefixes_checked": 1013,
+  "results": [
+    {
+      "k": 0,
+      "variables": 12,
+      "clauses": 22,
+      "prefix_keys_by_depth": [
+        1
+      ],
+      "total_distinct_prefix_keys": 1
+    },
+    {
+      "k": 1,
+      "variables": 17,
+      "clauses": 29,
+      "prefix_keys_by_depth": [
+        1,
+        2
+      ],
+      "total_distinct_prefix_keys": 3
+    },
+    {
+      "k": 2,
+      "variables": 22,
+      "clauses": 36,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4
+      ],
+      "total_distinct_prefix_keys": 7
+    },
+    {
+      "k": 3,
+      "variables": 27,
+      "clauses": 43,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "total_distinct_prefix_keys": 15
+    },
+    {
+      "k": 4,
+      "variables": 32,
+      "clauses": 50,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "total_distinct_prefix_keys": 31
+    },
+    {
+      "k": 5,
+      "variables": 37,
+      "clauses": 57,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "total_distinct_prefix_keys": 63
+    },
+    {
+      "k": 6,
+      "variables": 42,
+      "clauses": 64,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "total_distinct_prefix_keys": 127
+    },
+    {
+      "k": 7,
+      "variables": 47,
+      "clauses": 71,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "total_distinct_prefix_keys": 255
+    },
+    {
+      "k": 8,
+      "variables": 52,
+      "clauses": 78,
+      "prefix_keys_by_depth": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ],
+      "total_distinct_prefix_keys": 511
+    }
+  ],
+  "negative_control": "Removing marker edge b->h exposes pure positive b, detected."
+}
