@@ -1,0 +1,5 @@
+{
+  "random_original_cnf_oracle_cases": 1800,
+  "both_scc_modes_checked": true,
+  "gadget_projection_cases": 8
+}

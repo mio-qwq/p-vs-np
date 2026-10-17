@@ -1,0 +1,7 @@
+# Independent mathematical review
+
+Root independently expanded the split-gadget identity over GF(2): multiplying the two clause polynomials as stated yields q_original*((1-y)+y)=q_original, with intermediate degree at most4. Summing the four forbidden indicators gives the vertex parity violation polynomial, and summing all vertices cancels each edge twice and leaves1. This applies to all stated simple cubic graphs with odd total charge, not only the tested prisms.
+
+Root also read the primary2003 formula-caching inference rules. The conditional CC+W translation is valid for ordinary-only runs with identity-preserving interfaces: reverse unit propagation by branching, reverse clause deletion by CNF weakening, and reuse an identical CNF lemma. The claim explicitly excludes the experimental SCC step and arbitrary interface renamings. The concrete first-context nogood is true in the second context, so that proposed direct conflict reuse fails; no impossibility of other simulations follows.
+
+All four packaged scripts were rerun with the relative frozen-source path. Only path/output portability and direct execution of verified source bytes were adjusted; the solver remains unchanged. The finite graph tests do not certify expansion, an all-graphs cache-interface invariant, or an asymptotic runtime lower bound. Recent preprint theorems are discussed only at the level of applicability; their proofs are not independently certified here.

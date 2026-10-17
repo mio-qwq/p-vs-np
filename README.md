@@ -37,3 +37,9 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Route boundaries
 
 [Audited next-step limitations](research/route-boundaries/README.md): an unbounded gap for the explicit minimal canonical witness class, and the uniformity/quantifier obligations for a genuine SAT-cover algorithm. No such algorithm is supplied.
+
+## Residual certificate verification and proof-model comparison
+
+- [Executable UNSAT certificate generator/checker](results/residual-certificates/README.md), with independent finite semantics and malformed-input tests.
+- [Polynomial SF/EF upper-simulation construction](results/affine-proof-simulation/README.md), independently reviewed at proof-template level; no proof emitter is claimed.
+- [Hidden-Tseitin route obstruction](results/tseitin-cache-obstruction/RESULT.md): low polynomial-calculus degree and a cache-conflict reuse counterexample; no asymptotic solver lower bound or new SAT algorithm.

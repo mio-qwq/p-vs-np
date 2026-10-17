@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "normalization_samples": 4200,
+  "satisfying_assignment_projection_checks": 7896,
+  "nonterminal_results": 234,
+  "false_results": 3111,
+  "pure_deletion_comparisons": 35,
+  "chain_witness_checks": 87296,
+  "solver_sha256": "32ba57a17c8af1fc1045314fd89b849743bd6ba810fdfdb96f3a4ac9cde577c5",
+  "test_sha256": "2e11766a5aba7e0e12f5bb3184f60972d28d098521c56303834071f51cbf9776",
+  "scope": "Finite semantic regression only; not a proof-system proof checker or proof of universal simulation."
+}

@@ -1,0 +1,4739 @@
+{
+  "runs": [
+    {
+      "vertices": 6,
+      "sample": 0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 6,
+      "sample": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "sat": false,
+      "states": 7,
+      "cache_hits": 0,
+      "namespace_changed_hits": 0,
+      "branches": 7,
+      "witness": null,
+      "first_hit": null
+    },
+    {
+      "vertices": 8,
+      "sample": 0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          -7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          -7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 8,
+      "sample": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sat": false,
+      "states": 11,
+      "cache_hits": 4,
+      "namespace_changed_hits": 0,
+      "branches": 11,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7
+        ],
+        "second_path": [
+          -3,
+          5,
+          -7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 13,
+      "cache_hits": 10,
+      "namespace_changed_hits": 0,
+      "branches": 13,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 13,
+      "cache_hits": 10,
+      "namespace_changed_hits": 0,
+      "branches": 13,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 15,
+      "cache_hits": 8,
+      "namespace_changed_hits": 0,
+      "branches": 15,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          9
+        ],
+        "second_path": [
+          -3,
+          -5,
+          7,
+          -9
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          -9
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 23,
+      "cache_hits": 8,
+      "namespace_changed_hits": 0,
+      "branches": 23,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          9
+        ],
+        "second_path": [
+          -3,
+          -5,
+          7,
+          -9
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          -9
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 13,
+      "cache_hits": 6,
+      "namespace_changed_hits": 0,
+      "branches": 13,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7
+        ],
+        "second_path": [
+          -3,
+          -5,
+          7
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 19,
+      "cache_hits": 12,
+      "namespace_changed_hits": 0,
+      "branches": 19,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          9
+        ],
+        "second_path": [
+          -3,
+          -5,
+          7,
+          -9
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          -9
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 19,
+      "cache_hits": 12,
+      "namespace_changed_hits": 0,
+      "branches": 19,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 10,
+      "sample": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "sat": false,
+      "states": 19,
+      "cache_hits": 12,
+      "namespace_changed_hits": 0,
+      "branches": 19,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 27,
+      "cache_hits": 20,
+      "namespace_changed_hits": 0,
+      "branches": 27,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          11
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 23,
+      "cache_hits": 16,
+      "namespace_changed_hits": 0,
+      "branches": 23,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9,
+          -1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          -1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 17,
+      "cache_hits": 14,
+      "namespace_changed_hits": 0,
+      "branches": 17,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 27,
+      "cache_hits": 20,
+      "namespace_changed_hits": 0,
+      "branches": 27,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          11
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9,
+          -11
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          -11
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 39,
+      "cache_hits": 24,
+      "namespace_changed_hits": 0,
+      "branches": 39,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 31,
+      "cache_hits": 16,
+      "namespace_changed_hits": 0,
+      "branches": 31,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11
+        ],
+        "second_path": [
+          -3,
+          -5,
+          7,
+          -9,
+          -11
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 27,
+      "cache_hits": 20,
+      "namespace_changed_hits": 0,
+      "branches": 27,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          11
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9,
+          -11
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          -11
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 12,
+      "sample": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "sat": false,
+      "states": 19,
+      "cache_hits": 12,
+      "namespace_changed_hits": 0,
+      "branches": 19,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -10,
+          12
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          10,
+          -12
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          10,
+          -12
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 43,
+      "cache_hits": 36,
+      "namespace_changed_hits": 0,
+      "branches": 43,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1,
+          -15
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1,
+          15
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          1,
+          15
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 47,
+      "cache_hits": 32,
+      "namespace_changed_hits": 0,
+      "branches": 47,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9,
+          -11
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 35,
+      "cache_hits": 20,
+      "namespace_changed_hits": 0,
+      "branches": 35,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          13
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9,
+          -11,
+          -13
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          -13
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 35,
+      "cache_hits": 20,
+      "namespace_changed_hits": 0,
+      "branches": 35,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          9,
+          -1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          -1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 31,
+      "cache_hits": 24,
+      "namespace_changed_hits": 0,
+      "branches": 31,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -12,
+          -15
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          12,
+          -15
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          12,
+          15
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 31,
+      "cache_hits": 16,
+      "namespace_changed_hits": 0,
+      "branches": 31,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -1,
+          -11,
+          13
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -1,
+          11,
+          -13
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          1,
+          11,
+          -13
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 31,
+      "cache_hits": 24,
+      "namespace_changed_hits": 0,
+      "branches": 31,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -10,
+          -12,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -10,
+          -12,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          10,
+          12,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 14,
+      "sample": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "sat": false,
+      "states": 43,
+      "cache_hits": 36,
+      "namespace_changed_hits": 0,
+      "branches": 43,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 0,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 35,
+      "cache_hits": 28,
+      "namespace_changed_hits": 0,
+      "branches": 35,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          -13,
+          -15
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          13,
+          -15
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 47,
+      "cache_hits": 32,
+      "namespace_changed_hits": 0,
+      "branches": 47,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          13
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          11,
+          -13
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          -13
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 55,
+      "cache_hits": 40,
+      "namespace_changed_hits": 0,
+      "branches": 55,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          11,
+          -1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          -1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 43,
+      "cache_hits": 36,
+      "namespace_changed_hits": 0,
+      "branches": 43,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          -1
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          1
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          1
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 47,
+      "cache_hits": 40,
+      "namespace_changed_hits": 0,
+      "branches": 47,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          -14,
+          16
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -11,
+          14,
+          -16
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          11,
+          14,
+          -16
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 27,
+      "cache_hits": 24,
+      "namespace_changed_hits": 0,
+      "branches": 27,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1,
+          -14,
+          -11
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1,
+          -14,
+          11
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          1,
+          14,
+          11
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 47,
+      "cache_hits": 40,
+      "namespace_changed_hits": 0,
+      "branches": 47,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -10,
+          -12,
+          -14,
+          -16
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -10,
+          -12,
+          -14,
+          16
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          10,
+          12,
+          14,
+          16
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    },
+    {
+      "vertices": 16,
+      "sample": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "sat": false,
+      "states": 39,
+      "cache_hits": 32,
+      "namespace_changed_hits": 0,
+      "branches": 39,
+      "witness": null,
+      "first_hit": {
+        "first_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1,
+          -15,
+          -12
+        ],
+        "second_path": [
+          -3,
+          -5,
+          -7,
+          -9,
+          -1,
+          -15,
+          12
+        ],
+        "same_interface": true,
+        "first_context_clause": [
+          3,
+          5,
+          7,
+          9,
+          1,
+          15,
+          12
+        ],
+        "first_context_clause_already_true_on_second": true
+      }
+    }
+  ],
+  "first_changed_namespace": null
+}
