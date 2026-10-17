@@ -55,3 +55,7 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Sharp permutation-polynomial support radius
 
 [Field-uniform proof and independent audit](results/sharp-permutation-radius/README.md) establish the exact radius min(n,2d+1) for degree-d functions on all permutation matrices, with constant/trivial-group exceptions. This sharpens Derksen's stated sufficient 3d bound; historical novelty remains unverified. The complete-bipartite parity-search consequence is XP (polynomial for each fixed k), with no general SAT or P versus NP conclusion.
+
+## Colorful parity matching and metric radii
+
+[Deterministic colorful parity matching](results/colorful-parity/README.md) implements FPT algorithms on complete bipartite and supplied-forbidden-cover domains, including an undirected port extension. FPT also follows using Derksen's older support bound; novelty is not claimed. [Direct matching support and flip radii](results/matching-polynomial-radius/README.md) separate all-field upper bounds from characteristic-two sharp lower bounds. The [permutation transposition-distance addendum](results/permutation-cayley-radius/README.md) gives the all-field exact radius min(n-1,2d), with trivial exceptions. These are restricted matching and polynomial-evaluation results, not a P versus NP resolution.

@@ -1,0 +1,7 @@
+{
+  "solver_cases": 3298,
+  "polynomial_evaluations": 581801,
+  "mixed_covers": 251,
+  "mutation_controls": 3
+}
+PASS

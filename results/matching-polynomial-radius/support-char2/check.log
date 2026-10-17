@@ -1,0 +1,127 @@
+{
+  "polynomial_evaluations": 45852,
+  "parameter_cases": 20
+}
+[
+  {
+    "n": 2,
+    "d": 1,
+    "kind": "monomial",
+    "minimum_nonzero_support": 2
+  },
+  {
+    "n": 2,
+    "d": 2,
+    "kind": "monomial",
+    "minimum_nonzero_support": 2
+  },
+  {
+    "n": 2,
+    "d": 3,
+    "kind": "monomial",
+    "minimum_nonzero_support": 2
+  },
+  {
+    "n": 2,
+    "d": 4,
+    "kind": "monomial",
+    "minimum_nonzero_support": 2
+  },
+  {
+    "n": 3,
+    "d": 1,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 3,
+    "d": 2,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 3,
+    "d": 3,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 3,
+    "d": 4,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 4,
+    "d": 1,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 4,
+    "d": 2,
+    "kind": "monomial",
+    "minimum_nonzero_support": 4
+  },
+  {
+    "n": 4,
+    "d": 3,
+    "kind": "monomial",
+    "minimum_nonzero_support": 4
+  },
+  {
+    "n": 4,
+    "d": 4,
+    "kind": "monomial",
+    "minimum_nonzero_support": 4
+  },
+  {
+    "n": 5,
+    "d": 1,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 5,
+    "d": 2,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 5
+  },
+  {
+    "n": 5,
+    "d": 3,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 5
+  },
+  {
+    "n": 5,
+    "d": 4,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 5
+  },
+  {
+    "n": 6,
+    "d": 1,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 3
+  },
+  {
+    "n": 6,
+    "d": 2,
+    "kind": "Pfaffian",
+    "minimum_nonzero_support": 5
+  },
+  {
+    "n": 6,
+    "d": 3,
+    "kind": "monomial",
+    "minimum_nonzero_support": 6
+  },
+  {
+    "n": 6,
+    "d": 4,
+    "kind": "monomial",
+    "minimum_nonzero_support": 6
+  }
+]
+PASS
