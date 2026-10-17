@@ -1,0 +1,9 @@
+# Finite test for extending a supported matching polynomial
+
+Status: parent derivation, pending independent review. No novelty claim.
+
+Fix a baseline perfect matching with m distinguished pairs S. Let f be any polynomial using only edge variables whose two endpoints belong to S. Fix a nonnegative integer r. Then f vanishes on the flip-radius-r ball around the baseline on every ambient set containing S if and only if it vanishes on that ball with exactly m+r baseline pairs.
+
+Proof. Decompose the union of any test matching M with the baseline into alternating components, treating common edges as singleton components. The flip distance is the sum of (number of baseline pairs minus one) over nontrivial components. Remove components entirely outside S by replacing them with baseline edges. This does not change any variable used by f or increase distance. A remaining mixed component contains a>=1 distinguished pairs and b>=1 outside pairs; it contributes a+b-1>=b to distance. Consequently at most r outside pairs occur in all mixed components combined. Relabel these outside pairs into the r available auxiliary pairs, including their two endpoint labels, and leave all other auxiliary pairs fixed. Preserve components entirely inside S. This realizes precisely the original matching edge indicators on S with no larger distance, so preserves f. Conversely, the m+r case is one of the ambient sets under consideration. Smaller ambient sets are included by padding with common baseline edges. This also proves the statement for arbitrary functions of the internal matching indicators, not only polynomials.
+
+Consequence: a quadratic witness supported on five pairs that vanishes up to flip distance three need only be tested with three extra pairs to obtain a universal-in-n lower witness. This does not assert that any current characteristic-three witness passes that test.

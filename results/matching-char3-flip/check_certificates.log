@@ -1,0 +1,5 @@
+Upper n=7: BFS ball 6623 nonzero-tested monomials 2745
+Corrupted upper certificate rejected
+Lower n=5: BFS ball 561 polynomial monomials 116
+Lower n=6: BFS ball 2171 polynomial monomials 521
+All exact checks passed.
