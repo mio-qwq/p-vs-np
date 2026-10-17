@@ -24,7 +24,7 @@ python residual_certificate.py check terminal.input.json terminal.certificate.js
 sha256sum residual_certificate.py test_certificate.py *.input.json *.certificate.json
 ```
 
-Input JSON is `{"clauses": [[1, -2], ...], "n": optional_integer}`. The n field must cover input labels but does not determine mask dimensions. Labels are densely renamed before any coefficient-mask construction or 3-CNF expansion. Huge sparse labels therefore cost their input encoding length, not their numeric magnitude.
+Input JSON is `{"clauses": [[1, -2], ...], "n": optional_integer}`. The n field must cover input labels but does not determine mask dimensions. Labels are densely renamed before any coefficient-mask construction or 3-CNF expansion. Huge sparse labels therefore cost their input encoding length, not their numeric magnitude. The CLI explicitly disables Python 3.11+'s decimal integer digit-conversion cap using `sys.set_int_max_str_digits(0)` before JSON decoding/encoding; older Python versions already have unrestricted conversion. This permits the format's arbitrary-length integer labels and lets oversized certificate dimensions reach the checker's explicit bounds checks. Importing the library does not change the embedding process's integer-conversion configuration. Decimal parsing and serialization have polynomial bit complexity in encoded length; this is not a constant-time or denial-of-service immunity claim. No allocation or mask shift is indexed by the magnitude of an original label.
 
 Generate prints a JSON certificate and exits 0 for UNSAT; prints `null` and exits 2 for SAT. Check exits 0 for acceptance and 1 for rejection. Malformed top-level input JSON and file-access errors receive a clean rejection; internal programming exceptions are not suppressed. The programmatic checker raises InvalidCertificate on invalid certificates. Generation is exhaustive and may be exponential; this does not claim an efficient UNSAT search algorithm.
 
@@ -59,7 +59,7 @@ Tests cover:
 - Explicit shared-cache, component, sparse-label, terminal-root, parity, long-clause and safe-purity cases.
 - 1,202 independent affine semantic checks, including explicit singleton/multi-coordinate purity hazards.
 - Malformed dimensions, masks, constants, references and root; bool-vs-int; negative masks; huge dimensions/masks; self/two-node cycles; invalid FALSE leaves; altered query; noncanonical key; invalid components; extra/unreachable nodes; invalid input literals.
-- Six malformed CLI input shapes tested for clean rejection without traceback.
+- Six malformed CLI input shapes tested for clean rejection without traceback; a valid contradictory input with a 5,000-digit sparse label generates and checks successfully; a 5,000-digit malicious certificate dimension is rejected by the explicit dimension bound.
 - Instrumentation that makes normalization raise if invoked before structural rejection of huge dimensions, huge masks and cyclic references.
 
 The shared example has two certificate nodes, with root children [0,0], and the unchanged solver records one cache hit. Its local shared-node query has different original-variable meanings on the two paths.

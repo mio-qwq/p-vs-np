@@ -201,6 +201,14 @@ def verify(cnf, certificate, n=None):
 
 
 def main():
+    # CLI accepts arbitrary-length decimal integers, as the CNF/certificate
+    # specification does. Python 3.11+'s default decimal conversion limit would
+    # reject valid sparsely labelled inputs before dense relabeling. This is
+    # CLI-only configuration: importing this library does not change the host.
+    # Parsing costs polynomial time in encoded length; label magnitudes never
+    # determine allocations or coefficient-mask shifts.
+    if hasattr(sys, 'set_int_max_str_digits'):
+        sys.set_int_max_str_digits(0)
     import argparse
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['generate', 'check'])
