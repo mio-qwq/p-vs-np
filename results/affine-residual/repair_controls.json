@@ -1,0 +1,68 @@
+[
+  {
+    "k": 0,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 1,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 2,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 3,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 4,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 5,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 6,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 7,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 8,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 9,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  },
+  {
+    "k": 10,
+    "clauses_after_pure_literal_reduction": 22,
+    "answer": false,
+    "unique_states": 5
+  }
+]

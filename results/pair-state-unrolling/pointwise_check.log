@@ -1,0 +1,20 @@
+[
+  {
+    "coordinates": 1,
+    "monotone_component_functions": 3,
+    "networks_tested": 3,
+    "maximum_strict_rounds": 1
+  },
+  {
+    "coordinates": 2,
+    "monotone_component_functions": 6,
+    "networks_tested": 36,
+    "maximum_strict_rounds": 2
+  },
+  {
+    "coordinates": 3,
+    "monotone_component_functions": 20,
+    "networks_tested": 8000,
+    "maximum_strict_rounds": 3
+  }
+]
