@@ -25,3 +25,7 @@ Use Python 3, standard library only. Each result directory states its commands a
 The unpublished first working environment was lost. Current algorithm code was reconstructed from retained specifications and tested afresh; this repository does not pretend to recover old uncommitted bytes or reuse old tests as new runs.
 
 AI systems contributed substantially to derivation, implementation, review and documentation. Releases freeze scoped research records, not a Millennium-problem solution.
+
+## Cyclic parity recurrence
+
+[Audited proof and tests](results/parity-recurrence/README.md): an odd-arity strengthened gate-elimination recurrence, yielding a linear lower bound for cyclic supplied-literal AND complexity and exact five-bit cost7. Historical novelty remains unverified; this is not a P-versus-NP separation.

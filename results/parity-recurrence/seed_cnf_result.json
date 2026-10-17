@@ -1,0 +1,46 @@
+{
+  "odd_dimension_tests": [
+    {
+      "variables": 1,
+      "all_partial_literal_matchings": 2,
+      "without_odd_satisfying_assignment": 0
+    },
+    {
+      "variables": 3,
+      "all_partial_literal_matchings": 76,
+      "without_odd_satisfying_assignment": 0
+    },
+    {
+      "variables": 5,
+      "all_partial_literal_matchings": 9496,
+      "without_odd_satisfying_assignment": 0
+    }
+  ],
+  "even_counterexample": {
+    "variables": 4,
+    "seed_literal_pairs": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "solutions": [
+      0,
+      3,
+      12,
+      15
+    ]
+  }
+}

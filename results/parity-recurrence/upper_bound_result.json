@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "n": 2,
+      "and_gates": 1,
+      "assignments": 4
+    },
+    {
+      "n": 3,
+      "and_gates": 3,
+      "assignments": 8
+    },
+    {
+      "n": 4,
+      "and_gates": 5,
+      "assignments": 16
+    },
+    {
+      "n": 5,
+      "and_gates": 7,
+      "assignments": 32
+    },
+    {
+      "n": 6,
+      "and_gates": 9,
+      "assignments": 64
+    },
+    {
+      "n": 7,
+      "and_gates": 11,
+      "assignments": 128
+    },
+    {
+      "n": 8,
+      "and_gates": 13,
+      "assignments": 256
+    },
+    {
+      "n": 9,
+      "and_gates": 15,
+      "assignments": 512
+    },
+    {
+      "n": 10,
+      "and_gates": 17,
+      "assignments": 1024
+    },
+    {
+      "n": 11,
+      "and_gates": 19,
+      "assignments": 2048
+    },
+    {
+      "n": 12,
+      "and_gates": 21,
+      "assignments": 4096
+    }
+  ],
+  "rho5_upper": 7,
+  "mutated_final_AND_to_OR_rejected": true,
+  "scope": "finite evaluation confirms constructed instances; general upper proof in PROOF.md"
+}
