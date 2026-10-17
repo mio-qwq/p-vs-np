@@ -16,6 +16,8 @@ Both checkpoints have written proofs, separate AI-assisted reviews, executable c
 - [Connected nonpure ARB-PC obstruction](results/affine-residual-pc/README.md): a superpolynomial-state family survives the specified purity/component repair but not stronger SCC or arbitrary-isomorphism methods.
 - [Radial witness obstruction](results/radial-witness-obstruction/README.md): exact parity3 cover certificates and an infinite-family proof that radial threshold witnesses cannot give large cover lower bounds on power-of-two parity dimensions. This refutes a proposed strategy, not an existing public conjecture.
 
+[Exact parity4 benchmark](results/parity4-cover/README.md): unrestricted semifilter pair-cover cost is exactly 5, certified by an explicit upper construction and three exact lower-bound checks. This is a finite result, with historical novelty unverified, not a scalable circuit lower bound.
+
 ## Reproduction and recovery
 
 Use Python 3, standard library only. Each result directory states its commands and limitations. SHA256.json hashes all tracked checkpoint files except itself. Checks may regenerate their adjacent result logs; timing fields are environment-dependent.

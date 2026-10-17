@@ -1,0 +1,2 @@
+{"filters": 64, "ordered_pairs": 65536, "exact_dual": "19/5", "integer_lower_bound": 4, "max_scaled_load": 240, "status": "PASS"}
+{"status": "complete PASS", "valid_witnesses": 120, "columns": 587, "edges": 31513, "triangles": 85161, "four_cliques": 53226, "four_covers": 0, "elapsed_seconds": 0.3755526899999495, "scope": "exact finite lower bound 5, not P-versus-NP separation"}

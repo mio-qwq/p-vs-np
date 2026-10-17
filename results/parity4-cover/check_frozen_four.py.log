@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "witness_count": 120,
+  "pairs_checked": 32896,
+  "eligible_pairs": 2503,
+  "distinct_eligible_columns": 587,
+  "compatibility_edges": 31513,
+  "search_stats": {
+    "nodes": 1904,
+    "weighted_prunes": 0,
+    "coverage_prunes": 731,
+    "terminal_candidates": 0
+  },
+  "cover_of_witness_subset": null,
+  "conclusion": "no four-pair cover exists",
+  "elapsed_seconds": 0.8155590579999625,
+  "pruning": "scale240: total912; any4cover eachcolumn>=192; anychosenpair union>=432 andintersection<=48"
+}

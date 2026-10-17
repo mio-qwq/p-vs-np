@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "source_sha256": {
+    "check_frozen_four.py": "33f1ffe1923b683d8ac433dd929c22b68953fe860fad6cb52348e933fd12f615",
+    "frozen_witnesses.json": "733b9b267091d3e13443ceb511aa860af7f4d8e3191974cfa4f42e014cf096f5",
+    "verify_upper5.py": "fec2ac56e37f9ef763a497d8858d0b007272d8309940bcfb67d770d384cd1de9"
+  },
+  "valid_witnesses": 120,
+  "total_scaled_weight": 912,
+  "maximum_pair_load": 240,
+  "all_unordered_pairs": 32896,
+  "eligible_pairs": 2503,
+  "unique_eligible_columns": 587,
+  "independent_search": "rarest-uncovered-witness exact cover branching",
+  "search_calls": 184,
+  "four_cover_found": false,
+  "five_AND_upper_truth_checks": 16,
+  "five_pair_upper_closures": 8,
+  "cover": [
+    [
+      190,
+      125
+    ],
+    [
+      215,
+      235
+    ],
+    [
+      252,
+      63
+    ],
+    [
+      207,
+      243
+    ],
+    [
+      60,
+      195
+    ]
+  ],
+  "exact_unrestricted_pair_cover": 5
+}

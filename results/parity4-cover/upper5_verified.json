@@ -1,0 +1,86 @@
+{
+  "status": "all16truthassignmentsand8closuresverified",
+  "AND_count": 5,
+  "cover_masks": [
+    [
+      190,
+      125
+    ],
+    [
+      215,
+      235
+    ],
+    [
+      252,
+      63
+    ],
+    [
+      207,
+      243
+    ],
+    [
+      60,
+      195
+    ]
+  ],
+  "truth_table": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+  ],
+  "closures": [
+    {
+      "target": 1,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 2,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 4,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 7,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 8,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 11,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 13,
+      "rounds": 2,
+      "empty_derived": true
+    },
+    {
+      "target": 14,
+      "rounds": 2,
+      "empty_derived": true
+    }
+  ]
+}

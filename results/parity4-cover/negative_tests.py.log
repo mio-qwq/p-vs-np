@@ -1,0 +1,3 @@
+PASS rejected accept_empty
+PASS rejected wrong_weight
+PASS rejected incorrect OR output gate
