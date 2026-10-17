@@ -1,0 +1,46 @@
+{
+  "semifilters": 166,
+  "above_some_target_filters": 68,
+  "all_ordered_pairs_checked": 256,
+  "dual_weight_denominator": 2,
+  "weighted_filters": [
+    [
+      65534,
+      2
+    ],
+    [
+      59624,
+      1
+    ],
+    [
+      61064,
+      1
+    ],
+    [
+      64160,
+      1
+    ],
+    [
+      64704,
+      1
+    ]
+  ],
+  "maximum_scaled_pair_load": 2,
+  "total_scaled_dual_weight": 6,
+  "cover": [
+    [
+      3,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "exact_fractional_cover": 3,
+  "exact_integral_cover": 3
+}

@@ -11,6 +11,11 @@ Both checkpoints have written proofs, separate AI-assisted reviews, executable c
 
 [The initial research plan](RESEARCH_PLAN.md) records the earlier threshold-circuit route. Its parameter analysis remains preliminary and is not a new lower-bound result. The present dual-direction checkpoint supersedes a one-route interpretation of that plan.
 
+## Further scoped checkpoints
+
+- [Connected nonpure ARB-PC obstruction](results/affine-residual-pc/README.md): a superpolynomial-state family survives the specified purity/component repair but not stronger SCC or arbitrary-isomorphism methods.
+- [Radial witness obstruction](results/radial-witness-obstruction/README.md): exact parity3 cover certificates and an infinite-family proof that radial threshold witnesses cannot give large cover lower bounds on power-of-two parity dimensions. This refutes a proposed strategy, not an existing public conjecture.
+
 ## Reproduction and recovery
 
 Use Python 3, standard library only. Each result directory states its commands and limitations. SHA256.json hashes all tracked checkpoint files except itself. Checks may regenerate their adjacent result logs; timing fields are environment-dependent.

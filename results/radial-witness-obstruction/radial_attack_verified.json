@@ -1,0 +1,23 @@
+[
+  {
+    "dimension": 2,
+    "positive_vertices": 2,
+    "fixed_pairs": 1,
+    "mixture_threshold_checks": 8,
+    "every_neighbor_class_exactly_one": true
+  },
+  {
+    "dimension": 4,
+    "positive_vertices": 8,
+    "fixed_pairs": 2,
+    "mixture_threshold_checks": 56,
+    "every_neighbor_class_exactly_one": true
+  },
+  {
+    "dimension": 8,
+    "positive_vertices": 128,
+    "fixed_pairs": 3,
+    "mixture_threshold_checks": 1280,
+    "every_neighbor_class_exactly_one": true
+  }
+]
