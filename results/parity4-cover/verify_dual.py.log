@@ -1,0 +1,167 @@
+{
+  "status": "exact integer certificate verified",
+  "m": 4,
+  "negative": [
+    0,
+    3,
+    5,
+    6,
+    9,
+    10,
+    12,
+    15
+  ],
+  "target": [
+    1,
+    2,
+    4,
+    7,
+    8,
+    11,
+    13,
+    14
+  ],
+  "families": [
+    {
+      "name": "canonical",
+      "count": 8,
+      "weight": "1/10"
+    },
+    {
+      "name": "majority_on_nonantipodal_triple",
+      "count": 32,
+      "weight": "1/16"
+    },
+    {
+      "name": "hit_six_excluding_distance_two_pair",
+      "count": 24,
+      "weight": "1/24"
+    }
+  ],
+  "dual_total": "19/5",
+  "integer_lower_bound": 4,
+  "all_unordered_pairs_checked": 32896,
+  "distinct_active_load_patterns": 65,
+  "load_certificate": "24 a + 15 b + 10 c <= 240 for every pair",
+  "by_intersection_size": {
+    "0": {
+      "maximum_scaled_load": 240,
+      "attaining_pair": [
+        7,
+        24
+      ],
+      "attaining_counts": [
+        0,
+        0,
+        24
+      ],
+      "pairs_checked": 3281
+    },
+    "1": {
+      "maximum_scaled_load": 180,
+      "attaining_pair": [
+        25,
+        103
+      ],
+      "attaining_counts": [
+        0,
+        8,
+        6
+      ],
+      "pairs_checked": 8752
+    },
+    "2": {
+      "maximum_scaled_load": 240,
+      "attaining_pair": [
+        60,
+        219
+      ],
+      "attaining_counts": [
+        0,
+        16,
+        0
+      ],
+      "pairs_checked": 10220
+    },
+    "3": {
+      "maximum_scaled_load": 240,
+      "attaining_pair": [
+        61,
+        219
+      ],
+      "attaining_counts": [
+        0,
+        16,
+        0
+      ],
+      "pairs_checked": 6832
+    },
+    "4": {
+      "maximum_scaled_load": 240,
+      "attaining_pair": [
+        63,
+        215
+      ],
+      "attaining_counts": [
+        5,
+        8,
+        0
+      ],
+      "pairs_checked": 2870
+    },
+    "5": {
+      "maximum_scaled_load": 204,
+      "attaining_pair": [
+        63,
+        253
+      ],
+      "attaining_counts": [
+        6,
+        4,
+        0
+      ],
+      "pairs_checked": 784
+    },
+    "6": {
+      "maximum_scaled_load": 192,
+      "attaining_pair": [
+        127,
+        254
+      ],
+      "attaining_counts": [
+        8,
+        0,
+        0
+      ],
+      "pairs_checked": 140
+    },
+    "7": {
+      "maximum_scaled_load": 0,
+      "attaining_pair": [
+        127,
+        127
+      ],
+      "attaining_counts": [
+        0,
+        0,
+        0
+      ],
+      "pairs_checked": 16
+    },
+    "8": {
+      "maximum_scaled_load": 0,
+      "attaining_pair": [
+        255,
+        255
+      ],
+      "attaining_counts": [
+        0,
+        0,
+        0
+      ],
+      "pairs_checked": 1
+    }
+  },
+  "complementary_pair_3bit_target_point_checks": 768,
+  "scope": "finite lower bound for unrestricted parity4 cover; no equality upper bound or scalable claim"
+}
