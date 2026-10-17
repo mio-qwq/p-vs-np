@@ -29,3 +29,7 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Cyclic parity recurrence
 
 [Audited proof and tests](results/parity-recurrence/README.md): an odd-arity strengthened gate-elimination recurrence, yielding a linear lower bound for cyclic supplied-literal AND complexity and exact five-bit cost7. Historical novelty remains unverified; this is not a P-versus-NP separation.
+
+## Exact parity cost for all arities
+
+[Full proof and independent audit](results/parity-exact/README.md): cyclic supplied-literal AND cost and unrestricted semifilter pair-cover cost of m-bit parity are exactly 2m-3 for m>=2. This strengthens the preceding odd-arity recurrence. Historical novelty remains unverified; parity is a linear-size-circuit problem, not a P-versus-NP separation.

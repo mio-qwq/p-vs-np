@@ -1,0 +1,14 @@
+{
+  "seed": 17062026,
+  "circuits_and_fixed_contexts": 20000,
+  "input_evaluations": 80000,
+  "allowed_truth_tables_only": true,
+  "histogram": {
+    "(0, 0, 0, 0)": 2602,
+    "(0, 0, 0, 1)": 712,
+    "(0, 0, 1, 1)": 415,
+    "(0, 1, 0, 1)": 410,
+    "(1, 1, 1, 1)": 15861
+  },
+  "scope": "finite randomized regression; proof separate"
+}
