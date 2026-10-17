@@ -10,3 +10,5 @@ Run with Python 3 standard library:
     python check_pointwise_unrolling.py
 
 The first enumerates the special update maps and seeded cases; the second independently enumerates all small monotone Boolean networks. The proof handles arbitrary dimension and infinite carriers; finite checks do not replace it.
+
+Prior result: Cavalar–Oliveira (2025), Theorem 24, already proves the quadratic fusion upper bound: https://arxiv.org/abs/2503.14117 . This checkpoint reproduces/applies that result to the pinned compiler; it is not an original circuit lower bound.

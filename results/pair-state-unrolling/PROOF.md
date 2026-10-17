@@ -2,6 +2,10 @@
 
 2026-10-17. Status: a mathematical derivation applying elementary finite Boolean fixed-point iteration to an inspected formal construction. Independently checked by the parent and a quantifier auditor; finite tests pass. This note is not a Lean formalization, a new historical novelty claim, or a P-versus-NP result.
 
+## Prior-result attribution
+
+A literature check identified the quadratic fusion upper bound in Bruno P. Cavalar and Igor C. Oliveira, *Boolean Circuit Complexity and Two-Dimensional Cover Problems* (2025), [Theorem 24](https://arxiv.org/html/2503.14117v1): D_cap(A|B) <= rho(A,B)^2. The paper gives the corresponding fusion characterization and propagation proof. The present note is therefore a reproduction/application to the pinned compiler, with explicit source-level iteration and total-gate accounting, not a new quadratic fusion theorem or a new P/poly characterization. The exact paper link is https://arxiv.org/abs/2503.14117 .
+
 ## 1. Pinned source
 
 Repository: SamuelSchlesinger/complexitylib2.
