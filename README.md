@@ -43,3 +43,7 @@ AI systems contributed substantially to derivation, implementation, review and d
 - [Executable UNSAT certificate generator/checker](results/residual-certificates/README.md), with independent finite semantics and malformed-input tests.
 - [Polynomial SF/EF upper-simulation construction](results/affine-proof-simulation/README.md), independently reviewed at proof-template level; no proof emitter is claimed.
 - [Hidden-Tseitin route obstruction](results/tseitin-cache-obstruction/RESULT.md): low polynomial-calculus degree and a cache-conflict reuse counterexample; no asymptotic solver lower bound or new SAT algorithm.
+
+## Syndrome-period route checkpoint
+
+[Exact quotient and occurrence-clause obstruction](results/syndrome-period-obstruction/README.md): local translation periods can be quotiented soundly, but the quotient is trivial for strict single-clause occurrence blocks whose variables all repeat. Exact interface enumeration can still be exponential. This bounded research checkpoint records a route limitation, not a general SAT algorithm or a lower bound against every algorithm.

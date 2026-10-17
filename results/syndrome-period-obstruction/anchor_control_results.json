@@ -1,0 +1,7 @@
+{
+  "anchor_variables": 5,
+  "anchor_clauses": 20,
+  "truth_table_assignments_checked": 32,
+  "unsat": true,
+  "generic_small_core_detected": true
+}

@@ -1,0 +1,90 @@
+{
+  "random_syndrome_set_tests": 3500,
+  "affine_slack_growth": [
+    {
+      "k": 1,
+      "period_rank": 1,
+      "max_quotient_states": 1
+    },
+    {
+      "k": 2,
+      "period_rank": 2,
+      "max_quotient_states": 1
+    },
+    {
+      "k": 4,
+      "period_rank": 4,
+      "max_quotient_states": 1
+    },
+    {
+      "k": 8,
+      "period_rank": 8,
+      "max_quotient_states": 1
+    },
+    {
+      "k": 16,
+      "period_rank": 16,
+      "max_quotient_states": 1
+    },
+    {
+      "k": 64,
+      "period_rank": 64,
+      "max_quotient_states": 1
+    },
+    {
+      "k": 256,
+      "period_rank": 256,
+      "max_quotient_states": 1
+    }
+  ],
+  "nonaffine_barrier": [
+    {
+      "k": 1,
+      "middle_states": 3,
+      "width": 2,
+      "period_rank": 0
+    },
+    {
+      "k": 2,
+      "middle_states": 9,
+      "width": 4,
+      "period_rank": 0
+    },
+    {
+      "k": 3,
+      "middle_states": 27,
+      "width": 6,
+      "period_rank": 0
+    },
+    {
+      "k": 4,
+      "middle_states": 81,
+      "width": 8,
+      "period_rank": 0
+    },
+    {
+      "k": 5,
+      "middle_states": 243,
+      "width": 10,
+      "period_rank": 0
+    },
+    {
+      "k": 6,
+      "middle_states": 729,
+      "width": 12,
+      "period_rank": 0
+    },
+    {
+      "k": 7,
+      "middle_states": 2187,
+      "width": 14,
+      "period_rank": 0
+    },
+    {
+      "k": 8,
+      "middle_states": 6561,
+      "width": 16,
+      "period_rank": 0
+    }
+  ]
+}
