@@ -65,3 +65,9 @@ AI systems contributed substantially to derivation, implementation, review and d
 [Signed-hafnian support sharpness](results/matching-allfield-support/README.md) extends the previous characteristic-two matching SUPPORT result to every field and every nonzero commutative unital ring: min(n,2d+1), with trivial cases as stated. The old characteristic-two FLIP-radius scope is unchanged.
 
 [Degree-two flip certificate](results/matching-degree-two-flip/README.md) separately gives exact radius min(n-1,3) over fields of characteristic different from 2 and 3. Characteristic three is not settled by this certificate. Both additions preserve the earlier proofs and distinguish written all-size arguments from finite exact checks; historical novelty remains unverified.
+
+## Characteristic-three classification and ambient extension
+
+[Degree-two characteristic-three flip radius](results/matching-char3-flip/README.md) closes the case left open in the preceding checkpoint: radius 4 at n=5,6, min(n-1,3) otherwise for n>=2, and zero for n<=1. Exact witnesses and a seven-pair evaluation identity are independently checked. This does not change the all-field SUPPORT theorem or assert an all-degree odd-characteristic FLIP formula.
+
+The [product construction](results/matching-product-lower/README.md) supplies an all-field lower bound ceil(3d/2) for d>=2,n>=2d. The [ambient-extension lemma](results/matching-extension-locality/README.md) explains a finite test for extending internally supported functions. Historical novelty remains unestablished.

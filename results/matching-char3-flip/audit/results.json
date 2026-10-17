@@ -1,0 +1,92 @@
+{
+  "upper": {
+    "sha256": "73d6ede1a9f04599455a4ba2095a9cccfdd70309030e9e3fe68b328e6b16eb6d",
+    "groups": 49,
+    "listed_matching_terms": 1273,
+    "distinct_matchings": 1273,
+    "checked_monomials_including_squares_and_incident_products": 4278,
+    "radius3_ball_size": 6623,
+    "rhs_distance_histogram": {
+      "0": 1,
+      "1": 37,
+      "2": 230,
+      "3": 1005
+    },
+    "target_distance": 4,
+    "identity_verified": true
+  },
+  "lower_n5": {
+    "sha256": "70560d38922036a0e97bd6843d18effaeb0b56adcba6e2e69aee39f4fa62fdfd",
+    "groups": 15,
+    "listed_monomials": 116,
+    "distinct_monomials": 116,
+    "all_matching_count": 945,
+    "distance_histogram": {
+      "0": 1,
+      "1": 20,
+      "2": 140,
+      "3": 400,
+      "4": 384
+    },
+    "nonzero_histogram": {
+      "4": 384
+    },
+    "target_distance": 4,
+    "target_value_mod3": 1,
+    "radius3_vanishing_verified": true
+  },
+  "lower_n6": {
+    "sha256": "0443b02cef2841e8b754f956c64b50f7246336638bc7e2e064d0227a02f77be6",
+    "groups": 64,
+    "listed_monomials": 521,
+    "distinct_monomials": 521,
+    "all_matching_count": 10395,
+    "distance_histogram": {
+      "0": 1,
+      "1": 30,
+      "2": 340,
+      "3": 1800,
+      "4": 4384,
+      "5": 3840
+    },
+    "nonzero_histogram": {
+      "4": 2304
+    },
+    "target_distance": 4,
+    "target_value_mod3": 1,
+    "radius3_vanishing_verified": true
+  },
+  "extension_failure": {
+    "sha256": "a277cbe59c621ed57c790615506c20eaf0550e051f59df229d0eb7806a9bb6c3",
+    "value_mod3": 1,
+    "distance": 3,
+    "verified": true
+  },
+  "template_n2": {
+    "zero_ball_size": 1,
+    "first_nonzero_distance": 1,
+    "value_mod3": 1,
+    "verified": true
+  },
+  "template_n3": {
+    "zero_ball_size": 7,
+    "first_nonzero_distance": 2,
+    "value_mod3": 1,
+    "verified": true
+  },
+  "template_n4": {
+    "zero_ball_size": 57,
+    "first_nonzero_distance": 3,
+    "value_mod3": 2,
+    "verified": true
+  },
+  "template_n7": {
+    "zero_ball_size": 743,
+    "first_nonzero_distance": 3,
+    "value_mod3": 2,
+    "verified": true
+  },
+  "negative_control": {
+    "single_coefficient_corruption_rejected_on_constant": true
+  }
+}

@@ -1,0 +1,3 @@
+PASS: BFS verifies cycle distance for every matching on 0–5 pairs.
+PASS: all m=0–4, r=0–3 and ambient m–7 pairs satisfy exact projection containment; equality once ambient >= m+r.
+Enumerated counts: {0: 1, 1: 1, 2: 3, 3: 15, 4: 105, 5: 945, 6: 10395, 7: 135135}

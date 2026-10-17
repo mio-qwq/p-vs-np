@@ -1,0 +1,696 @@
+{
+  "bfs_distance_checks": [
+    {
+      "n": 0,
+      "matchings": 1,
+      "passed": true
+    },
+    {
+      "n": 1,
+      "matchings": 1,
+      "passed": true
+    },
+    {
+      "n": 2,
+      "matchings": 3,
+      "passed": true
+    },
+    {
+      "n": 3,
+      "matchings": 15,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "matchings": 105,
+      "passed": true
+    },
+    {
+      "n": 5,
+      "matchings": 945,
+      "passed": true
+    }
+  ],
+  "projection_checks": [
+    {
+      "m": 0,
+      "r": 0,
+      "finite_n": 0,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 0,
+          "projections": 1
+        },
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 1
+        },
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 0,
+      "r": 1,
+      "finite_n": 1,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 0,
+          "projections": 1
+        },
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 1
+        },
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 0,
+      "r": 2,
+      "finite_n": 2,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 0,
+          "projections": 1
+        },
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 1
+        },
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 0,
+      "r": 3,
+      "finite_n": 3,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 0,
+          "projections": 1
+        },
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 1
+        },
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 1,
+      "r": 0,
+      "finite_n": 1,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 1
+        },
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 1,
+      "r": 1,
+      "finite_n": 2,
+      "finite_projections": 2,
+      "ambient_counts": [
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 2
+        },
+        {
+          "ambient_n": 3,
+          "projections": 2
+        },
+        {
+          "ambient_n": 4,
+          "projections": 2
+        },
+        {
+          "ambient_n": 5,
+          "projections": 2
+        },
+        {
+          "ambient_n": 6,
+          "projections": 2
+        },
+        {
+          "ambient_n": 7,
+          "projections": 2
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 1,
+      "r": 2,
+      "finite_n": 3,
+      "finite_projections": 2,
+      "ambient_counts": [
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 2
+        },
+        {
+          "ambient_n": 3,
+          "projections": 2
+        },
+        {
+          "ambient_n": 4,
+          "projections": 2
+        },
+        {
+          "ambient_n": 5,
+          "projections": 2
+        },
+        {
+          "ambient_n": 6,
+          "projections": 2
+        },
+        {
+          "ambient_n": 7,
+          "projections": 2
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 1,
+      "r": 3,
+      "finite_n": 4,
+      "finite_projections": 2,
+      "ambient_counts": [
+        {
+          "ambient_n": 1,
+          "projections": 1
+        },
+        {
+          "ambient_n": 2,
+          "projections": 2
+        },
+        {
+          "ambient_n": 3,
+          "projections": 2
+        },
+        {
+          "ambient_n": 4,
+          "projections": 2
+        },
+        {
+          "ambient_n": 5,
+          "projections": 2
+        },
+        {
+          "ambient_n": 6,
+          "projections": 2
+        },
+        {
+          "ambient_n": 7,
+          "projections": 2
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 2,
+      "r": 0,
+      "finite_n": 2,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 2,
+          "projections": 1
+        },
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 2,
+      "r": 1,
+      "finite_n": 3,
+      "finite_projections": 5,
+      "ambient_counts": [
+        {
+          "ambient_n": 2,
+          "projections": 3
+        },
+        {
+          "ambient_n": 3,
+          "projections": 5
+        },
+        {
+          "ambient_n": 4,
+          "projections": 5
+        },
+        {
+          "ambient_n": 5,
+          "projections": 5
+        },
+        {
+          "ambient_n": 6,
+          "projections": 5
+        },
+        {
+          "ambient_n": 7,
+          "projections": 5
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 2,
+      "r": 2,
+      "finite_n": 4,
+      "finite_projections": 10,
+      "ambient_counts": [
+        {
+          "ambient_n": 2,
+          "projections": 3
+        },
+        {
+          "ambient_n": 3,
+          "projections": 9
+        },
+        {
+          "ambient_n": 4,
+          "projections": 10
+        },
+        {
+          "ambient_n": 5,
+          "projections": 10
+        },
+        {
+          "ambient_n": 6,
+          "projections": 10
+        },
+        {
+          "ambient_n": 7,
+          "projections": 10
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 2,
+      "r": 3,
+      "finite_n": 5,
+      "finite_projections": 10,
+      "ambient_counts": [
+        {
+          "ambient_n": 2,
+          "projections": 3
+        },
+        {
+          "ambient_n": 3,
+          "projections": 9
+        },
+        {
+          "ambient_n": 4,
+          "projections": 10
+        },
+        {
+          "ambient_n": 5,
+          "projections": 10
+        },
+        {
+          "ambient_n": 6,
+          "projections": 10
+        },
+        {
+          "ambient_n": 7,
+          "projections": 10
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 3,
+      "r": 0,
+      "finite_n": 3,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 3,
+          "projections": 1
+        },
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 3,
+      "r": 1,
+      "finite_n": 4,
+      "finite_projections": 10,
+      "ambient_counts": [
+        {
+          "ambient_n": 3,
+          "projections": 7
+        },
+        {
+          "ambient_n": 4,
+          "projections": 10
+        },
+        {
+          "ambient_n": 5,
+          "projections": 10
+        },
+        {
+          "ambient_n": 6,
+          "projections": 10
+        },
+        {
+          "ambient_n": 7,
+          "projections": 10
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 3,
+      "r": 2,
+      "finite_n": 5,
+      "finite_projections": 39,
+      "ambient_counts": [
+        {
+          "ambient_n": 3,
+          "projections": 15
+        },
+        {
+          "ambient_n": 4,
+          "projections": 36
+        },
+        {
+          "ambient_n": 5,
+          "projections": 39
+        },
+        {
+          "ambient_n": 6,
+          "projections": 39
+        },
+        {
+          "ambient_n": 7,
+          "projections": 39
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 3,
+      "r": 3,
+      "finite_n": 6,
+      "finite_projections": 76,
+      "ambient_counts": [
+        {
+          "ambient_n": 3,
+          "projections": 15
+        },
+        {
+          "ambient_n": 4,
+          "projections": 60
+        },
+        {
+          "ambient_n": 5,
+          "projections": 75
+        },
+        {
+          "ambient_n": 6,
+          "projections": 76
+        },
+        {
+          "ambient_n": 7,
+          "projections": 76
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 4,
+      "r": 0,
+      "finite_n": 4,
+      "finite_projections": 1,
+      "ambient_counts": [
+        {
+          "ambient_n": 4,
+          "projections": 1
+        },
+        {
+          "ambient_n": 5,
+          "projections": 1
+        },
+        {
+          "ambient_n": 6,
+          "projections": 1
+        },
+        {
+          "ambient_n": 7,
+          "projections": 1
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 4,
+      "r": 1,
+      "finite_n": 5,
+      "finite_projections": 17,
+      "ambient_counts": [
+        {
+          "ambient_n": 4,
+          "projections": 13
+        },
+        {
+          "ambient_n": 5,
+          "projections": 17
+        },
+        {
+          "ambient_n": 6,
+          "projections": 17
+        },
+        {
+          "ambient_n": 7,
+          "projections": 17
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 4,
+      "r": 2,
+      "finite_n": 6,
+      "finite_projections": 115,
+      "ambient_counts": [
+        {
+          "ambient_n": 4,
+          "projections": 57
+        },
+        {
+          "ambient_n": 5,
+          "projections": 109
+        },
+        {
+          "ambient_n": 6,
+          "projections": 115
+        },
+        {
+          "ambient_n": 7,
+          "projections": 115
+        }
+      ],
+      "passed": true
+    },
+    {
+      "m": 4,
+      "r": 3,
+      "finite_n": 7,
+      "finite_projections": 403,
+      "ambient_counts": [
+        {
+          "ambient_n": 4,
+          "projections": 105
+        },
+        {
+          "ambient_n": 5,
+          "projections": 333
+        },
+        {
+          "ambient_n": 6,
+          "projections": 399
+        },
+        {
+          "ambient_n": 7,
+          "projections": 403
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

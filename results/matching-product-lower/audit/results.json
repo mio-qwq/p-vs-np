@@ -1,0 +1,125 @@
+[
+  {
+    "n": 2,
+    "d": 1,
+    "all_matchings": 3,
+    "minimum_nonzero_distance": null,
+    "nonzero_histogram": {}
+  },
+  {
+    "n": 3,
+    "d": 1,
+    "all_matchings": 15,
+    "minimum_nonzero_distance": 2,
+    "nonzero_histogram": {
+      "2": 4
+    }
+  },
+  {
+    "n": 4,
+    "d": 1,
+    "all_matchings": 105,
+    "minimum_nonzero_distance": 2,
+    "nonzero_histogram": {
+      "2": 8,
+      "3": 16
+    }
+  },
+  {
+    "n": 4,
+    "d": 2,
+    "all_matchings": 105,
+    "minimum_nonzero_distance": 3,
+    "nonzero_histogram": {
+      "3": 8
+    }
+  },
+  {
+    "n": 5,
+    "d": 1,
+    "all_matchings": 945,
+    "minimum_nonzero_distance": 2,
+    "nonzero_histogram": {
+      "2": 12,
+      "3": 72,
+      "4": 96
+    }
+  },
+  {
+    "n": 5,
+    "d": 2,
+    "all_matchings": 945,
+    "minimum_nonzero_distance": 3,
+    "nonzero_histogram": {
+      "3": 8,
+      "4": 32
+    }
+  },
+  {
+    "n": 6,
+    "d": 1,
+    "all_matchings": 10395,
+    "minimum_nonzero_distance": 2,
+    "nonzero_histogram": {
+      "2": 16,
+      "3": 192,
+      "4": 704,
+      "5": 768
+    }
+  },
+  {
+    "n": 6,
+    "d": 2,
+    "all_matchings": 10395,
+    "minimum_nonzero_distance": 3,
+    "nonzero_histogram": {
+      "3": 8,
+      "4": 112,
+      "5": 192
+    }
+  },
+  {
+    "n": 6,
+    "d": 3,
+    "all_matchings": 10395,
+    "minimum_nonzero_distance": 5,
+    "nonzero_histogram": {
+      "5": 64
+    }
+  },
+  {
+    "n": 7,
+    "d": 1,
+    "all_matchings": 135135,
+    "minimum_nonzero_distance": 2,
+    "nonzero_histogram": {
+      "2": 20,
+      "3": 400,
+      "4": 2800,
+      "5": 8000,
+      "6": 7680
+    }
+  },
+  {
+    "n": 7,
+    "d": 2,
+    "all_matchings": 135135,
+    "minimum_nonzero_distance": 3,
+    "nonzero_histogram": {
+      "3": 8,
+      "4": 240,
+      "5": 1216,
+      "6": 1536
+    }
+  },
+  {
+    "n": 7,
+    "d": 3,
+    "all_matchings": 135135,
+    "minimum_nonzero_distance": 5,
+    "nonzero_histogram": {
+      "5": 160,
+      "6": 384
+    }
+  }
+]
