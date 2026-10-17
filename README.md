@@ -59,3 +59,9 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Colorful parity matching and metric radii
 
 [Deterministic colorful parity matching](results/colorful-parity/README.md) implements FPT algorithms on complete bipartite and supplied-forbidden-cover domains, including an undirected port extension. FPT also follows using Derksen's older support bound; novelty is not claimed. [Direct matching support and flip radii](results/matching-polynomial-radius/README.md) separate all-field upper bounds from characteristic-two sharp lower bounds. The [permutation transposition-distance addendum](results/permutation-cayley-radius/README.md) gives the all-field exact radius min(n-1,2d), with trivial exceptions. These are restricted matching and polynomial-evaluation results, not a P versus NP resolution.
+
+## Matching-radius refinements
+
+[Signed-hafnian support sharpness](results/matching-allfield-support/README.md) extends the previous characteristic-two matching SUPPORT result to every field and every nonzero commutative unital ring: min(n,2d+1), with trivial cases as stated. The old characteristic-two FLIP-radius scope is unchanged.
+
+[Degree-two flip certificate](results/matching-degree-two-flip/README.md) separately gives exact radius min(n-1,3) over fields of characteristic different from 2 and 3. Characteristic three is not settled by this certificate. Both additions preserve the earlier proofs and distinguish written all-size arguments from finite exact checks; historical novelty remains unverified.
