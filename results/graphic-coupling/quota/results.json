@@ -1,0 +1,5 @@
+{
+  "quota_matching_vs_exhaustive_checks": 700,
+  "tested_groups_larger_than_two": 303,
+  "backend": "independent standard Edmonds implementation, ../blossom/blossom.py"
+}

@@ -1,0 +1,5 @@
+{
+  "scrambled_binary_matrix_certificate_solver_checks": 500,
+  "returned_witnesses": 153,
+  "graphic_discovery": "not implemented; supplied certificates are checked in polynomial time"
+}

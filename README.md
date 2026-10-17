@@ -47,3 +47,7 @@ AI systems contributed substantially to derivation, implementation, review and d
 ## Syndrome-period route checkpoint
 
 [Exact quotient and occurrence-clause obstruction](results/syndrome-period-obstruction/README.md): local translation periods can be quotiented soundly, but the quotient is trivial for strict single-clause occurrence blocks whose variables all repeat. Exact interface enumeration can still be exponential. This bounded research checkpoint records a route limitation, not a general SAT algorithm or a lower bound against every algorithm.
+
+## Graphic-coupling research checkpoint
+
+[Local quotas, graph certificates and representation criteria](results/graphic-coupling/README.md) package a blossom-backed restricted solver, exact pair-sum/common-star criteria and sharp locality boundaries. The incident-pair case is credited as a direct corollary of Cannon–Ishaque–Tóth (2012). Code verifies supplied graph certificates; automatic general recognition remains a classical theorem-level dependency. This does not solve general SAT or P versus NP.
