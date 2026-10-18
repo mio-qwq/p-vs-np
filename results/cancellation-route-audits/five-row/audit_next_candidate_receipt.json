@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "method": "direct 5-by-5 polynomial determinant",
+  "sympy": "1.14.0",
+  "C12": "90288*v**11 - 719280*v**9 + 628992*v**7 + 628992*v**5 - 719280*v**3 + 90288*v",
+  "remainder": "v*(115205932800/43681 - 137735637131520*v**2/9129329)",
+  "discriminant": 1328352,
+  "highest_degree": 30,
+  "earlier_coefficients_vanish_mod_relation": true
+}

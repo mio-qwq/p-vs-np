@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "method": "quotient-ring interpolation and direct polynomial determinant",
+  "sympy": "1.14.0",
+  "checks": [
+    "quotient C6",
+    "quotient C7 under C6",
+    "quotient C8 under C6,E1",
+    "quotient C9 under C6,E1,C8",
+    "quotient C10 under C6 through C9",
+    "full C10 before constraints",
+    "full C10 after C6",
+    "complement C10",
+    "original determinant degree at most 15",
+    "original x15 coefficient",
+    "original x14 coefficient",
+    "original x13 coefficient",
+    "original odd in x",
+    "exact candidate remainder",
+    "d7 complement",
+    "d3 pair",
+    "rho gap identity",
+    "d7 exhaustive integer arithmetic"
+  ],
+  "d7_triples": [
+    [
+      -5,
+      2,
+      6
+    ],
+    [
+      -4,
+      0,
+      7
+    ]
+  ],
+  "proof_sha256": "09562d66d49a7d35a4193444487e53a00d7ad1922bcb8ccc565d4cc1ddc58179"
+}

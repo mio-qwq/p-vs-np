@@ -1,0 +1,60 @@
+[
+  {
+    "moment": 6,
+    "lambda_degree": 34,
+    "polynomial_in_v": {},
+    "remainder_mod_209v4_1226v2_209": {}
+  },
+  {
+    "moment": 7,
+    "lambda_degree": 33,
+    "polynomial_in_v": {},
+    "remainder_mod_209v4_1226v2_209": {}
+  },
+  {
+    "moment": 8,
+    "lambda_degree": 32,
+    "polynomial_in_v": {},
+    "remainder_mod_209v4_1226v2_209": {}
+  },
+  {
+    "moment": 9,
+    "lambda_degree": 31,
+    "polynomial_in_v": {},
+    "remainder_mod_209v4_1226v2_209": {}
+  },
+  {
+    "moment": 10,
+    "lambda_degree": 30,
+    "polynomial_in_v": {
+      "9": -67716,
+      "7": 532656,
+      "5": -929880,
+      "3": 532656,
+      "1": -67716
+    },
+    "remainder_mod_209v4_1226v2_209": {}
+  },
+  {
+    "moment": 11,
+    "lambda_degree": 29,
+    "polynomial_in_v": {},
+    "remainder_mod_209v4_1226v2_209": {}
+  },
+  {
+    "moment": 12,
+    "lambda_degree": 28,
+    "polynomial_in_v": {
+      "11": 90288,
+      "9": -719280,
+      "7": 628992,
+      "5": 628992,
+      "3": -719280,
+      "1": 90288
+    },
+    "remainder_mod_209v4_1226v2_209": {
+      "3": "-137735637131520/9129329",
+      "1": "115205932800/43681"
+    }
+  }
+]
