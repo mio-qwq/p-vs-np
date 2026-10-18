@@ -1,0 +1,28 @@
+{
+  "description": "Large deterministic JSON outputs are generated locally during reproduction; they are not tracked or included in the compact source archive.",
+  "artifacts": {
+    "input/exact_certificate.json": {
+      "bytes": 450803,
+      "sha256": "ecb04ae1ae415590634020e7b3965d7c6e3dccb44ccc960512e21a8a507273aa",
+      "generator": "python3 input/check_consecutive_four.py",
+      "matches_original_frozen_bytes": true
+    },
+    "audit_results.json": {
+      "bytes": 201729,
+      "sha256": "e0efd93b638d6d67a85be198765eff603f3cad3ccc16644425d56b91f4e87786",
+      "generator": "python3 audit_certificate.py (after producer)",
+      "original_audit_sha256": "80098467cf62b81705477a22eeb26a9836c4c69acf893550a82722be79d9c181",
+      "mathematical_output_unchanged": true,
+      "only_historical_output_difference": "frozen_input_sha256.REPORT.md"
+    }
+  },
+  "statistics": {
+    "labeled_masks": 65536,
+    "symbolic_certificates": 207,
+    "direct_obstructions": 171,
+    "line_distinctness_obstructions": 35,
+    "positive_quadratic_obstructions": 1,
+    "corruption_controls_rejected": 8,
+    "false_extension_controls_disproved": 2
+  }
+}

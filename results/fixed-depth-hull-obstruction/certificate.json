@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "field": {
+    "size": 32,
+    "degree": 5,
+    "modulus_integer": 37,
+    "modulus_polynomial": "X^5 + X^2 + 1",
+    "irreducible": true
+  },
+  "graph": {
+    "rows": 32,
+    "columns": 32,
+    "special_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "label_dimension": 15,
+    "target": 0
+  },
+  "label_encoding": "x | (x^3 << 5) | (x^5 << 10); field powers, integer bit shifts",
+  "row_labels_in_integer_order": [
+    0,
+    1057,
+    5378,
+    23011,
+    17732,
+    26597,
+    4838,
+    30855,
+    32584,
+    25385,
+    18538,
+    7371,
+    20780,
+    27597,
+    9390,
+    22159,
+    12752,
+    6737,
+    24274,
+    15763,
+    17172,
+    19989,
+    28342,
+    11127,
+    14424,
+    2969,
+    30074,
+    3707,
+    8636,
+    13565,
+    11838,
+    29631
+  ],
+  "row_affine_rank": 15,
+  "six_subsets_checked": 906192,
+  "zero_six_subset_sums": 0,
+  "distinct_six_subset_sums": 32612,
+  "six_subset_sum_multiplicity_histogram": {
+    "24": 17360,
+    "32": 14756,
+    "35": 496
+  },
+  "triple_subsets_checked": 4960,
+  "distinct_triple_subset_sums": 4960,
+  "affine_functionals_checked": 65536,
+  "affine_functional_weight_histogram": {
+    "0": 1,
+    "8": 620,
+    "12": 13888,
+    "16": 36518,
+    "20": 13888,
+    "24": 620,
+    "32": 1
+  },
+  "minimum_nonzero_affine_functional_support": 8,
+  "certified_row_deletion_robustness": 7,
+  "certified_matching_conditioning_depth": 5,
+  "subset_exchange_ranks_on_full_row_set": {
+    "1": 15,
+    "2": 15,
+    "3": 15,
+    "4": 15,
+    "5": 15,
+    "6": 15
+  },
+  "general_lemma_orbit_parameter_sanity_checks": 192,
+  "negative_controls": {
+    "reducible_modulus_rejected": 35,
+    "zero_six_subset_after_dropping_fifth_power": [
+      0,
+      1,
+      2,
+      6,
+      16,
+      21
+    ],
+    "zero_sum_with_illegal_repetitions": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ],
+    "depth_six_fixed_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "depth_six_conditioned_hull_singleton": [
+      27233
+    ],
+    "sharp_eight_deletion_mask": 1176,
+    "sharp_eight_deletion_constant": 1,
+    "sharp_eight_deletion_rows": [
+      0,
+      5,
+      8,
+      13,
+      16,
+      21,
+      24,
+      29
+    ],
+    "sharp_eight_deletion_remaining_affine_rank": 14,
+    "small_field": {
+      "size": 16,
+      "modulus_integer": 19,
+      "trace_of_fifth_power_identically_zero": true,
+      "actual_affine_rank": 10,
+      "ambient_dimension": 12
+    }
+  }
+}

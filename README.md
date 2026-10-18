@@ -71,3 +71,12 @@ AI systems contributed substantially to derivation, implementation, review and d
 [Degree-two characteristic-three flip radius](results/matching-char3-flip/README.md) closes the case left open in the preceding checkpoint: radius 4 at n=5,6, min(n-1,3) otherwise for n>=2, and zero for n<=1. Exact witnesses and a seven-pair evaluation identity are independently checked. This does not change the all-field SUPPORT theorem or assert an all-degree odd-characteristic FLIP formula.
 
 The [product construction](results/matching-product-lower/README.md) supplies an all-field lower bound ceil(3d/2) for d>=2,n>=2d. The [ambient-extension lemma](results/matching-extension-locality/README.md) explains a finite test for extending internally supported functions. Historical novelty remains unestablished.
+
+## Fixed-depth relaxation and four-row symbolic checkpoints
+
+- [Fixed-depth affine-hull obstruction](results/fixed-depth-hull-obstruction/README.md): an infinite family defeats every fixed-depth conditioned affine-hull test in the stated labeled-matching model. This is a route obstruction, not a lower bound against all algorithms.
+- [Four-row consecutive-exponent theorem](results/monic-four-consecutive/README.md): every supported four-by-four masked shifted determinant with distinct real offsets and consecutive exponents is nonzero. An independent exact checker covers all 65,536 binary masks. Gapped exponents and larger components remain open here.
+
+These are scoped research checkpoints with explicit proofs, exact checkers and separate AI-assisted review. Historical novelty, human peer review and a solution of P versus NP are not claimed.
+
+The current source package omits reproducible expanded symbolic JSON tables; the verification script regenerates them in temporary directories and checks their frozen hashes.
