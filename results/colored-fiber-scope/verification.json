@@ -1,0 +1,64 @@
+{
+  "audit_status": "AI-assisted structural and exact-arithmetic audit; not human peer review or Lean verification.",
+  "date_utc": "2026-10-18",
+  "method": "Supplied vetted checkers rerun in clean copied directories; mathematical outputs match frozen certificates.",
+  "modes": [
+    {
+      "altered_integer_certificate": {
+        "exit": 1,
+        "failure": "Integer matrix fails to realize the stated exact layer",
+        "status": "REJECTED"
+      },
+      "jobs": [
+        {
+          "checker": "affine-layer/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "a0cf06135eeafaaa30dbb0924a1f22c5ccf72e2e8450c7812d73a9ae45ebb727"
+        },
+        {
+          "checker": "support-mask/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "816e79a5c796475bf1193cfce2c91b055f4b7954101ed138d40a311b5cd3b9fc"
+        },
+        {
+          "checker": "extremal-transfer/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "679afce53768629bdd7253cba28f3ca381908b165c4439db5be5ef4c2bb66408"
+        }
+      ],
+      "optimization": 0
+    },
+    {
+      "altered_integer_certificate": {
+        "exit": 1,
+        "failure": "Integer matrix fails to realize the stated exact layer",
+        "status": "REJECTED"
+      },
+      "jobs": [
+        {
+          "checker": "affine-layer/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "8a1e744a8e778b5e33844dd75c98552cb1350728a5aa2f499b20b2f569cc9dd7"
+        },
+        {
+          "checker": "support-mask/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "816e79a5c796475bf1193cfce2c91b055f4b7954101ed138d40a311b5cd3b9fc"
+        },
+        {
+          "checker": "extremal-transfer/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "679afce53768629bdd7253cba28f3ca381908b165c4439db5be5ef4c2bb66408"
+        }
+      ],
+      "optimization": 1
+    }
+  ],
+  "status": "PASS"
+}
