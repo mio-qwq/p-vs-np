@@ -1,5 +1,5 @@
 {
-  "README.md": "8dda4875a7b04327eae1def8743fcf1330da6e603ac523e0d1edd130b8429119",
+  "README.md": "409c295da16554ba2f1b39dffd6b6582a94c066c4bc9e74345f3fee657622d89",
   "RESEARCH_PLAN.md": "5543737594ace792ed02c6c3166afb97ec9cc4522ff92afb63022fb9023409ec",
   "VERIFICATION.md": "de830c5e1f908b9414f153ee6658dc1f2345821dc8bce3ae80dbc320b357bf2c",
   "research/route-boundaries/CANONICAL_GAP.md": "b93140190d78d1d8438a606f09a4a49f81d690eb0187fe7a61fb81cc6d53b6ee",
@@ -317,5 +317,25 @@
   "results/tseitin-cache-obstruction/pc_degree_results.json": "09624a3e8a7f3daaacad4f691fa0e056e60a228d603f9cf93652026219aeeef9",
   "results/tseitin-cache-obstruction/probe.py": "bcd89a17cc02fb08ff6d9a5afd8f3f21ac9d2a232702b75dc808f598f4b44144",
   "results/tseitin-cache-obstruction/results.json": "87de78171a03b65c0cd0118c72f48a3bec7c076c22974b4b690fea9628970aa3",
-  "results/tseitin-cache-obstruction/specialization_results.json": "e418b83e764f8061449f5998dd8bc74191a9e3e77a8cf9aaf043e37a69d04bbb"
+  "results/tseitin-cache-obstruction/specialization_results.json": "e418b83e764f8061449f5998dd8bc74191a9e3e77a8cf9aaf043e37a69d04bbb",
+  "results/README-20261018.md": "f78979242e600c6d041900b93241f3a6c058edd2f18511a38f6687359892b28a",
+  "results/fixed-depth-hull-obstruction/AUDIT.md": "776b4ce643d8b83a8cea10cfd325fe21914c4b54bf00175809be8ed456c49f3b",
+  "results/fixed-depth-hull-obstruction/PROVENANCE.json": "665326aae9f602ad7cc1ad660b9b9630abb5808045ffe4aeef656d7d824e59b6",
+  "results/fixed-depth-hull-obstruction/README.md": "d633895b77dccb046002121d7de1ca2db1e176cc92290f22593c42d9c312441a",
+  "results/fixed-depth-hull-obstruction/certificate.json": "ce8268a4fe19c457fc50cb856d0a834c9019c8fc94afb63bd4caf9bc592bf88b",
+  "results/fixed-depth-hull-obstruction/check_depth_five.py": "65fefa7680a78df96350a518cac8f272bf29c9dd020b60175e35db03945d4289",
+  "results/fixed-depth-hull-obstruction/general-theorem.md": "a02a5125b5905d9127cc698c64156572b53a20ab32243ffa6238859472fc957b",
+  "results/fixed-depth-hull-obstruction/independent_check.py": "bfaf7d1eaa8b84a8a0c8fe0473f8485037a472b89fb5c5e25dfd865cbf94ea34",
+  "results/fixed-depth-hull-obstruction/independent_output.json": "edac1ec95e5ee42a22574692866c0b3dee0b2db32601d497909b27d843289bf5",
+  "results/manifest-20261018.json": "8f9507bda787e28529cde7a89b0aaa74135daeb5d6fa3a2b8b276b3292336e0d",
+  "results/monic-four-consecutive/.gitignore": "aa5c20d37126895ff23c10caa6fb2508187b51b93d819e7b3708d129430868b4",
+  "results/monic-four-consecutive/AUDIT.md": "fbf1acbe1115ab823a2c849f1191259f264dac971a5998857a1e5541adad0d66",
+  "results/monic-four-consecutive/GENERATED.json": "a314e5ef9aa2da63db05cd64a34bab8cce350309c55106b111e38ecd526d8819",
+  "results/monic-four-consecutive/PROVENANCE.json": "9609f7742734f63f79ce692c670e113bd3ff997f5aa3e8b8d5e98d8b9cc3492f",
+  "results/monic-four-consecutive/README.md": "fb09f69d8a247e74d43ccfc8e18977ce2ba19cad8052009f1de82b0281e1622d",
+  "results/monic-four-consecutive/audit_certificate.py": "4457749a3dd428092e7093d1afb6e82a1734781f0064f18a8981b0a8838cdc24",
+  "results/monic-four-consecutive/input/REPORT.md": "a3ce47a4ae7ce64f7e024a3800a0a0688862d39274916553ff65faf364d46b00",
+  "results/monic-four-consecutive/input/check_consecutive_four.py": "1aab46190729e0dde38476aa394c203972660fec298ed077692bd637d1d83cee",
+  "results/verification-20261018.json": "b59eb8a44114bc79f9fc2bc8d6e820c2b9c7d17eb8547dcbfd54e3a26c588c60",
+  "results/verify-20261018.py": "6e65c89823e822532f4b55f72d3a6b2c6ea9e4ac6bf40ed083b4e837d6774cce"
 }

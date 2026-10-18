@@ -1,0 +1,88 @@
+{
+  "release_date_utc": "2026-10-18",
+  "source_archive": "monic-four-symbolic-verified-20261018.zip",
+  "source_archive_sha256": "51cfffbd77d85859822872e9906eb33896a4cc7149e679b3b94d24b80062bf88",
+  "original_archive_manifest_verified": true,
+  "files": [
+    {
+      "source_member": "audit/input/REPORT.md",
+      "published_path": "input/REPORT.md",
+      "original_sha256": "e67cd1938237351cecb0944cfcaf2a3f6f3f22cfc6f12737b30a598a8ad35d0a",
+      "published_sha256": "a3ce47a4ae7ce64f7e024a3800a0a0688862d39274916553ff65faf364d46b00",
+      "byte_identical": false,
+      "changes": [
+        "Remove one external-argument critique section and associated references; preserve theorem and proof text.",
+        "Remove historical unpublished-work sentence.",
+        "Append publication-editorial status disclosure.",
+        "Update compact reproduction metadata to disclose omitted regenerable JSON data and require producer-first ordering; proof mathematics unchanged."
+      ]
+    },
+    {
+      "source_member": "audit/input/check_consecutive_four.py",
+      "published_path": "input/check_consecutive_four.py",
+      "original_sha256": "1aab46190729e0dde38476aa394c203972660fec298ed077692bd637d1d83cee",
+      "published_sha256": "1aab46190729e0dde38476aa394c203972660fec298ed077692bd637d1d83cee",
+      "byte_identical": true
+    },
+    {
+      "source_member": "audit/audit_certificate.py",
+      "published_path": "audit_certificate.py",
+      "original_sha256": "424523736345ee69342e98efc9c8cccd78ffe383164112e25c4dbed84d7d2b1b",
+      "published_sha256": "4457749a3dd428092e7093d1afb6e82a1734781f0064f18a8981b0a8838cdc24",
+      "byte_identical": false,
+      "changes": [
+        "Replace only EXPECTED[REPORT.md] with the public report SHA-256; no verification logic changes."
+      ]
+    },
+    {
+      "source_member": "audit/AUDIT.md",
+      "published_path": "AUDIT.md",
+      "original_sha256": "83e856d54055c518f615726819d957aea1d597c8fffb99c51e7c2ad5c5cbfe67",
+      "published_sha256": "fbf1acbe1115ab823a2c849f1191259f264dac971a5998857a1e5541adad0d66",
+      "byte_identical": false,
+      "changes": [
+        "Replace private filesystem paths with public relative reproduction references.",
+        "Identify original hashes and distinguish the publication-edited report from frozen checker/certificate bytes.",
+        "Replace references to redundant historical stdout and absent transient negative-control files with the clean-copy release verifier.",
+        "Append AI-audit and publication-editorial disclosure; mathematical audit unchanged.",
+        "Update compact reproduction metadata to disclose omitted regenerable JSON data and require producer-first ordering; proof mathematics unchanged."
+      ]
+    }
+  ],
+  "editorial_policy": "Theorem and essential proof mathematics preserved. Public-only editorial changes are listed per file. Original hashes identify historical input bytes; they do not assert that edited public documents remain byte-identical. Audits were AI-assisted, not human peer review.",
+  "omissions": "Original archive wrappers, redundant logs, temporary files, and nonessential prior commentary are not included. The large monic certificate and audit-results JSON files are omitted, with expected hashes in GENERATED.json.",
+  "verifier_diff": {
+    "kind": "single literal replacement",
+    "field": "EXPECTED[REPORT.md]",
+    "before": "e67cd1938237351cecb0944cfcaf2a3f6f3f22cfc6f12737b30a598a8ad35d0a",
+    "after": "a3ce47a4ae7ce64f7e024a3800a0a0688862d39274916553ff65faf364d46b00",
+    "verification_logic_changed": false
+  },
+  "report_omission": {
+    "original_section_heading": "Exactly what the valuation argument would need",
+    "reason": "Outside the standalone result and publication scope",
+    "omitted_section_sha256": "41b419278cd06c4a148a8d75a41fcfd1179b3c6a4d64bd5a54349213dd22dded"
+  },
+  "independent_results_semantically_unchanged_except": "frozen_input_sha256.REPORT.md",
+  "generated_artifacts_not_in_source": [
+    {
+      "source_member": "audit/input/exact_certificate.json",
+      "original_sha256": "ecb04ae1ae415590634020e7b3965d7c6e3dccb44ccc960512e21a8a507273aa",
+      "byte_identical": true,
+      "generated_path": "input/exact_certificate.json",
+      "included_in_source": false,
+      "expected_generated_sha256": "ecb04ae1ae415590634020e7b3965d7c6e3dccb44ccc960512e21a8a507273aa"
+    },
+    {
+      "source_member": "audit/audit_results.json",
+      "original_sha256": "80098467cf62b81705477a22eeb26a9836c4c69acf893550a82722be79d9c181",
+      "byte_identical": false,
+      "changes": [
+        "Regenerated with the publication report hash; all witnesses, counts, and negative-control results exactly unchanged."
+      ],
+      "generated_path": "audit_results.json",
+      "included_in_source": false,
+      "expected_generated_sha256": "e0efd93b638d6d67a85be198765eff603f3cad3ccc16644425d56b91f4e87786"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "release_date_utc": "2026-10-18",
+  "source_archive": "fixed-depth-hull-obstruction-20261018.zip",
+  "source_archive_sha256": "1dc04452c7ccdafcb03b7246082e16f8772241ef992a97b41cef477e331a0dc1",
+  "original_archive_manifest_verified": true,
+  "files": [
+    {
+      "source_member": "proof-and-certificate/general-theorem.md",
+      "published_path": "general-theorem.md",
+      "original_sha256": "a02a5125b5905d9127cc698c64156572b53a20ab32243ffa6238859472fc957b",
+      "published_sha256": "a02a5125b5905d9127cc698c64156572b53a20ab32243ffa6238859472fc957b",
+      "byte_identical": true
+    },
+    {
+      "source_member": "proof-and-certificate/README.md",
+      "published_path": "README.md",
+      "original_sha256": "399e628725bcdcb6d470c73fd87b3ea279d66edb00cee84077e320385d1f1855",
+      "published_sha256": "d633895b77dccb046002121d7de1ca2db1e176cc92290f22593c42d9c312441a",
+      "byte_identical": false,
+      "changes": [
+        "Rename the audit link for the publication layout.",
+        "Append publication status and independent-check reproduction instructions."
+      ]
+    },
+    {
+      "source_member": "proof-and-certificate/REVIEW.md",
+      "published_path": "AUDIT.md",
+      "original_sha256": "c6f21a2798051c7369762d19c29a8731c93acd61047aa33b5a0a0e7c74383453",
+      "published_sha256": "776b4ce643d8b83a8cea10cfd325fe21914c4b54bf00175809be8ed456c49f3b",
+      "byte_identical": false,
+      "changes": [
+        "Replace private derivation path with public relative filename.",
+        "Append editorial-change and AI-audit disclosure."
+      ]
+    },
+    {
+      "source_member": "proof-and-certificate/check_depth_five.py",
+      "published_path": "check_depth_five.py",
+      "original_sha256": "65fefa7680a78df96350a518cac8f272bf29c9dd020b60175e35db03945d4289",
+      "published_sha256": "65fefa7680a78df96350a518cac8f272bf29c9dd020b60175e35db03945d4289",
+      "byte_identical": true
+    },
+    {
+      "source_member": "proof-and-certificate/certificate.json",
+      "published_path": "certificate.json",
+      "original_sha256": "ce8268a4fe19c457fc50cb856d0a834c9019c8fc94afb63bd4caf9bc592bf88b",
+      "published_sha256": "ce8268a4fe19c457fc50cb856d0a834c9019c8fc94afb63bd4caf9bc592bf88b",
+      "byte_identical": true
+    },
+    {
+      "source_member": "independent-finite-check/check.py",
+      "published_path": "independent_check.py",
+      "original_sha256": "bfaf7d1eaa8b84a8a0c8fe0473f8485037a472b89fb5c5e25dfd865cbf94ea34",
+      "published_sha256": "bfaf7d1eaa8b84a8a0c8fe0473f8485037a472b89fb5c5e25dfd865cbf94ea34",
+      "byte_identical": true
+    },
+    {
+      "source_member": "independent-finite-check/output.json",
+      "published_path": "independent_output.json",
+      "original_sha256": "edac1ec95e5ee42a22574692866c0b3dee0b2db32601d497909b27d843289bf5",
+      "published_sha256": "edac1ec95e5ee42a22574692866c0b3dee0b2db32601d497909b27d843289bf5",
+      "byte_identical": true
+    }
+  ],
+  "editorial_policy": "Theorem and essential proof mathematics preserved. Public-only editorial changes are listed per file. Original hashes identify historical input bytes; they do not assert that edited public documents remain byte-identical. Audits were AI-assisted, not human peer review.",
+  "omissions": "Original archive wrappers, redundant logs, temporary files, and nonessential prior commentary are not included."
+}

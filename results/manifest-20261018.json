@@ -1,0 +1,103 @@
+{
+  "release_date_utc": "2026-10-18",
+  "hash_algorithm": "sha256",
+  "self_exclusion": "This manifest does not hash itself.",
+  "packaging": "Compact source-only release; regenerable large JSON outputs are excluded.",
+  "files": [
+    {
+      "path": "README-20261018.md",
+      "bytes": 2101,
+      "sha256": "f78979242e600c6d041900b93241f3a6c058edd2f18511a38f6687359892b28a"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/AUDIT.md",
+      "bytes": 6901,
+      "sha256": "776b4ce643d8b83a8cea10cfd325fe21914c4b54bf00175809be8ed456c49f3b"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/PROVENANCE.json",
+      "bytes": 3375,
+      "sha256": "665326aae9f602ad7cc1ad660b9b9630abb5808045ffe4aeef656d7d824e59b6"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/README.md",
+      "bytes": 6624,
+      "sha256": "d633895b77dccb046002121d7de1ca2db1e176cc92290f22593c42d9c312441a"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/certificate.json",
+      "bytes": 2497,
+      "sha256": "ce8268a4fe19c457fc50cb856d0a834c9019c8fc94afb63bd4caf9bc592bf88b"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/check_depth_five.py",
+      "bytes": 8435,
+      "sha256": "65fefa7680a78df96350a518cac8f272bf29c9dd020b60175e35db03945d4289"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/general-theorem.md",
+      "bytes": 3604,
+      "sha256": "a02a5125b5905d9127cc698c64156572b53a20ab32243ffa6238859472fc957b"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/independent_check.py",
+      "bytes": 871,
+      "sha256": "bfaf7d1eaa8b84a8a0c8fe0473f8485037a472b89fb5c5e25dfd865cbf94ea34"
+    },
+    {
+      "path": "fixed-depth-hull-obstruction/independent_output.json",
+      "bytes": 181,
+      "sha256": "edac1ec95e5ee42a22574692866c0b3dee0b2db32601d497909b27d843289bf5"
+    },
+    {
+      "path": "monic-four-consecutive/.gitignore",
+      "bytes": 69,
+      "sha256": "aa5c20d37126895ff23c10caa6fb2508187b51b93d819e7b3708d129430868b4"
+    },
+    {
+      "path": "monic-four-consecutive/AUDIT.md",
+      "bytes": 15063,
+      "sha256": "fbf1acbe1115ab823a2c849f1191259f264dac971a5998857a1e5541adad0d66"
+    },
+    {
+      "path": "monic-four-consecutive/GENERATED.json",
+      "bytes": 1155,
+      "sha256": "a314e5ef9aa2da63db05cd64a34bab8cce350309c55106b111e38ecd526d8819"
+    },
+    {
+      "path": "monic-four-consecutive/PROVENANCE.json",
+      "bytes": 4921,
+      "sha256": "9609f7742734f63f79ce692c670e113bd3ff997f5aa3e8b8d5e98d8b9cc3492f"
+    },
+    {
+      "path": "monic-four-consecutive/README.md",
+      "bytes": 2822,
+      "sha256": "fb09f69d8a247e74d43ccfc8e18977ce2ba19cad8052009f1de82b0281e1622d"
+    },
+    {
+      "path": "monic-four-consecutive/audit_certificate.py",
+      "bytes": 18842,
+      "sha256": "4457749a3dd428092e7093d1afb6e82a1734781f0064f18a8981b0a8838cdc24"
+    },
+    {
+      "path": "monic-four-consecutive/input/REPORT.md",
+      "bytes": 7082,
+      "sha256": "a3ce47a4ae7ce64f7e024a3800a0a0688862d39274916553ff65faf364d46b00"
+    },
+    {
+      "path": "monic-four-consecutive/input/check_consecutive_four.py",
+      "bytes": 6522,
+      "sha256": "1aab46190729e0dde38476aa394c203972660fec298ed077692bd637d1d83cee"
+    },
+    {
+      "path": "verification-20261018.json",
+      "bytes": 4301,
+      "sha256": "b59eb8a44114bc79f9fc2bc8d6e820c2b9c7d17eb8547dcbfd54e3a26c588c60"
+    },
+    {
+      "path": "verify-20261018.py",
+      "bytes": 8150,
+      "sha256": "6e65c89823e822532f4b55f72d3a6b2c6ea9e4ac6bf40ed083b4e837d6774cce"
+    }
+  ]
+}
