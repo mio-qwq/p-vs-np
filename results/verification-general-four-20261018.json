@@ -1,0 +1,89 @@
+{
+  "audit": "Separate AI-assisted mathematical review and independent implementation.",
+  "clean_temporary_copy": true,
+  "generated_outputs_distributed": false,
+  "jobs": [
+    {
+      "exit": 0,
+      "expected_exit": 0,
+      "name": "original symbolic proof checker",
+      "regenerated_files": [
+        {
+          "bytes": 67219,
+          "path": "orbit_coverage.json",
+          "sha256": "67caf629fa3f5537c8a617bb37d9007671638c5423de0518ccc956cb60691a19"
+        }
+      ],
+      "stdout_bytes": 423,
+      "stdout_sha256": "24703ee9bc25bc3e0b3f504cf589bc1e2f24f62d8eaaa4ba56e2d82fe8c99887"
+    },
+    {
+      "exit": 0,
+      "expected_exit": 0,
+      "name": "independent enumerate orbits",
+      "regenerated_files": [
+        {
+          "bytes": 2758,
+          "path": "orbit_results.json",
+          "sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+        }
+      ],
+      "stdout_bytes": 2758,
+      "stdout_sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+    },
+    {
+      "exit": 0,
+      "expected_exit": 0,
+      "name": "independent audit identities",
+      "regenerated_files": [
+        {
+          "bytes": 821,
+          "path": "identity_checks.json",
+          "sha256": "a0e48358f0a1453b604c6f71f7055eebc41b3d812a744b9f332e57167668fa79"
+        }
+      ],
+      "stdout_bytes": 724,
+      "stdout_sha256": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181"
+    },
+    {
+      "exit": 0,
+      "expected_exit": 0,
+      "name": "independent audit dependencies",
+      "regenerated_files": [
+        {
+          "bytes": 4082,
+          "path": "dependency_checks.json",
+          "sha256": "b4e4db3ef02e75230809475f9cebc96ec8696ee9f43fd1c0747ebb1484783c19"
+        }
+      ],
+      "stdout_bytes": 3520,
+      "stdout_sha256": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4"
+    },
+    {
+      "exit": 1,
+      "expected_exit": 1,
+      "name": "independent C6 perturbation negative control",
+      "regenerated_files": [],
+      "stdout_bytes": 646,
+      "stdout_sha256": "c473a7fb72554eaa54f6e902d0a2f98975009c3de49ac658e2fa4ccc32401af1"
+    },
+    {
+      "exit": 0,
+      "expected_exit": 0,
+      "name": "exact theorem boundary controls",
+      "regenerated_files": [],
+      "stdout_bytes": 335,
+      "stdout_sha256": "d74e58e37aac825276d47401d54fcafb765f9fccbcb1a402c0fff008599a9954"
+    }
+  ],
+  "packaging_negative_controls": [
+    "altered proof",
+    "duplicate entry",
+    "unsafe path",
+    "unlisted file"
+  ],
+  "proof_sha256": "5bb505df254bda0212944fe3a02b25fcdcedbda032c4b5af0055f83009d0c5e5",
+  "scope": "Distinct real offsets; arbitrary distinct nonnegative integer exponents; order four only.",
+  "source_files_verified": 22,
+  "status": "PASS"
+}

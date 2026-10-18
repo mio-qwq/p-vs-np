@@ -1,0 +1,2 @@
+# Exact symbolic checker environment
+sympy==1.14.0

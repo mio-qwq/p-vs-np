@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "description": "All four generated JSON files and eight mode-specific logs reproduced byte-for-byte in an independent copied directory.",
+  "files": [
+    "orbit_results.json",
+    "identity_checks.json",
+    "dependency_checks.json",
+    "verification_runs.json",
+    "normal_audit_dependencies.log",
+    "normal_audit_identities.log",
+    "normal_enumerate_orbits.log",
+    "normal_negative_control.log",
+    "optimized_audit_dependencies.log",
+    "optimized_audit_identities.log",
+    "optimized_enumerate_orbits.log",
+    "optimized_negative_control.log"
+  ]
+}

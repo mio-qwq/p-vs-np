@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "audited_proof_sha256": "5bb505df254bda0212944fe3a02b25fcdcedbda032c4b5af0055f83009d0c5e5",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "sympy": "1.14.0",
+  "files": {
+    "AUDIT.md": "f5e8cf5d26bc6e8266aed3f733c154468ae80a6e687922bdb18d4ecba199de2e",
+    "REPRODUCE.txt": "fcc28e7fe617ee36a374638099c801053af4f76233d629a5ce72a4f52af08405",
+    "coefficients.py": "bc2c58c0cc2b757ef697c8da5c21a57d7d99fd4c26bb6c57e88f9542a85d8138",
+    "enumerate_orbits.py": "1c43d7b7d64f6207ae2b3ba42959c653fe7914561cbbd6efadd7ab4be107a603",
+    "audit_identities.py": "6eb6a4cf548e397fbb4c537c694eb5ad375ce518069524a3dd509a3839a3070a",
+    "audit_dependencies.py": "b3c96666a1fbd997b5b9dc42b7e1089c8fa07ab1cfea7bf977b85d9a017d5991",
+    "run_audit.py": "79996a1239d4b5e580cd4ca8eb7fd214bdba2a1406472873e17f9bd53d010693",
+    "orbit_results.json": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46",
+    "identity_checks.json": "a0e48358f0a1453b604c6f71f7055eebc41b3d812a744b9f332e57167668fa79",
+    "dependency_checks.json": "b4e4db3ef02e75230809475f9cebc96ec8696ee9f43fd1c0747ebb1484783c19",
+    "verification_runs.json": "217b2299009a5f7168486c68a78fd56197dc3093b029e3646b16514f0c3530e6",
+    "normal_audit_dependencies.log": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4",
+    "normal_audit_identities.log": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181",
+    "normal_enumerate_orbits.log": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46",
+    "normal_negative_control.log": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc",
+    "optimized_audit_dependencies.log": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4",
+    "optimized_audit_identities.log": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181",
+    "optimized_enumerate_orbits.log": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46",
+    "optimized_negative_control.log": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc",
+    "portability.json": "9c19100d709d41dc266ae5fe8915e3f1d856f6cf8a52c3395b86ed7956f86c5f"
+  }
+}

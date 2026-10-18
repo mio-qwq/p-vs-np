@@ -1,0 +1,6 @@
+Requirements: Python 3 and SymPy.
+Command: python run_audit.py
+Expected: six successful positive runs with exit 0 and two correctly rejected negative controls with exit 1; final status PASS.
+The negative control changes the claimed C6 identity by +1 and must report residual -1.
+Validation uses explicit exceptions and remains enabled under python -O.
+All audit computations are exact. No sampled exponents or offsets are used as proof evidence.
