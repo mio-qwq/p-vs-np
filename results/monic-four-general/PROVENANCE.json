@@ -1,0 +1,150 @@
+{
+  "attribution_note": {
+    "source": "Read-only literature review completed 18 October 2026",
+    "source_report_sha256": "3478c274b5873627aa7a51e42fbc50dfe92df96bf565352ce5d45e6cc8ef13ab",
+    "target": "ATTRIBUTION.md"
+  },
+  "boundary_checks": {
+    "known_complex_counterexample_source": "https://github.com/mio-qwq/p-vs-np/blob/8f3f26f624666663ff53a51cf90130ec9fdc3e9a/results/monic-one-partial-row/check_negative_controls.py",
+    "method": "Direct exact SymPy determinant identities and a quotient-field counterexample; scope controls only, not sampled evidence for the unbounded theorem.",
+    "target": "check_boundaries.py"
+  },
+  "omitted_generated_outputs": {
+    "dependency_checks.json": {
+      "bytes": 4082,
+      "regenerate": "python3 independent/run_audit.py",
+      "sha256": "b4e4db3ef02e75230809475f9cebc96ec8696ee9f43fd1c0747ebb1484783c19"
+    },
+    "identity_checks.json": {
+      "bytes": 821,
+      "regenerate": "python3 independent/run_audit.py",
+      "sha256": "a0e48358f0a1453b604c6f71f7055eebc41b3d812a744b9f332e57167668fa79"
+    },
+    "orbit_coverage.json": {
+      "bytes": 67219,
+      "regenerate": "python3 check_proof.py --write /tmp/orbit_coverage.json",
+      "sha256": "67caf629fa3f5537c8a617bb37d9007671638c5423de0518ccc956cb60691a19"
+    },
+    "orbit_results.json": {
+      "bytes": 2758,
+      "regenerate": "python3 independent/run_audit.py",
+      "sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+    }
+  },
+  "omitted_raw_audit_logs": {
+    "normal_audit_dependencies.log": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4",
+    "normal_audit_identities.log": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181",
+    "normal_enumerate_orbits.log": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46",
+    "normal_negative_control.log": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc",
+    "optimized_audit_dependencies.log": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4",
+    "optimized_audit_identities.log": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181",
+    "optimized_enumerate_orbits.log": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46",
+    "optimized_negative_control.log": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc"
+  },
+  "original_sources_modified": false,
+  "preserved_sources": [
+    {
+      "byte_identical": true,
+      "bytes": 15929,
+      "sha256": "5bb505df254bda0212944fe3a02b25fcdcedbda032c4b5af0055f83009d0c5e5",
+      "source": "PROOF.md",
+      "source_collection": "original proof and checker",
+      "target": "PROOF.md"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 11718,
+      "sha256": "7223fdb80eff243fd27e5076620101ae626d1442598bf99410305f2e420dfb80",
+      "source": "check_proof.py",
+      "source_collection": "original proof and checker",
+      "target": "check_proof.py"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 8798,
+      "sha256": "f5e8cf5d26bc6e8266aed3f733c154468ae80a6e687922bdb18d4ecba199de2e",
+      "source": "AUDIT.md",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/AUDIT.md"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 446,
+      "sha256": "fcc28e7fe617ee36a374638099c801053af4f76233d629a5ce72a4f52af08405",
+      "source": "REPRODUCE.txt",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/REPRODUCE.txt"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 1115,
+      "sha256": "bc2c58c0cc2b757ef697c8da5c21a57d7d99fd4c26bb6c57e88f9542a85d8138",
+      "source": "coefficients.py",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/coefficients.py"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 3053,
+      "sha256": "1c43d7b7d64f6207ae2b3ba42959c653fe7914561cbbd6efadd7ab4be107a603",
+      "source": "enumerate_orbits.py",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/enumerate_orbits.py"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 3700,
+      "sha256": "6eb6a4cf548e397fbb4c537c694eb5ad375ce518069524a3dd509a3839a3070a",
+      "source": "audit_identities.py",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/audit_identities.py"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 5183,
+      "sha256": "b3c96666a1fbd997b5b9dc42b7e1089c8fa07ab1cfea7bf977b85d9a017d5991",
+      "source": "audit_dependencies.py",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/audit_dependencies.py"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 1681,
+      "sha256": "79996a1239d4b5e580cd4ca8eb7fd214bdba2a1406472873e17f9bd53d010693",
+      "source": "run_audit.py",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/run_audit.py"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 2648,
+      "sha256": "217b2299009a5f7168486c68a78fd56197dc3093b029e3646b16514f0c3530e6",
+      "source": "verification_runs.json",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/verification_runs.json"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 590,
+      "sha256": "9c19100d709d41dc266ae5fe8915e3f1d856f6cf8a52c3395b86ed7956f86c5f",
+      "source": "portability.json",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/portability.json"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 2181,
+      "sha256": "6db43d941d4389fc24c02aeabc4951790cb91cc91e08ef486bb9773d3821255d",
+      "source": "SHA256.json",
+      "source_collection": "independent AI-assisted audit",
+      "target": "independent/SHA256.json"
+    }
+  ],
+  "proof_frozen_sha256": "5bb505df254bda0212944fe3a02b25fcdcedbda032c4b5af0055f83009d0c5e5",
+  "small_order_dependency": {
+    "note": "Verbatim complete order-at-most-three section with a short contextual preface.",
+    "source_sha256": "a24566dc684403e5969ea241a709774be4abcd7536fa1e1c6c53be4073b05354",
+    "source_url": "https://github.com/mio-qwq/p-vs-np/blob/8f3f26f624666663ff53a51cf90130ec9fdc3e9a/results/monic-four-gapped/REPORT.md",
+    "target": "SMALL_ORDER.md"
+  }
+}

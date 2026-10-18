@@ -1,0 +1,78 @@
+{
+  "jobs": [
+    {
+      "args": [
+        "--write",
+        "{output}/orbit_coverage.json"
+      ],
+      "name": "original symbolic proof checker",
+      "output_files": [
+        {
+          "path": "orbit_coverage.json",
+          "sha256": "67caf629fa3f5537c8a617bb37d9007671638c5423de0518ccc956cb60691a19"
+        }
+      ],
+      "required_stdout": [
+        "PASS: 84 exact identities; all 23 support orbits covered."
+      ],
+      "script": "check_proof.py",
+      "stdout_sha256": "24703ee9bc25bc3e0b3f504cf589bc1e2f24f62d8eaaa4ba56e2d82fe8c99887"
+    },
+    {
+      "local_generated_files": [
+        {
+          "path": "orbit_results.json",
+          "sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+        }
+      ],
+      "name": "independent enumerate orbits",
+      "script": "independent/enumerate_orbits.py",
+      "stdout_sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+    },
+    {
+      "local_generated_files": [
+        {
+          "path": "identity_checks.json",
+          "sha256": "a0e48358f0a1453b604c6f71f7055eebc41b3d812a744b9f332e57167668fa79"
+        }
+      ],
+      "name": "independent audit identities",
+      "script": "independent/audit_identities.py",
+      "stdout_sha256": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181"
+    },
+    {
+      "local_generated_files": [
+        {
+          "path": "dependency_checks.json",
+          "sha256": "b4e4db3ef02e75230809475f9cebc96ec8696ee9f43fd1c0747ebb1484783c19"
+        }
+      ],
+      "name": "independent audit dependencies",
+      "script": "independent/audit_dependencies.py",
+      "stdout_sha256": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4"
+    },
+    {
+      "args": [
+        "--negative-control"
+      ],
+      "combined_log_sha256": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc",
+      "expected_exit": 1,
+      "name": "independent C6 perturbation negative control",
+      "required_stderr": [
+        "Identity failed: 771515 C6; residual=-1"
+      ],
+      "script": "independent/audit_identities.py"
+    },
+    {
+      "name": "exact theorem boundary controls",
+      "required_stdout": [
+        "PASS: unrestricted complex-offset extension is false over Q[w]/(w^2+w+1).",
+        "PASS: dropping offset distinctness can give a zero determinant.",
+        "PASS: dropping exponent distinctness can give a zero determinant.",
+        "PASS: dropping the perfect-matching hypothesis can give a zero determinant.",
+        "PASS: exact nonzero Vandermonde calibration equals 12."
+      ],
+      "script": "check_boundaries.py"
+    }
+  ]
+}

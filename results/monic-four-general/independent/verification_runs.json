@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "independent_symbolic_identity_count": 168,
+  "check_counts": {
+    "identity_checks.json": 38,
+    "dependency_checks.json": 130
+  },
+  "runs": [
+    {
+      "name": "normal_enumerate_orbits",
+      "command": [
+        "python",
+        "enumerate_orbits.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "passed": true,
+      "log_sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+    },
+    {
+      "name": "normal_audit_identities",
+      "command": [
+        "python",
+        "audit_identities.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "passed": true,
+      "log_sha256": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181"
+    },
+    {
+      "name": "normal_audit_dependencies",
+      "command": [
+        "python",
+        "audit_dependencies.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "passed": true,
+      "log_sha256": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4"
+    },
+    {
+      "name": "normal_negative_control",
+      "command": [
+        "python",
+        "audit_identities.py",
+        "--negative-control"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "passed": true,
+      "log_sha256": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc"
+    },
+    {
+      "name": "optimized_enumerate_orbits",
+      "command": [
+        "python",
+        "-O",
+        "enumerate_orbits.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "passed": true,
+      "log_sha256": "20c24964d0ab73600c7037902968c73a721bc96d6e7684e334f30f3ea3ee4f46"
+    },
+    {
+      "name": "optimized_audit_identities",
+      "command": [
+        "python",
+        "-O",
+        "audit_identities.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "passed": true,
+      "log_sha256": "05560e2f7439aab72c08a6df92c7b5a52d98e1c896c9c7ddf9ce47c9e343c181"
+    },
+    {
+      "name": "optimized_audit_dependencies",
+      "command": [
+        "python",
+        "-O",
+        "audit_dependencies.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "passed": true,
+      "log_sha256": "6a7f95bb6b5958054b65b63a37047cef33a2ebbe78893878534ce60bf61387a4"
+    },
+    {
+      "name": "optimized_negative_control",
+      "command": [
+        "python",
+        "-O",
+        "audit_identities.py",
+        "--negative-control"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "passed": true,
+      "log_sha256": "8c98d909deaf55d992192786c1cc13cb9598e55f5826d27229dee459c8ee9cbc"
+    }
+  ]
+}

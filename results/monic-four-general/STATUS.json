@@ -1,0 +1,16 @@
+{
+  "audit_date_utc": "2026-10-18",
+  "audit_scope": "Separate AI-assisted mathematical review and independent exact implementation; not human peer review or formal proof-assistant verification.",
+  "independent_audit": "independent/AUDIT.md",
+  "independent_audit_sha256": "f5e8cf5d26bc6e8266aed3f733c154468ae80a6e687922bdb18d4ecba199de2e",
+  "independent_exact_check_count": 168,
+  "labelled_masks_classified": 65536,
+  "original_candidate_label_preserved": true,
+  "original_checker_exact_identity_count": 84,
+  "proof_bytes_frozen": true,
+  "proof_sha256": "5bb505df254bda0212944fe3a02b25fcdcedbda032c4b5af0055f83009d0c5e5",
+  "remote_writes_by_packager": false,
+  "scope": "Order-four uncolored masked determinant, distinct real offsets, distinct nonnegative integer exponents; no arbitrary-order, ASNC, complexity, or historical novelty claim.",
+  "status": "PASS",
+  "support_orbits": 23
+}

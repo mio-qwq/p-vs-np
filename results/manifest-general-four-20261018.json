@@ -1,0 +1,125 @@
+{
+  "algorithm": "sha256",
+  "date_utc": "2026-10-18",
+  "dependencies": {
+    "python": "3.10+",
+    "sympy": "1.14.0"
+  },
+  "files": [
+    {
+      "bytes": 3769,
+      "path": "README-general-four-20261018.md",
+      "sha256": "8c07eaa9856c7f79a99944d29196441983faf0fcec3c9ace50c199db386f25c8"
+    },
+    {
+      "bytes": 23,
+      "path": "monic-four-general/.gitignore",
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b"
+    },
+    {
+      "bytes": 1349,
+      "path": "monic-four-general/ATTRIBUTION.md",
+      "sha256": "4afabf98aa6813eed9a4bc339ac8cf55faa09e0fe16c2ed1d3b2be9d06d5fc23"
+    },
+    {
+      "bytes": 15929,
+      "path": "monic-four-general/PROOF.md",
+      "sha256": "5bb505df254bda0212944fe3a02b25fcdcedbda032c4b5af0055f83009d0c5e5"
+    },
+    {
+      "bytes": 6345,
+      "path": "monic-four-general/PROVENANCE.json",
+      "sha256": "4b97c4ed81f360653ae96473f32602f82d2024bc2dc431d944b1515ee2e04cb2"
+    },
+    {
+      "bytes": 2663,
+      "path": "monic-four-general/RUN_CONFIG.json",
+      "sha256": "3cd2c1609db9f08723a189c7d3b5e65e2dc751c61f75d5847605b9ea5b31be48"
+    },
+    {
+      "bytes": 2790,
+      "path": "monic-four-general/SMALL_ORDER.md",
+      "sha256": "2fa04dff133ff895aa6297c103c8bb354f39a022f9a920562c73de3663426591"
+    },
+    {
+      "bytes": 897,
+      "path": "monic-four-general/STATUS.json",
+      "sha256": "761b82c6bac38ce394ddebf7824bb932870d0d5e84e12f836b2ca491500f5238"
+    },
+    {
+      "bytes": 1862,
+      "path": "monic-four-general/check_boundaries.py",
+      "sha256": "9b16496782de7188f9018b5f501c100b53969f754bf2aca6c4d112e4717a2417"
+    },
+    {
+      "bytes": 11718,
+      "path": "monic-four-general/check_proof.py",
+      "sha256": "7223fdb80eff243fd27e5076620101ae626d1442598bf99410305f2e420dfb80"
+    },
+    {
+      "bytes": 8798,
+      "path": "monic-four-general/independent/AUDIT.md",
+      "sha256": "f5e8cf5d26bc6e8266aed3f733c154468ae80a6e687922bdb18d4ecba199de2e"
+    },
+    {
+      "bytes": 446,
+      "path": "monic-four-general/independent/REPRODUCE.txt",
+      "sha256": "fcc28e7fe617ee36a374638099c801053af4f76233d629a5ce72a4f52af08405"
+    },
+    {
+      "bytes": 2181,
+      "path": "monic-four-general/independent/SHA256.json",
+      "sha256": "6db43d941d4389fc24c02aeabc4951790cb91cc91e08ef486bb9773d3821255d"
+    },
+    {
+      "bytes": 5183,
+      "path": "monic-four-general/independent/audit_dependencies.py",
+      "sha256": "b3c96666a1fbd997b5b9dc42b7e1089c8fa07ab1cfea7bf977b85d9a017d5991"
+    },
+    {
+      "bytes": 3700,
+      "path": "monic-four-general/independent/audit_identities.py",
+      "sha256": "6eb6a4cf548e397fbb4c537c694eb5ad375ce518069524a3dd509a3839a3070a"
+    },
+    {
+      "bytes": 1115,
+      "path": "monic-four-general/independent/coefficients.py",
+      "sha256": "bc2c58c0cc2b757ef697c8da5c21a57d7d99fd4c26bb6c57e88f9542a85d8138"
+    },
+    {
+      "bytes": 3053,
+      "path": "monic-four-general/independent/enumerate_orbits.py",
+      "sha256": "1c43d7b7d64f6207ae2b3ba42959c653fe7914561cbbd6efadd7ab4be107a603"
+    },
+    {
+      "bytes": 590,
+      "path": "monic-four-general/independent/portability.json",
+      "sha256": "9c19100d709d41dc266ae5fe8915e3f1d856f6cf8a52c3395b86ed7956f86c5f"
+    },
+    {
+      "bytes": 1681,
+      "path": "monic-four-general/independent/run_audit.py",
+      "sha256": "79996a1239d4b5e580cd4ca8eb7fd214bdba2a1406472873e17f9bd53d010693"
+    },
+    {
+      "bytes": 2648,
+      "path": "monic-four-general/independent/verification_runs.json",
+      "sha256": "217b2299009a5f7168486c68a78fd56197dc3093b029e3646b16514f0c3530e6"
+    },
+    {
+      "bytes": 51,
+      "path": "requirements-general-four-20261018.txt",
+      "sha256": "5994ae7dd528b3dca5b6429897d195d9be199a04524f320cf659531d40dfdd76"
+    },
+    {
+      "bytes": 7906,
+      "path": "verify-general-four-20261018.py",
+      "sha256": "41060fc22a92fd1a5f625961f7ff47dec634ea29bef184c676d4f29bfe2fdb09"
+    }
+  ],
+  "note": "The verification receipt is derived output; the outer local manifest hashes every ZIP entry.",
+  "self_exclusions": [
+    "manifest-general-four-20261018.json",
+    "verification-general-four-20261018.json"
+  ]
+}
