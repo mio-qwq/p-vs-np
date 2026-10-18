@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "checks": 69,
+  "names": [
+    "pair C6 under prior necessary relations",
+    "full C6 under prior necessary relations",
+    "pair C7 under prior necessary relations",
+    "full C7 under prior necessary relations",
+    "pair C8 under prior necessary relations",
+    "full C8 under prior necessary relations",
+    "pair C9 under prior necessary relations",
+    "full C9 under prior necessary relations",
+    "pair C11 under prior necessary relations",
+    "full C11 under prior necessary relations",
+    "pair C10",
+    "full C10",
+    "complement C10",
+    "pair C12",
+    "full C12",
+    "complement C12",
+    "pair elimination without denominators",
+    "complement elimination without denominators",
+    "pair resultant",
+    "complement resultant",
+    "pair T discriminant",
+    "pair positivity beyond d=23",
+    "pair positivity certificate coefficients",
+    "complement solve C10",
+    "complement T above lower endpoint",
+    "complement lower endpoint sign",
+    "complement lower endpoint second factor positive",
+    "complement C0 positive beyond d=25",
+    "complement C0 certificate coefficients",
+    "integer-positive-root product bound",
+    "product bound positive beyond d=25",
+    "complement C(M) negative beyond d=25",
+    "complement C(M) certificate coefficients",
+    "pair d=1 remains quadratic",
+    "pair d=1 negative or nonsquare discriminant",
+    "pair d=5 remains quadratic",
+    "pair d=5 negative or nonsquare discriminant",
+    "pair d=9 remains quadratic",
+    "pair d=9 negative or nonsquare discriminant",
+    "pair d=13 remains quadratic",
+    "pair d=13 negative or nonsquare discriminant",
+    "pair d=17 remains quadratic",
+    "pair d=17 negative or nonsquare discriminant",
+    "pair d=21 remains quadratic",
+    "pair d=21 negative or nonsquare discriminant",
+    "complement d=1 remains quadratic",
+    "complement d=1 negative or nonsquare discriminant",
+    "complement d=3 remains quadratic",
+    "complement d=3 negative or nonsquare discriminant",
+    "complement d=5 remains quadratic",
+    "complement d=5 negative or nonsquare discriminant",
+    "complement d=7 remains quadratic",
+    "complement d=7 negative or nonsquare discriminant",
+    "complement d=9 remains quadratic",
+    "complement d=9 negative or nonsquare discriminant",
+    "complement d=11 remains quadratic",
+    "complement d=11 negative or nonsquare discriminant",
+    "complement d=13 remains quadratic",
+    "complement d=13 negative or nonsquare discriminant",
+    "complement d=15 remains quadratic",
+    "complement d=15 negative or nonsquare discriminant",
+    "complement d=17 remains quadratic",
+    "complement d=17 negative or nonsquare discriminant",
+    "complement d=19 remains quadratic",
+    "complement d=19 negative or nonsquare discriminant",
+    "complement d=21 remains quadratic",
+    "complement d=21 negative or nonsquare discriminant",
+    "complement d=23 remains quadratic",
+    "complement d=23 negative or nonsquare discriminant"
+  ],
+  "method": "exact quotient-ring C12, polynomial identities, positivity certificates and bounded integer discriminants",
+  "sympy": "1.14.0",
+  "optimized": false,
+  "discriminant_tables": {
+    "pair": [
+      {
+        "d": 1,
+        "primitive_quadratic": "21*T**2 - 1580*T + 31200",
+        "discriminant": -124400,
+        "floor_sqrt": null
+      },
+      {
+        "d": 5,
+        "primitive_quadratic": "4*T**2 - 93*T - 180",
+        "discriminant": 11529,
+        "floor_sqrt": 107
+      },
+      {
+        "d": 9,
+        "primitive_quadratic": "159*T**2 + 16080*T + 96200",
+        "discriminant": 197383200,
+        "floor_sqrt": 14049
+      },
+      {
+        "d": 13,
+        "primitive_quadratic": "14*T**2 + 4335*T + 171900",
+        "discriminant": 9165825,
+        "floor_sqrt": 3027
+      },
+      {
+        "d": 17,
+        "primitive_quadratic": "9*T**2 + 5860*T + 358800",
+        "discriminant": 21422800,
+        "floor_sqrt": 4628
+      },
+      {
+        "d": 21,
+        "primitive_quadratic": "24*T**2 + 41055*T - 1526500",
+        "discriminant": 1832057025,
+        "floor_sqrt": 42802
+      }
+    ],
+    "complement": [
+      {
+        "d": 1,
+        "primitive_quadratic": "329*T**2 - 13920*T - 499200",
+        "discriminant": 850713600,
+        "floor_sqrt": 29166
+      },
+      {
+        "d": 3,
+        "primitive_quadratic": "1207*T**2 - 46020*T - 1266400",
+        "discriminant": 8232019600,
+        "floor_sqrt": 90730
+      },
+      {
+        "d": 5,
+        "primitive_quadratic": "11*T**2 - 387*T + 1080",
+        "discriminant": 102249,
+        "floor_sqrt": 319
+      },
+      {
+        "d": 7,
+        "primitive_quadratic": "107*T**2 + 10080*T - 432000",
+        "discriminant": 286502400,
+        "floor_sqrt": 16926
+      },
+      {
+        "d": 9,
+        "primitive_quadratic": "193*T**2 + 8160*T + 118400",
+        "discriminant": -24819200,
+        "floor_sqrt": null
+      },
+      {
+        "d": 11,
+        "primitive_quadratic": "437*T**2 + 29790*T + 853200",
+        "discriminant": -603949500,
+        "floor_sqrt": null
+      },
+      {
+        "d": 13,
+        "primitive_quadratic": "1421*T**2 + 148140*T + 4125600",
+        "discriminant": -1504450800,
+        "floor_sqrt": null
+      },
+      {
+        "d": 15,
+        "primitive_quadratic": "2471*T**2 + 365088*T + 8308480",
+        "discriminant": 51168231424,
+        "floor_sqrt": 226203
+      },
+      {
+        "d": 17,
+        "primitive_quadratic": "143*T**2 + 28320*T + 441600",
+        "discriminant": 549427200,
+        "floor_sqrt": 23439
+      },
+      {
+        "d": 19,
+        "primitive_quadratic": "401*T**2 + 102220*T + 714400",
+        "discriminant": 9303030800,
+        "floor_sqrt": 96452
+      },
+      {
+        "d": 21,
+        "primitive_quadratic": "6781*T**2 + 2158170*T - 6106000",
+        "discriminant": 4823316892900,
+        "floor_sqrt": 2196205
+      },
+      {
+        "d": 23,
+        "primitive_quadratic": "11047*T**2 + 4286880*T - 59011200",
+        "discriminant": 20984927040000,
+        "floor_sqrt": 4580930
+      }
+    ]
+  }
+}

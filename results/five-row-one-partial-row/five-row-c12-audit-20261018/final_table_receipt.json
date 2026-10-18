@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "branch": "pair",
+      "d": 1
+    },
+    {
+      "branch": "pair",
+      "d": 5
+    },
+    {
+      "branch": "pair",
+      "d": 9
+    },
+    {
+      "branch": "pair",
+      "d": 13
+    },
+    {
+      "branch": "pair",
+      "d": 17
+    },
+    {
+      "branch": "pair",
+      "d": 21
+    },
+    {
+      "branch": "complement",
+      "d": 1
+    },
+    {
+      "branch": "complement",
+      "d": 3
+    },
+    {
+      "branch": "complement",
+      "d": 5
+    },
+    {
+      "branch": "complement",
+      "d": 7
+    },
+    {
+      "branch": "complement",
+      "d": 9
+    },
+    {
+      "branch": "complement",
+      "d": 11
+    },
+    {
+      "branch": "complement",
+      "d": 13
+    },
+    {
+      "branch": "complement",
+      "d": 15
+    },
+    {
+      "branch": "complement",
+      "d": 17
+    },
+    {
+      "branch": "complement",
+      "d": 19
+    },
+    {
+      "branch": "complement",
+      "d": 21
+    },
+    {
+      "branch": "complement",
+      "d": 23
+    }
+  ]
+}
