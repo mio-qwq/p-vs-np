@@ -1,0 +1,11 @@
+{
+  "args": [
+    "--certificate",
+    "{certificate}",
+    "--output-dir",
+    "{audit_output}"
+  ],
+  "dependency": "sympy==1.14.0",
+  "original_frozen_source_pin_mode": "Optional --source-dir pins original inputs, not editorial publication copies. Publication-source integrity is enforced by manifest-gapped-20261018.json.",
+  "script": "independent_verify.py"
+}

@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "exact_certificate.json": {
+      "bytes": 285905,
+      "generator": "python3 check_tail_gap.py --write PATH",
+      "matches_original_frozen_bytes": true,
+      "sha256": "e4ec005ccd471665c9f7b81ef3116eaf3fa8f1c2b719413583af1e9b67185a78"
+    },
+    "independent_results.json": {
+      "description": "Expanded independent proof witnesses are regenerated in temporary storage and omitted. Runtime elapsed_seconds varies.",
+      "generator": "python3 independent_verify.py --certificate PATH --output-dir TEMP_DIR",
+      "original_audit_output_bytes": 396964,
+      "original_audit_output_sha256": "21c1f7694b80382ba57a98b4f9f23bfdcbed5f6a9b2de319e27b3f10b9617e49",
+      "semantic_normalization": "Remove only elapsed_seconds; compact JSON with sorted keys and a final newline.",
+      "semantic_sha256_excluding_elapsed_seconds": "fbfab7dc1087e34c5b451178009d5725e5de87cba4da9e64f6ed622851b62a04"
+    }
+  },
+  "description": "Regenerable certificate omitted from source and archive; generated only in temporary storage during full reproduction."
+}

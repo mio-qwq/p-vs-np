@@ -1,0 +1,2 @@
+# Only the independent tail-gap audit requires this dependency.
+sympy==1.14.0

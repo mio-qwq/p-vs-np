@@ -1,0 +1,214 @@
+#!/usr/bin/env python3
+"""Exact finite certificate for every 4x4 binary mask and exponents (0,1,2,m),
+4 <= m <= 11. Full symbolic offset polynomials, no sampling or floating point.
+
+The bivariate and univariate arithmetic is adapted from the previously audited
+consecutive-exponent checker; this checker recomputes each determinant rather
+than importing results or code from another package. All checks remain active
+with Python -O. The infinite range m >= 12 is proved in REPORT.md by Hermite
+interpolation, not by finite computation.
+"""
+from fractions import Fraction as F
+from itertools import permutations, combinations_with_replacement
+from math import comb
+from collections import Counter
+from pathlib import Path
+import json
+import argparse
+
+def require(condition, message):
+ if not condition: raise ValueError(message)
+
+# Sparse rational polynomials in b,c, exponent-pair keys.
+def clean(p): return {k:F(v) for k,v in p.items() if v}
+def add(p,q):
+ r=dict(p)
+ for k,v in q.items():r[k]=r.get(k,0)+v
+ return clean(r)
+def scale(p,s):return clean({k:v*s for k,v in p.items()})
+def mul(p,q):
+ r={}
+ for (i,j),v in p.items():
+  for (k,l),w in q.items():r[i+k,j+l]=r.get((i+k,j+l),0)+v*w
+ return clean(r)
+def divrem(p,q):
+ require(bool(q), "division by zero")
+ work=dict(p);out={};rem={};qkey=max(q);qval=q[qkey]
+ while work:
+  key=max(work);val=work[key]
+  if all(key[i]>=qkey[i] for i in (0,1)):
+   k=(key[0]-qkey[0],key[1]-qkey[1]);v=val/qval
+   out[k]=out.get(k,0)+v
+   work=add(work,scale(mul({k:F(1)},q),-v))
+  else:
+   rem[key]=val;del work[key]
+ return clean(out),clean(rem)
+ONE={(0,0):F(1)};B={(1,0):F(1)};C={(0,1):F(1)}
+FACTORS=[B,C,add(B,scale(ONE,-1)),add(C,scale(ONE,-1)),add(C,scale(B,-1))]
+D=ONE
+for f in FACTORS:D=mul(D,f)
+def strip(p):
+ q=p
+ for factor in FACTORS:
+  while q:
+   quotient,remainder=divrem(q,factor)
+   if remainder:break
+   q=quotient
+ return q
+
+# Dense rational univariate polynomials, lowest degree first.
+def trim(p):
+ p=list(map(F,p))
+ while p and p[-1]==0:p.pop()
+ return tuple(p)
+def uadd(p,q):return trim([(p[i] if i<len(p) else 0)+(q[i] if i<len(q) else 0) for i in range(max(len(p),len(q)))])
+def umul(p,q):
+ if not p or not q:return ()
+ r=[F(0)]*(len(p)+len(q)-1)
+ for i,a in enumerate(p):
+  for j,b in enumerate(q):r[i+j]+=a*b
+ return trim(r)
+def upow(p,n):
+ r=(F(1),)
+ for _ in range(n):r=umul(r,p)
+ return r
+def udivrem(p,q):
+ require(bool(q), "division by zero")
+ p=list(p);out=[F(0)]*max(0,len(p)-len(q)+1)
+ while p and len(p)>=len(q):
+  k=len(p)-len(q);v=p[-1]/q[-1];out[k]+=v
+  for i,w in enumerate(q):p[k+i]-=v*w
+  p=list(trim(p))
+ return trim(out),trim(p)
+def ugcd(p,q):
+ while q:p,q=q,udivrem(p,q)[1]
+ return trim([v/p[-1] for v in p]) if p else ()
+def substitute(p,b,c):
+ out=()
+ for (i,j),v in p.items():out=uadd(out,tuple(v*a for a in umul(upow(b,i),upow(c,j))))
+ return out
+
+def sign(p):return (-1)**sum(p[i]>p[j] for i in range(4) for j in range(i+1,4))
+PERMS=list(permutations(range(4)))
+def matchings(rows):return [p for p in PERMS if all(rows[i]>>p[i]&1 for i in range(4))]
+def connected_allowed(ps):
+ adj=[set() for _ in range(8)]
+ for p in ps:
+  for i,j in enumerate(p):adj[i].add(j+4);adj[j+4].add(i)
+ seen={0};stack=[0]
+ while stack:
+  for v in adj[stack.pop()]-seen:seen.add(v);stack.append(v)
+ return len(seen)==8
+
+# Coefficient array in x, each entry a b,c polynomial.
+def shifted_power(row,e):
+ out=[]
+ for xdegree in range(e+1):
+  shiftdegree=e-xdegree;coef=F(comb(e,xdegree))
+  if row==0: p=ONE if shiftdegree==0 else {}
+  elif row==1:p=ONE
+  elif row==2:p={(shiftdegree,0):F(1)}
+  else:p={(0,shiftdegree):F(1)}
+  out.append(scale(p,coef))
+ return out
+def xmul(p,q):
+ out=[{} for _ in range(len(p)+len(q)-1)]
+ for i,a in enumerate(p):
+  for j,b in enumerate(q):out[i+j]=add(out[i+j],mul(a,b))
+ return out
+
+def dump_poly(p):return [[i,j,str(v)] for (i,j),v in sorted(p.items())]
+def dump_u(p):return [str(v) for v in p]
+
+def prove_exponent(m):
+ exponents=(0,1,2,m);total=sum(exponents)
+ terms={}
+ for p in PERMS:
+  coefficients=[scale(ONE,sign(p))]
+  for i,j in enumerate(p):coefficients=xmul(coefficients,shifted_power(i,exponents[j]))
+  require(len(coefficients)==total+1, "wrong total degree")
+  terms[p]=coefficients
+ counts=Counter();certificates=[]
+ for rows in combinations_with_replacement(range(1,16),4):
+  counts['nonzero_row_multisets']+=1
+  ps=matchings(rows)
+  if not ps:counts['no_perfect_matching']+=1;continue
+  counts['with_perfect_matching']+=1
+  if sum(sign(p) for p in ps):counts['nonzero_top_coefficient']+=1;continue
+  counts['singular_support']+=1
+  if not connected_allowed(ps):counts['decomposes_into_orders_at_most_three']+=1;continue
+  counts['connected_singular_support']+=1
+  coeffs=[{} for _ in range(total+1)]
+  for p in ps:
+   for j,a in enumerate(terms[p]):coeffs[j]=add(coeffs[j],a)
+  stripped=[strip(p) for p in coeffs]
+  simple=[j for j,p in enumerate(stripped) if p and set(p)=={(0,0)}]
+  cert={'rows':list(rows),'matching_count':len(ps)}
+  if simple:
+   counts['distinctness_factor_coefficient']+=1
+   j=simple[-1]
+   cert.update(kind='direct',coefficient_degree=j,
+     coefficient=dump_poly(coeffs[j]),stripped_constant=str(stripped[j][0,0]))
+  else:
+   require(any(stripped),f"zero determinant: m={m}, rows={rows}")
+   j=max(j for j,p in enumerate(stripped) if p)
+   L=stripped[j]
+   require(all(i+k<=1 for i,k in L), f"nonlinear leading coefficient: {m}, {rows}")
+   l0=L.get((0,0),0);lb=L.get((1,0),0);lc=L.get((0,1),0)
+   if lc:
+    b=(F(0),F(1));c=trim((-l0/lc,-lb/lc))
+   else:
+    require(bool(lb),f"constant reached line branch: {m}, {rows}")
+    b=trim((-l0/lb,));c=(F(0),F(1))
+   require(not substitute(L,b,c), "line parametrization does not solve L")
+   polys=[substitute(p,b,c) for p in stripped]
+   g=()
+   for p in polys:g=ugcd(g,p)
+   require(bool(g),f"identically zero after relation: {m}, {rows}")
+   d=substitute(D,b,c)
+   require(bool(d),f"line forces repeated offsets: {m}, {rows}")
+   residue=g;removed=[]
+   while len(residue)>1:
+    common=ugcd(residue,d)
+    if len(common)<=1:break
+    residue,rem=udivrem(residue,common)
+    require(not rem,"gcd removal has remainder")
+    removed.append(dump_u(common))
+   require(len(residue)==1,f"unresolved coefficient gcd: {m}, {rows}, {residue}")
+   counts['linear_reduction_distinctness_obstruction']+=1
+   cert.update(kind='linear_reduction',coefficient_degree=j,
+    leading_stripped=dump_poly(L),b_of_t=dump_u(b),c_of_t=dump_u(c),
+    reduced_gcd=dump_u(g),distinctness_polynomial=dump_u(d),
+    removed_distinctness_gcds=removed,final_constant=str(residue[0]))
+  certificates.append(cert)
+ expected={'nonzero_row_multisets':3060,'no_perfect_matching':1062,
+  'with_perfect_matching':1998,'nonzero_top_coefficient':940,
+  'singular_support':1058,'decomposes_into_orders_at_most_three':851,
+  'connected_singular_support':207,
+  'distinctness_factor_coefficient':171 if m==4 else 173,
+  'linear_reduction_distinctness_obstruction':36 if m==4 else 34}
+ require(dict(counts)==expected,f"class count mismatch at m={m}")
+ require(len(certificates)==207,"wrong certificate length")
+ return {'exponents':list(exponents),'counts':dict(counts),'certificates':certificates}
+
+def main():
+ parser=argparse.ArgumentParser(description=__doc__)
+ parser.add_argument('--write',metavar='PATH',help='write the recomputed certificate')
+ parser.add_argument('--check',metavar='PATH',help='compare a saved certificate against the full recomputation')
+ args=parser.parse_args()
+ result={'scope':'All binary 4x4 masks with a perfect matching, distinct complex offsets, exponents (0,1,2,m) for 4 <= m <= 11.',
+  'arithmetic':'Python standard library integers and fractions.Fraction only; exact symbolic coefficients; no parameter samples.',
+  'cases':[prove_exponent(m) for m in range(4,12)]}
+ if args.check:
+  saved=json.loads(Path(args.check).read_text())
+  require(saved==result,'certificate mismatch')
+ if args.write:Path(args.write).write_text(json.dumps(result,separators=(',',':'))+'\n')
+ for case in result['cases']:
+  co=case['counts'];m=case['exponents'][-1]
+  print(f"m={m}: 207 connected singular classes; "
+    f"{co['distinctness_factor_coefficient']} direct and "
+    f"{co['linear_reduction_distinctness_obstruction']} line-reduction distinctness obstructions.")
+ print('PASS: all 1,656 finite symbolic cases proved over the complex numbers.')
+ if args.check:print('PASS: saved certificate matches the complete recomputation.')
+
+if __name__=='__main__':main()

@@ -1,0 +1,113 @@
+{
+  "dependencies": {
+    "independent_tail_audit": "sympy==1.14.0",
+    "primary_checkers": "standard library",
+    "python": "3.10+"
+  },
+  "files": [
+    {
+      "bytes": 3177,
+      "path": "README-gapped-20261018.md",
+      "sha256": "65830ef8c526ba19ae0bd7fba543d82bc3d6aa4e741236df2cc1767be6c01a72"
+    },
+    {
+      "bytes": 136,
+      "path": "monic-four-gapped/.gitignore",
+      "sha256": "7282781f7078b014db08d152c2d8c2213bc88745aab3672bdf38903f04c80ef3"
+    },
+    {
+      "bytes": 13365,
+      "path": "monic-four-gapped/AUDIT.md",
+      "sha256": "e9455b9cadce9cd9652ff6e928b9d70a35617c8e3954a50d472e75ba49a72d4d"
+    },
+    {
+      "bytes": 366,
+      "path": "monic-four-gapped/AUDIT_CONFIG.json",
+      "sha256": "c2c0252e4ee1104391188170eac532fcf426131d502984cbbc667542c949961d"
+    },
+    {
+      "bytes": 1075,
+      "path": "monic-four-gapped/GENERATED.json",
+      "sha256": "0fbcdf64f83919ae4e31eea41785b1d1d6f88608dd4afabbea6dc7b2fef45fe6"
+    },
+    {
+      "bytes": 4585,
+      "path": "monic-four-gapped/PROVENANCE.json",
+      "sha256": "d55c087b8266968c8a12c9d851563b6f760a1af809440b06cf91b8035d32edc7"
+    },
+    {
+      "bytes": 11415,
+      "path": "monic-four-gapped/REPORT.md",
+      "sha256": "a24566dc684403e5969ea241a709774be4abcd7536fa1e1c6c53be4073b05354"
+    },
+    {
+      "bytes": 4228,
+      "path": "monic-four-gapped/check_negative_controls.py",
+      "sha256": "429bd8ebf9be0a4646318be39a667006e96ab5e8e057f6a34779f7799305a01e"
+    },
+    {
+      "bytes": 834,
+      "path": "monic-four-gapped/check_symbolic_identities.py",
+      "sha256": "6cb0f55d4bc41f1efc018c791428707308c62f1fcc5c3e7eda324fda9f916bc9"
+    },
+    {
+      "bytes": 8435,
+      "path": "monic-four-gapped/check_tail_gap.py",
+      "sha256": "4b4f841b3a9796072612b6645bc2bae0d86ee32e47dceb34e78b59ae8987b0d9"
+    },
+    {
+      "bytes": 14399,
+      "path": "monic-four-gapped/independent_verify.py",
+      "sha256": "521ad5e0870f5a63b771d303be4e901f8c45f4430d485de4f9338e3196119e00"
+    },
+    {
+      "bytes": 19,
+      "path": "monic-one-partial-row/.gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "bytes": 5827,
+      "path": "monic-one-partial-row/AUDIT.md",
+      "sha256": "7516b97694794be322121e1a30bc7bae9d55d575d1634cbe2ceb6e737a8dfda0"
+    },
+    {
+      "bytes": 2240,
+      "path": "monic-one-partial-row/PROVENANCE.json",
+      "sha256": "55624f244534c3d3c305fa39fe906cbae79987a2347f2e8f02b961a2b0e775eb"
+    },
+    {
+      "bytes": 3906,
+      "path": "monic-one-partial-row/README.md",
+      "sha256": "4e2f1e1a29ac36333a8bd0b04554f6c555c6faca7b5f391f97a61d60cca7ff40"
+    },
+    {
+      "bytes": 3755,
+      "path": "monic-one-partial-row/check_negative_controls.py",
+      "sha256": "2cecabd33b3ce1f8f729eefccdb335f95f0dfaa794fbbd13556999031704dea3"
+    },
+    {
+      "bytes": 6390,
+      "path": "monic-one-partial-row/verify_identities.py",
+      "sha256": "a2ab3bffd892a03d4b5d6feca4e0b709e38544e601a37e0bc104c1e1198333d8"
+    },
+    {
+      "bytes": 78,
+      "path": "requirements-gapped-20261018.txt",
+      "sha256": "09a9a499299e7bd0fabaf49e092ef56ed2cea050f06fb0dba90f63d027ade1f4"
+    },
+    {
+      "bytes": 2734,
+      "path": "verification-gapped-20261018.json",
+      "sha256": "acf6edbdb26e3740c1ff25af2e26e3bed1f695e0e4a5568b46b4001496578faa"
+    },
+    {
+      "bytes": 10770,
+      "path": "verify-gapped-20261018.py",
+      "sha256": "acd58a8773e154b244118ce166eda3ed432ea4695cf175db32eff57097e163d8"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "packaging": "Compact extension sources only; previous result paths remain untouched.",
+  "release_date_utc": "2026-10-18",
+  "self_exclusion": "This manifest does not hash itself."
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+exact_certificate.json
+corrupt_certificate.json
+independent_results.json
+corrupt_witness.json
+empty_certificate.json
