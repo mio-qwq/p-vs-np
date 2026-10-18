@@ -1,0 +1,4 @@
+PASS: incrementing costs[0] by one is rejected in normal and optimized execution.
+Both processes exit with code 1 and report:
+ValueError: Integer matrix fails to realize the stated exact layer
+The altered certificate is generated only in temporary storage by verify.py.

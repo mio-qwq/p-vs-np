@@ -1,0 +1,53 @@
+{
+  "binary_matrices_checked": 65536,
+  "binary_matrices_constant_on_family": 174,
+  "distinct_binary_layers_containing_family": 14,
+  "family_size": 7,
+  "integer_weights": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    2,
+    1,
+    0,
+    2,
+    1,
+    1,
+    2,
+    0
+  ],
+  "layer_size_histogram": {
+    "8": 4,
+    "10": 12,
+    "11": 6,
+    "12": 12,
+    "13": 10,
+    "14": 60,
+    "16": 40,
+    "24": 30
+  },
+  "minimum_additional_matchings": 1,
+  "n": 4,
+  "normal_form_parameters": 3,
+  "normal_form_rank": 6,
+  "optimization": 1,
+  "polynomial_coefficients_low_to_high": [
+    42,
+    86,
+    130,
+    129,
+    64,
+    14,
+    1
+  ],
+  "positive_controls": "PASS",
+  "six_leak_identities_verified": true,
+  "status": "PASS",
+  "target": 4,
+  "union_edges": 16
+}

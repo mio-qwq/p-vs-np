@@ -1,0 +1,111 @@
+{
+  "date_utc": "2026-10-18",
+  "excluded_claims": [
+    "historical novelty",
+    "human peer review",
+    "Lean or other proof-assistant verification",
+    "ASNC counterexample",
+    "general ASNC nonvanishing",
+    "P versus NP separation"
+  ],
+  "expected_base_commit": "94d094d82d14e15729cac0b478d0d6f1bec33de9",
+  "mathematical_status": "Structural proofs with exact standard-library checks; AI-assisted review; no human peer-review or proof-assistant claim.",
+  "publication_edits": [
+    "The mathematical theorem and proof sections of the affine and support reports are preserved; references and artifact descriptions are adapted to the package.",
+    "The affine certificate retains costs, target, and permutations; nonessential discovery metadata is omitted.",
+    "The three mathematical checkers and affine frozen outputs are copied byte-for-byte.",
+    "The extremal proof is preserved with a descriptive title and frozen dependency link.",
+    "The cross-review is rendered in research prose; the obsolete support-certificate digest is superseded by fresh verification.",
+    "No broader ASNC search, unavailable source-family reconstruction, or downloaded executable is included.",
+    "The affine proof review retains its equations and scope while replacing execution-role wording with an explicit AI-assisted-review description."
+  ],
+  "repository": "mio-qwq/p-vs-np",
+  "source_hash_validation": "PASS",
+  "sources": [
+    {
+      "bytes": 12073,
+      "sha256": "4b3bc7e4e84369ce094ecf830a1d55633aefdefe52924be22f6dc356a5294a7b",
+      "source": "affine-layer-audit-20261018/REPORT.md"
+    },
+    {
+      "bytes": 579,
+      "sha256": "75f740b4e04896bdd46e4699c7db1f0b18916a359f9beed6088697038c030bab",
+      "source": "affine-layer-audit-20261018/certificate.json"
+    },
+    {
+      "bytes": 5559,
+      "sha256": "7dfc38081ff73504f52037388a67707061c066e9f18fb10c2065c2ad530c120c",
+      "source": "affine-layer-audit-20261018/check.py"
+    },
+    {
+      "bytes": 789,
+      "sha256": "a0cf06135eeafaaa30dbb0924a1f22c5ccf72e2e8450c7812d73a9ae45ebb727",
+      "source": "affine-layer-audit-20261018/check-normal.json"
+    },
+    {
+      "bytes": 789,
+      "sha256": "8a1e744a8e778b5e33844dd75c98552cb1350728a5aa2f499b20b2f569cc9dd7",
+      "source": "affine-layer-audit-20261018/check-optimized.json"
+    },
+    {
+      "bytes": 551,
+      "sha256": "3842d804540e21e5597caeb0a28dc85a7c8fe61f99c757d62ffa328d98689f1f",
+      "source": "affine-layer-audit-20261018/negative-control.txt"
+    },
+    {
+      "bytes": 568,
+      "sha256": "2a9fe0d7b1e8c9d2b906cdac04ac2430a086a7def2845f9b446023c6c7771221",
+      "source": "affine-layer-audit-20261018/SHA256SUMS"
+    },
+    {
+      "bytes": 16206,
+      "sha256": "776b55d8a2bded1f09e75aec080efe38869c5aaad3ac9012397433ae26b6534a",
+      "source": "colored-support-audit-20261018/REPORT.md"
+    },
+    {
+      "bytes": 8524,
+      "sha256": "85b7f036da73dff997fa784e211d22c7802f01aa31e665fa132d9852cb911473",
+      "source": "colored-support-audit-20261018/check.py"
+    },
+    {
+      "bytes": 8290,
+      "sha256": "6037ae9402f627e9163f96850f5fb476edf28b15830975bced112f97a335b1b1",
+      "source": "colored-support-audit-20261018/results.json"
+    },
+    {
+      "bytes": 434,
+      "sha256": "517cf260e59776fd2079460699282d98cc61bdb560e0deaf651f7562126a5427",
+      "source": "colored-support-audit-20261018/verification.log"
+    },
+    {
+      "bytes": 313,
+      "sha256": "69fd0f6e51a3eb96bb3f90280aa82def3c1aa6f0e61d69fb6b4c7963367b38a5",
+      "source": "colored-support-audit-20261018/SHA256SUMS"
+    },
+    {
+      "bytes": 3268,
+      "sha256": "cfb0716d0506d14be5176ce177f232808d6a7fa47ec57a75148df8cbbe2dbe03",
+      "source": "extremal-color-transfer-root-20261018/RESULT.md"
+    },
+    {
+      "bytes": 2004,
+      "sha256": "8a7b43ae0bfb7539a538097cb5c8097b865c3500e94da9bc0d84820e0fcd6c64",
+      "source": "extremal-color-transfer-root-20261018/REVIEW.md"
+    },
+    {
+      "bytes": 858,
+      "sha256": "451d1ac4fe07431c990ee7b622d52e7d9829c54fd844fb10ace80a634b4ffe72",
+      "source": "extremal-color-transfer-root-20261018/check.py"
+    },
+    {
+      "bytes": 227,
+      "sha256": "d1978df5518804665dd63bc3ddbc4083e5b6e3a56b1005bdb83aa6911cd9b555",
+      "source": "extremal-color-transfer-root-20261018/SHA256SUMS"
+    },
+    {
+      "bytes": 1447,
+      "sha256": "e0624ad2d3b13e0f322a08364478654de5510abef80127a14e3eb7643bb7dc54",
+      "source": "affine-layer-root-20261018/ROOT_REVIEW.md"
+    }
+  ]
+}
