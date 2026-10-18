@@ -1,0 +1,695 @@
+{
+  "status": "PASS",
+  "method": "exact independent permutation and raw Laplace computations on five theorem examples and one singular-block boundary; no all-colorings search",
+  "cases": [
+    {
+      "name": "full_support_cubic_moment",
+      "row_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "column_exponents": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "red_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "targets": [
+        {
+          "target": 0,
+          "even": 213,
+          "odd": 213,
+          "support_edges": 33,
+          "degree": 12,
+          "leading_coefficient": -2,
+          "coefficients_low_to_high": [
+            0,
+            1439616,
+            4823088,
+            5964536,
+            3300316,
+            440158,
+            -471526,
+            -310494,
+            -91794,
+            -15494,
+            -1522,
+            -82,
+            -2
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -2
+          ]
+        },
+        {
+          "target": 1,
+          "even": 117,
+          "odd": 117,
+          "support_edges": 36,
+          "degree": 12,
+          "leading_coefficient": 6,
+          "coefficients_low_to_high": [
+            357120,
+            670656,
+            792384,
+            2620392,
+            5316288,
+            5522298,
+            3344370,
+            1267482,
+            308466,
+            47886,
+            4566,
+            246,
+            6
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "target": 2,
+          "even": 27,
+          "odd": 27,
+          "support_edges": 30,
+          "degree": 12,
+          "leading_coefficient": -6,
+          "coefficients_low_to_high": [
+            -2050560,
+            -9627072,
+            -20114832,
+            -25069752,
+            -20965524,
+            -12401358,
+            -5274162,
+            -1603482,
+            -341550,
+            -49290,
+            -4566,
+            -246,
+            -6
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -6
+          ]
+        },
+        {
+          "target": 3,
+          "even": 3,
+          "odd": 3,
+          "support_edges": 12,
+          "degree": 12,
+          "leading_coefficient": 2,
+          "coefficients_low_to_high": [
+            1728000,
+            7516800,
+            14499360,
+            16484824,
+            12348920,
+            6438902,
+            2401318,
+            646494,
+            124878,
+            16898,
+            1522,
+            82,
+            2
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "upper_interior_support_boundary",
+      "row_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "column_exponents": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "red_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "targets": [
+        {
+          "target": 0,
+          "even": 39,
+          "odd": 39,
+          "support_edges": 23,
+          "degree": 7,
+          "leading_coefficient": 2,
+          "coefficients_low_to_high": [
+            0,
+            -600,
+            500,
+            1640,
+            1094,
+            302,
+            38,
+            2
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "target": 1,
+          "even": 18,
+          "odd": 18,
+          "support_edges": 23,
+          "degree": 7,
+          "leading_coefficient": -4,
+          "coefficients_low_to_high": [
+            -864,
+            -3048,
+            -5212,
+            -4888,
+            -2392,
+            -604,
+            -76,
+            -4
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -4
+          ]
+        },
+        {
+          "target": 2,
+          "even": 3,
+          "odd": 3,
+          "support_edges": 11,
+          "degree": 7,
+          "leading_coefficient": 2,
+          "coefficients_low_to_high": [
+            1152,
+            3648,
+            4712,
+            3248,
+            1298,
+            302,
+            38,
+            2
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "irregular_offsets_gaps_nonprincipal_red_matching",
+      "row_offsets": [
+        -4,
+        0,
+        2,
+        7,
+        9
+      ],
+      "column_exponents": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "red_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "targets": [
+        {
+          "target": 0,
+          "even": 39,
+          "odd": 39,
+          "support_edges": 23,
+          "degree": 13,
+          "leading_coefficient": -3024,
+          "coefficients_low_to_high": [
+            -3355470074880,
+            228860392320,
+            3028150157760,
+            2327732233344,
+            847088996544,
+            146891394720,
+            7050407112,
+            -806259132,
+            50339520,
+            43278984,
+            5411448,
+            191268,
+            -28224,
+            -3024
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -3024
+          ]
+        },
+        {
+          "target": 1,
+          "even": 18,
+          "odd": 18,
+          "support_edges": 23,
+          "degree": 13,
+          "leading_coefficient": 6048,
+          "coefficients_low_to_high": [
+            1917028270080,
+            -510229923840,
+            -512457426432,
+            94211131392,
+            44612894592,
+            -6200671680,
+            131690160,
+            866736864,
+            20301120,
+            -40676328,
+            -7566048,
+            -382536,
+            56448,
+            6048
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            6048
+          ]
+        },
+        {
+          "target": 2,
+          "even": 3,
+          "odd": 3,
+          "support_edges": 11,
+          "degree": 13,
+          "leading_coefficient": -3024,
+          "coefficients_low_to_high": [
+            0,
+            39086530560,
+            40023631872,
+            -11826855936,
+            -12351419136,
+            1700485920,
+            1293569928,
+            -60477732,
+            -70640640,
+            -2602656,
+            2154600,
+            191268,
+            -28224,
+            -3024
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -3024
+          ]
+        }
+      ]
+    },
+    {
+      "name": "single_unmarked_vertex",
+      "row_offsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "column_exponents": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "red_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "targets": [
+        {
+          "target": 0,
+          "even": 5,
+          "odd": 6,
+          "support_edges": 13,
+          "degree": 6,
+          "leading_coefficient": -1,
+          "coefficients_low_to_high": [
+            0,
+            82,
+            207,
+            161,
+            43,
+            0,
+            -1
+          ],
+          "first_four_signed_coefficient_moments": [
+            -1,
+            0,
+            43,
+            161
+          ]
+        },
+        {
+          "target": 1,
+          "even": 6,
+          "odd": 3,
+          "support_edges": 16,
+          "degree": 6,
+          "leading_coefficient": 3,
+          "coefficients_low_to_high": [
+            -12,
+            -126,
+            -213,
+            -122,
+            -6,
+            14,
+            3
+          ],
+          "first_four_signed_coefficient_moments": [
+            3,
+            14,
+            -6,
+            -122
+          ]
+        },
+        {
+          "target": 2,
+          "even": 0,
+          "odd": 3,
+          "support_edges": 9,
+          "degree": 6,
+          "leading_coefficient": -3,
+          "coefficients_low_to_high": [
+            -84,
+            -280,
+            -381,
+            -277,
+            -117,
+            -28,
+            -3
+          ],
+          "first_four_signed_coefficient_moments": [
+            -3,
+            -28,
+            -117,
+            -277
+          ]
+        },
+        {
+          "target": 3,
+          "even": 1,
+          "odd": 0,
+          "support_edges": 4,
+          "degree": 6,
+          "leading_coefficient": 1,
+          "coefficients_low_to_high": [
+            108,
+            324,
+            387,
+            238,
+            80,
+            14,
+            1
+          ],
+          "first_four_signed_coefficient_moments": [
+            1,
+            14,
+            80,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "name": "overlapping_red_edges_nonsingular_block",
+      "row_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "column_exponents": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "red_edges": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "red_block_determinant": -2,
+      "targets": [
+        {
+          "target": 0,
+          "even": 102,
+          "odd": 102,
+          "support_edges": 30,
+          "degree": 12,
+          "leading_coefficient": 4,
+          "coefficients_low_to_high": [
+            0,
+            0,
+            -52224,
+            512792,
+            1822278,
+            2367752,
+            1643066,
+            684672,
+            178518,
+            29152,
+            2886,
+            160,
+            4
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "target": 1,
+          "even": 162,
+          "odd": 162,
+          "support_edges": 36,
+          "degree": 12,
+          "leading_coefficient": -12,
+          "coefficients_low_to_high": [
+            -1494720,
+            -6861600,
+            -14964432,
+            -20771796,
+            -20296266,
+            -14251956,
+            -7098294,
+            -2456364,
+            -577170,
+            -89292,
+            -8658,
+            -480,
+            -12
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -12
+          ]
+        },
+        {
+          "target": 2,
+          "even": 90,
+          "odd": 90,
+          "support_edges": 36,
+          "degree": 12,
+          "leading_coefficient": 12,
+          "coefficients_low_to_high": [
+            2393280,
+            12780000,
+            29718336,
+            40005216,
+            35147298,
+            21403248,
+            9267390,
+            2858712,
+            618786,
+            91128,
+            8658,
+            480,
+            12
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            12
+          ]
+        },
+        {
+          "target": 3,
+          "even": 6,
+          "odd": 6,
+          "support_edges": 15,
+          "degree": 12,
+          "leading_coefficient": -4,
+          "coefficients_low_to_high": [
+            -864000,
+            -5918400,
+            -14701680,
+            -19746212,
+            -16673310,
+            -9519044,
+            -3812162,
+            -1087020,
+            -220134,
+            -30988,
+            -2886,
+            -160,
+            -4
+          ],
+          "first_four_signed_coefficient_moments": [
+            0,
+            0,
+            0,
+            -4
+          ]
+        }
+      ]
+    }
+  ],
+  "singular_boundary": {
+    "name": "singular_block_hypothesis_boundary",
+    "red_edges": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "target": 1,
+    "degree": 4,
+    "leading_coefficient": -2,
+    "coefficients_low_to_high": [
+      -24,
+      -60,
+      -38,
+      -12,
+      -2
+    ]
+  }
+}

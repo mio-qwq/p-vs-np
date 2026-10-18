@@ -1,0 +1,227 @@
+{
+  "date_utc": "2026-10-18",
+  "document_policy": "Only the explicitly recorded internal-reference and spacing changes were made to source prose.",
+  "expected_base_commit": "69bf4596e885277fd60a3d597faebbfc0ec945b6",
+  "files": [
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Added spaces and explicit equals signs in prose examples; formatted a coefficient-extraction expression as inline code to avoid a spurious Markdown link; mathematical values and formulas unchanged."
+      ],
+      "packaged_bytes": 2853,
+      "packaged_path": "all-red-block/PROOF.md",
+      "packaged_sha256": "0575e561b93d6a844c252cce0ec81779957d0d88732aa559acc31480fd01da2d",
+      "source_bytes": 2802,
+      "source_directory": "red-matching-root-20261018",
+      "source_file": "SINGULAR_BLOCK_ADDENDUM.md",
+      "source_sha256": "25ccea5dc5075262ed78e7bb4babb0593c17dc86b2488e71b58445c0aa6c9669"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Replaced an absolute source-report reference and two artifact names with relative links."
+      ],
+      "packaged_bytes": 9955,
+      "packaged_path": "all-red-block/AUDIT.md",
+      "packaged_sha256": "bc5278558046cb752a2f8d4f4524ef93e25144ffe8db23e6fc30bcad6f82ab84",
+      "source_bytes": 9945,
+      "source_directory": "singular-red-block-audit-20261018",
+      "source_file": "REPORT.md",
+      "source_sha256": "8b7abf093b046db3af4b2038a8d49aaf04b1299a2f5a02d208a464810719af93"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 6367,
+      "packaged_path": "all-red-block/check.py",
+      "packaged_sha256": "212031580e0fd58c234185484e68f680e4bb0bae422c2fba8d43439b1c3d1cc3",
+      "source_bytes": 6367,
+      "source_directory": "singular-red-block-audit-20261018",
+      "source_file": "check.py",
+      "source_sha256": "212031580e0fd58c234185484e68f680e4bb0bae422c2fba8d43439b1c3d1cc3"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 21286,
+      "packaged_path": "all-red-block/results.json",
+      "packaged_sha256": "037aad78f67b163654786b83ce281ed9524ecf1f11a5bd8761aeeb3b1152ae4b",
+      "source_bytes": 21286,
+      "source_directory": "singular-red-block-audit-20261018",
+      "source_file": "results.json",
+      "source_sha256": "037aad78f67b163654786b83ce281ed9524ecf1f11a5bd8761aeeb3b1152ae4b"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 666,
+      "packaged_path": "all-red-block/check-output.txt",
+      "packaged_sha256": "cfc433f3b9f565bdd8e8a7a28a5aa117ef966f026dfbea1150244a48b5f53f0b",
+      "source_bytes": 666,
+      "source_directory": "singular-red-block-audit-20261018",
+      "source_file": "normal.log",
+      "source_sha256": "cfc433f3b9f565bdd8e8a7a28a5aa117ef966f026dfbea1150244a48b5f53f0b"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Turned four internal artifact names into relative links; mathematical text unchanged."
+      ],
+      "packaged_bytes": 13221,
+      "packaged_path": "binary-fiber/REPORT.md",
+      "packaged_sha256": "3155416db67121dbe6db5bee9837a4c9323bbfd12dfb08b0b572e222c84ebcfd",
+      "source_bytes": 13165,
+      "source_directory": "binary-fiber-invariant-20261018",
+      "source_file": "REPORT.md",
+      "source_sha256": "7a7caa58432f1be58fe655e19dd17c319011f34b7660dd2dfb584de853a570f1"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Replaced an absolute local report reference with a relative link."
+      ],
+      "packaged_bytes": 14475,
+      "packaged_path": "binary-fiber/AUDIT.md",
+      "packaged_sha256": "5e250c783b53225de852b2958819428f8f2ae2221fa9e23205f4c7126b577ba9",
+      "source_bytes": 14514,
+      "source_directory": "binary-fiber-invariant-20261018",
+      "source_file": "AUDIT.md",
+      "source_sha256": "68a43278c10513ad57f8ceb22deb3463e61739a13ad4e3e13244bb42e9811096"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 8693,
+      "packaged_path": "binary-fiber/check.py",
+      "packaged_sha256": "5f1ae6ac4c1fe5b794a9ab7398a280dc4053abe39b0712534ed205c98cee729c",
+      "source_bytes": 8693,
+      "source_directory": "binary-fiber-invariant-20261018",
+      "source_file": "check.py",
+      "source_sha256": "5f1ae6ac4c1fe5b794a9ab7398a280dc4053abe39b0712534ed205c98cee729c"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 13247,
+      "packaged_path": "binary-fiber/results.json",
+      "packaged_sha256": "d13285963f291d9d7bb446086f9b16c38cb8a51945243bf7b3d5b1ca749993c8",
+      "source_bytes": 13247,
+      "source_directory": "binary-fiber-invariant-20261018",
+      "source_file": "results.json",
+      "source_sha256": "d13285963f291d9d7bb446086f9b16c38cb8a51945243bf7b3d5b1ca749993c8"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 2118,
+      "packaged_path": "binary-fiber/root-crosscheck.json",
+      "packaged_sha256": "bc0e6f7d5418c2f5c384474575556f64e23e2eb18f6e46d6d4f032460eb3b44b",
+      "source_bytes": 2118,
+      "source_directory": "binary-fiber-invariant-20261018",
+      "source_file": "root-crosscheck.json",
+      "source_sha256": "bc0e6f7d5418c2f5c384474575556f64e23e2eb18f6e46d6d4f032460eb3b44b"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 398,
+      "packaged_path": "binary-fiber/check-output.txt",
+      "packaged_sha256": "1e47ba50778b9a4939f9148ba7a9c968e3905f4bd06a92050d8ccc22deadb92e",
+      "source_bytes": 398,
+      "source_directory": "binary-fiber-invariant-20261018",
+      "source_file": "normal.log",
+      "source_sha256": "1e47ba50778b9a4939f9148ba7a9c968e3905f4bd06a92050d8ccc22deadb92e"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 4831,
+      "packaged_path": "independent/PROOF.md",
+      "packaged_sha256": "e76af9360391b5b08c881513d8c6392d46c789b96a7a3fa8589f4f2f64a75ef6",
+      "source_bytes": 4831,
+      "source_directory": "red-matching-root-20261018",
+      "source_file": "PROOF.md",
+      "source_sha256": "e76af9360391b5b08c881513d8c6392d46c789b96a7a3fa8589f4f2f64a75ef6"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Made the internal report reference relative and added spaces in four prose expressions; mathematical values unchanged."
+      ],
+      "packaged_bytes": 2132,
+      "packaged_path": "independent/REVIEW.md",
+      "packaged_sha256": "e19dd7d40c0ff88be5975ad7afbd604f9aca17854794ec470c8a0dd8a1fa24e1",
+      "source_bytes": 2119,
+      "source_directory": "red-matching-root-20261018",
+      "source_file": "ROOT_REVIEW.md",
+      "source_sha256": "a8909c569e9ef2a0f8637cf36d4be248a2239d1c90f33d03cfc04e1b7c6e319f"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 2061,
+      "packaged_path": "independent/check.py",
+      "packaged_sha256": "93310f0cb8cc8bbbf0e4bfec709e4a5156d78b5a6f751a0380b41e4b53820bd6",
+      "source_bytes": 2061,
+      "source_directory": "red-matching-root-20261018",
+      "source_file": "check.py",
+      "source_sha256": "93310f0cb8cc8bbbf0e4bfec709e4a5156d78b5a6f751a0380b41e4b53820bd6"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 8334,
+      "packaged_path": "independent/results.json",
+      "packaged_sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a",
+      "source_bytes": 8334,
+      "source_directory": "red-matching-root-20261018",
+      "source_file": "check-normal.json",
+      "source_sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a"
+    }
+  ],
+  "limits": "AI-assisted derivation, proof review, and exact finite checks. No human peer-review, historical-novelty, proof-assistant, general ASNC, or P-versus-NP claim.",
+  "mathematical_checker_policy": "All three source check.py files are copied byte-for-byte, including all original checks and output behavior.",
+  "omitted_identical_outputs": [
+    {
+      "identical_to_packaged": "all-red-block/check-output.txt",
+      "omitted": "optimized.log",
+      "sha256": "cfc433f3b9f565bdd8e8a7a28a5aa117ef966f026dfbea1150244a48b5f53f0b",
+      "source_directory": "singular-red-block-audit-20261018"
+    },
+    {
+      "identical_to_packaged": "all-red-block/results.json",
+      "omitted": "optimized-results.json",
+      "sha256": "037aad78f67b163654786b83ce281ed9524ecf1f11a5bd8761aeeb3b1152ae4b",
+      "source_directory": "singular-red-block-audit-20261018"
+    },
+    {
+      "identical_to_packaged": "binary-fiber/check-output.txt",
+      "omitted": "optimized.log",
+      "sha256": "1e47ba50778b9a4939f9148ba7a9c968e3905f4bd06a92050d8ccc22deadb92e",
+      "source_directory": "binary-fiber-invariant-20261018"
+    },
+    {
+      "identical_to_packaged": "independent/results.json",
+      "omitted": "check-optimized.json",
+      "sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a",
+      "source_directory": "red-matching-root-20261018"
+    }
+  ],
+  "remote_writes": false,
+  "repository": "mio-qwq/p-vs-np",
+  "schema": "binary-red-block-provenance-v1",
+  "source_freeze_manifests": [
+    {
+      "all_entries_verified": true,
+      "filename": "SHA256SUMS",
+      "sha256": "eeec7d7218a24c5fcbbf9050cd5505e39f46cbb81a32e16e4a38d75cc5d0b594",
+      "source_directory": "binary-fiber-invariant-20261018"
+    },
+    {
+      "all_entries_verified": true,
+      "filename": "SHA256SUMS",
+      "sha256": "7f581ba8287d9a477a40af3997a4b825f622f0bc7233429b7e131a6a3384d967",
+      "source_directory": "singular-red-block-audit-20261018"
+    }
+  ]
+}

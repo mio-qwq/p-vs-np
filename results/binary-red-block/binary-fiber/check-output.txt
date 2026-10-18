@@ -1,0 +1,3 @@
+PASS: generalized formula, parity balance, exact support boundary, nonsingular red block, and independent coefficient equality on five theorem examples and one singular boundary.
+n=6, k=3, t=1: 117 even, 117 odd; full 36-edge support; degree 12; leading coefficient 6.
+P_1 coefficients low-to-high: [357120, 670656, 792384, 2620392, 5316288, 5522298, 3344370, 1267482, 308466, 47886, 4566, 246, 6]

@@ -1,0 +1,1123 @@
+{
+  "checks": "All exact checks passed",
+  "case_count": 8,
+  "target_count": 20,
+  "checker_sha256": "212031580e0fd58c234185484e68f680e4bb0bae422c2fba8d43439b1c3d1cc3",
+  "results": [
+    {
+      "name": "standard_4_by_4_red_2_block",
+      "n": 4,
+      "k": 2,
+      "a": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "e": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "I": [
+        0,
+        1
+      ],
+      "J": [
+        0,
+        1
+      ],
+      "predicted_degree": 4,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 4,
+          "leading_coefficient": "1",
+          "even_count": 2,
+          "odd_count": 2,
+          "coefficients_low_to_high": [
+            "0",
+            "0",
+            "1",
+            "2",
+            "1"
+          ]
+        },
+        {
+          "t": 1,
+          "degree": 4,
+          "leading_coefficient": "-2",
+          "even_count": 8,
+          "odd_count": 8,
+          "coefficients_low_to_high": [
+            "-24",
+            "-60",
+            "-38",
+            "-12",
+            "-2"
+          ]
+        },
+        {
+          "t": 2,
+          "degree": 4,
+          "leading_coefficient": "1",
+          "even_count": 2,
+          "odd_count": 2,
+          "coefficients_low_to_high": [
+            "36",
+            "60",
+            "37",
+            "10",
+            "1"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 0,
+          "leading_coefficient": "12"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 3,
+          "leading_coefficient": "2"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 3,
+          "leading_coefficient": "-6"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 3,
+          "leading_coefficient": "-6"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 3,
+          "leading_coefficient": "18"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            1
+          ],
+          "cols": [
+            0,
+            1
+          ],
+          "degree": 4,
+          "leading_coefficient": "1"
+        }
+      ]
+    },
+    {
+      "name": "odd_order_nonprincipal_gapped_exponents",
+      "n": 5,
+      "k": 2,
+      "a": [
+        "3",
+        "-2",
+        "5",
+        "0",
+        "7"
+      ],
+      "e": [
+        4,
+        0,
+        7,
+        1,
+        3
+      ],
+      "I": [
+        0,
+        3
+      ],
+      "J": [
+        1,
+        3
+      ],
+      "predicted_degree": 11,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 11,
+          "leading_coefficient": "2268",
+          "even_count": 18,
+          "odd_count": 18,
+          "coefficients_low_to_high": [
+            "0",
+            "0",
+            "0",
+            "385450002",
+            "731770200",
+            "598775814",
+            "275233140",
+            "77389830",
+            "13528620",
+            "1423926",
+            "83160",
+            "2268"
+          ]
+        },
+        {
+          "t": 1,
+          "degree": 11,
+          "leading_coefficient": "-4536",
+          "even_count": 36,
+          "odd_count": 36,
+          "coefficients_low_to_high": [
+            "9416055600",
+            "15262392600",
+            "13036498020",
+            "6848124696",
+            "1922065740",
+            "-46439568",
+            "-266021280",
+            "-109298700",
+            "-22861440",
+            "-2666412",
+            "-166320",
+            "-4536"
+          ]
+        },
+        {
+          "t": 2,
+          "degree": 11,
+          "leading_coefficient": "2268",
+          "even_count": 6,
+          "odd_count": 6,
+          "coefficients_low_to_high": [
+            "-11539206000",
+            "253751400",
+            "5757510780",
+            "1190230902",
+            "-920176740",
+            "-418977846",
+            "-9211860",
+            "31908870",
+            "9332820",
+            "1242486",
+            "83160",
+            "2268"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 5,
+          "leading_coefficient": "133358400"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 9,
+          "leading_coefficient": "317520"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            3
+          ],
+          "degree": 9,
+          "leading_coefficient": "-740880"
+        },
+        {
+          "s": 1,
+          "rows": [
+            3
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 9,
+          "leading_coefficient": "-181440"
+        },
+        {
+          "s": 1,
+          "rows": [
+            3
+          ],
+          "cols": [
+            3
+          ],
+          "degree": 9,
+          "leading_coefficient": "423360"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            3
+          ],
+          "cols": [
+            1,
+            3
+          ],
+          "degree": 11,
+          "leading_coefficient": "2268"
+        }
+      ]
+    },
+    {
+      "name": "standard_6_by_6_red_3_block",
+      "n": 6,
+      "k": 3,
+      "a": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "e": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "I": [
+        0,
+        1,
+        2
+      ],
+      "J": [
+        0,
+        1,
+        2
+      ],
+      "predicted_degree": 9,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 9,
+          "leading_coefficient": "-4",
+          "even_count": 18,
+          "odd_count": 18,
+          "coefficients_low_to_high": [
+            "0",
+            "0",
+            "0",
+            "-32",
+            "-144",
+            "-264",
+            "-252",
+            "-132",
+            "-36",
+            "-4"
+          ]
+        },
+        {
+          "t": 1,
+          "degree": 9,
+          "leading_coefficient": "12",
+          "even_count": 162,
+          "odd_count": 162,
+          "coefficients_low_to_high": [
+            "60480",
+            "298080",
+            "618480",
+            "639996",
+            "360144",
+            "115164",
+            "21672",
+            "2556",
+            "216",
+            "12"
+          ]
+        },
+        {
+          "t": 2,
+          "degree": 9,
+          "leading_coefficient": "-12",
+          "even_count": 162,
+          "odd_count": 162,
+          "coefficients_low_to_high": [
+            "-889920",
+            "-2328480",
+            "-2727360",
+            "-1910616",
+            "-849456",
+            "-239904",
+            "-42588",
+            "-4716",
+            "-324",
+            "-12"
+          ]
+        },
+        {
+          "t": 3,
+          "degree": 9,
+          "leading_coefficient": "4",
+          "even_count": 18,
+          "odd_count": 18,
+          "coefficients_low_to_high": [
+            "864000",
+            "2030400",
+            "2108880",
+            "1270652",
+            "489456",
+            "125004",
+            "21168",
+            "2292",
+            "144",
+            "4"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 0,
+          "leading_coefficient": "34560"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 5,
+          "leading_coefficient": "288"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 5,
+          "leading_coefficient": "-1440"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            2
+          ],
+          "degree": 5,
+          "leading_coefficient": "2880"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 5,
+          "leading_coefficient": "-1440"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 5,
+          "leading_coefficient": "7200"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            2
+          ],
+          "degree": 5,
+          "leading_coefficient": "-14400"
+        },
+        {
+          "s": 1,
+          "rows": [
+            2
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 5,
+          "leading_coefficient": "2880"
+        },
+        {
+          "s": 1,
+          "rows": [
+            2
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 5,
+          "leading_coefficient": "-14400"
+        },
+        {
+          "s": 1,
+          "rows": [
+            2
+          ],
+          "cols": [
+            2
+          ],
+          "degree": 5,
+          "leading_coefficient": "28800"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            1
+          ],
+          "cols": [
+            0,
+            1
+          ],
+          "degree": 8,
+          "leading_coefficient": "12"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            1
+          ],
+          "cols": [
+            0,
+            2
+          ],
+          "degree": 8,
+          "leading_coefficient": "-96"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            1
+          ],
+          "cols": [
+            1,
+            2
+          ],
+          "degree": 8,
+          "leading_coefficient": "120"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            2
+          ],
+          "cols": [
+            0,
+            1
+          ],
+          "degree": 8,
+          "leading_coefficient": "-96"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            2
+          ],
+          "cols": [
+            0,
+            2
+          ],
+          "degree": 8,
+          "leading_coefficient": "768"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            2
+          ],
+          "cols": [
+            1,
+            2
+          ],
+          "degree": 8,
+          "leading_coefficient": "-960"
+        },
+        {
+          "s": 2,
+          "rows": [
+            1,
+            2
+          ],
+          "cols": [
+            0,
+            1
+          ],
+          "degree": 8,
+          "leading_coefficient": "120"
+        },
+        {
+          "s": 2,
+          "rows": [
+            1,
+            2
+          ],
+          "cols": [
+            0,
+            2
+          ],
+          "degree": 8,
+          "leading_coefficient": "-960"
+        },
+        {
+          "s": 2,
+          "rows": [
+            1,
+            2
+          ],
+          "cols": [
+            1,
+            2
+          ],
+          "degree": 8,
+          "leading_coefficient": "1200"
+        },
+        {
+          "s": 3,
+          "rows": [
+            0,
+            1,
+            2
+          ],
+          "cols": [
+            0,
+            1,
+            2
+          ],
+          "degree": 9,
+          "leading_coefficient": "4"
+        }
+      ]
+    },
+    {
+      "name": "even_order_below_half_nonprincipal",
+      "n": 6,
+      "k": 2,
+      "a": [
+        "-3",
+        "2",
+        "7",
+        "0",
+        "5",
+        "-1"
+      ],
+      "e": [
+        6,
+        2,
+        0,
+        5,
+        1,
+        8
+      ],
+      "I": [
+        1,
+        5
+      ],
+      "J": [
+        0,
+        3
+      ],
+      "predicted_degree": 15,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 15,
+          "leading_coefficient": "-2822400",
+          "even_count": 144,
+          "odd_count": 144,
+          "coefficients_low_to_high": [
+            "110662593249600",
+            "43568397532800",
+            "-42205158072000",
+            "-18750862771200",
+            "9957324384000",
+            "7003320760800",
+            "-73395957600",
+            "-1670805460800",
+            "-823739011200",
+            "-299920572000",
+            "-87599080800",
+            "-17088624000",
+            "-2557094400",
+            "-390196800",
+            "-45864000",
+            "-2822400"
+          ]
+        },
+        {
+          "t": 1,
+          "degree": 15,
+          "leading_coefficient": "5644800",
+          "even_count": 192,
+          "odd_count": 192,
+          "coefficients_low_to_high": [
+            "-2997979387200",
+            "11579278435200",
+            "27775959019200",
+            "43040190009600",
+            "41144889240000",
+            "23068903435200",
+            "7318579161600",
+            "2272400323200",
+            "770057568000",
+            "281065176000",
+            "92144808000",
+            "22605408000",
+            "4535596800",
+            "780393600",
+            "91728000",
+            "5644800"
+          ]
+        },
+        {
+          "t": 2,
+          "degree": 15,
+          "leading_coefficient": "-2822400",
+          "even_count": 24,
+          "odd_count": 24,
+          "coefficients_low_to_high": [
+            "58491417600",
+            "-82813248000",
+            "-129546547200",
+            "154269561600",
+            "165472776000",
+            "-101239236000",
+            "-132735204000",
+            "8043537600",
+            "53681443200",
+            "18855396000",
+            "-4545727200",
+            "-5516784000",
+            "-1978502400",
+            "-390196800",
+            "-45864000",
+            "-2822400"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 7,
+          "leading_coefficient": "609638400000"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 12,
+          "leading_coefficient": "-677376000"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            3
+          ],
+          "degree": 12,
+          "leading_coefficient": "903168000"
+        },
+        {
+          "s": 1,
+          "rows": [
+            5
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 12,
+          "leading_coefficient": "-1058400000"
+        },
+        {
+          "s": 1,
+          "rows": [
+            5
+          ],
+          "cols": [
+            3
+          ],
+          "degree": 12,
+          "leading_coefficient": "1411200000"
+        },
+        {
+          "s": 2,
+          "rows": [
+            1,
+            5
+          ],
+          "cols": [
+            0,
+            3
+          ],
+          "degree": 15,
+          "leading_coefficient": "-2822400"
+        }
+      ]
+    },
+    {
+      "name": "rational_offsets_reordered_exponents",
+      "n": 4,
+      "k": 2,
+      "a": [
+        "1/2",
+        "-2/3",
+        "7/4",
+        "-5/2"
+      ],
+      "e": [
+        3,
+        0,
+        5,
+        1
+      ],
+      "I": [
+        0,
+        2
+      ],
+      "J": [
+        1,
+        2
+      ],
+      "predicted_degree": 7,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 7,
+          "leading_coefficient": "-275/12",
+          "even_count": 2,
+          "odd_count": 2,
+          "coefficients_low_to_high": [
+            "-26542285/110592",
+            "-87653885/248832",
+            "37714985/82944",
+            "14515655/62208",
+            "-6961625/20736",
+            "98725/3456",
+            "19525/288",
+            "-275/12"
+          ]
+        },
+        {
+          "t": 1,
+          "degree": 7,
+          "leading_coefficient": "275/6",
+          "even_count": 8,
+          "odd_count": 8,
+          "coefficients_low_to_high": [
+            "-30516145/165888",
+            "1692663115/1990656",
+            "340827685/331776",
+            "-6306905/3888",
+            "578875/2592",
+            "-599225/3456",
+            "-21175/288",
+            "275/6"
+          ]
+        },
+        {
+          "t": 2,
+          "degree": 7,
+          "leading_coefficient": "-275/12",
+          "even_count": 2,
+          "odd_count": 2,
+          "coefficients_low_to_high": [
+            "17529875/110592",
+            "10936475/221184",
+            "-38624575/110592",
+            "-1788875/6912",
+            "776875/6912",
+            "125125/864",
+            "275/48",
+            "-275/12"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 3,
+          "leading_coefficient": "-949025/576"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 6,
+          "leading_coefficient": "-5423/36"
+        },
+        {
+          "s": 1,
+          "rows": [
+            0
+          ],
+          "cols": [
+            2
+          ],
+          "degree": 6,
+          "leading_coefficient": "5423/96"
+        },
+        {
+          "s": 1,
+          "rows": [
+            2
+          ],
+          "cols": [
+            1
+          ],
+          "degree": 6,
+          "leading_coefficient": "154/3"
+        },
+        {
+          "s": 1,
+          "rows": [
+            2
+          ],
+          "cols": [
+            2
+          ],
+          "degree": 6,
+          "leading_coefficient": "-77/4"
+        },
+        {
+          "s": 2,
+          "rows": [
+            0,
+            2
+          ],
+          "cols": [
+            1,
+            2
+          ],
+          "degree": 7,
+          "leading_coefficient": "-275/12"
+        }
+      ]
+    },
+    {
+      "name": "empty_red_block",
+      "n": 4,
+      "k": 0,
+      "a": [
+        "-1",
+        "4",
+        "0",
+        "2"
+      ],
+      "e": [
+        5,
+        0,
+        2,
+        1
+      ],
+      "I": [],
+      "J": [],
+      "predicted_degree": 2,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 2,
+          "leading_coefficient": "2400",
+          "even_count": 12,
+          "odd_count": 12,
+          "coefficients_low_to_high": [
+            "5520",
+            "6000",
+            "2400"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 2,
+          "leading_coefficient": "2400"
+        }
+      ]
+    },
+    {
+      "name": "one_red_edge_order_two",
+      "n": 2,
+      "k": 1,
+      "a": [
+        "-2",
+        "3"
+      ],
+      "e": [
+        4,
+        1
+      ],
+      "I": [
+        1
+      ],
+      "J": [
+        0
+      ],
+      "predicted_degree": 5,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 5,
+          "leading_coefficient": "1",
+          "even_count": 1,
+          "odd_count": 0,
+          "coefficients_low_to_high": [
+            "48",
+            "-80",
+            "40",
+            "0",
+            "-5",
+            "1"
+          ]
+        },
+        {
+          "t": 1,
+          "degree": 5,
+          "leading_coefficient": "-1",
+          "even_count": 0,
+          "odd_count": 1,
+          "coefficients_low_to_high": [
+            "162",
+            "135",
+            "0",
+            "-30",
+            "-10",
+            "-1"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 4,
+          "leading_coefficient": "-15"
+        },
+        {
+          "s": 1,
+          "rows": [
+            1
+          ],
+          "cols": [
+            0
+          ],
+          "degree": 5,
+          "leading_coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "name": "order_one_empty_block",
+      "n": 1,
+      "k": 0,
+      "a": [
+        "3"
+      ],
+      "e": [
+        2
+      ],
+      "I": [],
+      "J": [],
+      "predicted_degree": 2,
+      "targets": [
+        {
+          "t": 0,
+          "degree": 2,
+          "leading_coefficient": "1",
+          "even_count": 1,
+          "odd_count": 0,
+          "coefficients_low_to_high": [
+            "9",
+            "6",
+            "1"
+          ]
+        }
+      ],
+      "laplace_summands": [
+        {
+          "s": 0,
+          "rows": [],
+          "cols": [],
+          "degree": 2,
+          "leading_coefficient": "1"
+        }
+      ]
+    }
+  ]
+}
