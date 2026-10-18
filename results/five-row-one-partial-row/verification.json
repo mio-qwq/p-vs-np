@@ -1,0 +1,9 @@
+{
+  "date_utc": "2026-10-18",
+  "default_mode": "Python 3.10+, standard library only: file integrity, exact polynomial elimination/positivity certificates, all 18 finite discriminants, printed proof tables and mathematical corruption controls. Determinant coefficient reconstructions are NOT rerun.",
+  "full_mode": "Default plus all eight byte-preserved source checkers, including the prerequisite reduction, two independent coefficient methods and final proof tables. Installed SymPy required; tested with Python 3.12.14 and SymPy 1.14.0. Missing SymPy is a hard failure.",
+  "schema": "five-row-one-partial-row-verification-v1",
+  "scope": "Every binary 5-by-5 mask with four full rows and a nonempty remaining row; distinct real offsets and distinct nonnegative integer exponents. No arbitrary five-row mask or general colored conclusion.",
+  "validation": "Outer MANIFEST.json and checks/ hold staged and fresh extracted normal/optimized results and explicit dependency/corruption tests.",
+  "writes": "All source checker output goes into a temporary copy; the frozen payload is never modified."
+}
