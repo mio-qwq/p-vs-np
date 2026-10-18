@@ -1,0 +1,62 @@
+{
+  "additional_reproducible_checks": "verify.py recomputes the raw-Laplace five-case cross-check and rejects altered mathematical certificates independently of hashes; it also tests modified, missing, unexpected and manifest-corrupted package files.",
+  "date_utc": "2026-10-18",
+  "method": "Original supplied and independent checkers rerun in fresh temporary copies under normal Python and python -O; frozen outputs match byte-for-byte.",
+  "modes": [
+    {
+      "jobs": [
+        {
+          "certificate_sha256": "d13285963f291d9d7bb446086f9b16c38cb8a51945243bf7b3d5b1ca749993c8",
+          "checker": "binary-fiber/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "1e47ba50778b9a4939f9148ba7a9c968e3905f4bd06a92050d8ccc22deadb92e"
+        },
+        {
+          "certificate_sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a",
+          "checker": "independent/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a"
+        },
+        {
+          "certificate_sha256": "037aad78f67b163654786b83ce281ed9524ecf1f11a5bd8761aeeb3b1152ae4b",
+          "checker": "all-red-block/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "cfc433f3b9f565bdd8e8a7a28a5aa117ef966f026dfbea1150244a48b5f53f0b"
+        }
+      ],
+      "optimization": 0
+    },
+    {
+      "jobs": [
+        {
+          "certificate_sha256": "d13285963f291d9d7bb446086f9b16c38cb8a51945243bf7b3d5b1ca749993c8",
+          "checker": "binary-fiber/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "1e47ba50778b9a4939f9148ba7a9c968e3905f4bd06a92050d8ccc22deadb92e"
+        },
+        {
+          "certificate_sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a",
+          "checker": "independent/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "7cda6ab8b7a6f60d430f037381eab527b2395e1d30363d52b2a113e5120d3d1a"
+        },
+        {
+          "certificate_sha256": "037aad78f67b163654786b83ce281ed9524ecf1f11a5bd8761aeeb3b1152ae4b",
+          "checker": "all-red-block/check.py",
+          "exit": 0,
+          "status": "PASS",
+          "stdout_sha256": "cfc433f3b9f565bdd8e8a7a28a5aa117ef966f026dfbea1150244a48b5f53f0b"
+        }
+      ],
+      "optimization": 1
+    }
+  ],
+  "optimized_output_identical": true,
+  "scope": "Finite exact certificates corroborate the written all-order proof; finite tests are not themselves an all-order proof.",
+  "status": "PASS"
+}

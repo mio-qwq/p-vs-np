@@ -1,0 +1,9 @@
+standard_4_by_4_red_2_block degree 4 leading coefficients ['1', '-2', '1']
+odd_order_nonprincipal_gapped_exponents degree 11 leading coefficients ['2268', '-4536', '2268']
+standard_6_by_6_red_3_block degree 9 leading coefficients ['-4', '12', '-12', '4']
+even_order_below_half_nonprincipal degree 15 leading coefficients ['-2822400', '5644800', '-2822400']
+rational_offsets_reordered_exponents degree 7 leading coefficients ['-275/12', '275/6', '-275/12']
+empty_red_block degree 2 leading coefficients ['2400']
+one_red_edge_order_two degree 5 leading coefficients ['1', '-1']
+order_one_empty_block degree 2 leading coefficients ['1']
+PASS: 8 cases, 20 target fibers
