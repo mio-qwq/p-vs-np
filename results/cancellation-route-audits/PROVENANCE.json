@@ -1,0 +1,281 @@
+{
+  "checker_policy": "All seven original mathematical checker files are byte-for-byte copies. The new aggregate verifier is separate.",
+  "date_utc": "2026-10-18",
+  "editorial_policy": "Only recorded relative links, domain preface, and spacing edits. The five-row source proof is unchanged, including its historical status statements; README and STATUS clarify the subsequent audit and d=9 exclusion.",
+  "expected_base_commit": "b4841433f732c0b11bf6fdff5a74ec8e251cb87b",
+  "files": [
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Linked the prior small-square result to the byte-preserved background copy."
+      ],
+      "packaged_bytes": 7776,
+      "packaged_path": "tied-block/PROOF.md",
+      "packaged_sha256": "0d20695551b3efbcc691be0e94c63a9a9c43e80053da3ede2b466c1320f55677",
+      "source_bytes": 7746,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "PROOF.md",
+      "source_sha256": "8659e60a6b0282f9f8b86fc0bd38345277c273363f92bbdcd65611b76cfc26d1"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Added the explicitly approved reader-facing nonempty-domain preface; all source formulas retained unchanged."
+      ],
+      "packaged_bytes": 8274,
+      "packaged_path": "tied-block/RECTANGULAR_OBSTRUCTION.md",
+      "packaged_sha256": "c8c7111c70a2f338cfaa2d5467f01392864d0d31b607d23516ac56ea4a404741",
+      "source_bytes": 8164,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "RECTANGULAR_OBSTRUCTION.md",
+      "source_sha256": "cbf87f4c6ebae5b182eb77dc75cd93fe987c8b73a2643cb1940a0d73c36cde4c"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1959,
+      "packaged_path": "tied-block/ROOT_REVIEW.md",
+      "packaged_sha256": "bc3d66ff44276db5480d5eaeac9dd4ee8d13f0d59e477ef1e9dc62ae1868a8ab",
+      "source_bytes": 1959,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "ROOT_REVIEW.md",
+      "source_sha256": "bc3d66ff44276db5480d5eaeac9dd4ee8d13f0d59e477ef1e9dc62ae1868a8ab"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 3419,
+      "packaged_path": "tied-block/CHECKPOINT.md",
+      "packaged_sha256": "f451dd09626047bc3fd09753cf77c6f197b942e735806cf6591d8de7eec70065",
+      "source_bytes": 3419,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "CHECKPOINT.md",
+      "source_sha256": "f451dd09626047bc3fd09753cf77c6f197b942e735806cf6591d8de7eec70065"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 10522,
+      "packaged_path": "tied-block/AUDIT.md",
+      "packaged_sha256": "939c9401a0bd7d2acdfd262374c43e512c56db47912ba01ad471b613ba854915",
+      "source_bytes": 10522,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "AUDIT.md",
+      "source_sha256": "939c9401a0bd7d2acdfd262374c43e512c56db47912ba01ad471b613ba854915"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 5493,
+      "packaged_path": "tied-block/check.py",
+      "packaged_sha256": "72a682e04a3b1a3311ade98122e2dbb80c9d2da2c3f16821096e2412be8a60f1",
+      "source_bytes": 5493,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "check.py",
+      "source_sha256": "72a682e04a3b1a3311ade98122e2dbb80c9d2da2c3f16821096e2412be8a60f1"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 2528,
+      "packaged_path": "tied-block/check_identities.py",
+      "packaged_sha256": "db17b6655d5cc825a8bf7888f982b877dd30eb73e26cbae85e408165a8323869",
+      "source_bytes": 2528,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "check_identities.py",
+      "source_sha256": "db17b6655d5cc825a8bf7888f982b877dd30eb73e26cbae85e408165a8323869"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 6536,
+      "packaged_path": "tied-block/audit_exact_checks.py",
+      "packaged_sha256": "eabc98d778781e1c2965453f544c769e27f2385066a74a0c14ba4099d48d3e5e",
+      "source_bytes": 6536,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "audit_exact_checks.py",
+      "source_sha256": "eabc98d778781e1c2965453f544c769e27f2385066a74a0c14ba4099d48d3e5e"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 15190,
+      "packaged_path": "tied-block/results.json",
+      "packaged_sha256": "154e6ea35a52ef04c3e33f48931e606535bc07a087fcac653792e5a480928ad6",
+      "source_bytes": 15190,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "results.json",
+      "source_sha256": "154e6ea35a52ef04c3e33f48931e606535bc07a087fcac653792e5a480928ad6"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1219,
+      "packaged_path": "tied-block/identity-results.json",
+      "packaged_sha256": "6ac2c0565b95f47be7c4cfed25a3c2de265a8754a68a19feac3b3ba384866ccc",
+      "source_bytes": 1219,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "identity-results.json",
+      "source_sha256": "6ac2c0565b95f47be7c4cfed25a3c2de265a8754a68a19feac3b3ba384866ccc"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 2017,
+      "packaged_path": "tied-block/audit-results.json",
+      "packaged_sha256": "0fcfdb2ed1f01cc30a1b9c274e2693d84713a01d108ce6fc1840bc87bc601f35",
+      "source_bytes": 2017,
+      "source_directory": "tied-red-block-20261018",
+      "source_file": "audit-results.json",
+      "source_sha256": "0fcfdb2ed1f01cc30a1b9c274e2693d84713a01d108ce6fc1840bc87bc601f35"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 9451,
+      "packaged_path": "five-row/PROOF.md",
+      "packaged_sha256": "09562d66d49a7d35a4193444487e53a00d7ad1922bcb8ccc565d4cc1ddc58179",
+      "source_bytes": 9451,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "PROOF.md",
+      "source_sha256": "09562d66d49a7d35a4193444487e53a00d7ad1922bcb8ccc565d4cc1ddc58179"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Changed the d=9 source-file reference to its relative packaged link; all mathematical text unchanged."
+      ],
+      "packaged_bytes": 9366,
+      "packaged_path": "five-row/AUDIT.md",
+      "packaged_sha256": "1f4565015ba559ac413d3369b7c461394308de1d744467cbdc1e51babdaf4f28",
+      "source_bytes": 9362,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "AUDIT.md",
+      "source_sha256": "eb1ed14eb90c1d544d85d9ebc341cbdd03034d39169b38dcf6923cbcad34fea1"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 4406,
+      "packaged_path": "five-row/verify.py",
+      "packaged_sha256": "17beefc8e6108cbc95081d367176fe9403a00cdbb0a9883a138353ef5bd02484",
+      "source_bytes": 4406,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "verify.py",
+      "source_sha256": "17beefc8e6108cbc95081d367176fe9403a00cdbb0a9883a138353ef5bd02484"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1097,
+      "packaged_path": "five-row/verification.json",
+      "packaged_sha256": "7d0b4c4374461d143b1d82eb2df97207b08e87934e46b107e94cff64fbb7bc47",
+      "source_bytes": 1097,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "verification.json",
+      "source_sha256": "7d0b4c4374461d143b1d82eb2df97207b08e87934e46b107e94cff64fbb7bc47"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 5570,
+      "packaged_path": "five-row/audit_independent.py",
+      "packaged_sha256": "64c9957cfe9d2213fd376b2ba9e6aa77dffa826a5de127a6b8bbce59c2a042b5",
+      "source_bytes": 5570,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "audit_independent.py",
+      "source_sha256": "64c9957cfe9d2213fd376b2ba9e6aa77dffa826a5de127a6b8bbce59c2a042b5"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 861,
+      "packaged_path": "five-row/audit_independent_receipt.json",
+      "packaged_sha256": "4cb440cea69de3e225509c6ea954571efa903ab45f1362680c5fe591e42cc73c",
+      "source_bytes": 861,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "audit_independent_receipt.json",
+      "source_sha256": "4cb440cea69de3e225509c6ea954571efa903ab45f1362680c5fe591e42cc73c"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1329,
+      "packaged_path": "five-row/audit_next_candidate.py",
+      "packaged_sha256": "d721da775b52f66a9035463d94f65c7be2531f36141f5b038257519b5823c5ec",
+      "source_bytes": 1329,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "audit_next_candidate.py",
+      "source_sha256": "d721da775b52f66a9035463d94f65c7be2531f36141f5b038257519b5823c5ec"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 361,
+      "packaged_path": "five-row/audit_next_candidate_receipt.json",
+      "packaged_sha256": "914699019e1fe40e0f58080eccff1c51013601812f6a2b91d5abfc03f013bfd1",
+      "source_bytes": 361,
+      "source_directory": "five-row-cancellation-20261018",
+      "source_file": "audit_next_candidate_receipt.json",
+      "source_sha256": "914699019e1fe40e0f58080eccff1c51013601812f6a2b91d5abfc03f013bfd1"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Inserted spaces and an explicit equals sign in prose; all formulas, numbers, and mathematical meaning unchanged."
+      ],
+      "packaged_bytes": 1336,
+      "packaged_path": "next-candidate/RESULT.md",
+      "packaged_sha256": "48e13ce1a26e072969b3e80b9703bf26c59a7818c2e4c82ade2af6174921b47a",
+      "source_bytes": 1324,
+      "source_directory": "five-row-next-candidate-root-20261018",
+      "source_file": "RESULT.md",
+      "source_sha256": "e537cbca525162de17a041c7d17889cde9e6e9c70746f658b10541654d1dcdd8"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1323,
+      "packaged_path": "next-candidate/check.py",
+      "packaged_sha256": "e78d95385ab9b78db27f19f0985c25d84b00019929ab317c914cb4b507158d87",
+      "source_bytes": 1323,
+      "source_directory": "five-row-next-candidate-root-20261018",
+      "source_file": "check.py",
+      "source_sha256": "e78d95385ab9b78db27f19f0985c25d84b00019929ab317c914cb4b507158d87"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1134,
+      "packaged_path": "next-candidate/result.json",
+      "packaged_sha256": "c6fb46a6f0420f815d67a5ac409c3f32265c42d77ba0e8ea9a2741683b4e7ec9",
+      "source_bytes": 1134,
+      "source_directory": "five-row-next-candidate-root-20261018",
+      "source_file": "result.json",
+      "source_sha256": "c6fb46a6f0420f815d67a5ac409c3f32265c42d77ba0e8ea9a2741683b4e7ec9"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 2853,
+      "packaged_path": "tied-block/SMALL_SQUARE_BACKGROUND.md",
+      "packaged_sha256": "0575e561b93d6a844c252cce0ec81779957d0d88732aa559acc31480fd01da2d",
+      "source_bytes": 2853,
+      "source_directory": "publication-pnp-binary-block-20261018/results/binary-red-block",
+      "source_file": "all-red-block/PROOF.md",
+      "source_sha256": "0575e561b93d6a844c252cce0ec81779957d0d88732aa559acc31480fd01da2d"
+    }
+  ],
+  "omissions": "Original exploratory scripts, intermediate outputs, duplicate normal/optimized logs and certificates, caches, and nested ZIPs omitted. Compact canonical certificates retained. The elementary rank filter is not included. Historical source-file listings in unchanged reports describe their original research folders; the package inventory is manifest.json.",
+  "remote_writes": false,
+  "repository": "mio-qwq/p-vs-np",
+  "review_limit": "AI-assisted mathematical review and exact computer algebra; no human peer-review, proof-assistant verification, or historical-novelty claim.",
+  "schema": "cancellation-route-audits-provenance-v1",
+  "source_freeze_confirmed": true,
+  "source_freeze_manifest": {
+    "all_entries_verified": true,
+    "filename": "source-freeze.sha256",
+    "sha256": "2fc1d930cce3e5881cd6e5727332c8b45808ed7cbe04abbdfd9be54a57606142",
+    "source_directory": "tied-red-block-20261018"
+  }
+}

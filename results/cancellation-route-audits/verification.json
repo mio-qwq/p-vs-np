@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-10-18",
+  "dependency_requirements": {
+    "default": "Python 3.10 or newer; standard library only. General symbolic five-row identities are not rerun.",
+    "full": "Python 3.10 or newer and installed SymPy; tested here with Python 3.12.14 and SymPy 1.14.0. Missing SymPy is a hard failure."
+  },
+  "package_validation": "The outer MANIFEST and checks directory record actual staged and freshly extracted ZIP runs under normal and optimized Python, in default and full modes. Every run recomputes exact finite data and executes corruption controls.",
+  "schema": "cancellation-route-audits-verification-protocol-v1",
+  "scope": "Finite corroboration and symbolic identity checks support the accompanying scoped mathematical arguments; no full five-row or ASNC theorem is inferred from finite tests.",
+  "source_receipts": {
+    "five_row_independent": {
+      "checks": 18,
+      "receipt": "five-row/audit_independent_receipt.json",
+      "status": "PASS",
+      "sympy": "1.14.0"
+    },
+    "five_row_original": {
+      "checks": 31,
+      "receipt": "five-row/verification.json",
+      "status": "PASS",
+      "sympy": "1.14.0"
+    },
+    "next_candidate_independent": {
+      "receipt": "five-row/audit_next_candidate_receipt.json",
+      "status": "PASS",
+      "sympy": "1.14.0"
+    }
+  }
+}
