@@ -1,0 +1,70 @@
+{
+  "arithmetic": "Exact integers/Fraction in primary checkers; independent tail audit uses SymPy 1.14.0 exact rational polynomials",
+  "clean_temporary_copy": true,
+  "generated_certificates_excluded_from_source": true,
+  "manifest_corruption_rejected": true,
+  "manifest_files_verified": 20,
+  "one_partial_row": {
+    "coefficientwise_identities": 38,
+    "exact_identity_checks": {
+      "normal_exit": 0,
+      "normal_optimized_stdout_identical": true,
+      "optimized_exit": 0,
+      "stdout_bytes": 1691,
+      "stdout_sha256": "33cf997ad53b94b2a525a156fb8b3e2c5aafce3cc06d1928107b172920672563"
+    },
+    "negative_controls": {
+      "normal_exit": 0,
+      "normal_optimized_stdout_identical": true,
+      "optimized_exit": 0,
+      "stdout_bytes": 317,
+      "stdout_sha256": "ffa3edd70b786122cbb96dd93f908d6ef48bb1e9f292438c0e9d354e7fd28751"
+    }
+  },
+  "proof_scope": "Auxiliary determinant theorems only; no P-versus-NP, ASNC, novelty, human-review, or Lean claim.",
+  "status": "PASS",
+  "tail_gap": {
+    "certificate_bytes": 285905,
+    "certificate_ordinary_optimized_byte_identical": true,
+    "certificate_sha256": "e4ec005ccd471665c9f7b81ef3116eaf3fa8f1c2b719413583af1e9b67185a78",
+    "finite_tail_exponents": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "independent_audit": {
+      "all_labelled_masks": 65536,
+      "malformed_empty_certificate_rejected_normal_and_optimized": true,
+      "normal_exit": 0,
+      "normal_optimized_mathematical_results_identical": true,
+      "normal_optimized_stdout_identical_except_elapsed_time": true,
+      "normalized_stdout_sha256": "46d2a4812db6fcc5e1342767b78b66026b4fc4c014b50b4eebba7e909ff9de64",
+      "optimized_exit": 0,
+      "physical_corrupt_certificate_rejected_normal_and_optimized": true,
+      "semantic_normalization": "Remove only elapsed_seconds; compact JSON with sorted keys and final newline",
+      "semantic_results_sha256": "fbfab7dc1087e34c5b451178009d5725e5de87cba4da9e64f6ed622851b62a04"
+    },
+    "negative_controls": {
+      "normal_exit": 0,
+      "normal_optimized_stdout_identical": true,
+      "optimized_exit": 0,
+      "stdout_bytes": 427,
+      "stdout_sha256": "a9b6e86ed56287d4051c1feca344eb450efb68bac45055f389f67807f82119cb"
+    },
+    "producer_ordinary_optimized_stdout_identical": true,
+    "producer_stdout_sha256": "0ccb19539b33a9a936ca595ab62dc807b035137903f2acabbe2355edaa1804ed",
+    "small_order_symbolic_identities": {
+      "normal_exit": 0,
+      "normal_optimized_stdout_identical": true,
+      "optimized_exit": 0,
+      "stdout_bytes": 194,
+      "stdout_sha256": "3d24b6a9c8316f6673525f8a315ddc237ff6af634855929dccc87ac4bfe1ae70"
+    },
+    "symbolic_cases": 1656
+  }
+}

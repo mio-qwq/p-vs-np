@@ -1,0 +1,48 @@
+{
+  "editorial_policy": "Theorem and proof mathematics unchanged. Original exact checker byte-identical. Audit is AI-assisted, not human peer review or formal verification.",
+  "files": [
+    {
+      "byte_identical": false,
+      "changes": [
+        "Clarify AI-assisted audit wording and standard-library reproduction; replace private paths and omit optional SymPy derivation reference."
+      ],
+      "published_path": "README.md",
+      "published_sha256": "4e2f1e1a29ac36333a8bd0b04554f6c555c6faca7b5f391f97a61d60cca7ff40",
+      "source_name": "monic-symmetric-root-20261018/RESULT.md",
+      "source_sha256": "8c1fcd9f33a4c4a6a6d8d66519c1c982f4cfe798d14464bc62acf353786df1dc"
+    },
+    {
+      "byte_identical": false,
+      "changes": [
+        "Replace original local paths with publication-relative references; append publication verification and review-status explanation."
+      ],
+      "published_path": "AUDIT.md",
+      "published_sha256": "7516b97694794be322121e1a30bc7bae9d55d575d1634cbe2ceb6e737a8dfda0",
+      "source_name": "monic-partial-audit-20261018/AUDIT.md",
+      "source_sha256": "3048b604949d42571f8d789edb1811912544a8c3a80b7ce99ddb583a5f872176"
+    },
+    {
+      "byte_identical": true,
+      "changes": [],
+      "published_path": "verify_identities.py",
+      "published_sha256": "a2ab3bffd892a03d4b5d6feca4e0b709e38544e601a37e0bc104c1e1198333d8",
+      "source_name": "monic-partial-audit-20261018/verify_identities.py",
+      "source_sha256": "a2ab3bffd892a03d4b5d6feca4e0b709e38544e601a37e0bc104c1e1198333d8"
+    }
+  ],
+  "omitted_sources": [
+    {
+      "reason": "Optional exploratory SymPy derivation; standard-library exact checker reproduces all claimed identities.",
+      "sha256": "4e4a0e111418e3b4d5b90d6dbb77f1b8ff5e44c6d654bb52945e6e186a24c0ab",
+      "source_name": "monic-symmetric-root-20261018/derive.py"
+    }
+  ],
+  "publication_additions": [
+    {
+      "path": "check_negative_controls.py",
+      "purpose": "Independent field-arithmetic boundary counterexamples and physical symbolic-identity corruption rejection under ordinary/optimized Python.",
+      "sha256": "2cecabd33b3ce1f8f729eefccdb335f95f0dfaa794fbbd13556999031704dea3"
+    }
+  ],
+  "release_date_utc": "2026-10-18"
+}

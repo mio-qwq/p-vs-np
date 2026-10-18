@@ -1,0 +1,82 @@
+{
+  "editorial_policy": "Theorem, proof, and audit mathematics unchanged; exact producer and independent checker byte-identical. Separate AI-assisted audit passed; no novelty, human peer review, or formal verification claim.",
+  "files": [
+    {
+      "byte_identical": false,
+      "changes": [
+        "Replace certificate-dependent reproduction instructions with compact-package temporary-generation workflow; clarify audit and review status."
+      ],
+      "published_path": "REPORT.md",
+      "published_sha256": "a24566dc684403e5969ea241a709774be4abcd7536fa1e1c6c53be4073b05354",
+      "source_name": "monic-gapped-20261018/REPORT.md",
+      "source_sha256": "85356654eb474399665ac8ffdc65548c786598cddd7a8aa08f96a3f0ae3facb9"
+    },
+    {
+      "byte_identical": true,
+      "changes": [],
+      "published_path": "check_tail_gap.py",
+      "published_sha256": "4b4f841b3a9796072612b6645bc2bae0d86ee32e47dceb34e78b59ae8987b0d9",
+      "source_name": "monic-gapped-20261018/check_tail_gap.py",
+      "source_sha256": "4b4f841b3a9796072612b6645bc2bae0d86ee32e47dceb34e78b59ae8987b0d9"
+    },
+    {
+      "byte_identical": false,
+      "changes": [
+        "Accept optional --certificate input; generate omitted certificate if absent; keep corrupt data only in TemporaryDirectory; propagate Python -O into the tested subprocess. Mathematical tests unchanged."
+      ],
+      "published_path": "check_negative_controls.py",
+      "published_sha256": "429bd8ebf9be0a4646318be39a667006e96ab5e8e057f6a34779f7799305a01e",
+      "source_name": "monic-gapped-20261018/check_negative_controls.py",
+      "source_sha256": "8ba53b2ed4ee03631f29a0b3a702136c581ed0fde95bdf127bd7b2d40459619c"
+    },
+    {
+      "byte_identical": false,
+      "changes": [
+        "Clarify AI-assisted audit scope and historical frozen hashes; replace local expanded-output and adversarial-helper references with compact publication verifier. Mathematical audit unchanged."
+      ],
+      "published_path": "AUDIT.md",
+      "published_sha256": "e9455b9cadce9cd9652ff6e928b9d70a35617c8e3954a50d472e75ba49a72d4d",
+      "source_name": "monic-tail-independent-20261018/AUDIT.md",
+      "source_sha256": "0fb41c98eed1d94e35898c4a561689b582143c0597f240d1b055a5087a442449"
+    },
+    {
+      "byte_identical": true,
+      "changes": [],
+      "published_path": "independent_verify.py",
+      "published_sha256": "521ad5e0870f5a63b771d303be4e901f8c45f4430d485de4f9338e3196119e00",
+      "source_name": "monic-tail-independent-20261018/independent_verify.py",
+      "source_sha256": "521ad5e0870f5a63b771d303be4e901f8c45f4430d485de4f9338e3196119e00"
+    },
+    {
+      "byte_identical": true,
+      "changes": [],
+      "published_path": "check_symbolic_identities.py",
+      "published_sha256": "6cb0f55d4bc41f1efc018c791428707308c62f1fcc5c3e7eda324fda9f916bc9",
+      "source_name": "monic-tail-independent-20261018/check_symbolic_identities.py",
+      "source_sha256": "6cb0f55d4bc41f1efc018c791428707308c62f1fcc5c3e7eda324fda9f916bc9"
+    }
+  ],
+  "generated_artifacts_not_in_source": {
+    "exact_certificate.json": {
+      "bytes": 285905,
+      "generator": "python3 check_tail_gap.py --write PATH",
+      "matches_original_frozen_bytes": true,
+      "sha256": "e4ec005ccd471665c9f7b81ef3116eaf3fa8f1c2b719413583af1e9b67185a78"
+    },
+    "independent_results.json": {
+      "description": "Expanded independent proof witnesses are regenerated in temporary storage and omitted. Runtime elapsed_seconds varies.",
+      "generator": "python3 independent_verify.py --certificate PATH --output-dir TEMP_DIR",
+      "original_audit_output_bytes": 396964,
+      "original_audit_output_sha256": "21c1f7694b80382ba57a98b4f9f23bfdcbed5f6a9b2de319e27b3f10b9617e49",
+      "semantic_normalization": "Remove only elapsed_seconds; compact JSON with sorted keys and a final newline.",
+      "semantic_sha256_excluding_elapsed_seconds": "fbfab7dc1087e34c5b451178009d5725e5de87cba4da9e64f6ed622851b62a04"
+    }
+  },
+  "omissions": "Exploratory orbit enumeration, expanded certificates, duplicated outputs, caches, temporary negative files, and logs are omitted.",
+  "omitted_audit_helper": {
+    "reason": "Original helper embeds absolute research paths; all its controls are implemented by the publication verifier and included negative-control checker, with both modes also applied to malformed-certificate rejection.",
+    "sha256": "002472c081711810d5074ee1f1756017d2a1f004d8345af449c3f525d00acd8b",
+    "source_name": "monic-tail-independent-20261018/run_adversarial_controls.py"
+  },
+  "release_date_utc": "2026-10-18"
+}
