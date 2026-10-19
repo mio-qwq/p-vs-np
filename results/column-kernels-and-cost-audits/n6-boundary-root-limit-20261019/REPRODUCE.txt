@@ -1,0 +1,3 @@
+Read PROOF.md and INDEPENDENT_AUDIT.md.
+Run python check.py and python -O check.py.
+Exact check output is results.json. No floating-point certificate is used.

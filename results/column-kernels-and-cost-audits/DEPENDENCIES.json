@@ -1,0 +1,15 @@
+{
+  "canonical_proof_locations": [
+    {
+      "canonical_path": "dependencies/single-row-boundary-20261019/PROOF.md",
+      "historical_path": "single-row-boundary-20261019/PROOF.md",
+      "reason": "Prior leading-degree and resonance identities used by the extreme-root and six-row continuations."
+    },
+    {
+      "canonical_path": "dependencies/fixed-depth-hull-obstruction-20261018/proof-and-certificate/general-theorem.md",
+      "historical_path": "fixed-depth-hull-obstruction-20261018/proof-and-certificate/general-theorem.md",
+      "reason": "Historical support-family comparison cited by the reduction audit; current reduction arguments are restated in full."
+    }
+  ],
+  "reference_policy": "Historical paths in byte-preserved source documents resolve using this map or the matching sibling package. No duplicate mathematical code was refactored. No external theorem is claimed machine-verified."
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "per-instance certificate alternative and exact example, not universal noncancellation",
+  "files": {
+    "PROOF.md": "84f3c9574a7ff27d4941e1a4f4708054387df7e44b2b1cf8d58477a00f509143",
+    "check.py": "41dc4013d70e7755ab00cf8c138b8ae5e9f63ff94f41a71cb199711684e4b1e5",
+    "results.json": "6536ffc41a045c303bb63609f8e858905adf811fc14465ed7b24421040007715"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "offsets": [
+      "-2",
+      "0",
+      "2"
+    ],
+    "shift": 0,
+    "nullity": 0,
+    "rank": 3
+  },
+  {
+    "offsets": [
+      "-3",
+      "-1",
+      "1",
+      "3"
+    ],
+    "shift": 0,
+    "nullity": 1,
+    "rank": 3
+  },
+  {
+    "offsets": [
+      "-3",
+      "-1",
+      "1",
+      "3"
+    ],
+    "shift": 2,
+    "nullity": 1,
+    "rank": 3
+  },
+  {
+    "offsets": [
+      "0",
+      "1",
+      "4",
+      "9"
+    ],
+    "shift": 0,
+    "nullity": 0,
+    "rank": 4
+  },
+  {
+    "offsets": [
+      "-5",
+      "-3",
+      "-1",
+      "1",
+      "3",
+      "5"
+    ],
+    "shift": 0,
+    "nullity": 1,
+    "rank": 5
+  },
+  {
+    "offsets": [
+      "-7",
+      "-5",
+      "-3",
+      "-1",
+      "1",
+      "3",
+      "5",
+      "7"
+    ],
+    "shift": 0,
+    "nullity": 1,
+    "rank": 7
+  },
+  {
+    "offsets": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "shift": 0,
+    "nullity": 0,
+    "rank": 5
+  },
+  {
+    "nonsymmetric_n5_defining_polynomial": "t**5 - 239*t**3/11 - 444*t**2/11 + 216/11",
+    "real_distinct_roots": [
+      "-3",
+      "-2",
+      "-1",
+      "3-sqrt(63/11)",
+      "3+sqrt(63/11)"
+    ],
+    "centroid_zero": true,
+    "reciprocal_sum_zero": true,
+    "scope": "exact defining-polynomial check; universal theorem supplies its kernel"
+  }
+]

@@ -1,0 +1,7 @@
+Run from this directory:
+  python check.py
+  python -O check.py
+The proof is universal; these exact symbolic tests only corroborate it.
+Independent logs: independent-check.log and independent-check-optimized.log.
+Verify SHA256.json against the listed file bytes before modifying any package.
+This package was frozen after the independent sign-convention clarification.

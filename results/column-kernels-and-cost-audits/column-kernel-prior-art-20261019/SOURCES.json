@@ -1,0 +1,150 @@
+{
+  "scope": "Bounded primary-source column-kernel prior-art comparison; no originality certification.",
+  "sources": [
+    {
+      "id": "tamvakis-2011",
+      "authors": [
+        "Harry Tamvakis"
+      ],
+      "title": "The theory of Schur polynomials revisited",
+      "version": "author manuscript dated 2011-12-10",
+      "url": "https://www.math.umd.edu/~harryt/papers/schurrev.pdf",
+      "locations": [
+        "Introduction equations (1) and (3)"
+      ],
+      "relationship": "Classical bialternant and tableau positivity ingredients; no complete moving-node constant-kernel theorem identified.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "evans-isaacs-1976",
+      "authors": [
+        "R. J. Evans",
+        "I. M. Isaacs"
+      ],
+      "title": "Generalized Vandermonde determinants and roots of unity of prime order",
+      "version": "Proc. Amer. Math. Soc. 58 (1976), 51–54",
+      "url": "https://www.math.ucsd.edu/~revans/Vandermonde.pdf",
+      "doi": "10.1090/S0002-9939-1976-0412205-0",
+      "locations": [
+        "Section 2",
+        "Theorem 1"
+      ],
+      "relationship": "Schur quotient positivity; prime-root field-basis theorem has different hypotheses.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "deboor-2005",
+      "authors": [
+        "Carl de Boor"
+      ],
+      "title": "Divided Differences",
+      "version": "Surveys in Approximation Theory 1 (2005), 46–69",
+      "url": "https://surveys-in-approximation-theory.com/papers/2/2.pdf",
+      "arxiv": "math/0502036",
+      "locations": [
+        "Example 7, equation (27)",
+        "Example 9, equation (41)",
+        "Section 7, equations (39)–(40)"
+      ],
+      "relationship": "Classical rational sum and monomial divided-difference identities.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "berrut-trefethen-2004",
+      "authors": [
+        "Jean-Paul Berrut",
+        "Lloyd N. Trefethen"
+      ],
+      "title": "Barycentric Lagrange Interpolation",
+      "version": "SIAM Review 46 (2004), 501–517",
+      "url": "https://people.maths.ox.ac.uk/trefethen/barycentric.pdf",
+      "doi": "10.1137/S0036144502417715",
+      "locations": [
+        "Equations (2.1), (3.2), (3.3)"
+      ],
+      "relationship": "Cardinal basis and reciprocal derivative weights; not the exceptional-kernel classification.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "ernst-manuscript",
+      "authors": [
+        "Thomas Ernst"
+      ],
+      "title": "Generalized Vandermonde determinants",
+      "version": "Manuscript received 2001-12-19",
+      "url": "https://www.mathe2.uni-bayreuth.de/axel/papers/ernst:generalized_vandermonde_dterminants.pdf",
+      "locations": [
+        "Definition 2, equation (5)",
+        "Theorem 2.1, equation (13)"
+      ],
+      "relationship": "Classical single-missing-degree alternant formula.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "garcia-marco-koiran-pecatte-2017v2",
+      "authors": [
+        "Ignacio García-Marco",
+        "Pascal Koiran",
+        "Timothée Pecatte"
+      ],
+      "title": "On the linear independence of shifted powers",
+      "version": "arXiv:1705.03842v2",
+      "url": "https://arxiv.org/pdf/1705.03842v2",
+      "arxiv": "1705.03842v2",
+      "locations": [
+        "Proposition 1.1",
+        "Theorem 1.4"
+      ],
+      "relationship": "Directly subsumes ordinary step-1 equal-degree-shifted-power baseline; general Laplace terms are different objects.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "garcia-marco-koiran-2015v1",
+      "authors": [
+        "Ignacio García-Marco",
+        "Pascal Koiran"
+      ],
+      "title": "Lower Bounds by Birkhoff Interpolation",
+      "version": "arXiv:1507.02015v1",
+      "url": "https://arxiv.org/pdf/1507.02015v1",
+      "arxiv": "1507.02015v1",
+      "locations": [
+        "Theorem 8"
+      ],
+      "relationship": "Derivative-incidence Pólya/no-odd-supported-sequence condition; not background exponent parity.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    },
+    {
+      "id": "du-2026v3",
+      "authors": [
+        "Yuefeng Du"
+      ],
+      "title": "Bipartite Exact Matching in P",
+      "version": "arXiv:2604.01571v3, revised 2026-04-09",
+      "url": "https://arxiv.org/html/2604.01571v3",
+      "arxiv": "2604.01571v3",
+      "locations": [
+        "Section 4",
+        "Section 7.2, Proposition 7.1"
+      ],
+      "relationship": "Direct comparison but broader masked-minor claim is not treated as established; defects were already recorded in prior local audit.",
+      "retrieved_utc": "2026-10-19",
+      "external_bytes_sha256": null,
+      "external_bytes_hash_note": "Source inspected through web tool; raw external file bytes not saved or hashed."
+    }
+  ]
+}

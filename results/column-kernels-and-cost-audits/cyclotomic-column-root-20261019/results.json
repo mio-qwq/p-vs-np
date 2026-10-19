@@ -1,0 +1,294 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "label": "m3_nontrivial_phase",
+      "offsets": [
+        "-3",
+        "-1",
+        "1",
+        "3"
+      ],
+      "m": 3,
+      "h": 0,
+      "k": 1,
+      "ell": 1,
+      "exponents": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "column": 1,
+      "rank": 4,
+      "pivot_degrees": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nonzero_coefficient_minor": "-1836358234118553600",
+      "dual_coefficients_on_pivot_degrees": [
+        "-11/316992",
+        "0",
+        "5/73152",
+        "0"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    },
+    {
+      "label": "m4_former_half_phase",
+      "offsets": [
+        "-3",
+        "-1",
+        "1",
+        "3"
+      ],
+      "m": 4,
+      "h": 0,
+      "k": 2,
+      "ell": 2,
+      "exponents": [
+        0,
+        2,
+        4,
+        8
+      ],
+      "column": 1,
+      "rank": 4,
+      "pivot_degrees": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nonzero_coefficient_minor": "-16563104733468819456000000",
+      "dual_coefficients_on_pivot_degrees": [
+        "0",
+        "0",
+        "0",
+        "-1/1032192"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    },
+    {
+      "label": "m6_former_half_phase",
+      "offsets": [
+        "-4",
+        "-1",
+        "2",
+        "5"
+      ],
+      "m": 6,
+      "h": 0,
+      "k": 3,
+      "ell": 3,
+      "exponents": [
+        0,
+        3,
+        6,
+        12
+      ],
+      "column": 1,
+      "rank": 4,
+      "pivot_degrees": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nonzero_coefficient_minor": "2549031626822332363204476889599519620851118899200",
+      "dual_coefficients_on_pivot_degrees": [
+        "-188027685448634528741/688294447438679858067403694400",
+        "910282562620235471/5672756434934174654401678800",
+        "-5291796148293437/57885269744226271983690600",
+        "1899789700659091/57885269744226271983690600"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    },
+    {
+      "label": "negative_ell",
+      "offsets": [
+        "-4",
+        "-1",
+        "2",
+        "5"
+      ],
+      "m": 3,
+      "h": 4,
+      "k": 0,
+      "ell": -4,
+      "exponents": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "column": 0,
+      "rank": 4,
+      "pivot_degrees": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nonzero_coefficient_minor": "29546180880802661505276337088102400000000000",
+      "dual_coefficients_on_pivot_degrees": [
+        "-47201869201/12471001707628800000",
+        "16013472389/9773193174958080000",
+        "67900805029/85515440280883200000",
+        "-210663347/174521306695680000"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    },
+    {
+      "label": "common_shift",
+      "offsets": [
+        "-3",
+        "-1",
+        "1",
+        "3"
+      ],
+      "m": 3,
+      "h": 0,
+      "k": 1,
+      "ell": 1,
+      "exponents": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "column": 1,
+      "rank": 4,
+      "pivot_degrees": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nonzero_coefficient_minor": "-1836358234118553600",
+      "dual_coefficients_on_pivot_degrees": [
+        "-11/316992",
+        "0",
+        "5/73152",
+        "0"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 2
+    },
+    {
+      "label": "unit_phase",
+      "offsets": [
+        "-4",
+        "-1",
+        "2",
+        "5"
+      ],
+      "m": 3,
+      "h": 0,
+      "k": 9,
+      "ell": 9,
+      "exponents": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "column": 3,
+      "rank": 4,
+      "pivot_degrees": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nonzero_coefficient_minor": "3923057362652252842984347971616768000000",
+      "dual_coefficients_on_pivot_degrees": [
+        "46583458530473/9766682842325282979840",
+        "5356871176345441/2180063134447607808000000",
+        "-3927246976670783/545015783611901952000000",
+        "50835649164337/11122771094120448000000"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    },
+    {
+      "label": "five_rational_rows",
+      "offsets": [
+        "-5/2",
+        "-1/3",
+        "1/2",
+        "7/4",
+        "11/3"
+      ],
+      "m": 3,
+      "h": 0,
+      "k": 4,
+      "ell": 4,
+      "exponents": [
+        0,
+        3,
+        4,
+        6,
+        9
+      ],
+      "column": 2,
+      "rank": 5,
+      "pivot_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "nonzero_coefficient_minor": "5476430996987505777331019728364122694813717941323030876336962348451189925152950583274781036376953125/452896045148266986479329939846808292752854647314708573454336",
+      "dual_coefficients_on_pivot_degrees": [
+        "909594448866917830603812205488590029616206525857923551599752183808/491621948469415341887684052757854339948969016220796784527365072934465625",
+        "1068276244073571760532420609805809543692546579339440651859918848/10033100989171741671177225566486823264264673800424424174027858631315625",
+        "-1956745596940022912847060929416860704005608517428313596814098432/70231706924202191698240578965407762849852716602970969218195010419209375",
+        "-702095954190575626521119551041031127984662605996512143524888576/10033100989171741671177225566486823264264673800424424174027858631315625",
+        "10750818214560748688711473470567700572293374992261093656297472/286660028262049762033635016185337807550419251440697833543653103751875"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    },
+    {
+      "label": "three_rows_negative_half_phase",
+      "offsets": [
+        "-2",
+        "0",
+        "3"
+      ],
+      "m": 4,
+      "h": 3,
+      "k": 1,
+      "ell": -2,
+      "exponents": [
+        1,
+        3,
+        7
+      ],
+      "column": 0,
+      "rank": 3,
+      "pivot_degrees": [
+        1,
+        3,
+        4
+      ],
+      "nonzero_coefficient_minor": "-117909043200",
+      "dual_coefficients_on_pivot_degrees": [
+        "262441/491287680",
+        "6803/8398080",
+        "-793/1399680"
+      ],
+      "dual_value_on_every_column": "1",
+      "common_shift_checked": 0
+    }
+  ],
+  "scope": "Exact finite raw-cofactor and nonzero-minor certificates; the universal theorem is proved separately."
+}

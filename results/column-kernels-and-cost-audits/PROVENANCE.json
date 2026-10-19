@@ -1,0 +1,802 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "byte_preserved": true,
+      "bytes": 17497,
+      "destination": "constructive-cost-audit-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "dcc8c31b8089326410a008bcd40222171654db9e7fbe716be331f1a3e41bf0b1",
+      "source": "constructive-cost-audit-20261019/PROOF.md",
+      "source_sha256": "dcc8c31b8089326410a008bcd40222171654db9e7fbe716be331f1a3e41bf0b1"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2534,
+      "destination": "constructive-cost-audit-20261019/SOURCE-RECEIPT.md",
+      "kind": "research_source",
+      "packaged_sha256": "d73d95d4e56720290e0743a6ca2c1dc7e8136f06f535d86c1905f2f5408025bb",
+      "source": "constructive-cost-audit-20261019/SOURCE-RECEIPT.md",
+      "source_sha256": "d73d95d4e56720290e0743a6ca2c1dc7e8136f06f535d86c1905f2f5408025bb"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 11767,
+      "destination": "constructive-cost-audit-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "dcbf1171d6e7e981848177d686233bbb5d3712a0abb92e92d62b8d49f94bb119",
+      "source": "constructive-cost-audit-20261019/check.py",
+      "source_sha256": "dcbf1171d6e7e981848177d686233bbb5d3712a0abb92e92d62b8d49f94bb119"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3334,
+      "destination": "constructive-cost-audit-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "066b7721650f0a31303b1aaa6226425a524a7ed59a77dea1b6a063a8263d0519",
+      "source": "constructive-cost-audit-20261019/results.json",
+      "source_sha256": "066b7721650f0a31303b1aaa6226425a524a7ed59a77dea1b6a063a8263d0519"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 507,
+      "destination": "constructive-cost-audit-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "47121dd1cd38d8acc26beea5c3ce59868f54a3b4b51bf0873932b0da51abe561",
+      "source": "constructive-cost-audit-20261019/MANIFEST.json",
+      "source_sha256": "47121dd1cd38d8acc26beea5c3ce59868f54a3b4b51bf0873932b0da51abe561"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 21091,
+      "destination": "separation-reduction-audit-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "56d12d12eda6623152dfd63e464ca1f82ee39599368ad65d8b17e08da43fc413",
+      "source": "separation-reduction-audit-20261019/PROOF.md",
+      "source_sha256": "56d12d12eda6623152dfd63e464ca1f82ee39599368ad65d8b17e08da43fc413"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2830,
+      "destination": "separation-reduction-audit-20261019/SOURCE-RECEIPT.md",
+      "kind": "research_source",
+      "packaged_sha256": "f6d19b40910cfeddf1f09c591ae39731db5b224dc930453ac62a398957d8e83a",
+      "source": "separation-reduction-audit-20261019/SOURCE-RECEIPT.md",
+      "source_sha256": "f6d19b40910cfeddf1f09c591ae39731db5b224dc930453ac62a398957d8e83a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8460,
+      "destination": "separation-reduction-audit-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "661c63eb3afbe002254986b3038746df48b9a28e07f357e4d19443630f745e0b",
+      "source": "separation-reduction-audit-20261019/check.py",
+      "source_sha256": "661c63eb3afbe002254986b3038746df48b9a28e07f357e4d19443630f745e0b"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 996,
+      "destination": "separation-reduction-audit-20261019/output.json",
+      "kind": "research_source",
+      "packaged_sha256": "83f9c89548048a4bb21bab8b05512ec2dd25527a3cb5313bc64385efd69b3145",
+      "source": "separation-reduction-audit-20261019/output.json",
+      "source_sha256": "83f9c89548048a4bb21bab8b05512ec2dd25527a3cb5313bc64385efd69b3145"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 755,
+      "destination": "separation-reduction-audit-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "561959d542e28f208322878b1091b7a0321cbc3596ca4679127133283d1e5d5a",
+      "source": "separation-reduction-audit-20261019/MANIFEST.json",
+      "source_sha256": "561959d542e28f208322878b1091b7a0321cbc3596ca4679127133283d1e5d5a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 9874,
+      "destination": "resonant-column-structure-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "7321c58dc20b5c7f94a26c7a426859cebab000f79de929b2ac9e907ce47321f0",
+      "source": "resonant-column-structure-20261019/PROOF.md",
+      "source_sha256": "7321c58dc20b5c7f94a26c7a426859cebab000f79de929b2ac9e907ce47321f0"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2499,
+      "destination": "resonant-column-structure-20261019/INDEPENDENT_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "327b0dc2119adab2e940c9ba06e21fad589f4ffbe954ffcdc50b99ac26464ee4",
+      "source": "resonant-column-structure-20261019/INDEPENDENT_AUDIT.md",
+      "source_sha256": "327b0dc2119adab2e940c9ba06e21fad589f4ffbe954ffcdc50b99ac26464ee4"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3344,
+      "destination": "resonant-column-structure-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "fc03ea143985f5dd2a4898777f0d911049701ab85e1fcfec91d9cdf6e72b4951",
+      "source": "resonant-column-structure-20261019/check.py",
+      "source_sha256": "fc03ea143985f5dd2a4898777f0d911049701ab85e1fcfec91d9cdf6e72b4951"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2057,
+      "destination": "resonant-column-structure-20261019/checks.json",
+      "kind": "research_source",
+      "packaged_sha256": "005d8b0fc398573265833af0c4e05460c47c9a3dab4c62a31fbaee6b2e2b92c9",
+      "source": "resonant-column-structure-20261019/checks.json",
+      "source_sha256": "005d8b0fc398573265833af0c4e05460c47c9a3dab4c62a31fbaee6b2e2b92c9"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 457,
+      "destination": "resonant-column-structure-20261019/REPRODUCE.txt",
+      "kind": "research_source",
+      "packaged_sha256": "b64ece1e82fe1a9dfd9e5a27fea242b05bec6e6cdbca0102fd95a4e5125137b8",
+      "source": "resonant-column-structure-20261019/REPRODUCE.txt",
+      "source_sha256": "b64ece1e82fe1a9dfd9e5a27fea242b05bec6e6cdbca0102fd95a4e5125137b8"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 698,
+      "destination": "resonant-column-structure-20261019/SOURCE_SHA256.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "ca29b085ab79070bc4d8ef1ae8e96222acde00797eba68e77cc24a9ae42bc5c2",
+      "source": "resonant-column-structure-20261019/SHA256.json",
+      "source_sha256": "ca29b085ab79070bc4d8ef1ae8e96222acde00797eba68e77cc24a9ae42bc5c2"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5628,
+      "destination": "noncancellation-adversarial-20261019/KERNEL-THEOREM.md",
+      "kind": "research_source",
+      "packaged_sha256": "0429e9795acf0ee65d36f3b5aca8281a444486d3257d9e504794012f1486bbde",
+      "source": "noncancellation-adversarial-20261019/KERNEL-THEOREM.md",
+      "source_sha256": "0429e9795acf0ee65d36f3b5aca8281a444486d3257d9e504794012f1486bbde"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1387,
+      "destination": "noncancellation-adversarial-20261019/KERNEL-INDEPENDENT-AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "b2ca9678de99dd99dae9aba18260ca8946c48b4dcbb87edcfeadc5ea85162695",
+      "source": "noncancellation-adversarial-20261019/KERNEL-INDEPENDENT-AUDIT.md",
+      "source_sha256": "b2ca9678de99dd99dae9aba18260ca8946c48b4dcbb87edcfeadc5ea85162695"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 4283,
+      "destination": "noncancellation-adversarial-20261019/RESULT.md",
+      "kind": "research_source",
+      "packaged_sha256": "93026c8f775adb8d345c6079c4b9d21b25df3cdc797ba5ca6d06762514bbe85e",
+      "source": "noncancellation-adversarial-20261019/RESULT.md",
+      "source_sha256": "93026c8f775adb8d345c6079c4b9d21b25df3cdc797ba5ca6d06762514bbe85e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2597,
+      "destination": "noncancellation-adversarial-20261019/check_kernel.py",
+      "kind": "research_source",
+      "packaged_sha256": "5fa3117bc2b5faacd88cec95964953a760b6dff5bdf6c2e9c942d709d592a323",
+      "source": "noncancellation-adversarial-20261019/check_kernel.py",
+      "source_sha256": "5fa3117bc2b5faacd88cec95964953a760b6dff5bdf6c2e9c942d709d592a323"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1309,
+      "destination": "noncancellation-adversarial-20261019/kernel_checks.json",
+      "kind": "research_source",
+      "packaged_sha256": "5751df26c700a50e3e209397d1c74d6d7f6045c7cbbc32b84b8c1bbb14a5eb35",
+      "source": "noncancellation-adversarial-20261019/kernel_checks.json",
+      "source_sha256": "5751df26c700a50e3e209397d1c74d6d7f6045c7cbbc32b84b8c1bbb14a5eb35"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1689,
+      "destination": "noncancellation-adversarial-20261019/search_complete.cpp",
+      "kind": "research_source",
+      "packaged_sha256": "a2434e17fe154e46baa00bc1a64a833f5bf3266ab47c41122a20c6c75c861587",
+      "source": "noncancellation-adversarial-20261019/search_complete.cpp",
+      "source_sha256": "a2434e17fe154e46baa00bc1a64a833f5bf3266ab47c41122a20c6c75c861587"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 96,
+      "destination": "noncancellation-adversarial-20261019/search_complete.out",
+      "kind": "research_source",
+      "packaged_sha256": "b677129ecb00228034f0ce26733535746e23109b9b7c931a3713891602b5aa9e",
+      "source": "noncancellation-adversarial-20261019/search_complete.out",
+      "source_sha256": "b677129ecb00228034f0ce26733535746e23109b9b7c931a3713891602b5aa9e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 777,
+      "destination": "noncancellation-adversarial-20261019/SOURCE_SHA256SUMS",
+      "kind": "historical_inventory",
+      "packaged_sha256": "93fb717457b660d9d57e2efa8f8b08b30e5b9c9bdb5078e42894737baa744806",
+      "source": "noncancellation-adversarial-20261019/SHA256SUMS",
+      "source_sha256": "93fb717457b660d9d57e2efa8f8b08b30e5b9c9bdb5078e42894737baa744806"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 7909,
+      "destination": "nonnegative-column-kernel-cost-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "84f3c9574a7ff27d4941e1a4f4708054387df7e44b2b1cf8d58477a00f509143",
+      "source": "nonnegative-column-kernel-cost-20261019/PROOF.md",
+      "source_sha256": "84f3c9574a7ff27d4941e1a4f4708054387df7e44b2b1cf8d58477a00f509143"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2954,
+      "destination": "nonnegative-column-kernel-cost-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "41dc4013d70e7755ab00cf8c138b8ae5e9f63ff94f41a71cb199711684e4b1e5",
+      "source": "nonnegative-column-kernel-cost-20261019/check.py",
+      "source_sha256": "41dc4013d70e7755ab00cf8c138b8ae5e9f63ff94f41a71cb199711684e4b1e5"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 821,
+      "destination": "nonnegative-column-kernel-cost-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "6536ffc41a045c303bb63609f8e858905adf811fc14465ed7b24421040007715",
+      "source": "nonnegative-column-kernel-cost-20261019/results.json",
+      "source_sha256": "6536ffc41a045c303bb63609f8e858905adf811fc14465ed7b24421040007715"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 376,
+      "destination": "nonnegative-column-kernel-cost-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "e3605dc6b20666d9e25807d4df631dbeaa13badaa47e5c985c22bde96cadb85c",
+      "source": "nonnegative-column-kernel-cost-20261019/MANIFEST.json",
+      "source_sha256": "e3605dc6b20666d9e25807d4df631dbeaa13badaa47e5c985c22bde96cadb85c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5544,
+      "destination": "n6-boundary-root-limit-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "51b9779578b6216f60543d907fc99046e1a403a80391659c27453dddd1231097",
+      "source": "n6-boundary-root-limit-20261019/PROOF.md",
+      "source_sha256": "51b9779578b6216f60543d907fc99046e1a403a80391659c27453dddd1231097"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1838,
+      "destination": "n6-boundary-root-limit-20261019/INDEPENDENT_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "9b1ce63a54607cfb1fb8eaef35824103da050fdfcb94f14c86bf76a389876ef9",
+      "source": "n6-boundary-root-limit-20261019/INDEPENDENT_AUDIT.md",
+      "source_sha256": "9b1ce63a54607cfb1fb8eaef35824103da050fdfcb94f14c86bf76a389876ef9"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3432,
+      "destination": "n6-boundary-root-limit-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "5a377e01044b976d3bd150e0b5e9b72414911372061bbee430f0989c71720949",
+      "source": "n6-boundary-root-limit-20261019/check.py",
+      "source_sha256": "5a377e01044b976d3bd150e0b5e9b72414911372061bbee430f0989c71720949"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 898,
+      "destination": "n6-boundary-root-limit-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "0dd5f0a3eb362c9421605c09c7a9f740279c5059fd676cc61efee11782aa1158",
+      "source": "n6-boundary-root-limit-20261019/results.json",
+      "source_sha256": "0dd5f0a3eb362c9421605c09c7a9f740279c5059fd676cc61efee11782aa1158"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 159,
+      "destination": "n6-boundary-root-limit-20261019/REPRODUCE.txt",
+      "kind": "research_source",
+      "packaged_sha256": "41a08e9d1f6ebee1742cfe0c0728dc41511dba621224d1ca75b1c2f873dd9248",
+      "source": "n6-boundary-root-limit-20261019/REPRODUCE.txt",
+      "source_sha256": "41a08e9d1f6ebee1742cfe0c0728dc41511dba621224d1ca75b1c2f873dd9248"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 699,
+      "destination": "n6-boundary-root-limit-20261019/SOURCE_SHA256.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "897629a12bebbb371876078df9851faf87e0dcd2c481f67310e216b95050a8f6",
+      "source": "n6-boundary-root-limit-20261019/SHA256.json",
+      "source_sha256": "897629a12bebbb371876078df9851faf87e0dcd2c481f67310e216b95050a8f6"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5444,
+      "destination": "n6-third-correction-obstruction-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "c5dccf839c531ac4fcf1ae9ecbe419b1f7e0c6a0c5a7142d1e1f29320f2de01c",
+      "source": "n6-third-correction-obstruction-20261019/PROOF.md",
+      "source_sha256": "c5dccf839c531ac4fcf1ae9ecbe419b1f7e0c6a0c5a7142d1e1f29320f2de01c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2195,
+      "destination": "n6-third-correction-obstruction-20261019/INDEPENDENT_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "a2301985f3b619f158671d96656a75872ade047d06c79decca198cac9bcc1286",
+      "source": "n6-third-correction-obstruction-20261019/INDEPENDENT_AUDIT.md",
+      "source_sha256": "a2301985f3b619f158671d96656a75872ade047d06c79decca198cac9bcc1286"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1919,
+      "destination": "n6-third-correction-obstruction-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "783c8b173945c500a75ec5004fb2a1d1f1c2b82fcd16c5b1e288431689958e43",
+      "source": "n6-third-correction-obstruction-20261019/check.py",
+      "source_sha256": "783c8b173945c500a75ec5004fb2a1d1f1c2b82fcd16c5b1e288431689958e43"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 828,
+      "destination": "n6-third-correction-obstruction-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "8a24d004c36104d203a36b5c8c2b724dc7057eead848e4ee57e805e5c3a3959a",
+      "source": "n6-third-correction-obstruction-20261019/results.json",
+      "source_sha256": "8a24d004c36104d203a36b5c8c2b724dc7057eead848e4ee57e805e5c3a3959a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 159,
+      "destination": "n6-third-correction-obstruction-20261019/REPRODUCE.txt",
+      "kind": "research_source",
+      "packaged_sha256": "41a08e9d1f6ebee1742cfe0c0728dc41511dba621224d1ca75b1c2f873dd9248",
+      "source": "n6-third-correction-obstruction-20261019/REPRODUCE.txt",
+      "source_sha256": "41a08e9d1f6ebee1742cfe0c0728dc41511dba621224d1ca75b1c2f873dd9248"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 699,
+      "destination": "n6-third-correction-obstruction-20261019/SOURCE_SHA256.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "81cac1ba6ddac474b1b8ce8aabb38424c960883d56d5f9a78af7c021772e8874",
+      "source": "n6-third-correction-obstruction-20261019/SHA256.json",
+      "source_sha256": "81cac1ba6ddac474b1b8ce8aabb38424c960883d56d5f9a78af7c021772e8874"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 7680,
+      "destination": "parity-column-kernel-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "8a2fe5ad8d3b7a50fa2bdb816b8880b70dba4727c1fee76125a13a1109ad0572",
+      "source": "parity-column-kernel-20261019/PROOF.md",
+      "source_sha256": "8a2fe5ad8d3b7a50fa2bdb816b8880b70dba4727c1fee76125a13a1109ad0572"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5775,
+      "destination": "parity-column-kernel-20261019/INDEPENDENT_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "f62a9c15b3059e629b7e8e25301c7304b490d72816c37a2d9e492777bc0c0656",
+      "source": "parity-column-kernel-20261019/INDEPENDENT_AUDIT.md",
+      "source_sha256": "f62a9c15b3059e629b7e8e25301c7304b490d72816c37a2d9e492777bc0c0656"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1987,
+      "destination": "parity-column-kernel-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "203d829392fe36271f68d01489327cc15b78ac072c5f5de78e2be0ca90341458",
+      "source": "parity-column-kernel-20261019/check.py",
+      "source_sha256": "203d829392fe36271f68d01489327cc15b78ac072c5f5de78e2be0ca90341458"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2113,
+      "destination": "parity-column-kernel-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "6ba5c19ede78f591ec9887cc6c2a045cfa277494bd174d8977eeecc8110113bc",
+      "source": "parity-column-kernel-20261019/results.json",
+      "source_sha256": "6ba5c19ede78f591ec9887cc6c2a045cfa277494bd174d8977eeecc8110113bc"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 369,
+      "destination": "parity-column-kernel-20261019/REPRODUCE.txt",
+      "kind": "research_source",
+      "packaged_sha256": "bb577495e574bc178f2bee655330ec260114b494f3de50724b71edf54626ee67",
+      "source": "parity-column-kernel-20261019/REPRODUCE.txt",
+      "source_sha256": "bb577495e574bc178f2bee655330ec260114b494f3de50724b71edf54626ee67"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 899,
+      "destination": "parity-column-kernel-20261019/SOURCE_SHA256.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "a3f8016ec8b2648e9d66810c41a7d0ea318d890e3135d6fe1f1aa5125525fc5c",
+      "source": "parity-column-kernel-20261019/SHA256.json",
+      "source_sha256": "a3f8016ec8b2648e9d66810c41a7d0ea318d890e3135d6fe1f1aa5125525fc5c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8858,
+      "destination": "even-background-column-kernel-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "a89accd6ed32434ea603ad56698d4ded667c0d1f8a988547d274de039ba9e95a",
+      "source": "even-background-column-kernel-20261019/PROOF.md",
+      "source_sha256": "a89accd6ed32434ea603ad56698d4ded667c0d1f8a988547d274de039ba9e95a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1534,
+      "destination": "even-background-column-kernel-20261019/ADVERSARIAL_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "5fae90458274afa212e894969d305beb0af91373fba8a1186b630d35a7995b95",
+      "source": "even-background-column-kernel-20261019/ADVERSARIAL_AUDIT.md",
+      "source_sha256": "5fae90458274afa212e894969d305beb0af91373fba8a1186b630d35a7995b95"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5615,
+      "destination": "even-background-column-kernel-20261019/CERTIFICATE-COST.md",
+      "kind": "research_source",
+      "packaged_sha256": "25338f6d975785bed82f3352d29b14fc1872f15b2e9267c4bddff7105c98f850",
+      "source": "even-background-column-kernel-20261019/CERTIFICATE-COST.md",
+      "source_sha256": "25338f6d975785bed82f3352d29b14fc1872f15b2e9267c4bddff7105c98f850"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6312,
+      "destination": "even-background-column-kernel-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "e0117258f398a3b77462f710df360decf82172473c3143a347dae7bb7003b67b",
+      "source": "even-background-column-kernel-20261019/check.py",
+      "source_sha256": "e0117258f398a3b77462f710df360decf82172473c3143a347dae7bb7003b67b"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8528,
+      "destination": "even-background-column-kernel-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "ca2434e94eb2eb32369c38381407d25cb87f25dffcda7ab004e5f84a5f032e24",
+      "source": "even-background-column-kernel-20261019/results.json",
+      "source_sha256": "ca2434e94eb2eb32369c38381407d25cb87f25dffcda7ab004e5f84a5f032e24"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2927,
+      "destination": "even-background-column-kernel-20261019/check_cost.py",
+      "kind": "research_source",
+      "packaged_sha256": "d77a8220888f1fd08fe3e4e2d3282ed1a483dfa1a0e290fd5e59afabc2709d42",
+      "source": "even-background-column-kernel-20261019/check_cost.py",
+      "source_sha256": "d77a8220888f1fd08fe3e4e2d3282ed1a483dfa1a0e290fd5e59afabc2709d42"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2027,
+      "destination": "even-background-column-kernel-20261019/cost-results.json",
+      "kind": "research_source",
+      "packaged_sha256": "94625d05a47a7304fd2b706b702b79a30a8691add735df87e76e69ef9e5f8a30",
+      "source": "even-background-column-kernel-20261019/cost-results.json",
+      "source_sha256": "94625d05a47a7304fd2b706b702b79a30a8691add735df87e76e69ef9e5f8a30"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2182,
+      "destination": "even-background-column-kernel-20261019/SOURCE_MANIFEST.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "6979939cfcaab414627df6d08e858314741fc2f038cf5285d3004621980efe83",
+      "source": "even-background-column-kernel-20261019/MANIFEST.json",
+      "source_sha256": "6979939cfcaab414627df6d08e858314741fc2f038cf5285d3004621980efe83"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5548,
+      "destination": "cyclotomic-column-root-20261019/check.py",
+      "kind": "research_source",
+      "packaged_sha256": "824f2a5835a2f0f0f95448216b926c7f7b5c6419821ad2c00c76182394cde47a",
+      "source": "cyclotomic-column-root-20261019/check.py",
+      "source_sha256": "824f2a5835a2f0f0f95448216b926c7f7b5c6419821ad2c00c76182394cde47a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 4813,
+      "destination": "cyclotomic-column-root-20261019/ALGORITHMIC_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "2d4498d0072e10cd3fa3825fbb8f730f71d862f39423cf1635deb81048bb255e",
+      "source": "cyclotomic-column-root-20261019/ALGORITHMIC_AUDIT.md",
+      "source_sha256": "2d4498d0072e10cd3fa3825fbb8f730f71d862f39423cf1635deb81048bb255e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3294,
+      "destination": "cyclotomic-column-root-20261019/CONSTRUCTIVE_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "761ac57b8c9ab6e4c296f8a2a8c4e8d690876ae2411de7ec4f880312d6f0139a",
+      "source": "cyclotomic-column-root-20261019/CONSTRUCTIVE_AUDIT.md",
+      "source_sha256": "761ac57b8c9ab6e4c296f8a2a8c4e8d690876ae2411de7ec4f880312d6f0139a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 2811,
+      "destination": "cyclotomic-column-root-20261019/ADVERSARIAL_AUDIT.md",
+      "kind": "research_source",
+      "packaged_sha256": "899f6ce4cd8de6ce7f6a13a971c78c8a5154b70e93c4863f8918a8e0a1c1aa63",
+      "source": "cyclotomic-column-root-20261019/ADVERSARIAL_AUDIT.md",
+      "source_sha256": "899f6ce4cd8de6ce7f6a13a971c78c8a5154b70e93c4863f8918a8e0a1c1aa63"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6495,
+      "destination": "cyclotomic-column-root-20261019/results.json",
+      "kind": "research_source",
+      "packaged_sha256": "50b33601dbe67f4405031c803d48ec4eb6d69534f01ea35795670222d21d0973",
+      "source": "cyclotomic-column-root-20261019/results.json",
+      "source_sha256": "50b33601dbe67f4405031c803d48ec4eb6d69534f01ea35795670222d21d0973"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6757,
+      "destination": "cyclotomic-column-root-20261019/PROOF.md",
+      "kind": "research_source",
+      "packaged_sha256": "492934d6c50d4c44645cf22816ab86196b94e87598c810096f27d51b96baaa05",
+      "source": "cyclotomic-column-root-20261019/PROOF.md",
+      "source_sha256": "492934d6c50d4c44645cf22816ab86196b94e87598c810096f27d51b96baaa05"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 560,
+      "destination": "cyclotomic-column-root-20261019/REPRODUCE.txt",
+      "kind": "research_source",
+      "packaged_sha256": "b59801b0950d55471fb7c0264ffabbc31019a4114867ddcb1f7651aa83f6728e",
+      "source": "cyclotomic-column-root-20261019/REPRODUCE.txt",
+      "source_sha256": "b59801b0950d55471fb7c0264ffabbc31019a4114867ddcb1f7651aa83f6728e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1205,
+      "destination": "cyclotomic-column-root-20261019/SOURCE_SHA256.json",
+      "kind": "historical_inventory",
+      "packaged_sha256": "4aa873eec240994e1e28b75a87acfe4ef06dc5879d771f36e45481e5fe4ba01f",
+      "source": "cyclotomic-column-root-20261019/SHA256.json",
+      "source_sha256": "4aa873eec240994e1e28b75a87acfe4ef06dc5879d771f36e45481e5fe4ba01f"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 387,
+      "destination": "column-kernel-prior-art-20261019/INPUTS.sha256",
+      "kind": "research_source",
+      "packaged_sha256": "1f3a2ccc5fadefd844ca54f233f1d6b1a22506b0b93e4a1a0bdb16f8b101cbd8",
+      "source": "column-kernel-prior-art-20261019/INPUTS.sha256",
+      "source_sha256": "1f3a2ccc5fadefd844ca54f233f1d6b1a22506b0b93e4a1a0bdb16f8b101cbd8"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5881,
+      "destination": "column-kernel-prior-art-20261019/SOURCES.json",
+      "kind": "research_source",
+      "packaged_sha256": "2ac125ee5b51c9a68100ed30ae6498e1d744d48ce1aa487b036090643f38b2c5",
+      "source": "column-kernel-prior-art-20261019/SOURCES.json",
+      "source_sha256": "2ac125ee5b51c9a68100ed30ae6498e1d744d48ce1aa487b036090643f38b2c5"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 14620,
+      "destination": "column-kernel-prior-art-20261019/REVIEW.md",
+      "kind": "research_source",
+      "packaged_sha256": "5ff4c3ae19ebce84c708ab52b452578c42a48ffd1e90fbfdf623aa35103aaf63",
+      "source": "column-kernel-prior-art-20261019/REVIEW.md",
+      "source_sha256": "5ff4c3ae19ebce84c708ab52b452578c42a48ffd1e90fbfdf623aa35103aaf63"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 235,
+      "destination": "column-kernel-prior-art-20261019/SOURCE_SHA256SUMS",
+      "kind": "historical_inventory",
+      "packaged_sha256": "adf7946e6c1d33ead6ae5986901f2f1965aecfda933b60d45514c727db07c639",
+      "source": "column-kernel-prior-art-20261019/SHA256SUMS",
+      "source_sha256": "adf7946e6c1d33ead6ae5986901f2f1965aecfda933b60d45514c727db07c639"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8955,
+      "destination": "dependencies/single-row-boundary-20261019/PROOF.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "a7a9dc8058bd96756295d09e2cd1132a46421f91cd844c4d610a73f70d20098a",
+      "source": "single-row-boundary-20261019/PROOF.md",
+      "source_sha256": "a7a9dc8058bd96756295d09e2cd1132a46421f91cd844c4d610a73f70d20098a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3604,
+      "destination": "dependencies/fixed-depth-hull-obstruction-20261018/proof-and-certificate/general-theorem.md",
+      "kind": "historical_proof_dependency",
+      "packaged_sha256": "a02a5125b5905d9127cc698c64156572b53a20ab32243ffa6238859472fc957b",
+      "source": "fixed-depth-hull-obstruction-20261018/proof-and-certificate/general-theorem.md",
+      "source_sha256": "a02a5125b5905d9127cc698c64156572b53a20ab32243ffa6238859472fc957b"
+    }
+  ],
+  "omitted": [
+    {
+      "bytes": 996,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "83f9c89548048a4bb21bab8b05512ec2dd25527a3cb5313bc64385efd69b3145",
+      "source": "separation-reduction-audit-20261019/output-optimized.json"
+    },
+    {
+      "bytes": 1566,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "e070d08f42ce324cfce7ffb80f9e4f5545922d3a893776fc0f1cdbfc6711896c",
+      "source": "separation-reduction-audit-20261019/HANDOFF.md"
+    },
+    {
+      "bytes": 2057,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "005d8b0fc398573265833af0c4e05460c47c9a3dab4c62a31fbaee6b2e2b92c9",
+      "source": "resonant-column-structure-20261019/check-optimized.log"
+    },
+    {
+      "bytes": 2057,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "005d8b0fc398573265833af0c4e05460c47c9a3dab4c62a31fbaee6b2e2b92c9",
+      "source": "resonant-column-structure-20261019/check.log"
+    },
+    {
+      "bytes": 645,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "b53f71fb6bab4f062de42a417a9212bc37774897ea71aab0feb8b26c7d714ce6",
+      "source": "resonant-column-structure-20261019/rank_test.py"
+    },
+    {
+      "bytes": 1769,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "18ba9bdae8cf5db6a569c1863781447f13100895433022e0636d0c204ea46ea7",
+      "source": "resonant-column-structure-20261019/CHECKPOINT.json"
+    },
+    {
+      "bytes": 192,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "776c673cb7fbdc36e50470087062df18a064cff016709fb90f9a9de0d67ca0ab",
+      "source": "noncancellation-adversarial-20261019/search_complete.progress"
+    },
+    {
+      "bytes": 85,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "b79c98095e2cce14513057a739bac30e811ebb87e43bded4e6a2cbe48985b2e9",
+      "source": "noncancellation-adversarial-20261019/kernel-check-optimized.log"
+    },
+    {
+      "bytes": 898,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "0dd5f0a3eb362c9421605c09c7a9f740279c5059fd676cc61efee11782aa1158",
+      "source": "n6-boundary-root-limit-20261019/check-optimized.log"
+    },
+    {
+      "bytes": 898,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "0dd5f0a3eb362c9421605c09c7a9f740279c5059fd676cc61efee11782aa1158",
+      "source": "n6-boundary-root-limit-20261019/check.log"
+    },
+    {
+      "bytes": 810,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "9d3ce21a8e5a8d93c8181dda3afd507dd844b0d97625d16d31ebb5b7abc76e95",
+      "source": "n6-boundary-root-limit-20261019/CHECKPOINT.json"
+    },
+    {
+      "bytes": 828,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "8a24d004c36104d203a36b5c8c2b724dc7057eead848e4ee57e805e5c3a3959a",
+      "source": "n6-third-correction-obstruction-20261019/check-optimized.log"
+    },
+    {
+      "bytes": 828,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "8a24d004c36104d203a36b5c8c2b724dc7057eead848e4ee57e805e5c3a3959a",
+      "source": "n6-third-correction-obstruction-20261019/check.log"
+    },
+    {
+      "bytes": 771,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "8b0a7c056bdd446d678274464feb6cb926c4ea44ee72b537c5a15ba13f0b1dcd",
+      "source": "n6-third-correction-obstruction-20261019/CHECKPOINT.json"
+    },
+    {
+      "bytes": 2113,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "6ba5c19ede78f591ec9887cc6c2a045cfa277494bd174d8977eeecc8110113bc",
+      "source": "parity-column-kernel-20261019/check-optimized.log"
+    },
+    {
+      "bytes": 2113,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "6ba5c19ede78f591ec9887cc6c2a045cfa277494bd174d8977eeecc8110113bc",
+      "source": "parity-column-kernel-20261019/check.log"
+    },
+    {
+      "bytes": 2113,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "6ba5c19ede78f591ec9887cc6c2a045cfa277494bd174d8977eeecc8110113bc",
+      "source": "parity-column-kernel-20261019/independent-check.log"
+    },
+    {
+      "bytes": 2113,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "6ba5c19ede78f591ec9887cc6c2a045cfa277494bd174d8977eeecc8110113bc",
+      "source": "parity-column-kernel-20261019/independent-check-optimized.log"
+    },
+    {
+      "bytes": 1497,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "910a68f5fc91fe6b27925465e68489faa0ebbf036c6057a1286e8ca62905d27a",
+      "source": "parity-column-kernel-20261019/CHECKPOINT.json"
+    },
+    {
+      "bytes": 662,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "48c9a603ad0d751607fa146c1d3504d6434b91fa554baa336139ee84d1e0d530",
+      "source": "even-background-column-kernel-20261019/check-optimized.log"
+    },
+    {
+      "bytes": 78,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "635bfc2b6d17c079623bbd00f80533d9aad2a3957f67daced34a362599d735ee",
+      "source": "even-background-column-kernel-20261019/cost-check-normal.log"
+    },
+    {
+      "bytes": 662,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "48c9a603ad0d751607fa146c1d3504d6434b91fa554baa336139ee84d1e0d530",
+      "source": "even-background-column-kernel-20261019/check-normal.log"
+    },
+    {
+      "bytes": 78,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "635bfc2b6d17c079623bbd00f80533d9aad2a3957f67daced34a362599d735ee",
+      "source": "even-background-column-kernel-20261019/cost-check-optimized.log"
+    },
+    {
+      "bytes": 2758,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "21accae27ab01d283f806ba8a87b49439bd1897cd51623de3385452e22eb9b33",
+      "source": "even-background-column-kernel-20261019/HANDOFF.md"
+    },
+    {
+      "bytes": 6495,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "50b33601dbe67f4405031c803d48ec4eb6d69534f01ea35795670222d21d0973",
+      "source": "cyclotomic-column-root-20261019/check-optimized.log"
+    },
+    {
+      "bytes": 6495,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "50b33601dbe67f4405031c803d48ec4eb6d69534f01ea35795670222d21d0973",
+      "source": "cyclotomic-column-root-20261019/structural-review-check-optimized.log"
+    },
+    {
+      "bytes": 6495,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "50b33601dbe67f4405031c803d48ec4eb6d69534f01ea35795670222d21d0973",
+      "source": "cyclotomic-column-root-20261019/check-normal.log"
+    },
+    {
+      "bytes": 6495,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "50b33601dbe67f4405031c803d48ec4eb6d69534f01ea35795670222d21d0973",
+      "source": "cyclotomic-column-root-20261019/structural-review-check.log"
+    },
+    {
+      "bytes": 1922,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "ebcbccebbd193532603c6a2ea7cc0bc70ee1361e019cfcc65a2549e154501bdf",
+      "source": "cyclotomic-column-root-20261019/CHECKPOINT.json"
+    },
+    {
+      "bytes": 4148,
+      "reason": "Operational/log duplicate, scratch probe, or nonportable upstream material; not needed for the selected proof/certificate.",
+      "sha256": "31c8b60a127ec53ddb99ccf7ed3dfc3c2b85e8cb651a0ba5f814050e23169b5c",
+      "source": "cyclotomic-column-root-20261019/SUPERSEDED_ROOT_DRAFT.md"
+    }
+  ],
+  "policy": "All selected original proofs and checker scripts are byte-preserved. Original directories and frozen earlier releases are untouched. Inventory names are distinguished from the aggregate manifest. Omitted upstream material is represented by immutable source links and hash receipts.",
+  "schema": "compact-research-provenance-v1",
+  "status": "LOCAL_ONLY_NOT_PUBLISHED"
+}
