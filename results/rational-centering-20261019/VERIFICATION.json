@@ -1,0 +1,155 @@
+{
+  "checkpoint": {
+    "all_archive_entries_utf8_source": true,
+    "archive": "pnp-rational-obstruction-canonical-embedding-20261019.zip",
+    "archive_bytes": 50081,
+    "archive_file_count": 27,
+    "archive_sha256": "f8db0443ece92cc80d8a70443855807c53e846455f65907f02d7d836564332aa",
+    "clean_normal_and_optimized_replays": {
+      "NORMAL": {
+        "bytes": 3537,
+        "file": "PNP_CLEAN_NORMAL.json",
+        "sha256": "632b34237b3f813f08ca9d18b329fa0e14d0c0b040a5caf741f8c1f27add9ecf"
+      },
+      "OPTIMIZED": {
+        "bytes": 3537,
+        "file": "PNP_CLEAN_OPTIMIZED.json",
+        "sha256": "632b34237b3f813f08ca9d18b329fa0e14d0c0b040a5caf741f8c1f27add9ecf"
+      }
+    },
+    "deterministic_rebuilds_byte_identical": true,
+    "expected_replay_sha256": "632b34237b3f813f08ca9d18b329fa0e14d0c0b040a5caf741f8c1f27add9ecf",
+    "external_mutations": "none; no upload, repository write, PR, merge, tag or release",
+    "manifest_sha256": "f470626545a42cc31fe9abe32839ee63fb8defcdd1483ee4e6c3010808b87232",
+    "normal_optimized_byte_identical": true,
+    "package": "pnp-rational-obstruction-canonical-embedding-20261019",
+    "root_certificate_equality": {
+      "byte_identical": true,
+      "packaged_certificate": "primary/CERTIFICATE.json",
+      "root_replay": "research-root-review-20261019-1412/PNP_OPTIMIZED.json",
+      "sha256": "5b0e23a6beaa0bc91600ca008b57732802511bbff6ada66ab6b3b3bc1d804885",
+      "status": "PASS"
+    },
+    "safe_unique_archive_paths": true,
+    "scope": "See archive README.md and theorem reports; no general P-vs-NP or Yang\u2013Mills solution.",
+    "source_freeze_rechecked": true,
+    "source_only": true,
+    "status": "COMPLETE",
+    "verification_summary": {
+      "file_integrity": "PASS",
+      "inventory_negative_controls": [
+        {
+          "name": "alter source byte",
+          "reason": "inventory mismatch: primary/verify_obstruction.py",
+          "rejected": true
+        },
+        {
+          "name": "remove source file",
+          "reason": "missing or symlinked inventory file: primary/verify_obstruction.py",
+          "rejected": true
+        },
+        {
+          "name": "add unlisted source",
+          "reason": "unexpected or missing package files",
+          "rejected": true
+        }
+      ],
+      "kind": "pnp",
+      "limits": "Exact algebra, finite enumeration, rejection and byte-integrity checks. Not a proof-assistant formalization, external peer review, or general P-vs-NP/Yang\u2013Mills solution.",
+      "negative_controls": [
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: FAILED: degree-51 leading coefficient",
+          "name": "alter author leading coefficient",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: FAILED: degree-51 leading coefficient",
+          "name": "alter author leading coefficient",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: FAILED: exact canonical embedding polynomial identity",
+          "name": "reverse canonical embedding sign",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: FAILED: exact canonical embedding polynomial identity",
+          "name": "reverse canonical embedding sign",
+          "optimized": true,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Sylvester determinant polynomial degree bound",
+          "name": "corrupt independent resultant degree bound",
+          "optimized": false,
+          "rejected": true
+        },
+        {
+          "exit_code": 1,
+          "last_stderr_line": "RuntimeError: Sylvester determinant polynomial degree bound",
+          "name": "corrupt independent resultant degree bound",
+          "optimized": true,
+          "rejected": true
+        }
+      ],
+      "positive_replays": [
+        {
+          "byte_identical": true,
+          "certificate": "primary/CERTIFICATE.json",
+          "certificate_sha256": "5b0e23a6beaa0bc91600ca008b57732802511bbff6ada66ab6b3b3bc1d804885",
+          "name": "author rational obstruction",
+          "normal": "PASS",
+          "optimized": "PASS"
+        },
+        {
+          "byte_identical": true,
+          "certificate": "primary/EMBEDDING_CHECK.json",
+          "certificate_sha256": "5cb7f10472087158c6ec5863d45941e5caba565d405b3fa81792e4e5df94597d",
+          "name": "author canonical embedding",
+          "normal": "PASS",
+          "optimized": "PASS"
+        },
+        {
+          "byte_identical": true,
+          "certificate": "audit/CHECKS.json",
+          "certificate_sha256": "29d438a7ba3b8aa46474be56186483a6e84a870584328013220775d73fb15682",
+          "name": "independent rational obstruction",
+          "normal": "PASS",
+          "optimized": "PASS"
+        },
+        {
+          "byte_identical": true,
+          "certificate": "audit/PADDING_CHECKS.json",
+          "certificate_sha256": "3fef1a2a160744fd50435f89bff5ad3ed40eca9082573e133b58b3980acb4d25",
+          "name": "independent canonical padding",
+          "normal": "PASS",
+          "optimized": "PASS"
+        }
+      ],
+      "scientific_summary": {
+        "author_explicit_checks": 48,
+        "author_internal_negative_controls_per_mode": 5,
+        "independent_polynomial_coefficient_lists_agree": true,
+        "independent_sylvester_degree_bound": 120,
+        "independent_sylvester_points": 121
+      },
+      "status": "PASS"
+    }
+  },
+  "commands_after_extraction": [
+    "python -I -B verify_bundle.py",
+    "python -I -B -O verify_bundle.py",
+    "python -I -B rebuild_archive.py ../rebuilt.zip"
+  ],
+  "external_actions_performed_by_packaging": [],
+  "role": "frozen local source-only research archive payload",
+  "status": "PASS"
+}
