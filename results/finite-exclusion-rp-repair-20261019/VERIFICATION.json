@@ -1,0 +1,87 @@
+{
+  "archive": {
+    "archive": "pnp-complete-binary-fiber-exclusion-20261019.zip",
+    "bytes": 191655,
+    "payload_manifest_sha256": "4b7479a6ee5f68823be5faca654cfccc522c4aec1163a021bd22787662b3ed01",
+    "sha256": "4d3fe03930f644da9344a377af879188c89ec637aa6d4cd3fb4a43b759d8420d",
+    "source_directory": "sources/pnp-complete-binary-fiber-exclusion-20261019"
+  },
+  "checkpoint_complete_receipt_sha256": "958b06a089506339236a0ccf9811705bc7e752e0e3a6c9ea5c6b850ed0959fb5",
+  "details": {
+    "Q1_Q2_survivors": 0,
+    "Q1_survivors": 20575,
+    "explicit_pruning_witnesses": 52094,
+    "full_extensions": 29238600,
+    "negative_controls": [
+      "corrupt exact Q(2)",
+      "corrupt complete-fiber membership",
+      "corrupt edge domain",
+      "payload hash tampering"
+    ],
+    "normal_optimized_clean_extracted_full_replays": "PASS",
+    "primary_acceptance_manifest_sha256": "620c63aa5841ec240ca9ebf6fc82c7233d8ede99f9191674232818a3bf8cd578",
+    "primary_and_independent_ubsan": "PASS",
+    "prior_endpoint_source_archive_included": true,
+    "prior_full_enumeration_newly_rerun": false,
+    "prior_full_replay_command": "python reproduce.py --replay-prior",
+    "scope": "Fixed canonical n=5, supported binary costs, all nonempty complete fibers at targets 0 through 5 are noncancelling."
+  },
+  "determinism": "Both included builders reproduce exact archive bytes normally and with -O; fixed timestamps, mode0644, sorted entries, DEFLATE9. Same zlib implementation required.",
+  "fresh_archive_integrity": [
+    {
+      "mode": "normal",
+      "result": {
+        "integrity_files": 37,
+        "status": "PASS"
+      },
+      "stdout_sha256": "e43715805234a87904b251e8d7712f922bb24c53f9155beb5b1caf63d47c7d59"
+    },
+    {
+      "mode": "optimized",
+      "result": {
+        "integrity_files": 37,
+        "status": "PASS"
+      },
+      "stdout_sha256": "e43715805234a87904b251e8d7712f922bb24c53f9155beb5b1caf63d47c7d59"
+    }
+  ],
+  "new_source_branch": "research-finite-exclusion-rp-repair-20261019",
+  "parent_source_commit": "b3c5a3f79083ea32f8a624b1b8fb83e8d35c5ce8",
+  "parent_tree": "9627d38ee5fe2e7111eec99d485d53eee75a7ff9",
+  "payload_policy": "Executable binaries, caches, giant regenerable ledgers and optional auxiliary ten-term/28-term result.",
+  "proof_dependencies": "Both exact previously published endpoint-mixtures source ZIPs are included and pinned by commit, path and SHA256; their nested original endpoint/axial theorem archives are included. No new remote fetch was needed or claimed.",
+  "publication_scope": "Additive source branch commit only. No PR, merge, tag, release or release attachment.",
+  "repository": "mio-qwq/p-vs-np",
+  "schema_version": 1,
+  "scope": "Restricted finite determinant-isolation and scalar Gaussian covariance results only. No P versus NP solution, interacting Yang-Mills construction, mass gap, human peer review or proof-assistant verification.",
+  "source_preservation": "All retained research sources unchanged. Historical paths adapted only in disposable replay copies; selected original and copied files verified by SHA256.",
+  "status": "ACCEPTED_LOCAL_SOURCE_CHECKPOINT_VERIFIED",
+  "supporting_local_receipt_hashes": {
+    "receipts/final-included-builders.json": {
+      "bytes": 899,
+      "sha256": "5af6bbea373a99fec9b488a4527653a40f649a42a824739954f8e7b414a8cc2e"
+    },
+    "receipts/pnp-clean-replay-normal.json": {
+      "bytes": 2361,
+      "sha256": "312dd6a4b28bc01b15d3e454db85e014c2278d42175aad6886899f4b1f655949"
+    },
+    "receipts/pnp-clean-replay-normal.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "receipts/pnp-clean-replay-optimized.json": {
+      "bytes": 2577,
+      "sha256": "312e9dfc9125cc99e087d76abceaa03ab225762f507aa853e4c1e65e65a8c64d"
+    },
+    "receipts/pnp-clean-replay-optimized.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "receipts/pnp-determinism-tamper-originals.json": {
+      "bytes": 490,
+      "sha256": "e6a96444453c63c46b551ba017b2be8051259d9f80c44c77ce041a587d947c41"
+    }
+  },
+  "verification_scope": "This in-repository receipt records the frozen local checkpoint and fresh source/archive preflight. Remote commit, tree, byte read-back, and unchanged-ref checks are performed separately after commit creation.",
+  "verified_checkpoint_at_utc": "2026-10-19T08:17:27.507028+00:00"
+}
