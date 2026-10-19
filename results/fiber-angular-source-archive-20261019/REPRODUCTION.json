@@ -1,0 +1,606 @@
+{
+  "status": "PASS",
+  "repository": "mio-qwq/p-vs-np",
+  "parent_commit": "3d05653738017c99027bf1aee3249e96a91a3cf7",
+  "outer_integrity_files": 7,
+  "versions": {
+    "python": "3.12.14",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0"
+  },
+  "archives": [
+    {
+      "archive": "pnp-canonical-binary-cancellation-20261019.zip",
+      "sha256": "62a78edf1c6f85d45b472f8ec3a184eb74f6bbc1dafada8298023ae59629ebcf",
+      "bytes": 40846,
+      "payload_files": 28,
+      "clean_extraction": "PASS",
+      "source_tree_unchanged": true,
+      "modes": [
+        {
+          "optimized": false,
+          "exit_code": 0,
+          "stdout_sha256": "0755ae4784a66a601ef06077c04968dcc308280bf226dba76c49d283806925a9",
+          "report": {
+            "checks": [
+              {
+                "output": "{\n  \"max_n\": 4,\n  \"results\": [\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [],\n      \"degree\": 0,\n      \"n\": 1,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 1\n    },\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0,\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 1,\n          \"distinct_odd_sums\": 1,\n          \"subsets_per_parity\": 1,\n          \"terms_per_parity\": 1\n        }\n      ],\n      \"degree\": 1,\n      \"n\": 2,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 2\n    },\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0,\n          0,\n          0,\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 3,\n          \"distinct_odd_sums\": 3,\n          \"subsets_per_parity\": 3,\n          \"terms_per_parity\": 1\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 3,\n          \"distinct_odd_sums\": 3,\n          \"subsets_per_parity\": 3,\n          \"terms_per_parity\": 2\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 1,\n          \"distinct_odd_sums\": 1,\n          \"subsets_per_parity\": 1,\n          \"terms_per_parity\": 3\n        }\n      ],\n      \"degree\": 3,\n      \"n\": 3,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 6\n    },\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 12,\n          \"distinct_odd_sums\": 12,\n          \"subsets_per_parity\": 12,\n          \"terms_per_parity\": 1\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 66,\n          \"distinct_odd_sums\": 66,\n          \"subsets_per_parity\": 66,\n          \"terms_per_parity\": 2\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 220,\n          \"distinct_odd_sums\": 220,\n          \"subsets_per_parity\": 220,\n          \"terms_per_parity\": 3\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 495,\n          \"distinct_odd_sums\": 495,\n          \"subsets_per_parity\": 495,\n          \"terms_per_parity\": 4\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 792,\n          \"distinct_odd_sums\": 792,\n          \"subsets_per_parity\": 792,\n          \"terms_per_parity\": 5\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 924,\n          \"distinct_odd_sums\": 924,\n          \"subsets_per_parity\": 924,\n          \"terms_per_parity\": 6\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 792,\n          \"distinct_odd_sums\": 792,\n          \"subsets_per_parity\": 792,\n          \"terms_per_parity\": 7\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 495,\n          \"distinct_odd_sums\": 495,\n          \"subsets_per_parity\": 495,\n          \"terms_per_parity\": 8\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 220,\n          \"distinct_odd_sums\": 220,\n          \"subsets_per_parity\": 220,\n          \"terms_per_parity\": 9\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 66,\n          \"distinct_odd_sums\": 66,\n          \"subsets_per_parity\": 66,\n          \"terms_per_parity\": 10\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 12,\n          \"distinct_odd_sums\": 12,\n          \"subsets_per_parity\": 12,\n          \"terms_per_parity\": 11\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 1,\n          \"distinct_odd_sums\": 1,\n          \"subsets_per_parity\": 1,\n          \"terms_per_parity\": 12\n        }\n      ],\n      \"degree\": 6,\n      \"n\": 4,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 24\n    }\n  ],\n  \"status\": \"all exact exclusions passed\"\n}",
+                "path": "canonical-dimension-check/check_small_dimensions.py",
+                "status": "passed"
+              },
+              {
+                "output": "PASS: eight-term binary cancellation; all 11 coefficients and 11 evaluations exact.\nPASS: minimum cardinality eight at n=5; no equal parity subset sums for k=1,2,3.\nPASS: 15-edge union, 12 matchings, and explicit real-cost affine obstruction.\nPASS: F is the sole zero subset among 4095 nonempty union subsets.\nPASS: 32768 binary colorings yield 787 distinct nonempty complete fibers; none cancel.\nPASS: union support determinant has the stated nonzero factorization.",
+                "path": "binary-cancellation-search-20261019/check.py",
+                "status": "passed"
+              },
+              {
+                "output": "PASS: exact degree-ten zero sum, 11 independent evaluations, affine obstruction, union support and factored nonzero determinant.",
+                "path": "binary-cancellation-audit-20261019/check.py",
+                "status": "passed"
+              },
+              {
+                "output": "PASS: all 62 support receipts and all 96 complete-fiber receipts independently verified; hashes, counts, complement identities and safe-integer bound pass.",
+                "path": "binary-cancellation-audit-20261019/verify_receipts.py",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "feasible_supports": 23191071,
+                  "nonempty_row_supports": 28629151,
+                  "zero_at_1": 31312,
+                  "zero_at_1_2": 62,
+                  "zero_at_1_2_3": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/exhaust_support.cpp",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "all_supports": 33554432,
+                  "feasible_supports": 23191071,
+                  "zero_at_1": 31312,
+                  "zero_at_1_2": 62,
+                  "zero_at_1_2_3": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/verify_support_zeta.cpp",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "all_colorings_via_complement": 33554432,
+                  "representative_colorings": 16777216,
+                  "representative_nonempty_fibers": 89453821,
+                  "zero_at_1": 50208,
+                  "zero_at_1_2": 96,
+                  "zero_at_1_2_3": 0,
+                  "zero_polynomial_fibers": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/exhaust_full_colors.cpp",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "all_colorings_via_complement": 33554432,
+                  "representative_colorings": 16777216,
+                  "representative_nonempty_fibers": 89453821,
+                  "zero_at_1": 50208,
+                  "zero_at_1_2": 96,
+                  "zero_at_1_2_3": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/verify_full_colors_direct.cpp",
+                "status": "passed"
+              }
+            ],
+            "integrity_after": true,
+            "integrity_before": true,
+            "package": "pnp-canonical-binary-cancellation-20261019",
+            "python_optimized": false,
+            "status": "all checks passed"
+          }
+        },
+        {
+          "optimized": true,
+          "exit_code": 0,
+          "stdout_sha256": "e8834d04c8a2d05ba7fa68a45fc4aab47c2d637cd4b6a1cc493ba3e4bbc23d6c",
+          "report": {
+            "checks": [
+              {
+                "output": "{\n  \"max_n\": 4,\n  \"results\": [\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [],\n      \"degree\": 0,\n      \"n\": 1,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 1\n    },\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0,\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 1,\n          \"distinct_odd_sums\": 1,\n          \"subsets_per_parity\": 1,\n          \"terms_per_parity\": 1\n        }\n      ],\n      \"degree\": 1,\n      \"n\": 2,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 2\n    },\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0,\n          0,\n          0,\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 3,\n          \"distinct_odd_sums\": 3,\n          \"subsets_per_parity\": 3,\n          \"terms_per_parity\": 1\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 3,\n          \"distinct_odd_sums\": 3,\n          \"subsets_per_parity\": 3,\n          \"terms_per_parity\": 2\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 1,\n          \"distinct_odd_sums\": 1,\n          \"subsets_per_parity\": 1,\n          \"terms_per_parity\": 3\n        }\n      ],\n      \"degree\": 3,\n      \"n\": 3,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 6\n    },\n    {\n      \"all_cross_parity_common_vectors\": [\n        [\n          0,\n          0,\n          0,\n          0,\n          0,\n          0,\n          0\n        ]\n      ],\n      \"balanced_cardinality_checks\": [\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 12,\n          \"distinct_odd_sums\": 12,\n          \"subsets_per_parity\": 12,\n          \"terms_per_parity\": 1\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 66,\n          \"distinct_odd_sums\": 66,\n          \"subsets_per_parity\": 66,\n          \"terms_per_parity\": 2\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 220,\n          \"distinct_odd_sums\": 220,\n          \"subsets_per_parity\": 220,\n          \"terms_per_parity\": 3\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 495,\n          \"distinct_odd_sums\": 495,\n          \"subsets_per_parity\": 495,\n          \"terms_per_parity\": 4\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 792,\n          \"distinct_odd_sums\": 792,\n          \"subsets_per_parity\": 792,\n          \"terms_per_parity\": 5\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 924,\n          \"distinct_odd_sums\": 924,\n          \"subsets_per_parity\": 924,\n          \"terms_per_parity\": 6\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 792,\n          \"distinct_odd_sums\": 792,\n          \"subsets_per_parity\": 792,\n          \"terms_per_parity\": 7\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 495,\n          \"distinct_odd_sums\": 495,\n          \"subsets_per_parity\": 495,\n          \"terms_per_parity\": 8\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 220,\n          \"distinct_odd_sums\": 220,\n          \"subsets_per_parity\": 220,\n          \"terms_per_parity\": 9\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 66,\n          \"distinct_odd_sums\": 66,\n          \"subsets_per_parity\": 66,\n          \"terms_per_parity\": 10\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 12,\n          \"distinct_odd_sums\": 12,\n          \"subsets_per_parity\": 12,\n          \"terms_per_parity\": 11\n        },\n        {\n          \"cross_parity_equalities\": 0,\n          \"distinct_even_sums\": 1,\n          \"distinct_odd_sums\": 1,\n          \"subsets_per_parity\": 1,\n          \"terms_per_parity\": 12\n        }\n      ],\n      \"degree\": 6,\n      \"n\": 4,\n      \"nonempty_zero_subsets\": 0,\n      \"permutations\": 24\n    }\n  ],\n  \"status\": \"all exact exclusions passed\"\n}",
+                "path": "canonical-dimension-check/check_small_dimensions.py",
+                "status": "passed"
+              },
+              {
+                "output": "PASS: eight-term binary cancellation; all 11 coefficients and 11 evaluations exact.\nPASS: minimum cardinality eight at n=5; no equal parity subset sums for k=1,2,3.\nPASS: 15-edge union, 12 matchings, and explicit real-cost affine obstruction.\nPASS: F is the sole zero subset among 4095 nonempty union subsets.\nPASS: 32768 binary colorings yield 787 distinct nonempty complete fibers; none cancel.\nPASS: union support determinant has the stated nonzero factorization.",
+                "path": "binary-cancellation-search-20261019/check.py",
+                "status": "passed"
+              },
+              {
+                "output": "PASS: exact degree-ten zero sum, 11 independent evaluations, affine obstruction, union support and factored nonzero determinant.",
+                "path": "binary-cancellation-audit-20261019/check.py",
+                "status": "passed"
+              },
+              {
+                "output": "PASS: all 62 support receipts and all 96 complete-fiber receipts independently verified; hashes, counts, complement identities and safe-integer bound pass.",
+                "path": "binary-cancellation-audit-20261019/verify_receipts.py",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "feasible_supports": 23191071,
+                  "nonempty_row_supports": 28629151,
+                  "zero_at_1": 31312,
+                  "zero_at_1_2": 62,
+                  "zero_at_1_2_3": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/exhaust_support.cpp",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "all_supports": 33554432,
+                  "feasible_supports": 23191071,
+                  "zero_at_1": 31312,
+                  "zero_at_1_2": 62,
+                  "zero_at_1_2_3": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/verify_support_zeta.cpp",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "all_colorings_via_complement": 33554432,
+                  "representative_colorings": 16777216,
+                  "representative_nonempty_fibers": 89453821,
+                  "zero_at_1": 50208,
+                  "zero_at_1_2": 96,
+                  "zero_at_1_2_3": 0,
+                  "zero_polynomial_fibers": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/exhaust_full_colors.cpp",
+                "status": "passed"
+              },
+              {
+                "census": {
+                  "all_colorings_via_complement": 33554432,
+                  "representative_colorings": 16777216,
+                  "representative_nonempty_fibers": 89453821,
+                  "zero_at_1": 50208,
+                  "zero_at_1_2": 96,
+                  "zero_at_1_2_3": 0
+                },
+                "compile_flags": [
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=c++17"
+                ],
+                "path": "binary-cancellation-audit-20261019/verify_full_colors_direct.cpp",
+                "status": "passed"
+              }
+            ],
+            "integrity_after": true,
+            "integrity_before": true,
+            "package": "pnp-canonical-binary-cancellation-20261019",
+            "python_optimized": true,
+            "status": "all checks passed"
+          }
+        }
+      ]
+    },
+    {
+      "archive": "pnp-union-support-normalization-20261019.zip",
+      "sha256": "28c8c36fc74e675116561c32539fac1ba454515e6c68ab8dd8e82e6d9e6bac5d",
+      "bytes": 34117,
+      "payload_files": 17,
+      "clean_extraction": "PASS",
+      "source_tree_unchanged": true,
+      "modes": [
+        {
+          "optimized": false,
+          "exit_code": 0,
+          "stdout_sha256": "915a154b787ff2ba30a963cdb88f70aae8275b5c7bd1dc362591c0a05d43b65a",
+          "report": {
+            "checks": [
+              {
+                "output": "{\"explicit_family_checks\": 70992, \"known_matchings\": 35064, \"max_source_n\": 3, \"selector_core_state_checks\": 7047712, \"source_colored_supports\": 15688}",
+                "path": "union-support-verifier-20261019/check_core.py",
+                "status": "passed"
+              },
+              {
+                "output": "{\n  \"actual_matchings_enumerated\": 22789,\n  \"actual_target_matchings\": 1063,\n  \"exhaustive_2x2_graphs\": 72,\n  \"expanded_graphs\": 132,\n  \"max_graph_edges\": 698,\n  \"max_side_vertices\": 341,\n  \"seconds\": 68.825,\n  \"source_lists\": 347\n}",
+                "path": "union-support-verifier-audit-20261019/check_expanded.py",
+                "status": "passed"
+              }
+            ],
+            "integrity_after": true,
+            "integrity_before": true,
+            "package": "pnp-union-support-normalization-20261019",
+            "python_optimized": false,
+            "status": "all checks passed"
+          }
+        },
+        {
+          "optimized": true,
+          "exit_code": 0,
+          "stdout_sha256": "ed1d4080e97d7eafc123df3a23e8852701f9ee2049b1ae1504ca9bb3c9ca4c57",
+          "report": {
+            "checks": [
+              {
+                "output": "{\"explicit_family_checks\": 70992, \"known_matchings\": 35064, \"max_source_n\": 3, \"selector_core_state_checks\": 7047712, \"source_colored_supports\": 15688}",
+                "path": "union-support-verifier-20261019/check_core.py",
+                "status": "passed"
+              },
+              {
+                "output": "{\n  \"actual_matchings_enumerated\": 22789,\n  \"actual_target_matchings\": 1063,\n  \"exhaustive_2x2_graphs\": 72,\n  \"expanded_graphs\": 132,\n  \"max_graph_edges\": 698,\n  \"max_side_vertices\": 341,\n  \"seconds\": 68.377,\n  \"source_lists\": 347\n}",
+                "path": "union-support-verifier-audit-20261019/check_expanded.py",
+                "status": "passed"
+              }
+            ],
+            "integrity_after": true,
+            "integrity_before": true,
+            "package": "pnp-union-support-normalization-20261019",
+            "python_optimized": true,
+            "status": "all checks passed"
+          }
+        }
+      ]
+    },
+    {
+      "archive": "pnp-continuation-20261019.zip",
+      "sha256": "314456897b4a91d4c055e374e038dc7fa626e60a13451014b1893f0927d82883",
+      "bytes": 99104,
+      "payload_files": 37,
+      "clean_extraction": "PASS",
+      "source_tree_unchanged": true,
+      "modes": [
+        {
+          "optimized": false,
+          "exit_code": 0,
+          "stdout_sha256": "c745752054d311197cb0728f9a7f2bcae6083b192e979f341766e70439eda338",
+          "report": {
+            "status": "PASS",
+            "integrity_files_checked": 36,
+            "checks": [
+              {
+                "check": "compile-local-exact-enumerator",
+                "exit_code": 0,
+                "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "check": "eight-enumeration-centered",
+                "exit_code": 0,
+                "stdout_sha256": "36f5c5e59fbdcccf8a8f62288d7b3480671f0d56c62bebdd0c0a41cadb23a833"
+              },
+              {
+                "check": "eight-enumeration-original",
+                "exit_code": 0,
+                "stdout_sha256": "36f5c5e59fbdcccf8a8f62288d7b3480671f0d56c62bebdd0c0a41cadb23a833"
+              },
+              {
+                "check": "small-relations-and-complete-fiber-controls-normal",
+                "exit_code": 0,
+                "stdout_sha256": "74efc874c1d11b1f60ae5825d30e2a0597ec7773c2765cd1508d2d0b0c7a58b2"
+              },
+              {
+                "check": "small-relations-and-complete-fiber-controls-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "74efc874c1d11b1f60ae5825d30e2a0597ec7773c2765cd1508d2d0b0c7a58b2"
+              },
+              {
+                "check": "unique-eight-and-affine-obstruction-normal",
+                "exit_code": 0,
+                "stdout_sha256": "7206669bac5e4c967787a9e63a8004fcbfe8e0632a1f44ebdf1ed9202e5f3ff7"
+              },
+              {
+                "check": "unique-eight-and-affine-obstruction-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "7206669bac5e4c967787a9e63a8004fcbfe8e0632a1f44ebdf1ed9202e5f3ff7"
+              },
+              {
+                "check": "independent-k1-model-normal",
+                "exit_code": 0,
+                "stdout_sha256": "39f55759cf64fa06b1e107fee3a7eafcbf0879c99d987f0d0d76f3b57737bf66"
+              },
+              {
+                "check": "independent-k1-model-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "39f55759cf64fa06b1e107fee3a7eafcbf0879c99d987f0d0d76f3b57737bf66"
+              },
+              {
+                "check": "independent-k2-semantics-normal",
+                "exit_code": 0,
+                "stdout_sha256": "6d5a9c4bf44623f2f2c5acb8ec597d1ab2ce32428b682173d65acc07397cd211"
+              },
+              {
+                "check": "independent-k2-semantics-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "6d5a9c4bf44623f2f2c5acb8ec597d1ab2ce32428b682173d65acc07397cd211"
+              },
+              {
+                "check": "independent-k2-model-normal",
+                "exit_code": 0,
+                "stdout_sha256": "2745a0e02c86f80f4821fe4a846df44f83000f616ef0c08505398bfab99a39db"
+              },
+              {
+                "check": "independent-k2-model-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "2745a0e02c86f80f4821fe4a846df44f83000f616ef0c08505398bfab99a39db"
+              }
+            ],
+            "normal_and_optimized_reports_identical": true,
+            "both_polynomial_tables_regenerated_byte_exact": true,
+            "both_cpp_coefficient_bases_agree_with_independent_python_enumeration": true,
+            "unique_eight_affine_obstruction_and_lower_bound_ten_verified": true,
+            "k1_k2_original_minimum_eight_model_rows_audited": true,
+            "historical_timeout_receipts_and_provenance_verified": true,
+            "terminal_nodes": {
+              "1": 48451,
+              "2": 28228
+            },
+            "new_solver_runs": 0,
+            "source_tree_untouched_by_replay": true,
+            "scope": "Exact canonical n5 finite theorem and model/receipt audit only; no sparse-fiber infeasibility or P versus NP conclusion."
+          }
+        },
+        {
+          "optimized": true,
+          "exit_code": 0,
+          "stdout_sha256": "c745752054d311197cb0728f9a7f2bcae6083b192e979f341766e70439eda338",
+          "report": {
+            "status": "PASS",
+            "integrity_files_checked": 36,
+            "checks": [
+              {
+                "check": "compile-local-exact-enumerator",
+                "exit_code": 0,
+                "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "check": "eight-enumeration-centered",
+                "exit_code": 0,
+                "stdout_sha256": "36f5c5e59fbdcccf8a8f62288d7b3480671f0d56c62bebdd0c0a41cadb23a833"
+              },
+              {
+                "check": "eight-enumeration-original",
+                "exit_code": 0,
+                "stdout_sha256": "36f5c5e59fbdcccf8a8f62288d7b3480671f0d56c62bebdd0c0a41cadb23a833"
+              },
+              {
+                "check": "small-relations-and-complete-fiber-controls-normal",
+                "exit_code": 0,
+                "stdout_sha256": "74efc874c1d11b1f60ae5825d30e2a0597ec7773c2765cd1508d2d0b0c7a58b2"
+              },
+              {
+                "check": "small-relations-and-complete-fiber-controls-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "74efc874c1d11b1f60ae5825d30e2a0597ec7773c2765cd1508d2d0b0c7a58b2"
+              },
+              {
+                "check": "unique-eight-and-affine-obstruction-normal",
+                "exit_code": 0,
+                "stdout_sha256": "7206669bac5e4c967787a9e63a8004fcbfe8e0632a1f44ebdf1ed9202e5f3ff7"
+              },
+              {
+                "check": "unique-eight-and-affine-obstruction-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "7206669bac5e4c967787a9e63a8004fcbfe8e0632a1f44ebdf1ed9202e5f3ff7"
+              },
+              {
+                "check": "independent-k1-model-normal",
+                "exit_code": 0,
+                "stdout_sha256": "39f55759cf64fa06b1e107fee3a7eafcbf0879c99d987f0d0d76f3b57737bf66"
+              },
+              {
+                "check": "independent-k1-model-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "39f55759cf64fa06b1e107fee3a7eafcbf0879c99d987f0d0d76f3b57737bf66"
+              },
+              {
+                "check": "independent-k2-semantics-normal",
+                "exit_code": 0,
+                "stdout_sha256": "6d5a9c4bf44623f2f2c5acb8ec597d1ab2ce32428b682173d65acc07397cd211"
+              },
+              {
+                "check": "independent-k2-semantics-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "6d5a9c4bf44623f2f2c5acb8ec597d1ab2ce32428b682173d65acc07397cd211"
+              },
+              {
+                "check": "independent-k2-model-normal",
+                "exit_code": 0,
+                "stdout_sha256": "2745a0e02c86f80f4821fe4a846df44f83000f616ef0c08505398bfab99a39db"
+              },
+              {
+                "check": "independent-k2-model-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "2745a0e02c86f80f4821fe4a846df44f83000f616ef0c08505398bfab99a39db"
+              }
+            ],
+            "normal_and_optimized_reports_identical": true,
+            "both_polynomial_tables_regenerated_byte_exact": true,
+            "both_cpp_coefficient_bases_agree_with_independent_python_enumeration": true,
+            "unique_eight_affine_obstruction_and_lower_bound_ten_verified": true,
+            "k1_k2_original_minimum_eight_model_rows_audited": true,
+            "historical_timeout_receipts_and_provenance_verified": true,
+            "terminal_nodes": {
+              "1": 48451,
+              "2": 28228
+            },
+            "new_solver_runs": 0,
+            "source_tree_untouched_by_replay": true,
+            "scope": "Exact canonical n5 finite theorem and model/receipt audit only; no sparse-fiber infeasibility or P versus NP conclusion."
+          }
+        }
+      ]
+    },
+    {
+      "archive": "endpoint-continuation-20261019.zip",
+      "sha256": "d7241176deef0780da07144bb54947eb0fe776557164766bed8ddd152bc6ddf2",
+      "bytes": 34570,
+      "payload_files": 13,
+      "clean_extraction": "PASS",
+      "source_tree_unchanged": true,
+      "modes": [
+        {
+          "optimized": false,
+          "exit_code": 0,
+          "stdout_sha256": "0c58e569240fcfaba2cadd71d650918fa59018b64cb870bfe03512ab254d8c0d",
+          "report": {
+            "status": "PASS",
+            "integrity_files_checked": 12,
+            "checks": [
+              {
+                "check": "primary-exact-enumeration-normal",
+                "exit_code": 0,
+                "stdout_sha256": "9a4c290eacc8cd3b0ffdb6a7c801708c85b84ceb8634670a7ef8af6081f6562d"
+              },
+              {
+                "check": "primary-exact-enumeration-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "9a4c290eacc8cd3b0ffdb6a7c801708c85b84ceb8634670a7ef8af6081f6562d"
+              },
+              {
+                "check": "compile-independent-gray-enumerator-normal",
+                "exit_code": 0,
+                "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "check": "independent-gray-enumeration-normal",
+                "exit_code": 0,
+                "stdout_sha256": "ad4c13d149efc720651c58f6fbf2d6ce17da4e35023b0ad15f2d784d0fe47b85"
+              },
+              {
+                "check": "compile-independent-gray-enumerator-ubsan",
+                "exit_code": 0,
+                "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "check": "independent-gray-enumeration-ubsan",
+                "exit_code": 0,
+                "stdout_sha256": "ad4c13d149efc720651c58f6fbf2d6ce17da4e35023b0ad15f2d784d0fe47b85"
+              },
+              {
+                "check": "independent-pair-enumeration-normal",
+                "exit_code": 0,
+                "stdout_sha256": "7374730c18be38b1709cca29af9ab1263689f48dde679b963a1f00b77b26ec2e"
+              },
+              {
+                "check": "independent-pair-enumeration-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "7374730c18be38b1709cca29af9ab1263689f48dde679b963a1f00b77b26ec2e"
+              }
+            ],
+            "primary_certificate_sha256": "87f7d13f874fbd351cf819c5deba3c5b4c2365d1a45198faa08b4f696dab7367",
+            "primary_normal_optimized_and_retained_certificates_byte_identical": true,
+            "independent_gray_normal_ubsan_and_retained_certificates_byte_identical": true,
+            "independent_pair_normal_optimized_and_retained_receipts_byte_identical": true,
+            "all_571_final_primary_slice_memberships_match_independent_audit": true,
+            "all_ten_pair_counts_and_three_completion_memberships_match": true,
+            "modular_prime_hadamard_and_int64_bounds_verified": true,
+            "comparison_inputs": "Final ENDPOINT_CERTIFICATE.json and independently regenerated Gray-code/pair receipts only",
+            "new_solver_runs": 0,
+            "scope": "Necessary endpoint-row support condition for canonical n5 complete real edge-cost fibers; remaining sparse-fiber cases are unresolved."
+          }
+        },
+        {
+          "optimized": true,
+          "exit_code": 0,
+          "stdout_sha256": "0c58e569240fcfaba2cadd71d650918fa59018b64cb870bfe03512ab254d8c0d",
+          "report": {
+            "status": "PASS",
+            "integrity_files_checked": 12,
+            "checks": [
+              {
+                "check": "primary-exact-enumeration-normal",
+                "exit_code": 0,
+                "stdout_sha256": "9a4c290eacc8cd3b0ffdb6a7c801708c85b84ceb8634670a7ef8af6081f6562d"
+              },
+              {
+                "check": "primary-exact-enumeration-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "9a4c290eacc8cd3b0ffdb6a7c801708c85b84ceb8634670a7ef8af6081f6562d"
+              },
+              {
+                "check": "compile-independent-gray-enumerator-normal",
+                "exit_code": 0,
+                "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "check": "independent-gray-enumeration-normal",
+                "exit_code": 0,
+                "stdout_sha256": "ad4c13d149efc720651c58f6fbf2d6ce17da4e35023b0ad15f2d784d0fe47b85"
+              },
+              {
+                "check": "compile-independent-gray-enumerator-ubsan",
+                "exit_code": 0,
+                "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "check": "independent-gray-enumeration-ubsan",
+                "exit_code": 0,
+                "stdout_sha256": "ad4c13d149efc720651c58f6fbf2d6ce17da4e35023b0ad15f2d784d0fe47b85"
+              },
+              {
+                "check": "independent-pair-enumeration-normal",
+                "exit_code": 0,
+                "stdout_sha256": "7374730c18be38b1709cca29af9ab1263689f48dde679b963a1f00b77b26ec2e"
+              },
+              {
+                "check": "independent-pair-enumeration-optimized",
+                "exit_code": 0,
+                "stdout_sha256": "7374730c18be38b1709cca29af9ab1263689f48dde679b963a1f00b77b26ec2e"
+              }
+            ],
+            "primary_certificate_sha256": "87f7d13f874fbd351cf819c5deba3c5b4c2365d1a45198faa08b4f696dab7367",
+            "primary_normal_optimized_and_retained_certificates_byte_identical": true,
+            "independent_gray_normal_ubsan_and_retained_certificates_byte_identical": true,
+            "independent_pair_normal_optimized_and_retained_receipts_byte_identical": true,
+            "all_571_final_primary_slice_memberships_match_independent_audit": true,
+            "all_ten_pair_counts_and_three_completion_memberships_match": true,
+            "modular_prime_hadamard_and_int64_bounds_verified": true,
+            "comparison_inputs": "Final ENDPOINT_CERTIFICATE.json and independently regenerated Gray-code/pair receipts only",
+            "new_solver_runs": 0,
+            "scope": "Necessary endpoint-row support condition for canonical n5 complete real edge-cost fibers; remaining sparse-fiber cases are unresolved."
+          }
+        }
+      ]
+    }
+  ],
+  "new_solver_runs": 0,
+  "source_trees_unchanged": true,
+  "negative_controls": "Replayed by each included harness where applicable.",
+  "claim_boundary": "Exact regression and finite certificates complement written proofs; no Millennium-problem resolution or formal verification claim."
+}

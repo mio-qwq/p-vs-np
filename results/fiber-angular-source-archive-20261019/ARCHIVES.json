@@ -1,0 +1,44 @@
+{
+  "repository": "mio-qwq/p-vs-np",
+  "parent_commit": "3d05653738017c99027bf1aee3249e96a91a3cf7",
+  "date": "2026-10-19",
+  "archive_format": "Sorted ZIP/deflate-9, fixed timestamp 2026-10-19, Unix regular-file mode 0644.",
+  "archives": [
+    {
+      "archive": "pnp-canonical-binary-cancellation-20261019.zip",
+      "sha256": "62a78edf1c6f85d45b472f8ec3a184eb74f6bbc1dafada8298023ae59629ebcf",
+      "bytes": 40846,
+      "entrypoint": "verify_sources.py",
+      "source_archive_unchanged": true,
+      "payload_files": 28,
+      "uncompressed_bytes": 100310
+    },
+    {
+      "archive": "pnp-union-support-normalization-20261019.zip",
+      "sha256": "28c8c36fc74e675116561c32539fac1ba454515e6c68ab8dd8e82e6d9e6bac5d",
+      "bytes": 34117,
+      "entrypoint": "verify_sources.py",
+      "source_archive_unchanged": true,
+      "payload_files": 17,
+      "uncompressed_bytes": 78059
+    },
+    {
+      "archive": "pnp-continuation-20261019.zip",
+      "sha256": "314456897b4a91d4c055e374e038dc7fa626e60a13451014b1893f0927d82883",
+      "bytes": 99104,
+      "entrypoint": "reproduce.py",
+      "source_archive_unchanged": true,
+      "payload_files": 37,
+      "uncompressed_bytes": 787152
+    },
+    {
+      "archive": "endpoint-continuation-20261019.zip",
+      "sha256": "d7241176deef0780da07144bb54947eb0fe776557164766bed8ddd152bc6ddf2",
+      "bytes": 34570,
+      "entrypoint": "reproduce.py",
+      "source_archive_unchanged": true,
+      "payload_files": 13,
+      "uncompressed_bytes": 245546
+    }
+  ]
+}
