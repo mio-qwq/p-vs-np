@@ -1,0 +1,265 @@
+{
+  "files": [
+    {
+      "byte_preserved": true,
+      "bytes": 1630,
+      "destination": "general-omission-20261018/README.md",
+      "editorial_change": null,
+      "packaged_sha256": "71f6a995d94c258489efe71697856938c13b3f6ccee52ae79b34ac93f3c853c3",
+      "source": "general-omission-20261018/README.md",
+      "source_sha256": "71f6a995d94c258489efe71697856938c13b3f6ccee52ae79b34ac93f3c853c3"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 15799,
+      "destination": "general-omission-20261018/PROOF.md",
+      "editorial_change": null,
+      "packaged_sha256": "78ade6f27f850b5bc2b9f8794a83171558896a0531f504ea8129b27e48718009",
+      "source": "general-omission-20261018/PROOF.md",
+      "source_sha256": "78ade6f27f850b5bc2b9f8794a83171558896a0531f504ea8129b27e48718009"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5478,
+      "destination": "general-omission-20261018/PIVOT_COMPARISON.md",
+      "editorial_change": null,
+      "packaged_sha256": "a3422df488737e0214b4cab13a617455a5d68ed7527207520fbae9c3d7faed41",
+      "source": "general-omission-20261018/PIVOT_COMPARISON.md",
+      "source_sha256": "a3422df488737e0214b4cab13a617455a5d68ed7527207520fbae9c3d7faed41"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 12096,
+      "destination": "general-omission-20261018/AUDIT.md",
+      "editorial_change": null,
+      "packaged_sha256": "f6faa258a2d20ec166b440f6168e02c6abda8759b5c3d963c71465b6ccf3a237",
+      "source": "general-omission-20261018/AUDIT.md",
+      "source_sha256": "f6faa258a2d20ec166b440f6168e02c6abda8759b5c3d963c71465b6ccf3a237"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1071,
+      "destination": "general-omission-20261018/CHECKPOINT.json",
+      "editorial_change": null,
+      "packaged_sha256": "b8aab372cfc656ad6b0edbb38e87be78e789dcc052369738d649423eb813b210",
+      "source": "general-omission-20261018/CHECKPOINT.json",
+      "source_sha256": "b8aab372cfc656ad6b0edbb38e87be78e789dcc052369738d649423eb813b210"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 11583,
+      "destination": "general-omission-20261018/checker/check_q3.py",
+      "editorial_change": null,
+      "packaged_sha256": "04bd5439062c1789ce8807a3553e50fe92dc293f099df7db180b38354b00b573",
+      "source": "general-omission-20261018/checker/check_q3.py",
+      "source_sha256": "04bd5439062c1789ce8807a3553e50fe92dc293f099df7db180b38354b00b573"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5696,
+      "destination": "general-omission-20261018/checker/q3_results.json",
+      "editorial_change": null,
+      "packaged_sha256": "8e0360a9d081d455275b9025b163d8de0118e01dd2671d38643d095e5fd4c99e",
+      "source": "general-omission-20261018/checker/q3_results.json",
+      "source_sha256": "8e0360a9d081d455275b9025b163d8de0118e01dd2671d38643d095e5fd4c99e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6275,
+      "destination": "general-omission-20261018/checker/Q3_CERTIFICATE.md",
+      "editorial_change": null,
+      "packaged_sha256": "5ea247919e1b991ddba572f9a50e9835bf297be08cba898618c5c0b24c148bea",
+      "source": "general-omission-20261018/checker/Q3_CERTIFICATE.md",
+      "source_sha256": "5ea247919e1b991ddba572f9a50e9835bf297be08cba898618c5c0b24c148bea"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 779,
+      "destination": "general-omission-20261018/SOURCE_MANIFEST.json",
+      "editorial_change": "Renamed historical source inventory to distinguish it from the bundle inventory.",
+      "packaged_sha256": "94254f19c74ab376da27b303220ac75827d9a445a246e77102843acc072bc55c",
+      "source": "general-omission-20261018/MANIFEST.json",
+      "source_sha256": "94254f19c74ab376da27b303220ac75827d9a445a246e77102843acc072bc55c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5195,
+      "destination": "single-edge-perturbation-20261019/AUDIT.md",
+      "editorial_change": null,
+      "packaged_sha256": "1f0ccaee7186b5cc956bd9b9b5939d6dc4f409cc4381bd6a4e58b64d50d99393",
+      "source": "single-edge-perturbation-20261019/AUDIT.md",
+      "source_sha256": "1f0ccaee7186b5cc956bd9b9b5939d6dc4f409cc4381bd6a4e58b64d50d99393"
+    },
+    {
+      "byte_preserved": false,
+      "bytes": 11088,
+      "destination": "single-edge-perturbation-20261019/PROOF.md",
+      "editorial_change": "Only the duplicate dependency-proof path is redirected to the canonical sibling proof; mathematical text unchanged.",
+      "packaged_sha256": "963739910de764441b798e71f8b662eb0444fba66889dc09a20d980676445099",
+      "source": "single-edge-perturbation-20261019/PROOF.md",
+      "source_sha256": "59e97a55a2ea65c3e3d4f7de24dfa9ce2b4c342c153ae8a4a33a3f5307b1cc1d"
+    },
+    {
+      "byte_preserved": false,
+      "bytes": 2409,
+      "destination": "single-edge-perturbation-20261019/RESULT.md",
+      "editorial_change": "Only the duplicate dependency-proof path is redirected to the canonical sibling proof; mathematical text unchanged.",
+      "packaged_sha256": "8e02785d927242359db22ec4071946f4eae14698f07c226eac68e59c35046b64",
+      "source": "single-edge-perturbation-20261019/RESULT.md",
+      "source_sha256": "80047e7e8ff23b7b8bb3d49d123d4669cd62a92691da827579d629c55ef6b180"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5770,
+      "destination": "single-edge-perturbation-20261019/checker/audit_check.py",
+      "editorial_change": null,
+      "packaged_sha256": "f8e958efbed8e4040ba502acf9327516707bb9246fa7dc4987ee51c17b2585ab",
+      "source": "single-edge-perturbation-20261019/checker/audit_check.py",
+      "source_sha256": "f8e958efbed8e4040ba502acf9327516707bb9246fa7dc4987ee51c17b2585ab"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 10153,
+      "destination": "single-edge-perturbation-20261019/checker/check.py",
+      "editorial_change": null,
+      "packaged_sha256": "82cb6c0ab53690914d0515652d251a20227940133e74b30b94e5708afa5cb545",
+      "source": "single-edge-perturbation-20261019/checker/check.py",
+      "source_sha256": "82cb6c0ab53690914d0515652d251a20227940133e74b30b94e5708afa5cb545"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 16287,
+      "destination": "single-edge-perturbation-20261019/checker/results.json",
+      "editorial_change": null,
+      "packaged_sha256": "95556dd4e192d995505df092fcecd3eea4598fd8e8eeb4d76d81ca764c0b8c78",
+      "source": "single-edge-perturbation-20261019/checker/results.json",
+      "source_sha256": "95556dd4e192d995505df092fcecd3eea4598fd8e8eeb4d76d81ca764c0b8c78"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 674,
+      "destination": "single-edge-perturbation-20261019/SOURCE_MANIFEST.json",
+      "editorial_change": "Renamed historical source inventory to distinguish it from the bundle inventory.",
+      "packaged_sha256": "3aeddd2686a60dd416b44e78cadbf3890f2b44067f34d827a0927110b856d86c",
+      "source": "single-edge-perturbation-20261019/MANIFEST.json",
+      "source_sha256": "3aeddd2686a60dd416b44e78cadbf3890f2b44067f34d827a0927110b856d86c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 8955,
+      "destination": "single-row-boundary-20261019/PROOF.md",
+      "editorial_change": null,
+      "packaged_sha256": "a7a9dc8058bd96756295d09e2cd1132a46421f91cd844c4d610a73f70d20098a",
+      "source": "single-row-boundary-20261019/PROOF.md",
+      "source_sha256": "a7a9dc8058bd96756295d09e2cd1132a46421f91cd844c4d610a73f70d20098a"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1600,
+      "destination": "single-row-boundary-20261019/RESULT.md",
+      "editorial_change": null,
+      "packaged_sha256": "5d4bbfe810477a6b4f88083862c305b6e9a2e681df78fdff66ceebfe2f6a3ff6",
+      "source": "single-row-boundary-20261019/RESULT.md",
+      "source_sha256": "5d4bbfe810477a6b4f88083862c305b6e9a2e681df78fdff66ceebfe2f6a3ff6"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1320,
+      "destination": "single-row-boundary-20261019/AUDIT.md",
+      "editorial_change": null,
+      "packaged_sha256": "68ef8969501e9f74408d48cd3940944928d86a2f144fd8ccb46e16ead8421fae",
+      "source": "single-row-boundary-20261019/AUDIT.md",
+      "source_sha256": "68ef8969501e9f74408d48cd3940944928d86a2f144fd8ccb46e16ead8421fae"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1124,
+      "destination": "single-row-boundary-20261019/CHECKPOINT.json",
+      "editorial_change": null,
+      "packaged_sha256": "de5e8e6b558b9e0a8824adfa7377fd82ea3474fe284c342f504d5b8a2a161656",
+      "source": "single-row-boundary-20261019/CHECKPOINT.json",
+      "source_sha256": "de5e8e6b558b9e0a8824adfa7377fd82ea3474fe284c342f504d5b8a2a161656"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6493,
+      "destination": "single-row-boundary-20261019/checker/check.py",
+      "editorial_change": null,
+      "packaged_sha256": "b01d950e2dac65188e51595babb9282a5ec050edde111cd9b9ff65f5f17fa15b",
+      "source": "single-row-boundary-20261019/checker/check.py",
+      "source_sha256": "b01d950e2dac65188e51595babb9282a5ec050edde111cd9b9ff65f5f17fa15b"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 19589,
+      "destination": "single-row-boundary-20261019/checker/results.json",
+      "editorial_change": null,
+      "packaged_sha256": "a8a66a7d1dc82a322d0e8d55bfa1403cc76093a57510b41c9adccf38a8fe6a1e",
+      "source": "single-row-boundary-20261019/checker/results.json",
+      "source_sha256": "a8a66a7d1dc82a322d0e8d55bfa1403cc76093a57510b41c9adccf38a8fe6a1e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 5233,
+      "destination": "single-row-boundary-20261019/independent/AUDIT.md",
+      "editorial_change": null,
+      "packaged_sha256": "cb22264d45d1921aadf4d6d8445449f748b900482b1069309454384c220ca03c",
+      "source": "single-row-boundary-20261019/independent/AUDIT.md",
+      "source_sha256": "cb22264d45d1921aadf4d6d8445449f748b900482b1069309454384c220ca03c"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 6144,
+      "destination": "single-row-boundary-20261019/independent/audit_checker.py",
+      "editorial_change": null,
+      "packaged_sha256": "f0f710840109ce748ad442682330aba78a654cd43009829125de424f8dc287c3",
+      "source": "single-row-boundary-20261019/independent/audit_checker.py",
+      "source_sha256": "f0f710840109ce748ad442682330aba78a654cd43009829125de424f8dc287c3"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 3266,
+      "destination": "single-row-boundary-20261019/independent/residual_stress_test.json",
+      "editorial_change": null,
+      "packaged_sha256": "64dac40699705943f3c67685d9ed7eb43c016b1eb9eccda4b8c05383eea81b9e",
+      "source": "single-row-boundary-20261019/independent/residual_stress_test.json",
+      "source_sha256": "64dac40699705943f3c67685d9ed7eb43c016b1eb9eccda4b8c05383eea81b9e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1310,
+      "destination": "single-row-boundary-20261019/independent/save_stress_certificate.py",
+      "editorial_change": null,
+      "packaged_sha256": "4d4e5ebe5d3ec4435502bf2a1c9f95180262eaac603b5bced131d3c1898b4e9e",
+      "source": "single-row-boundary-20261019/independent/save_stress_certificate.py",
+      "source_sha256": "4d4e5ebe5d3ec4435502bf2a1c9f95180262eaac603b5bced131d3c1898b4e9e"
+    },
+    {
+      "byte_preserved": true,
+      "bytes": 1001,
+      "destination": "single-row-boundary-20261019/SOURCE_MANIFEST.json",
+      "editorial_change": "Renamed historical source inventory to distinguish it from the bundle inventory.",
+      "packaged_sha256": "8ddce428e84b54de2fd676de9261ca18b94c301271935447fb121a11b8d997c1",
+      "source": "single-row-boundary-20261019/MANIFEST.json",
+      "source_sha256": "8ddce428e84b54de2fd676de9261ca18b94c301271935447fb121a11b8d997c1"
+    }
+  ],
+  "omitted": [
+    {
+      "reason": "Exact duplicate; canonical proof is ../general-omission-20261018/PROOF.md.",
+      "sha256": "78ade6f27f850b5bc2b9f8794a83171558896a0531f504ea8129b27e48718009",
+      "source": "single-edge-perturbation-20261019/dependencies/general-rectangle-PROOF.md"
+    },
+    {
+      "reason": "Nested duplicate archive omitted.",
+      "source": "single-edge-perturbation-20261019/single-edge-perturbation-20261019.zip"
+    },
+    {
+      "reason": "Unmanifested one-off exploratory script; its full polynomial check is reproduced by audit_checker.py and save_stress_certificate.py.",
+      "source": "single-row-boundary-20261019/independent/check.py"
+    }
+  ],
+  "policy": "Source originals are not modified. All six packaged mathematical checker scripts are byte-preserved. Only two dependency-path references are edited. Historical source inventories and checkpoints retain their original local-stage wording; the outer README and bundle manifest describe this publication.",
+  "schema": "rectangle-extensions-provenance-v1",
+  "source_date": "2026-10-19"
+}

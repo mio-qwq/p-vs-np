@@ -1,0 +1,13 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "README.md": "71f6a995d94c258489efe71697856938c13b3f6ccee52ae79b34ac93f3c853c3",
+    "PROOF.md": "78ade6f27f850b5bc2b9f8794a83171558896a0531f504ea8129b27e48718009",
+    "PIVOT_COMPARISON.md": "a3422df488737e0214b4cab13a617455a5d68ed7527207520fbae9c3d7faed41",
+    "AUDIT.md": "f6faa258a2d20ec166b440f6168e02c6abda8759b5c3d963c71465b6ccf3a237",
+    "CHECKPOINT.json": "b8aab372cfc656ad6b0edbb38e87be78e789dcc052369738d649423eb813b210",
+    "checker/check_q3.py": "04bd5439062c1789ce8807a3553e50fe92dc293f099df7db180b38354b00b573",
+    "checker/q3_results.json": "8e0360a9d081d455275b9025b163d8de0118e01dd2671d38643d095e5fd4c99e",
+    "checker/Q3_CERTIFICATE.md": "5ea247919e1b991ddba572f9a50e9835bf297be08cba898618c5c0b24c148bea"
+  }
+}
