@@ -1,0 +1,66 @@
+{
+  "archive": {
+    "archive": "pnp-binary-endpoint-cuts-20261019.zip",
+    "bytes": 129683,
+    "entrypoint": "reproduce.py",
+    "files": 29,
+    "sha256": "a7bedd2d4a260045d1a7fba0b5b3ce03f0079d55c4052a6385735817c86d5c9b",
+    "uncompressed_bytes": 1086407
+  },
+  "archive_preflight": "External SHA-256 and size, ZIP CRC, forbidden path/cache/binary scan, freshly extracted normal/optimized integrity-only wrappers: PASS",
+  "checkpoint_complete_receipt_sha256": "c4ce0e7ce2d1878b0019ec4b83183be5830ab0526d48935579a4c809fdd67d86",
+  "clean_normal_and_optimized_replay": "PASS for both packages; reports byte-identical across outer modes",
+  "details": {
+    "L1_survivors": 4657,
+    "L2_survivors": 0,
+    "full_assignments": 3455136,
+    "gap_all_assignment_coefficient_replay": 207360,
+    "independent_cpp_normal_ubsan_byte_identical": true,
+    "minimum_two_distinct_assignments": 3247776,
+    "minimum_two_survivor_coefficient_replay": 4645,
+    "primary_certificate_sha256": "32486667895e84960b6432a0547f7ab8252d67b3620a426d65dc2dde31323f0e",
+    "prior_dependency": "Exact archived endpoint proof/audit included and pinned; 263 used root-slice memberships matched. Full prior enumeration was not rerun in this checkpoint; optional --replay-prior is included."
+  },
+  "deterministic_rebuild": "PASS; fixed ZIP timestamps/permissions, sorted entries, DEFLATE level 9; source ZIP hashes reproduced exactly",
+  "independent_reviews": "AI-assisted; no human peer review or proof-assistant verification claimed",
+  "negative_controls": [
+    "Manifest tamper rejected under normal and optimized wrappers for both packages",
+    "All five YM symbolic checkers reject their intended corruption under normal and optimized Python",
+    "PNP corrupted coefficient witness rejected under normal and optimized Python",
+    "PNP corrupted prior slice-count input rejected by independent C++ checker"
+  ],
+  "new_source_branch": "research-endpoint-mixtures-20261019",
+  "parent_source_commit": "f969f073cd59b864db317685a98bcbe46e08f06e",
+  "payload_policy": "Binaries, caches, exploratory output, redundant normal/O/root certificate copies, regenerable rejection ledgers and expanded survivor lists. Exact expected hashes and regeneration sources retained.",
+  "publication_scope": "Additive source branch commit only. This operation creates no PR, merge, tag, release, or release attachment.",
+  "repository": "mio-qwq/p-vs-np",
+  "schema_version": 1,
+  "scope": "Restricted exact necessary conditions and scalar covariance obstructions only. No P-versus-NP or Yang-Mills solution, historical originality, formal verification, or human peer review claimed.",
+  "source_preservation": {
+    "all_selected_accepted_source_files_and_pinned_prior_checkpoint_files_unchanged": true,
+    "changed": [],
+    "original_files_checked": 205,
+    "status": "PASS"
+  },
+  "status": "ACCEPTED_LOCAL_SOURCE_CHECKPOINT_VERIFIED",
+  "supporting_local_receipt_hashes": {
+    "determinism-and-tamper.json": {
+      "bytes": 813,
+      "sha256": "404b70c8a0eaefcc3ec17ba6469c1b11ccfe9c1b72c699d7fdd79cabcf7192e4"
+    },
+    "originals-preserved.json": {
+      "bytes": 163,
+      "sha256": "7f19fdb2172f085f5a479dd42ddcfc1693cec84e3963b74969d975421575f23a"
+    },
+    "pnp-clean-replay-normal.json": {
+      "bytes": 1620,
+      "sha256": "e0bd6e21f95fb9c542b57dd7340c3dd85a47f10dcf521676f190b19daeaaf4c2"
+    },
+    "pnp-clean-replay-optimized.json": {
+      "bytes": 1620,
+      "sha256": "e0bd6e21f95fb9c542b57dd7340c3dd85a47f10dcf521676f190b19daeaaf4c2"
+    }
+  },
+  "verification_scope": "This in-repository receipt records the frozen local checkpoint and source/archive preflight. Remote commit, tree, byte read-back, and unchanged-ref checks are performed separately after the commit is created.",
+  "verified_checkpoint_at_utc": "2026-10-19T06:17:07Z"
+}
