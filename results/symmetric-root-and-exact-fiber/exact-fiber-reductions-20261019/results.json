@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "seed": 20261019,
+  "actual_expanded_instances": 1272,
+  "actual_expanded_matchings_enumerated": 45332,
+  "degree_two_capped_distributions": 28357,
+  "exhaustive_three_by_three_targets": 78732,
+  "trie_explicit_families": 81
+}

@@ -1,0 +1,3 @@
+# Tested external dependencies for the symmetric-root checker.
+sympy==1.14.0
+mpmath==1.3.0

@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-19",
+  "kind": "source-only mathematical follow-up",
+  "repository": "mio-qwq/p-vs-np",
+  "baseline_commit": "906627d1d7fa1e40a66660787bfd57b70ba8e9fd",
+  "scope": "All-degree symmetric simple-root obstruction and fixed-color verification in a separately supplied arbitrary bipartite supergraph. No synthesis or union(F)-promise lower bound, no P-versus-NP or current Exact Matching status conclusion.",
+  "checkers": [
+    "general-moment-barrier-20261019/check.py",
+    "exact-fiber-reductions-20261019/check.py",
+    "exact-fiber-reduction-audit-20261019/audit_check.py"
+  ],
+  "independent_bridge_original": {
+    "companion_source": "general-moment-next-20261019/INDEPENDENT_AUDIT_AND_BRIDGE.md",
+    "archived_identical_copy": "general-moment-barrier-20261019/INDEPENDENT_AUDIT_AND_BRIDGE.md",
+    "sha256": "e2c140857a20d8752d76c15341c45b11fdf324026e262d360be4d0e605dcfca8"
+  },
+  "files": [
+    {
+      "path": "LOCAL_VERIFICATION.json",
+      "bytes": 1762,
+      "sha256": "d121b483ee8f5b278d8418987cc8cb5511828fb8744e3c65f79ed0014aae4e4e",
+      "kind": "package metadata"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6730,
+      "sha256": "4328ebcd6228a606f1bee060078babcad78016d1bae98fac8ff1b1a89401a00d",
+      "kind": "package metadata"
+    },
+    {
+      "path": "exact-fiber-reduction-audit-20261019/AUDIT.md",
+      "bytes": 14087,
+      "sha256": "63437e2b52f8f33aa216076db37bdc48dc0ecb88d92d7a167fac7c45825fb020",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reduction-audit-20261019/audit_check.py",
+      "bytes": 7345,
+      "sha256": "f6204a47c2d20c9a7f28e4318d4589609bf479d9d769f56078cb22d1b54fc59e",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reduction-audit-20261019/audit_results.json",
+      "bytes": 172,
+      "sha256": "401d0ffff9170253d33ff733beaf41b9858a315e7f7e55362ec751d2e03a0991",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reductions-20261019/PROOF.md",
+      "bytes": 12670,
+      "sha256": "6983f1447652f8d47aa091a0c64860923ed6866eda8f576eeaecc02aebc64228",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reductions-20261019/README.md",
+      "bytes": 1941,
+      "sha256": "7e5dbd49daa8903717b2b67b0077edebc1ebc8856c42aea6266d482ee076d53c",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reductions-20261019/SHA256SUMS",
+      "bytes": 305,
+      "sha256": "2aaa1cb1a4307aa194d5ce0a7eaab3049335f6cdbb8ad28490ce5d0db3771342",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reductions-20261019/check.py",
+      "bytes": 10129,
+      "sha256": "7d8aab1561534f9d4f659cc2279e41d8132660e09e9484aa11dd84893afff5db",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "exact-fiber-reductions-20261019/results.json",
+      "bytes": 253,
+      "sha256": "dd920ea134aecfea573b97cdd9594de938078db6a8ba525182d0d99e8b5af206",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/INDEPENDENT_AUDIT_AND_BRIDGE.md",
+      "bytes": 6797,
+      "sha256": "e2c140857a20d8752d76c15341c45b11fdf324026e262d360be4d0e605dcfca8",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/PROOF.md",
+      "bytes": 12072,
+      "sha256": "8b74e8bb3efdc97a30cf0b9c5367b9c5ef2c786651ea5066f12ef0ee84273664",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/README.md",
+      "bytes": 1351,
+      "sha256": "a6e3738380846c6668cbd7c6c62d6100c1fed3bdc2f0b2550f36a9b4e58c338c",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/SHA256SUMS",
+      "bytes": 483,
+      "sha256": "f3bddc354a3bd11b3c399222b18464392449b98841ed76de2b21c303b60fa704",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/certificate.json",
+      "bytes": 2743,
+      "sha256": "459c76b5dd79de8622d7abc88aef555b50490164e7a197ece4c0d305ceeae254",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/check.log",
+      "bytes": 234,
+      "sha256": "8fd583b29be63581b853fa6359dcdb04dd9f86a27d83c2911b1dc754fcd74c15",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-barrier-20261019/check.py",
+      "bytes": 3133,
+      "sha256": "53871e825fc8defc1ac5914862ef4becc260c0304cf283532f207cc9134ad23b",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "general-moment-next-20261019/TAIL_AUDIT.md",
+      "bytes": 1589,
+      "sha256": "497b35e6aa7986d383804def9783cd23b3713d0e5c2bc06e031403cb58fe852d",
+      "kind": "immutable research source"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 91,
+      "sha256": "3733d8b02ac2bd47dd5adc75eb372e899fc94d4a63dde9d1ae7f130a0e29b031",
+      "kind": "package metadata"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 2611,
+      "sha256": "78f5633747f4c2d9d6bccda90011668e35860b03a639ff9f61435a063095817f",
+      "kind": "package metadata"
+    }
+  ]
+}

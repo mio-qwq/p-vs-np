@@ -1,0 +1,122 @@
+{
+  "negative_value_pair": {
+    "variable": "v >= 0",
+    "coefficients_ascending": [
+      52,
+      30,
+      4
+    ]
+  },
+  "positive_derivative_pair": {
+    "variable": "v >= 0",
+    "coefficients_ascending": [
+      38,
+      26,
+      4
+    ]
+  },
+  "positive_lower_endpoint_pair": {
+    "variable": "v >= 0",
+    "coefficients_ascending": [
+      28,
+      22,
+      4
+    ]
+  },
+  "normalization": {
+    "F_at_2_upper": "-1/3",
+    "derivative_bracket_lower": "1/3"
+  },
+  "regression_tests": [
+    {
+      "name": "uniform",
+      "N": 2,
+      "F_at_2": "-1",
+      "derivative_bracket_at_2": "1"
+    },
+    {
+      "name": "gaussian",
+      "N": 2,
+      "F_at_2": "-1",
+      "derivative_bracket_at_2": "1"
+    },
+    {
+      "name": "laplace",
+      "N": 2,
+      "F_at_2": "-1",
+      "derivative_bracket_at_2": "1"
+    },
+    {
+      "name": "uniform",
+      "N": 4,
+      "F_at_2": "-4/5",
+      "derivative_bracket_at_2": "4/5"
+    },
+    {
+      "name": "gaussian",
+      "N": 4,
+      "F_at_2": "-2/3",
+      "derivative_bracket_at_2": "2/3"
+    },
+    {
+      "name": "laplace",
+      "N": 4,
+      "F_at_2": "-1/3",
+      "derivative_bracket_at_2": "1/3"
+    },
+    {
+      "name": "uniform",
+      "N": 6,
+      "F_at_2": "-911/1323",
+      "derivative_bracket_at_2": "305/441"
+    },
+    {
+      "name": "gaussian",
+      "N": 6,
+      "F_at_2": "-233/405",
+      "derivative_bracket_at_2": "79/135"
+    },
+    {
+      "name": "laplace",
+      "N": 6,
+      "F_at_2": "-19/45",
+      "derivative_bracket_at_2": "7/15"
+    },
+    {
+      "name": "uniform",
+      "N": 16,
+      "F_at_2": "-14078754005983/26891955273728",
+      "derivative_bracket_at_2": "3644486665723/6722988818432"
+    },
+    {
+      "name": "gaussian",
+      "N": 16,
+      "F_at_2": "-62762132639/132843110400",
+      "derivative_bracket_at_2": "16575533939/33210777600"
+    },
+    {
+      "name": "laplace",
+      "N": 16,
+      "F_at_2": "-265715113/638512875",
+      "derivative_bracket_at_2": "290299057/638512875"
+    },
+    {
+      "name": "uniform",
+      "N": 32,
+      "F_at_2": "-2644783089301099169880403637378651861/5623771096118141175713723444587659264",
+      "derivative_bracket_at_2": "1049462541299839754006903241516636311/2108914161044302940892646291720372224"
+    },
+    {
+      "name": "gaussian",
+      "N": 32,
+      "F_at_2": "-23972971780038995328333640193407/54014705746650885287281950720000",
+      "derivative_bracket_at_2": "3215599610558441844493051198919/6751838218331360660910243840000"
+    },
+    {
+      "name": "laplace",
+      "N": 32,
+      "F_at_2": "-50990407070125703972451059/122529844256906551386796875",
+      "derivative_bracket_at_2": "55708036046078329720601999/122529844256906551386796875"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "expanded_graph_cases": 737,
+  "expanded_perfect_matchings_enumerated": 19636,
+  "prefix_completeness_cases": 129024,
+  "residual_queries": 12400,
+  "status": "PASS"
+}
