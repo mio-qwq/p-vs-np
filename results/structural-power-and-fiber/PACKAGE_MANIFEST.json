@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-19",
+  "status": "frozen source-only archival package",
+  "scope": "Restricted mathematical results; exact hypotheses and exclusions in README.md. No novelty, human peer-review, formal-verification, hosted-CI, or main-problem claim.",
+  "checkers": [
+    "binary-matching-relations-20261019/check.py",
+    "binary-relation-certificate-audit-20261019/check.py",
+    "binary-relation-certificate-audit-20261019/check_valuation.py",
+    "general-power-obstruction-20261019/check.py",
+    "matching-fiber-geometry-20261019/check.py",
+    "power-kernel-bridge-audit-20261019/check.py",
+    "power-obstruction-limits-20261019/check.py",
+    "translated-power-root-analysis-20261019/check.py"
+  ],
+  "files": [
+    {
+      "path": "LOCAL_VERIFICATION.json",
+      "bytes": 5800,
+      "sha256": "4fb566e63e98b00d5a54f23e1b79d016f027801afb035c49f90f8cfac6a180b9",
+      "kind": "package metadata"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5368,
+      "sha256": "1d05810891394f8876762b3b3843f176bb7b10a6179300833d1114e25138d0c5",
+      "kind": "package metadata"
+    },
+    {
+      "path": "binary-matching-relations-20261019/PROOF.md",
+      "bytes": 7906,
+      "sha256": "b3e41b7a7457bd6e56eee77cb93d9ffe58211f67f921276ac57a3f3430544bc7",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-matching-relations-20261019/check.py",
+      "bytes": 8147,
+      "sha256": "d8629337c098059e5b820e2c457c33ff88462ef7bf2e0db8f700f1d33895a1cc",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-matching-relations-20261019/results.json",
+      "bytes": 14304,
+      "sha256": "dae61a41b7da011744c83f95c241f7c394975576154d3fad1588f138786357dc",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-relation-certificate-audit-20261019/AUDIT.md",
+      "bytes": 12737,
+      "sha256": "8dd2721d4d4b50e4119b267f61eabe33e6abb74256ad875b43cfa0cb7e6a504b",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-relation-certificate-audit-20261019/REVIEWED_SOURCE_SHA256SUMS",
+      "bytes": 448,
+      "sha256": "2ec777370ff15b584b593a2ff75a5045283b180a4f3ab3d8e59b624ad791381b",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-relation-certificate-audit-20261019/check.py",
+      "bytes": 4333,
+      "sha256": "317ddd788f582a4c22a638977398619fb05f60f76a9608474604a9c50c78b97c",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-relation-certificate-audit-20261019/check_valuation.py",
+      "bytes": 3172,
+      "sha256": "a4d0c0163f1de4d676a1cb16ce3d78c0ec5d030a56c921eb82d1eda580caa02d",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-relation-certificate-audit-20261019/results.json",
+      "bytes": 12614,
+      "sha256": "3eba7f06a6d50230520a497c73ea3ef7a5b3d6130be2007f00a02ac2b7ff30af",
+      "kind": "frozen research"
+    },
+    {
+      "path": "binary-relation-certificate-audit-20261019/valuation-results.json",
+      "bytes": 828,
+      "sha256": "5487c7e29ac7f8538d316ebb059ebf60c67311b3386745d836420f6574c4923e",
+      "kind": "frozen research"
+    },
+    {
+      "path": "general-power-obstruction-20261019/PROOF.md",
+      "bytes": 5612,
+      "sha256": "479ab9b017b621e6a1a6308225e320eef66937351bac2540cc07a9c86e847ccd",
+      "kind": "frozen research"
+    },
+    {
+      "path": "general-power-obstruction-20261019/SHA256SUMS",
+      "bytes": 150,
+      "sha256": "1cd7351f56a69fe12b0f4b87bb17f890fbed4328328d90392a59d8dcf5d0ed8c",
+      "kind": "frozen research"
+    },
+    {
+      "path": "general-power-obstruction-20261019/check.py",
+      "bytes": 3580,
+      "sha256": "16eb95e5f060ad54de8111823e8e7665e4b2d1445ed7949a3cf03e37125252aa",
+      "kind": "frozen research"
+    },
+    {
+      "path": "matching-fiber-geometry-20261019/PROOF.md",
+      "bytes": 11125,
+      "sha256": "9e5ab816c919893ffd50a0c718f2176e26ad69989bae44c3eb8407aee9c48dcf",
+      "kind": "frozen research"
+    },
+    {
+      "path": "matching-fiber-geometry-20261019/check.py",
+      "bytes": 6501,
+      "sha256": "972c0aab7efddf9029baa9e9db2a6b4cd999da4cba578af107d8fdcb5f1b0a4c",
+      "kind": "frozen research"
+    },
+    {
+      "path": "power-kernel-bridge-audit-20261019/AUDIT.md",
+      "bytes": 6888,
+      "sha256": "e863ed964dfbb24931a0a3b284bec8050c129f5039a85639a9439c2d55f81607",
+      "kind": "frozen research"
+    },
+    {
+      "path": "power-kernel-bridge-audit-20261019/RESULT.md",
+      "bytes": 7181,
+      "sha256": "bcc80fb65d9b76ab05d8859eda442c091982885833cf1e4534b090d08fbd6cfd",
+      "kind": "frozen research"
+    },
+    {
+      "path": "power-kernel-bridge-audit-20261019/check.py",
+      "bytes": 4226,
+      "sha256": "4a6a02d2402cfd219080e4e988f3b355afd914e70e5b942a628a832d669538d8",
+      "kind": "frozen research"
+    },
+    {
+      "path": "power-obstruction-limits-20261019/GENERIC_MOMENT_LIMIT.md",
+      "bytes": 1667,
+      "sha256": "04ec97de9247c38f5f3982373f59124c88cdcc10699ee779e7f10d0d7c581b34",
+      "kind": "frozen research"
+    },
+    {
+      "path": "power-obstruction-limits-20261019/RESULT.md",
+      "bytes": 5015,
+      "sha256": "9f3e3622b74163c5a287181f354b502a716d21e4b23e6c718f0b376c48cddaf6",
+      "kind": "frozen research"
+    },
+    {
+      "path": "power-obstruction-limits-20261019/check.py",
+      "bytes": 3742,
+      "sha256": "7e79178ea6a20ff2fdc86297d68e97e768f8b6cfb7bef6eff024955dfeaeaceb",
+      "kind": "frozen research"
+    },
+    {
+      "path": "translated-power-root-analysis-20261019/EVENTUAL_SIMPLE_ROOT.md",
+      "bytes": 5023,
+      "sha256": "7b0c688e177e9f02b59d32ae8fc9d3e96ea5c46c2ac068c7ec2c76e2680fbfa2",
+      "kind": "frozen research"
+    },
+    {
+      "path": "translated-power-root-analysis-20261019/ROOT_GEOMETRY.md",
+      "bytes": 7305,
+      "sha256": "7b4a1fdcf49685e8869d9e25e4a94875e737386d6b532c89d6db97828c63e848",
+      "kind": "frozen research"
+    },
+    {
+      "path": "translated-power-root-analysis-20261019/check.py",
+      "bytes": 1737,
+      "sha256": "d6aec0648066b5af86f8ea8fc650170c218f7ee0f19cc71aab0da8f108a2650f",
+      "kind": "frozen research"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 1830,
+      "sha256": "ef5dd9f904ff0d48a713ad17db8c6bbf1e690775a43e7495d606941df28ea2ff",
+      "kind": "package metadata"
+    }
+  ]
+}

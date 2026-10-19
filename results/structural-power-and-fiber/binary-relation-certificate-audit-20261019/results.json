@@ -1,0 +1,692 @@
+{
+  "status": "PASS",
+  "scope": "Canonical offsets and exponents 0,...,n-1, n=1,2,3,4 only. No general progress.",
+  "method": "Exact integer evaluation at E+1 points; cycle-count parity; parity meet-in-the-middle.",
+  "cases": [
+    {
+      "n": 1,
+      "degree_bound": 0,
+      "evaluation_points": [
+        0
+      ],
+      "even_matchings": 1,
+      "odd_matchings": 0,
+      "even_subsets": 2,
+      "odd_subsets": 1,
+      "distinct_even_subset_sums": 2,
+      "distinct_odd_subset_sums": 1,
+      "cross_parity_common_vectors": [
+        [
+          0
+        ]
+      ],
+      "even_zero_subset_multiplicity": 1,
+      "odd_zero_subset_multiplicity": 1,
+      "even_subset_sums_sha256": "57361b63331982d3b2000f0840884dc9f5c3e41fcc6ec2e32c9daf4721696adf",
+      "odd_subset_sums_sha256": "db407f11d7ede59abaab0e98e097ff2dae10a048207b801745d7199ef19c2387",
+      "signed_full_sum_evaluations": [
+        1
+      ],
+      "matchings": [
+        {
+          "matching": [
+            0
+          ],
+          "sign": 1,
+          "evaluations": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "degree_bound": 1,
+      "evaluation_points": [
+        0,
+        1
+      ],
+      "even_matchings": 1,
+      "odd_matchings": 1,
+      "even_subsets": 2,
+      "odd_subsets": 2,
+      "distinct_even_subset_sums": 2,
+      "distinct_odd_subset_sums": 2,
+      "cross_parity_common_vectors": [
+        [
+          0,
+          0
+        ]
+      ],
+      "even_zero_subset_multiplicity": 1,
+      "odd_zero_subset_multiplicity": 1,
+      "even_subset_sums_sha256": "f7a80b602d57cd4f8e0ac9b1ef227db432afb652a669655ef886fa10ab4a6938",
+      "odd_subset_sums_sha256": "d1c87fb5ba499431cdfdf3703e322bc0e5b8e0c6c4a250c149cdcbe70750619e",
+      "signed_full_sum_evaluations": [
+        1,
+        1
+      ],
+      "matchings": [
+        {
+          "matching": [
+            0,
+            1
+          ],
+          "sign": 1,
+          "evaluations": [
+            1,
+            2
+          ]
+        },
+        {
+          "matching": [
+            1,
+            0
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "degree_bound": 3,
+      "evaluation_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "even_matchings": 3,
+      "odd_matchings": 3,
+      "even_subsets": 8,
+      "odd_subsets": 8,
+      "distinct_even_subset_sums": 8,
+      "distinct_odd_subset_sums": 8,
+      "cross_parity_common_vectors": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "even_zero_subset_multiplicity": 1,
+      "odd_zero_subset_multiplicity": 1,
+      "even_subset_sums_sha256": "6eff6da7f59a204bc0eee062af0dd24fe18a705c470110300ed3dc687f427dc0",
+      "odd_subset_sums_sha256": "f4a01d488aca83570237051d15cc2f21459925dfe79e3101011dbad3b9219300",
+      "signed_full_sum_evaluations": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "matchings": [
+        {
+          "matching": [
+            0,
+            1,
+            2
+          ],
+          "sign": 1,
+          "evaluations": [
+            4,
+            18,
+            48,
+            100
+          ]
+        },
+        {
+          "matching": [
+            0,
+            2,
+            1
+          ],
+          "sign": -1,
+          "evaluations": [
+            2,
+            12,
+            36,
+            80
+          ]
+        },
+        {
+          "matching": [
+            1,
+            0,
+            2
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            9,
+            32,
+            75
+          ]
+        },
+        {
+          "matching": [
+            1,
+            2,
+            0
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            4,
+            18,
+            48
+          ]
+        },
+        {
+          "matching": [
+            2,
+            0,
+            1
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            3,
+            16,
+            45
+          ]
+        },
+        {
+          "matching": [
+            2,
+            1,
+            0
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            2,
+            12,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "degree_bound": 6,
+      "evaluation_points": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "even_matchings": 12,
+      "odd_matchings": 12,
+      "even_subsets": 4096,
+      "odd_subsets": 4096,
+      "distinct_even_subset_sums": 4096,
+      "distinct_odd_subset_sums": 4096,
+      "cross_parity_common_vectors": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "even_zero_subset_multiplicity": 1,
+      "odd_zero_subset_multiplicity": 1,
+      "even_subset_sums_sha256": "a184fd931794435ba5ad90c944da3373993e84e31c9cbf0ea705d5fd79ec21e8",
+      "odd_subset_sums_sha256": "2b1d47e3cf4c4fdc6fc8f1d7d4a73b6631bd0c9b309d5a0bf1de397f95646599",
+      "signed_full_sum_evaluations": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "matchings": [
+        {
+          "matching": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "sign": 1,
+          "evaluations": [
+            108,
+            1152,
+            6000,
+            21600,
+            61740,
+            150528,
+            326592
+          ]
+        },
+        {
+          "matching": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "sign": -1,
+          "evaluations": [
+            72,
+            864,
+            4800,
+            18000,
+            52920,
+            131712,
+            290304
+          ]
+        },
+        {
+          "matching": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "sign": -1,
+          "evaluations": [
+            54,
+            768,
+            4500,
+            17280,
+            51450,
+            129024,
+            285768
+          ]
+        },
+        {
+          "matching": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "sign": 1,
+          "evaluations": [
+            24,
+            432,
+            2880,
+            12000,
+            37800,
+            98784,
+            225792
+          ]
+        },
+        {
+          "matching": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "sign": 1,
+          "evaluations": [
+            18,
+            384,
+            2700,
+            11520,
+            36750,
+            96768,
+            222264
+          ]
+        },
+        {
+          "matching": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "sign": -1,
+          "evaluations": [
+            12,
+            288,
+            2160,
+            9600,
+            31500,
+            84672,
+            197568
+          ]
+        },
+        {
+          "matching": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            576,
+            4000,
+            16200,
+            49392,
+            125440,
+            279936
+          ]
+        },
+        {
+          "matching": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            432,
+            3200,
+            13500,
+            42336,
+            109760,
+            248832
+          ]
+        },
+        {
+          "matching": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            256,
+            2250,
+            10368,
+            34300,
+            92160,
+            214326
+          ]
+        },
+        {
+          "matching": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            108,
+            1152,
+            6000,
+            21600,
+            61740,
+            150528
+          ]
+        },
+        {
+          "matching": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            128,
+            1350,
+            6912,
+            24500,
+            69120,
+            166698
+          ]
+        },
+        {
+          "matching": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            72,
+            864,
+            4800,
+            18000,
+            52920,
+            131712
+          ]
+        },
+        {
+          "matching": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            192,
+            2000,
+            9720,
+            32928,
+            89600,
+            209952
+          ]
+        },
+        {
+          "matching": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            108,
+            1280,
+            6750,
+            24192,
+            68600,
+            165888
+          ]
+        },
+        {
+          "matching": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            128,
+            1500,
+            7776,
+            27440,
+            76800,
+            183708
+          ]
+        },
+        {
+          "matching": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            54,
+            768,
+            4500,
+            17280,
+            51450,
+            129024
+          ]
+        },
+        {
+          "matching": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            32,
+            540,
+            3456,
+            14000,
+            43200,
+            111132
+          ]
+        },
+        {
+          "matching": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            24,
+            432,
+            2880,
+            12000,
+            37800,
+            98784
+          ]
+        },
+        {
+          "matching": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            48,
+            800,
+            4860,
+            18816,
+            56000,
+            139968
+          ]
+        },
+        {
+          "matching": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            36,
+            640,
+            4050,
+            16128,
+            49000,
+            124416
+          ]
+        },
+        {
+          "matching": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            32,
+            600,
+            3888,
+            15680,
+            48000,
+            122472
+          ]
+        },
+        {
+          "matching": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            18,
+            384,
+            2700,
+            11520,
+            36750,
+            96768
+          ]
+        },
+        {
+          "matching": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "sign": -1,
+          "evaluations": [
+            0,
+            16,
+            360,
+            2592,
+            11200,
+            36000,
+            95256
+          ]
+        },
+        {
+          "matching": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "sign": 1,
+          "evaluations": [
+            0,
+            12,
+            288,
+            2160,
+            9600,
+            31500,
+            84672
+          ]
+        }
+      ]
+    }
+  ]
+}

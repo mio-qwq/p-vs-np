@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "validation": "Local exact checks only; not hosted CI or formal proof verification. Universal claims rely on the accompanying proofs.",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "checks": [
+    {
+      "check": "binary-matching-relations-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.082,
+      "log_sha256": "1bd2210782e61158092b3b2d0b3af74b47fb3482ea5c29984967e3e94fd84b63",
+      "outputs": {
+        "binary-matching-relations-20261019/results.json": "dae61a41b7da011744c83f95c241f7c394975576154d3fad1588f138786357dc"
+      }
+    },
+    {
+      "check": "binary-matching-relations-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 0.132,
+      "log_sha256": "1bd2210782e61158092b3b2d0b3af74b47fb3482ea5c29984967e3e94fd84b63",
+      "outputs": {
+        "binary-matching-relations-20261019/results.json": "dae61a41b7da011744c83f95c241f7c394975576154d3fad1588f138786357dc"
+      }
+    },
+    {
+      "check": "binary-relation-certificate-audit-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.04,
+      "log_sha256": "4f7238c98617b2b3507a5f7f1291f5fe1dc15eb5e5df334f5234ef0645c0413c",
+      "outputs": {
+        "binary-relation-certificate-audit-20261019/results.json": "3eba7f06a6d50230520a497c73ea3ef7a5b3d6130be2007f00a02ac2b7ff30af",
+        "binary-relation-certificate-audit-20261019/valuation-results.json": "5487c7e29ac7f8538d316ebb059ebf60c67311b3386745d836420f6574c4923e"
+      }
+    },
+    {
+      "check": "binary-relation-certificate-audit-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 0.122,
+      "log_sha256": "4f7238c98617b2b3507a5f7f1291f5fe1dc15eb5e5df334f5234ef0645c0413c",
+      "outputs": {
+        "binary-relation-certificate-audit-20261019/results.json": "3eba7f06a6d50230520a497c73ea3ef7a5b3d6130be2007f00a02ac2b7ff30af",
+        "binary-relation-certificate-audit-20261019/valuation-results.json": "5487c7e29ac7f8538d316ebb059ebf60c67311b3386745d836420f6574c4923e"
+      }
+    },
+    {
+      "check": "binary-relation-certificate-audit-20261019/check_valuation.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.054,
+      "log_sha256": "c20e2c9b9a0e421a76003c0d35f682c4374a33ea3218eb462c55f28b4ec64425",
+      "outputs": {
+        "binary-relation-certificate-audit-20261019/results.json": "3eba7f06a6d50230520a497c73ea3ef7a5b3d6130be2007f00a02ac2b7ff30af",
+        "binary-relation-certificate-audit-20261019/valuation-results.json": "5487c7e29ac7f8538d316ebb059ebf60c67311b3386745d836420f6574c4923e"
+      }
+    },
+    {
+      "check": "binary-relation-certificate-audit-20261019/check_valuation.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 0.105,
+      "log_sha256": "c20e2c9b9a0e421a76003c0d35f682c4374a33ea3218eb462c55f28b4ec64425",
+      "outputs": {
+        "binary-relation-certificate-audit-20261019/results.json": "3eba7f06a6d50230520a497c73ea3ef7a5b3d6130be2007f00a02ac2b7ff30af",
+        "binary-relation-certificate-audit-20261019/valuation-results.json": "5487c7e29ac7f8538d316ebb059ebf60c67311b3386745d836420f6574c4923e"
+      }
+    },
+    {
+      "check": "general-power-obstruction-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 3.038,
+      "log_sha256": "bed36de638123596594c84298dd22c34cb49cf159c930ad210e1c1eeb1a3d342",
+      "outputs": {}
+    },
+    {
+      "check": "general-power-obstruction-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 3.988,
+      "log_sha256": "bed36de638123596594c84298dd22c34cb49cf159c930ad210e1c1eeb1a3d342",
+      "outputs": {}
+    },
+    {
+      "check": "matching-fiber-geometry-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.053,
+      "log_sha256": "19a7ba59eb77f4cfe823ab630dc4d297f4ccbe83429ad1f1e02416ec641046d5",
+      "outputs": {}
+    },
+    {
+      "check": "matching-fiber-geometry-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 0.088,
+      "log_sha256": "19a7ba59eb77f4cfe823ab630dc4d297f4ccbe83429ad1f1e02416ec641046d5",
+      "outputs": {}
+    },
+    {
+      "check": "power-kernel-bridge-audit-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.817,
+      "log_sha256": "e8e17dfba321d9ee415519025fc487c78073e4228464f5510e6c163788791cb5",
+      "outputs": {}
+    },
+    {
+      "check": "power-kernel-bridge-audit-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 2.01,
+      "log_sha256": "e8e17dfba321d9ee415519025fc487c78073e4228464f5510e6c163788791cb5",
+      "outputs": {}
+    },
+    {
+      "check": "power-obstruction-limits-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 0.631,
+      "log_sha256": "22f3b711986cea43033865ffde0685e9831bc4809d5c1bf33d6ba5062cefeaaf",
+      "outputs": {}
+    },
+    {
+      "check": "power-obstruction-limits-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 1.969,
+      "log_sha256": "22f3b711986cea43033865ffde0685e9831bc4809d5c1bf33d6ba5062cefeaaf",
+      "outputs": {}
+    },
+    {
+      "check": "translated-power-root-analysis-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "seconds": 2.142,
+      "log_sha256": "48db2fc251a6851d69756ffbec8c96b7ab3d06bba329af00c04d0de35a871f97",
+      "outputs": {}
+    },
+    {
+      "check": "translated-power-root-analysis-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "seconds": 3.328,
+      "log_sha256": "48db2fc251a6851d69756ffbec8c96b7ab3d06bba329af00c04d0de35a871f97",
+      "outputs": {}
+    }
+  ],
+  "frozen_source_bytes_unchanged": true
+}

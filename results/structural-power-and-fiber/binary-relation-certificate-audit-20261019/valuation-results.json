@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "method": "Newton interpolation of independently generated exact evaluation vectors",
+  "tables": [
+    {
+      "r": 0,
+      "positive": [
+        18,
+        24,
+        108
+      ],
+      "negative": [
+        12,
+        54,
+        72
+      ]
+    },
+    {
+      "r": 1,
+      "positive": [
+        4,
+        27,
+        72
+      ],
+      "negative": [
+        8,
+        9,
+        108
+      ]
+    },
+    {
+      "r": 2,
+      "positive": [
+        3,
+        8,
+        54
+      ],
+      "negative": [
+        2,
+        24,
+        27
+      ]
+    },
+    {
+      "r": 3,
+      "positive": [
+        2,
+        9,
+        12
+      ],
+      "negative": [
+        3,
+        4,
+        18
+      ]
+    }
+  ],
+  "first_five_coefficients_suffice": true,
+  "displayed_F0_F1_F3_polynomials": "verified"
+}
