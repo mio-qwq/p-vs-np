@@ -1,0 +1,18 @@
+Independent audit. Python standard library only. Run in this directory:
+
+python check_independent.py
+python -O check_independent.py
+python check_qclosed.py
+python -O check_qclosed.py
+python check_negative_controls.py
+python -O check_negative_controls.py
+
+Expected: 15 complete bivariate reconstructions, 90 affine q-factor families,
+and two deliberately wrong normalizations rejected in both modes.
+
+Reconstruction output: independent-results.json
+SHA256 bbd43b1cadf4dee727a17e4ae4c69f7cb7e6e462129cb29477e34de4b3aedf2c
+
+The proof audited is the producer's frozen PROOF.md with SHA256
+f796d745708ca05d4f69e3c55949cc053ab8b6c8561dc07cc090c5838556183f.
+The exact audit scope and mathematical findings are in AUDIT.md.

@@ -1,0 +1,22 @@
+{
+  "audit_date": "2026-10-18",
+  "verdict": "PASS within the stated equal-halves rectangular family",
+  "audited_proof": "../rectangular-moment-hierarchy-20261018/PROOF.md",
+  "audited_proof_sha256": "f796d745708ca05d4f69e3c55949cc053ab8b6c8561dc07cc090c5838556183f",
+  "full_polynomial_cases": 15,
+  "affine_q_cases": 90,
+  "negative_controls": 2,
+  "normal_optimized_agree": true,
+  "files": {
+    "AUDIT.md": "ff4e8fa763332973ce5b1671b9f3b70aa17a452aac33373a5899fa09a2d4ef64",
+    "REPRODUCE.txt": "9fef936a8f4b3a0bb63210d7787db5ddb2c857fe4d0cbfb37a3c522fba6223bc",
+    "check_independent.py": "fdaa1372421d991aed6787750aca9d4b11faadeb1f3a15e02c6cbe1db042bc7f",
+    "check_negative_controls.py": "9694c26cacf55d656ad4b7dd6ea94a5d9dd4ee57595fba4aff89001699e7c971",
+    "check_qclosed.py": "5373c63e31d35946b55d4c8181b2dcd5527c1e8ea3b289d90cdeb286fa082da2",
+    "independent-results.json": "bbd43b1cadf4dee727a17e4ae4c69f7cb7e6e462129cb29477e34de4b3aedf2c",
+    "negative-control-results.json": "805a3783d115341cb2ceeee71093210a09c6663fe892188bb65024f73cdcce0c",
+    "normal.log": "4f14677e7c29db9e49af8c9712771ff8f64dca16ce4277711a7e74945a0988c0",
+    "optimized.log": "4f14677e7c29db9e49af8c9712771ff8f64dca16ce4277711a7e74945a0988c0",
+    "qclosed-results.json": "94124a05978ee5ae7e287012e66dad73014b830f0763bac00c891906e37260c4"
+  }
+}
