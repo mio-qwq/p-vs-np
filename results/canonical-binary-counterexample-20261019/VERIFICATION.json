@@ -1,0 +1,205 @@
+{
+  "date_utc": "2026-10-19",
+  "external_actions_performed_by_packager": [],
+  "files": {
+    "MANIFEST.json": {
+      "bytes": 3861,
+      "sha256": "73d1932f6b8ff99ee40fd3ab3956d95f073a5f4618b5e869af9953d452edb4f5"
+    },
+    "SHA256SUMS": {
+      "bytes": 2351,
+      "sha256": "25c2a62116d8e0bb89976a414f2bd7da4825dc646f3fbe19d31754fdce069e93"
+    },
+    "canonical-binary-cost-counterexample-20261019.zip": {
+      "bytes": 163007,
+      "sha256": "63686a4e86644457cc05a0b0b53343450ff79c8b1dc27277d3e75d60d1a4f969"
+    }
+  },
+  "integrated_replay": {
+    "clean_exact_replays": [
+      {
+        "certificate_matches": true,
+        "checker": "author/verify_candidate.py",
+        "exit_code": 0,
+        "optimized": false
+      },
+      {
+        "certificate_matches": true,
+        "checker": "author/verify_candidate.py",
+        "exit_code": 0,
+        "optimized": true
+      },
+      {
+        "certificate_matches": true,
+        "checker": "independent_fraction/verify.py",
+        "exit_code": 0,
+        "optimized": false
+      },
+      {
+        "certificate_matches": true,
+        "checker": "independent_fraction/verify.py",
+        "exit_code": 0,
+        "optimized": true
+      },
+      {
+        "certificate_matches": true,
+        "checker": "integer_bridge/verify_bridge_counterexample.py",
+        "exit_code": 0,
+        "optimized": false
+      },
+      {
+        "certificate_matches": true,
+        "checker": "integer_bridge/verify_bridge_counterexample.py",
+        "exit_code": 0,
+        "optimized": true
+      },
+      {
+        "checker": "verify_sparse_certificate.py",
+        "exit_code": 0,
+        "full_zero_coefficients": 2629,
+        "mutation_controls": {
+          "canonical_row_labels_exchanged": "47 exact active coefficients must vanish",
+          "nonbinary_allowed_cost": "canonical binary edge",
+          "one_red_edge_recolored_blue": "complete cost histogram",
+          "one_support_edge_deleted": "83 edge records required"
+        },
+        "optimized": false
+      },
+      {
+        "checker": "verify_sparse_certificate.py",
+        "exit_code": 0,
+        "full_zero_coefficients": 2629,
+        "mutation_controls": {
+          "canonical_row_labels_exchanged": "47 exact active coefficients must vanish",
+          "nonbinary_allowed_cost": "canonical binary edge",
+          "one_red_edge_recolored_blue": "complete cost histogram",
+          "one_support_edge_deleted": "83 edge records required"
+        },
+        "optimized": true
+      },
+      {
+        "certificate_matches": true,
+        "checker": "root_review/check.py",
+        "exit_code": 0,
+        "optimized": false
+      },
+      {
+        "certificate_matches": true,
+        "checker": "root_review/check.py",
+        "exit_code": 0,
+        "optimized": true
+      }
+    ],
+    "fraction_mutations": [
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: raw exact zero polynomial",
+        "mutation": "row",
+        "optimized": false
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: raw exact zero polynomial",
+        "mutation": "exponent",
+        "optimized": false
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: full raw fiber",
+        "mutation": "cost",
+        "optimized": false
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: raw exact zero polynomial",
+        "mutation": "sign",
+        "optimized": false
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: raw exact zero polynomial",
+        "mutation": "row",
+        "optimized": true
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: raw exact zero polynomial",
+        "mutation": "exponent",
+        "optimized": true
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: full raw fiber",
+        "mutation": "cost",
+        "optimized": true
+      },
+      {
+        "exit_code": 1,
+        "failure": "RuntimeError: raw exact zero polynomial",
+        "mutation": "sign",
+        "optimized": true
+      }
+    ],
+    "integer_mutation_controls": {
+      "change_one_row_offset": {
+        "normal": "ValueError: all47 integer coefficients vanish",
+        "optimized": "ValueError: all47 integer coefficients vanish"
+      },
+      "lower_forbidden_edge_cost": {
+        "normal": "ValueError: dense cost alphabet",
+        "optimized": "ValueError: dense cost alphabet"
+      },
+      "remove_second_red_edge": {
+        "normal": "ValueError: complete cost histogram",
+        "optimized": "ValueError: complete cost histogram"
+      }
+    },
+    "inventory_verified": true,
+    "status": "PASS"
+  },
+  "novelty": "Unconfirmed; no historical-priority claim.",
+  "python": "3.12.14",
+  "reproduction": {
+    "clean_run_and_extracted_zip_run_agree": true,
+    "fraction_mutation_rejections": 8,
+    "independent_zip_builds_byte_identical": true,
+    "integer_source_mutation_rejections": 6,
+    "internal_author_cost_and_exponent_controls": true,
+    "internal_bridge_coloring_control": true,
+    "normal_optimized_checker_runs": 10,
+    "payload_file_count": 27,
+    "sparse_certificate_mutation_rejections": 8,
+    "zip_crc_passed": true,
+    "zip_safe_paths": true
+  },
+  "result": {
+    "active_zero_coefficients": 47,
+    "allowed_costs": [
+      0,
+      1
+    ],
+    "allowed_edges": 83,
+    "canonical_dimension": 73,
+    "canonical_rows_and_exponents": [
+      0,
+      72
+    ],
+    "connected_components": 68,
+    "dense_completion_costs": [
+      0,
+      1,
+      4
+    ],
+    "forced_factor_degree": 2582,
+    "full_zero_coefficients": 2629,
+    "negative_target_terms": 4,
+    "positive_target_terms": 4,
+    "scope": "Sparse arbitrary-support canonical binary-cost nonvanishing is false; disconnected non-brace example; no brace-theorem, blockwise-algorithm, dense-binary, novelty, or P-versus-NP claim.",
+    "supported_perfect_matchings": 32,
+    "target": 3,
+    "target_matching_count": 8
+  },
+  "source_boundary": "Theorem 1.2 is brace-only; Remark 1.4 explicitly allows non-brace cancellation. This disconnected example does not refute that theorem or establish failure of the stated blockwise algorithm.",
+  "source_boundary_url": "https://arxiv.org/html/2604.01571v3",
+  "status": "PASS"
+}
