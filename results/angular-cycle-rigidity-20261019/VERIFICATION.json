@@ -1,0 +1,134 @@
+{
+  "archive": "pnp-few-active-cycle-noncancellation-20261019.zip",
+  "archive_bytes": 63533,
+  "archive_sha256": "3c3dca0f8ae936fff4a733f0096d67faa0b48284c8cd450176ef91567c646ae0",
+  "branch": "research-angular-cycle-rigidity-20261019",
+  "checkpoint_verification": {
+    "archive": {
+      "bytes": 63533,
+      "filename": "pnp-few-active-cycle-noncancellation-20261019.zip",
+      "sha256": "3c3dca0f8ae936fff4a733f0096d67faa0b48284c8cd450176ef91567c646ae0"
+    },
+    "check_results": {
+      "antichain_census": [
+        2,
+        3,
+        6,
+        20,
+        168
+      ],
+      "checker_replays": [
+        "primary:normal",
+        "primary:optimized",
+        "audit:normal",
+        "audit:optimized"
+      ],
+      "complete_fibers": 42,
+      "corruption_controls_rejected": [
+        "wrong_antichain_census:normal",
+        "wrong_cycle_flip_sign:normal",
+        "zero_inactive_factor:normal",
+        "altered_audit_count:normal",
+        "altered_audit_claim:normal",
+        "wrong_antichain_census:optimized",
+        "wrong_cycle_flip_sign:optimized",
+        "zero_inactive_factor:optimized",
+        "altered_audit_count:optimized",
+        "altered_audit_claim:optimized",
+        "same_length_payload_corruption:sha256"
+      ],
+      "format": "few-active-cycle-bundle-verification-v1",
+      "graph_instances": 6,
+      "independent_review_pins_verified": 3,
+      "optimization_removable_assertions": 0,
+      "original_source_pins_verified": 4,
+      "payload_files_hash_verified": 12,
+      "perfect_matchings": 132,
+      "reference_receipts_reproduced_byte_for_byte": true,
+      "scope": "Supplemental exact finite checks and artifact integrity; analytic proofs supply the unbounded theorem.",
+      "status": "PASS"
+    },
+    "external_actions_performed": [],
+    "format": "local-pnp-source-checkpoint-completion-v1",
+    "independent_audit": {
+      "bytes": 3505,
+      "sha256": "6210978d77743b29ace2705858791ac5429d8198a97f66eb124cb18ae7ee089e"
+    },
+    "not_claimed": [
+      "General four-active-cycle mixed-parity theorem",
+      "Unrestricted complete-fiber noncancellation",
+      "A P-versus-NP separation or general polynomial-time isolation algorithm",
+      "Formal proof-assistant certification or external peer review"
+    ],
+    "package_manifest": {
+      "bytes": 2649,
+      "sha256": "572cde3ed29af67ed55751884fb5ccfacbc86f427f347a797e8dad7a9f6efe6a"
+    },
+    "payload_files_including_manifest": 13,
+    "primary_proof": {
+      "bytes": 10793,
+      "sha256": "703bef59955b0b002d4186142db3fb1cdd8cdddaece7554a5fc844c962c71cb5"
+    },
+    "scope": {
+      "A": "At most three active cycles, arbitrary flip parity.",
+      "B": "At most four active cycles, all active flips odd.",
+      "conclusion": "Nonzero polynomial; individual evaluations may vanish.",
+      "fibers": "Entire additive-cost fibers on supported independent alternating cycles and forced edges.",
+      "inactive_cycles": "Arbitrarily many, of arbitrary length.",
+      "parameters": "Distinct real row offsets; distinct nonnegative integer column exponents; arbitrary real edge costs."
+    },
+    "status": "COMPLETE_LOCAL_ONLY",
+    "verification_receipts": {
+      "PNP_VERIFICATION_NORMAL.json": {
+        "bytes": 1120,
+        "sha256": "de683e5e2170ba9af3c59f997dc6d9088b31ce2de4e1be3858357072695b8e5c"
+      },
+      "PNP_VERIFICATION_OPTIMIZED.json": {
+        "bytes": 1120,
+        "sha256": "de683e5e2170ba9af3c59f997dc6d9088b31ce2de4e1be3858357072695b8e5c"
+      }
+    },
+    "verified": {
+      "all_payload_hashes": true,
+      "clean_deterministic_rebuild_byte_identical": true,
+      "clean_extraction": true,
+      "independent_review_pins": true,
+      "ordinary_and_optimized_checkers": true,
+      "ordinary_and_optimized_receipts_identical": true,
+      "original_source_pins": true,
+      "root_replay_identical": true,
+      "zip_crc": true
+    }
+  },
+  "fresh_archival_verification": {
+    "archive": "pnp-few-active-cycle-noncancellation-20261019.zip",
+    "bytes": 63533,
+    "clean_rebuild_byte_identical": true,
+    "entries": 13,
+    "fresh_clean_full_replay_normal": "PASS",
+    "fresh_clean_full_replay_optimized": "PASS",
+    "frozen_replay_bytes_identical": true,
+    "sha256": "3c3dca0f8ae936fff4a733f0096d67faa0b48284c8cd450176ef91567c646ae0",
+    "status": "PASS"
+  },
+  "fresh_replay_receipts": {
+    "pnp-fresh-rebuild.json": {
+      "bytes": 95,
+      "sha256": "1afcefd1845aeb4871e638f7a9ca8edb19aab84d40daf63ebe9f69724743ce40"
+    },
+    "pnp-fresh-replay-normal.json": {
+      "bytes": 1120,
+      "sha256": "de683e5e2170ba9af3c59f997dc6d9088b31ce2de4e1be3858357072695b8e5c"
+    },
+    "pnp-fresh-replay-optimized.json": {
+      "bytes": 1120,
+      "sha256": "de683e5e2170ba9af3c59f997dc6d9088b31ce2de4e1be3858357072695b8e5c"
+    }
+  },
+  "limits": "Research checks and byte integrity, not proof-assistant formalization, external peer review, a cryptographic signature, or a hostile-code sandbox.",
+  "path": "results/angular-cycle-rigidity-20261019",
+  "repository": "mio-qwq/p-vs-np",
+  "role": "Exact accepted source ZIP, additive source-only branch archive",
+  "single_parent_commit": "5c8f098ca1e9d9f4c0a462eabe18b6d825311942",
+  "status": "PASS"
+}
