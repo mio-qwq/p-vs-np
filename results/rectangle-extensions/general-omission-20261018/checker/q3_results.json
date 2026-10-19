@@ -1,0 +1,388 @@
+{
+  "status": "passed",
+  "method": "exact translated-minor Cauchy--Binet sums, independently compared with exterior/Schur formula",
+  "n": 12,
+  "r": 3,
+  "q": 3,
+  "offsets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "exponents": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    10,
+    12,
+    16,
+    17,
+    20,
+    21,
+    22
+  ],
+  "I": [
+    0,
+    1,
+    2
+  ],
+  "J": [
+    0,
+    3,
+    4,
+    7,
+    8,
+    11
+  ],
+  "X": [
+    0,
+    5,
+    6,
+    16,
+    17,
+    22
+  ],
+  "Y": [
+    1,
+    2,
+    10,
+    12,
+    20,
+    21
+  ],
+  "f_low_to_high": [
+    0,
+    -179520,
+    95764,
+    -18612,
+    1633,
+    -66,
+    1
+  ],
+  "g_low_to_high": [
+    100800,
+    -179520,
+    95764,
+    -18612,
+    1633,
+    -66,
+    1
+  ],
+  "R": 100800,
+  "D": 93,
+  "kappa": 9,
+  "shape": [
+    3,
+    3,
+    3
+  ],
+  "A": "-1",
+  "K": "-346784498681178488832000000",
+  "gamma": "-1024192512000000",
+  "omitted_weight_sign": -1,
+  "row_factor": "590339/600",
+  "leading_degree": 84,
+  "leading_coefficient": "349455192072211821543155615882280960000000000",
+  "maximal_layer_coefficients": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "349455192072211821543155615882280960000000000"
+  ],
+  "next_smaller_layer": {
+    "size": 2,
+    "raw_gap": 7,
+    "own_losses": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "global_losses": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "coefficients": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "20653517704839718344489387075450175488000000000000"
+    ],
+    "first_exterior_loss": 8,
+    "first_possible_global_loss": 15
+  },
+  "other_raw_gaps": {
+    "size1": 16,
+    "size0": 27
+  },
+  "exterior_certificates": [
+    {
+      "omitted_nodes": 1,
+      "kappa": 5,
+      "shape": [
+        5
+      ],
+      "gamma": "100800"
+    },
+    {
+      "omitted_nodes": 2,
+      "kappa": 8,
+      "shape": [
+        4,
+        4
+      ],
+      "gamma": "-10160640000"
+    },
+    {
+      "omitted_nodes": 3,
+      "kappa": 9,
+      "shape": [
+        3,
+        3,
+        3
+      ],
+      "gamma": "-1024192512000000"
+    },
+    {
+      "omitted_nodes": 4,
+      "kappa": 8,
+      "shape": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "gamma": "103238605209600000000"
+    },
+    {
+      "omitted_nodes": 5,
+      "kappa": 5,
+      "shape": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "gamma": "10406451405127680000000000"
+    },
+    {
+      "omitted_nodes": 6,
+      "kappa": 0,
+      "shape": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamma": "-1048970301636870144000000000000"
+    }
+  ],
+  "original_index_weight_checks": 42,
+  "shifted_row_factor": "590339/600",
+  "reverse_separation_row_factor": "-590339/600",
+  "one_and_two_omission_regressions": [
+    {
+      "q": 1,
+      "r": 5,
+      "I": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "kappa": 5,
+      "shape": [
+        5
+      ],
+      "row_factor": "324/5",
+      "D": 101,
+      "leading_degree": 96,
+      "maximal_layer_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2265140859865668900492410880000000"
+      ],
+      "leading_coefficient": "2265140859865668900492410880000000",
+      "smaller_raw_gap": 3,
+      "smaller_own_losses": [
+        0,
+        1,
+        2
+      ],
+      "smaller_coefficients": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "q": 2,
+      "r": 4,
+      "I": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kappa": 8,
+      "shape": [
+        4,
+        4
+      ],
+      "row_factor": "7944301/14400",
+      "D": 98,
+      "leading_degree": 90,
+      "maximal_layer_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1943900086222250820724619162419200000000"
+      ],
+      "leading_coefficient": "1943900086222250820724619162419200000000",
+      "smaller_raw_gap": 5,
+      "smaller_own_losses": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "smaller_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "short_height_q3_regression": {
+    "n": 11,
+    "r": 3,
+    "q": 3,
+    "offsets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "exponents": [
+      0,
+      25,
+      48,
+      123,
+      146,
+      266,
+      386,
+      409,
+      484,
+      507,
+      532
+    ],
+    "I": [
+      0,
+      1,
+      2
+    ],
+    "J": [
+      0,
+      3,
+      4,
+      6,
+      7,
+      10
+    ],
+    "R_low_to_high": [
+      -78327849600,
+      5375736984,
+      -103938170,
+      601955,
+      -1330,
+      1
+    ],
+    "S": 20835207993600,
+    "degree_echelon_set": [
+      0,
+      1,
+      5
+    ],
+    "pivot_columns": [
+      0,
+      4,
+      5
+    ],
+    "shape": [
+      3,
+      3
+    ],
+    "kappa": 6,
+    "row_factor": "88589/480",
+    "gamma": "-434105892136573337640960000",
+    "omitted_weight_sign": 1,
+    "D": 2895,
+    "leading_degree": 2889,
+    "leading_coefficient": "55627446086708070328745264456872708168270411745082952102861645639823652470831185920000",
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "55627446086708070328745264456872708168270411745082952102861645639823652470831185920000"
+    ],
+    "smaller_raw_gap": 6,
+    "smaller_own_loss_0_coefficient": "0"
+  }
+}

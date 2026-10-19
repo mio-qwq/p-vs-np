@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-10-19T00:00:33.722556+00:00",
+  "scope": "All-red rectangle, arbitrary q>=1, n>=2r+q; arbitrary-offset coefficient identity and separated-offset nonvanishing. No arbitrary-coloring or complexity conclusion.",
+  "main_result": "delta_h+kappa_(q+h)-kappa_q >= h(n-2r+h-q) >= h^2 > 0",
+  "proof": "PROOF.md",
+  "independent_audit": "AUDIT.md",
+  "tests": [
+    {
+      "command": "python checker/check_q3.py",
+      "status": "passed"
+    },
+    {
+      "command": "python -O checker/check_q3.py",
+      "status": "passed"
+    }
+  ],
+  "fixtures": [
+    "q=3 constant remainder, shape (3,3,3), kappa 9, raw lower gap 7, actual lower first global loss 15",
+    "q=3 nonconstant remainder, shape (3,3), kappa 6, raw lower gap 6, opposite omitted-set sign",
+    "q=1 and q=2 exact translated-minor regressions with competing lower-layer cancellation"
+  ],
+  "remote_actions": false,
+  "remaining_scope": [
+    "Nonseparated offsets when the first row factor vanishes",
+    "Arbitrary colorings are outside this theorem"
+  ]
+}

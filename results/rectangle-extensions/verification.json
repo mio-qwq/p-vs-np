@@ -1,0 +1,34 @@
+{
+  "default": {
+    "checks": [
+      "exact q3 translated-minor and q1/q2 regressions",
+      "eight single-edge fixtures",
+      "32 independent fixed-seed single-edge cases",
+      "40 one-row boundary cases",
+      "complete receipt byte comparisons",
+      "three source-level mathematical negative controls",
+      "three altered-certificate negative controls",
+      "four inventory negative controls"
+    ],
+    "independent_sympy_audit": "NOT_RUN",
+    "original_scripts_rerun": 4,
+    "third_party_dependencies": []
+  },
+  "full": {
+    "additional_checks": [
+      "seven independent symbolic boundary cases and symbolic variance identity",
+      "full residual stress-certificate reconstruction",
+      "wrong symbolic variance normalization rejected",
+      "altered stress coefficient rejected"
+    ],
+    "dependency": "sympy==1.14.0",
+    "original_scripts_rerun": 6
+  },
+  "isolation": "Original mathematical checkers run unchanged in disposable package copies. Negative-control source copies are deliberately changed separately, not used as the actual checker implementation.",
+  "limits": "These executable algebra checks corroborate the accompanying mathematical proofs and do not constitute formal proof-assistant verification or exhaustive checking of all colorings.",
+  "modes": [
+    "normal",
+    "python -O"
+  ],
+  "schema": "rectangle-extensions-verification-v1"
+}

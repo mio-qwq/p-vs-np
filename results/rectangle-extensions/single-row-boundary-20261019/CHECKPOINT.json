@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-19",
+  "status": "scoped_theorem_complete_residual_regime_open",
+  "directory": "/workspace/shared/single-row-boundary-20261019",
+  "source_gap": "/workspace/shared/single-edge-perturbation-20261019/PROOF.md section 4",
+  "result": "Exact degree D-1 outside exponent resonance; exact degree D-2 outside offset-centroid resonance, after prior leading cancellation",
+  "unresolved": "n>=5, leading ratio R=1, n e_c=D, and sum offsets=n(a_i+a_p)/2",
+  "strict_counterexample_found": false,
+  "finite_examples_do_not_resolve_gap": true,
+  "resume_condition": "A structural argument controlling a later coefficient in the simultaneous-resonance regime, or an exact zero-polynomial counterexample; additional isolated nonzero examples alone are not sufficient",
+  "remote_writes": false,
+  "verification": {
+    "author_checker_cases": 40,
+    "independent_checker_cases": 7,
+    "normal_and_optimized_modes": "passed",
+    "independent_mathematical_audit": "passed"
+  },
+  "all_size_corollaries": [
+    "distinguished exponent is minimal or maximal",
+    "consecutive exponent set in any column order"
+  ]
+}
