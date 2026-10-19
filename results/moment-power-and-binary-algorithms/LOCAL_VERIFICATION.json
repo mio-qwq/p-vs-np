@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "scope": "Local exact symbolic certificates and finite regression checks. These are not formal proof verification or hosted CI; the analytic theorem is supported by its proof and independent mathematical audit.",
+  "frozen_source_bytes_unchanged": true,
+  "checks": [
+    {
+      "repository": "pnp",
+      "check": "quartic-power-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "77029bd067dfd8c396a3e0176e9b636b4774592a51ee84b31ef45284eb01f51e",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "quartic-power-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "77029bd067dfd8c396a3e0176e9b636b4774592a51ee84b31ef45284eb01f51e",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "quartic-power-audit-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "947ec13786ee0170cb70314daa2645c60083a9c4df7b51a7551708b04a6c33ba",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "quartic-power-audit-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "947ec13786ee0170cb70314daa2645c60083a9c4df7b51a7551708b04a6c33ba",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "quartic-power-audit-20261019/audit_universal.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "df133036f4891a77ecea0d8851a443eaffe8d4744e30c328e437f2c80d87cf44",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "quartic-power-audit-20261019/audit_universal.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "df133036f4891a77ecea0d8851a443eaffe8d4744e30c328e437f2c80d87cf44",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "binary-fiber-algorithm-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "900a444b87ddce90dae6c380f6bc7e60c8e1ff86a46890087bd319be8f452d31",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "binary-fiber-algorithm-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "900a444b87ddce90dae6c380f6bc7e60c8e1ff86a46890087bd319be8f452d31",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "binary-fiber-complexity-audit-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "890ba3dd968e85928e626363adf1eab67cf899b44a2721ec40b38afa4434c23a",
+      "stderr": ""
+    },
+    {
+      "repository": "pnp",
+      "check": "binary-fiber-complexity-audit-20261019/check.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "890ba3dd968e85928e626363adf1eab67cf899b44a2721ec40b38afa4434c23a",
+      "stderr": ""
+    }
+  ]
+}

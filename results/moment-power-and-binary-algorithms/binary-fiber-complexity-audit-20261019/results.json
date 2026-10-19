@@ -1,0 +1,18 @@
+{
+  "status": "all exact checks passed",
+  "normal_python": "passed",
+  "optimized_python": "passed",
+  "succinct_reduction_truth_tables": 22,
+  "determinant_coefficient_checks": 4096,
+  "single_missing_member_checks": 1876,
+  "bipartite_supports_with_perfect_matchings": 247,
+  "distinguishing_vertex_family_checks": 1008,
+  "large_radix_affine_closure_checks": 378,
+  "restricted_algorithm_independent_replay": {
+    "normal_python": "passed",
+    "optimized_python": "passed",
+    "matches_recorded_results": true
+  },
+  "reciprocal_large_radix_proof_review": "sound; no change needed",
+  "requirements": "Python 3.9+ standard library only"
+}

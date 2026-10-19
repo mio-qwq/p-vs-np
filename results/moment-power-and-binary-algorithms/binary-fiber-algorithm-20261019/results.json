@@ -1,0 +1,64 @@
+{
+  "status": "all exact checks passed",
+  "instances": [
+    {
+      "name": "K3,3",
+      "n": 3,
+      "m": 9,
+      "allowed_edges": 9,
+      "cycle_rank": 4,
+      "perfect_matchings": 6,
+      "attainable_signatures": 205,
+      "realizable_nonempty_families": 57,
+      "binary_colorings_checked": 512
+    },
+    {
+      "name": "five-rung ladder",
+      "n": 5,
+      "m": 13,
+      "allowed_edges": 13,
+      "cycle_rank": 4,
+      "perfect_matchings": 8,
+      "attainable_signatures": 479,
+      "realizable_nonempty_families": 97,
+      "binary_colorings_checked": 8192
+    },
+    {
+      "name": "upper-triangular forced matching",
+      "n": 4,
+      "m": 10,
+      "allowed_edges": 4,
+      "cycle_rank": 0,
+      "perfect_matchings": 1,
+      "attainable_signatures": 1,
+      "realizable_nonempty_families": 1,
+      "binary_colorings_checked": 1024
+    },
+    {
+      "name": "four disjoint K2,2",
+      "n": 8,
+      "m": 16,
+      "cycle_rank": 4,
+      "perfect_matchings": 16,
+      "attainable_signatures": 625,
+      "opposite_pair_realizable": false
+    },
+    {
+      "name": "heterogeneous multi-theta",
+      "n": 11,
+      "m": 25,
+      "cycle_rank": 4,
+      "perfect_matchings": 5,
+      "families_constructed": 31
+    },
+    {
+      "name": "41-branch multi-theta",
+      "n": 41,
+      "m": 121,
+      "cycle_rank": 40,
+      "perfect_matchings": 41,
+      "families_constructed": 5,
+      "uses_chord_or_coloring_enumeration": false
+    }
+  ]
+}
