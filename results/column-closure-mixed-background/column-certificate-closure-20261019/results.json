@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integers and fractions",
+  "named_certificates": {
+    "full_column_functionals": 3,
+    "new_column_matching_counts": [
+      1,
+      2,
+      1
+    ],
+    "positive_kernel": [
+      2,
+      1,
+      2
+    ],
+    "binary_column_subsets_checked": 7,
+    "named_matrices_checked_independently": 5
+  },
+  "general_identities": {
+    "positive_gap_pairs_checked": 5,
+    "binary_matching_subsets_checked": 315,
+    "general_cancellation_examples": 10
+  },
+  "bounded_classification": {
+    "integer_weight_matrices_checked": 6561,
+    "weight_values": [
+      0,
+      1,
+      2
+    ],
+    "gap_pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "feasible_zero_counts": {
+      "0,1": 2,
+      "0,2": 2,
+      "1,2": 0
+    }
+  },
+  "negative_controls": {
+    "corruption_controls": 3
+  },
+  "scope": "Three-row consecutive-exponent classification; no general ASNC claim."
+}

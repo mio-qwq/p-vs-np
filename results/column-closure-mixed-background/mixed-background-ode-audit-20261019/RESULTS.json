@@ -1,0 +1,1223 @@
+{
+  "moment_algebra_exact": true,
+  "case_count": 81,
+  "all_factorizations_and_odes_exact": true,
+  "all_required_independence_checks_passed": true,
+  "cases": [
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 0,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 1,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 2,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 4,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 7,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 8,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 0,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 1,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 2,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 4,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 5,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 8,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 9,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 0,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 1,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 2,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 4,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 5,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 9,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 10,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 0,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 1,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 2,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 4,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 5,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 10,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -2,
+        0,
+        3
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 11,
+      "rank": 3,
+      "n": 3,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 0,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 1,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 2,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 5,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 8,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 9,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 0,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 1,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 2,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 5,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 6,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 9,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 10,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 0,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 1,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 2,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 5,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 6,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 10,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 11,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 0,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 1,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 2,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 5,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 6,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 11,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -3,
+        -1,
+        2,
+        5
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 12,
+      "rank": 4,
+      "n": 4,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 0,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 1,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 2,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 6,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 9,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 1,
+      "k": 10,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 0,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 1,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 2,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 6,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 7,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 10,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 2,
+      "k": 11,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 0,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 1,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 2,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 6,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 7,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 11,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 3,
+      "k": 12,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 0,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 1,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 2,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": true,
+      "log_exception": true
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 6,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 7,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 12,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    },
+    {
+      "nodes": [
+        -4,
+        -1,
+        0,
+        2,
+        7
+      ],
+      "h": 3,
+      "d": 4,
+      "k": 13,
+      "rank": 5,
+      "n": 5,
+      "negative_offset": false,
+      "log_exception": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "date_utc": "2026-10-19",
+  "python": "3.12.14",
+  "method": "Fresh extraction of a source-only ZIP into a new temporary directory; original staged source unchanged.",
+  "checks": [
+    {
+      "script": "column-certificate-closure-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.121,
+      "status": "PASS",
+      "generated_result_matches_frozen_bytes": true,
+      "generated_result_sha256": "397cfc09864c9aa1b0fdcd4d606acfca53cde3b712531f6dadf897a0c2842b43"
+    },
+    {
+      "script": "column-certificate-closure-20261019/check.py",
+      "mode": "-O",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.179,
+      "status": "PASS",
+      "generated_result_matches_frozen_bytes": true,
+      "generated_result_sha256": "397cfc09864c9aa1b0fdcd4d606acfca53cde3b712531f6dadf897a0c2842b43"
+    },
+    {
+      "script": "column-closure-adversarial-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.029,
+      "status": "PASS"
+    },
+    {
+      "script": "column-closure-adversarial-20261019/check.py",
+      "mode": "-O",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.062,
+      "status": "PASS"
+    },
+    {
+      "script": "mixed-column-positivity-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.26,
+      "status": "PASS"
+    },
+    {
+      "script": "mixed-column-positivity-20261019/check.py",
+      "mode": "-O",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 0.287,
+      "status": "PASS"
+    },
+    {
+      "script": "mixed-background-ode-audit-20261019/check.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 11.561,
+      "status": "PASS",
+      "generated_result_matches_frozen_bytes": true,
+      "generated_result_sha256": "66e4b0f351d3f682619c889bedaff3e33499c74bd397f50642613a2bd1658d93"
+    },
+    {
+      "script": "mixed-background-ode-audit-20261019/check.py",
+      "mode": "-O",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 12.61,
+      "status": "PASS",
+      "generated_result_matches_frozen_bytes": true,
+      "generated_result_sha256": "66e4b0f351d3f682619c889bedaff3e33499c74bd397f50642613a2bd1658d93"
+    }
+  ],
+  "sympy": "1.14.0",
+  "all_original_input_bytes_preserved": true,
+  "source_file_count": 14
+}

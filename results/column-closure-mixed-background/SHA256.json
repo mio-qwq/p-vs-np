@@ -1,0 +1,86 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "Every bundle file except this manifest itself.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3548,
+      "sha256": "73884a738e7b8022b86a6f7227908d9013b18b7f86d6a5318a46b515012ac9ef"
+    },
+    {
+      "path": "REPRODUCTION.json",
+      "bytes": 2551,
+      "sha256": "178fabad15d0c25517ff124858bbfc827117eabed4ddc6c7785bb36dd1469055"
+    },
+    {
+      "path": "column-certificate-closure-20261019/PROOF.md",
+      "bytes": 11890,
+      "sha256": "ad583b0269795550bc008d28a9ed79cef1a8c621ae5a9e572d5ae9c6c27a0730"
+    },
+    {
+      "path": "column-certificate-closure-20261019/check.py",
+      "bytes": 11050,
+      "sha256": "32f49dc60f74e019792ec5e3b09418b2861192e9359f949bf0e03bea4fee3219"
+    },
+    {
+      "path": "column-certificate-closure-20261019/results.json",
+      "bytes": 1002,
+      "sha256": "397cfc09864c9aa1b0fdcd4d606acfca53cde3b712531f6dadf897a0c2842b43"
+    },
+    {
+      "path": "column-closure-adversarial-20261019/PROOF.md",
+      "bytes": 7771,
+      "sha256": "cce53c0362e4a0ae12ca650bab4fc25223cd6563e774825659e108597f504979"
+    },
+    {
+      "path": "column-closure-adversarial-20261019/check.py",
+      "bytes": 4476,
+      "sha256": "801518021a4bfe8de4ec1321418f2107cee0567a665224994955288403029fb7"
+    },
+    {
+      "path": "column-closure-adversarial-20261019/search.py",
+      "bytes": 999,
+      "sha256": "ba8464b8d5331a51207a4ae80268b24279fc902efd0f0457e827037b535fc180"
+    },
+    {
+      "path": "mixed-background-ode-audit-20261019/AUDIT.md",
+      "bytes": 10477,
+      "sha256": "7b093ca6f5085892be456612cc0e09246a5d7c8d8cba2f1a0f52e34dffa5821e"
+    },
+    {
+      "path": "mixed-background-ode-audit-20261019/RESULTS.json",
+      "bytes": 17766,
+      "sha256": "66e4b0f351d3f682619c889bedaff3e33499c74bd397f50642613a2bd1658d93"
+    },
+    {
+      "path": "mixed-background-ode-audit-20261019/check.py",
+      "bytes": 3096,
+      "sha256": "a4377f3387ae794c0a95e2619c3c40fdcd4593efc06fc9c7bddbcc023e5b5f3d"
+    },
+    {
+      "path": "mixed-background-root-moments-20261019/DERIVATION.md",
+      "bytes": 2736,
+      "sha256": "bfe9b78ecccd2c4c55de0c7ac8da7c84dfcf615bbb54c53bd5b77bf54251ded7"
+    },
+    {
+      "path": "mixed-column-positivity-20261019/PROOF.md",
+      "bytes": 13082,
+      "sha256": "0892c58a2f028d8289b351b9f8bdfe8adcf85a7d61017d9f0080ff5417e109c0"
+    },
+    {
+      "path": "mixed-column-positivity-20261019/check.py",
+      "bytes": 6124,
+      "sha256": "d213b702dea6dd04bb18423b303f5b03f3beddcf074cbcaf18825ce1bdfba5e7"
+    },
+    {
+      "path": "two-column-root-audit-20261019/DERIVATION.md",
+      "bytes": 1944,
+      "sha256": "04a80703343f86c931d4f2fe36d5bb47cfb59328dca3f5b4759de61210d851fc"
+    },
+    {
+      "path": "weighted-column-counterexample-20261019/CLOSURE_AUDIT.md",
+      "bytes": 4188,
+      "sha256": "dc71394397ed1bd8eb1822146bc4130448cdb2a0c7ea6910903956fbd97359ee"
+    }
+  ]
+}
