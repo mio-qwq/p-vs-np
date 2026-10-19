@@ -1,0 +1,54 @@
+{
+  "package": "pnp-asymmetric-minimum-barrier-20261019",
+  "date": "2026-10-19",
+  "checkers": [
+    {
+      "path": "general-moment-next-20261019/check_asymmetric_barrier.py",
+      "stdout_sha256": "40c1fc474f45009c9ce39a3cbbc7fc5c8bb758b81ed42222e059ac51a1c29c96"
+    }
+  ],
+  "files": [
+    {
+      "path": "LOCAL_VERIFICATION.json",
+      "bytes": 793,
+      "sha256": "4f21710fd0369695e85e068ea69e9939313cb09ed96c907d4443df90fce5df56",
+      "kind": "package metadata"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3196,
+      "sha256": "adab80b1a3d078ed5b1d70623d72892829757b806e221ab764c5b8d4f207a7e8",
+      "kind": "package metadata"
+    },
+    {
+      "path": "general-moment-next-20261019/ASYMMETRIC_MINIMUM_BARRIER.md",
+      "bytes": 5569,
+      "sha256": "7aec8c06dd6c1d99cd37aff4c2f3b774048e53a5feaff083fc68bcbfbec9fcb0",
+      "kind": "research source"
+    },
+    {
+      "path": "general-moment-next-20261019/asymmetric_barrier_certificate.json",
+      "bytes": 2532,
+      "sha256": "61ca06b0f3a737774d19328d05d2eb370bf4ebe0948308ecca33bc51d8e06843",
+      "kind": "research source"
+    },
+    {
+      "path": "general-moment-next-20261019/check_asymmetric_barrier.py",
+      "bytes": 3446,
+      "sha256": "abb679ae7f0ee70d111d90b1a84c82ebea01cd17486090f10ca6bd1663c06564",
+      "kind": "research source"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 86,
+      "sha256": "bd0505cc066fa546a79f887b9da8e7f2f6d687db3c4bff622c97fd7ef432c47c",
+      "kind": "package metadata"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 2976,
+      "sha256": "d172f15ec557a686a8d534c4cb7ca9d9968f920f977a7dad992b6633acc6f5d0",
+      "kind": "package metadata"
+    }
+  ]
+}

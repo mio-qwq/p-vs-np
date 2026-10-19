@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "scope": "Finite exact identities and certificate replay; not formal proof verification or hosted CI.",
+  "checks": [
+    {
+      "check": "general-moment-next-20261019/check_asymmetric_barrier.py",
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout_sha256": "40c1fc474f45009c9ce39a3cbbc7fc5c8bb758b81ed42222e059ac51a1c29c96",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    },
+    {
+      "check": "general-moment-next-20261019/check_asymmetric_barrier.py",
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout_sha256": "40c1fc474f45009c9ce39a3cbbc7fc5c8bb758b81ed42222e059ac51a1c29c96",
+      "stderr": "",
+      "frozen_source_bytes_unchanged": true
+    }
+  ]
+}
