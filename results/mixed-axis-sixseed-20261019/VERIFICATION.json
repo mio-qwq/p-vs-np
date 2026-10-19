@@ -1,0 +1,61 @@
+{
+  "archive": "pnp-sixseed-rank12-obstruction-20261019.zip",
+  "archive_bytes": 67767,
+  "archive_role": "Exact accepted source ZIP, additive new research branch archival only",
+  "archive_sha256": "00217e60ae3e85cf55cd43ef8b611f359d04c31b67cd7b94e152021586a5cadb",
+  "branch": "research-mixed-axis-sixseed-20261019",
+  "checkpoint_verification": {
+    "archive": "pnp-sixseed-rank12-obstruction-20261019.zip",
+    "archive_bytes": 67767,
+    "archive_members": 42,
+    "archive_sha256": "00217e60ae3e85cf55cd43ef8b611f359d04c31b67cd7b94e152021586a5cadb",
+    "clean_extraction_rebuild_identity": true,
+    "independent_mathematical_results_identical": true,
+    "independent_modes": [
+      "normal",
+      "-O"
+    ],
+    "independent_negative_controls": 6,
+    "network_required": false,
+    "package_negative_controls_per_python_mode": 43,
+    "primary_mode_outputs_identical": true,
+    "primary_modes": [
+      "-O0",
+      "-O3",
+      "-O1 UBSan no-recovery"
+    ],
+    "primary_negative_controls_per_python_mode": 4,
+    "primary_python_verifier_modes": [
+      "normal",
+      "-O"
+    ],
+    "receipts": {
+      "audit-controls.json": "1124ffe0a2b2a554bc109f09d562bdf70d18b994074538a40dfaedb056012bcc",
+      "clean-integrity.json": "e4e55c89b48ffced39fdbcd75907b2e22e8cb2ad1a7fd2f33c0e473cb6a51c76",
+      "independent-normal.json": "363e943aa0d3f1b8a3848057239e1d69dbccc7122e2488c38022eb2c33f6f108",
+      "independent-optimized.json": "4f5acc6d7d4a76a6380663b3c7a01406c5ff9d8dabcc207cce18f009ee601132",
+      "package-controls-normal.json": "00e3ec8d11ab0353f84be6ba0f9ee9a7f125de56d403db289b0d8e3bbc2211b8",
+      "package-controls-optimized.json": "00e3ec8d11ab0353f84be6ba0f9ee9a7f125de56d403db289b0d8e3bbc2211b8",
+      "primary-normal.json": "aa7ac7352b68ced81888d23a57eb50f0ec3c40b3baa0afccc8c4df59ecaa4d56",
+      "primary-optimized.json": "5e4089baf23199c7ccd7bddd5ed5d75af688cb269de34ff49f3bdcb77905f3d9",
+      "primary-ubsan.json": "0838c8ac91fcbc82a543a474215a5780a21ac0b57c8ea98f2fc9a618a70517b5"
+    },
+    "remote_changes": false,
+    "repeated_build_identity": true,
+    "runtime_prerequisites": "Python 3.12.14, preinstalled SymPy 1.14.0, g++ 14.2.0 with C++17, signed __int128, and UBSan; runtimes not vendored",
+    "scalar_survivors": 16,
+    "scope": "Six saved 24-term seeds only. A cancelling complete containing fiber requires augmented rank >=13, affine dimension >=12. No global n=6 bound.",
+    "seed_relative_states": 424548,
+    "source_originals_unchanged": true,
+    "stale_historical_audit_pins_additively_reconciled": 2,
+    "status": "PASS",
+    "structured_search": "Bounded negative exploration only; not a new theorem.",
+    "zero_polynomial_states": 0
+  },
+  "fresh_archive_integrity": "Archive CRC, unique safe non-symlink paths, nested archive integrity and fresh clean-extraction integrity-only replay passed. Frozen full-replay receipt hashes were freshly verified.",
+  "full_replay_note": "The nested checkpoint receipt records completed full clean replay and negative controls accepted before archival. This archival operation did not redundantly repeat those full suites.",
+  "path": "results/mixed-axis-sixseed-20261019",
+  "repository": "mio-qwq/p-vs-np",
+  "single_parent_commit": "a3c43b06851e28d58c2852cd8c3a0da2c92a1d86",
+  "status": "PASS"
+}
