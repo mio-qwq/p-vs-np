@@ -1,0 +1,87 @@
+{
+  "status": "all package acceptance checks passed",
+  "artifact": "pnp-real-cost-n5-20261019.zip",
+  "archive_bytes": 122387,
+  "archive_sha256": "dbfe978d15f1721e8b239000bc7ff3f7424787e1b596a825e2a879841896cfbb",
+  "payload_integrity": {
+    "files_verified": 45,
+    "payload_sha256sums": "77ca8c9e023f5f75e88811fa29bff084c731a2d7e79f9cbf7e6011df09b68f13"
+  },
+  "archive_extraction_replays": {
+    "normal": {
+      "status": "passed",
+      "root_memberships_equal": 571,
+      "core_memberships_and_ranks_equal": 1949,
+      "visited_states_each": 177379,
+      "zero_candidates_each": 0,
+      "rank_distributions_equal": true,
+      "no_search_cap": true,
+      "integrity": {
+        "files_verified": 45,
+        "payload_sha256sums": "77ca8c9e023f5f75e88811fa29bff084c731a2d7e79f9cbf7e6011df09b68f13"
+      },
+      "sanitize": false,
+      "optimized_python": false
+    },
+    "optimized": {
+      "status": "passed",
+      "root_memberships_equal": 571,
+      "core_memberships_and_ranks_equal": 1949,
+      "visited_states_each": 177379,
+      "zero_candidates_each": 0,
+      "rank_distributions_equal": true,
+      "no_search_cap": true,
+      "integrity": {
+        "files_verified": 45,
+        "payload_sha256sums": "77ca8c9e023f5f75e88811fa29bff084c731a2d7e79f9cbf7e6011df09b68f13"
+      },
+      "sanitize": false,
+      "optimized_python": true
+    },
+    "sanitized": {
+      "status": "passed",
+      "root_memberships_equal": 571,
+      "core_memberships_and_ranks_equal": 1949,
+      "visited_states_each": 177379,
+      "zero_candidates_each": 0,
+      "rank_distributions_equal": true,
+      "no_search_cap": true,
+      "integrity": {
+        "files_verified": 45,
+        "payload_sha256sums": "77ca8c9e023f5f75e88811fa29bff084c731a2d7e79f9cbf7e6011df09b68f13"
+      },
+      "sanitize": true,
+      "optimized_python": false
+    }
+  },
+  "all_13_named_deterministic_outputs_equal_across_all_modes": {
+    "primary/slices.txt": "9f183eb749b4c68f6e266ea16240dcc89c29de39e9412d0a6ffabcfe0912c90b",
+    "primary/slices.json": "825de9c8c2f9edf9d9ccef342950b2c626ba67603b61813aaac3f47713b296b0",
+    "primary/TRAVERSAL_stats.json": "6629897542531ce0301bacd737523b9416fefd22cec2718a566db5b1f3fc9d10",
+    "primary/TRAVERSAL_cores.txt": "325738cfa0e1b9d839a30023612007ee5d10065cfcd8b7acda84e70187cdef96",
+    "primary/TRAVERSAL_core_stats.txt": "0632abe8353e29a3b37892cad958de111f04f7fb66dfd4b20e8f0c8827fe313b",
+    "primary/TRAVERSAL_eval_zero.txt": "813cd2a7e01112491aeb291883f2cef7525b2378132d9d345a3e21289daa1f73",
+    "primary/TRAVERSAL_terms.txt": "42a2bf972f0b86c4b6fb7c8b8211ae78bdacb152fd88361b81e1c92487613898",
+    "primary/TRAVERSAL_candidates.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "primary/ARITHMETIC_CHECK.json": "f9dbb85d00073173f7bfaef657f121ab78d22add2c4a4ceb44e0ce9c25c380e6",
+    "independent/ALL_GRAY_SLICES.txt": "59191bf191e68d4fd6b0855ebd50c190ba2c482bf3ecf56b2e1e88e200c82ec9",
+    "independent/AUDIT_stats.json": "af6357d5c34082a1f713ab8871bcf0ee6245fef850db33819b5089906853ab47",
+    "independent/AUDIT_cores.txt": "e67370a74e8e589dbfb93cfae9bbbd545e5f143156091b0fff7c9977bf9770f8",
+    "independent/AUDIT_candidates.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "package_negative_controls": {
+    "normal": 13,
+    "optimized_python": 13,
+    "all_rejected": true
+  },
+  "mathematical_negative_controls": {
+    "normal": "passed",
+    "optimized_python": "passed"
+  },
+  "source_tree_and_originals_preserved": true,
+  "archive_rebuild_byte_identical": true,
+  "independent_reverse_experiment": "excluded; not needed for accepted ascending exhaustive traversal",
+  "remote_changes": false,
+  "merge_or_release_performed": false,
+  "scope": "Canonical n=5 complete real additive-edge-cost fibers only; no unrestricted P-versus-NP claim."
+}
