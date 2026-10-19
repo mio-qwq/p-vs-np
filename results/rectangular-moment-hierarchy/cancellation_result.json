@@ -1,0 +1,28 @@
+{
+  "method": "Signed sum of all 720 permutations over exact Q(sqrt(2))",
+  "D": 11,
+  "degree": 7,
+  "leading": "32040 sqrt(2) (z-1)^2",
+  "complete_coefficients": {
+    "7": [
+      "32040 sqrt(2)",
+      "-64080 sqrt(2)",
+      "32040 sqrt(2)"
+    ],
+    "5": [
+      "-27180 sqrt(2)",
+      "84600 sqrt(2)",
+      "-57420 sqrt(2)"
+    ],
+    "3": [
+      "-21024 sqrt(2)",
+      "15084 sqrt(2)",
+      "10350 sqrt(2)"
+    ],
+    "1": [
+      "13302 sqrt(2)",
+      "-33408 sqrt(2)",
+      "15255 sqrt(2)"
+    ]
+  }
+}

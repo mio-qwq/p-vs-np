@@ -1,0 +1,274 @@
+{
+  "audit_freeze_manifest": {
+    "all_entries_verified": true,
+    "entries": [
+      {
+        "path": "AUDIT.md",
+        "sha256": "ff4e8fa763332973ce5b1671b9f3b70aa17a452aac33373a5899fa09a2d4ef64"
+      },
+      {
+        "path": "MANIFEST.json",
+        "sha256": "3fba823bbeb205b4ebdca916f4d8915fd75cd7e3aa0f4ee3ebbd385927280d04"
+      },
+      {
+        "path": "REPRODUCE.txt",
+        "sha256": "9fef936a8f4b3a0bb63210d7787db5ddb2c857fe4d0cbfb37a3c522fba6223bc"
+      },
+      {
+        "path": "check_independent.py",
+        "sha256": "fdaa1372421d991aed6787750aca9d4b11faadeb1f3a15e02c6cbe1db042bc7f"
+      },
+      {
+        "path": "check_negative_controls.py",
+        "sha256": "9694c26cacf55d656ad4b7dd6ea94a5d9dd4ee57595fba4aff89001699e7c971"
+      },
+      {
+        "path": "check_qclosed.py",
+        "sha256": "5373c63e31d35946b55d4c8181b2dcd5527c1e8ea3b289d90cdeb286fa082da2"
+      },
+      {
+        "path": "independent-results.json",
+        "sha256": "bbd43b1cadf4dee727a17e4ae4c69f7cb7e6e462129cb29477e34de4b3aedf2c"
+      },
+      {
+        "path": "negative-control-results.json",
+        "sha256": "805a3783d115341cb2ceeee71093210a09c6663fe892188bb65024f73cdcce0c"
+      },
+      {
+        "path": "normal.log",
+        "sha256": "4f14677e7c29db9e49af8c9712771ff8f64dca16ce4277711a7e74945a0988c0"
+      },
+      {
+        "path": "optimized.log",
+        "sha256": "4f14677e7c29db9e49af8c9712771ff8f64dca16ce4277711a7e74945a0988c0"
+      },
+      {
+        "path": "qclosed-results.json",
+        "sha256": "94124a05978ee5ae7e287012e66dad73014b830f0763bac00c891906e37260c4"
+      }
+    ],
+    "filename": "SHA256SUMS",
+    "sha256": "ab89228106d4e5c34563d996446b06faf15a522e688bedef64f0754090e4c113",
+    "source_directory": "rectangular-moment-hierarchy-audit-20261018"
+  },
+  "checker_policy": "All five source checker files are byte-preserved; the aggregate verifier is separate.",
+  "date_utc": "2026-10-18",
+  "editorial_policy": "The mathematical proof is byte-preserved at its audited SHA. Only recorded reference and inventory wording changes appear in CHECKPOINT.md and audit/AUDIT.md.",
+  "files": [
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 15070,
+      "packaged_path": "PROOF.md",
+      "packaged_sha256": "f796d745708ca05d4f69e3c55949cc053ab8b6c8561dc07cc090c5838556183f",
+      "source_bytes": 15070,
+      "source_directory": "rectangular-moment-hierarchy-20261018",
+      "source_file": "PROOF.md",
+      "source_sha256": "f796d745708ca05d4f69e3c55949cc053ab8b6c8561dc07cc090c5838556183f"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 6589,
+      "packaged_path": "check.py",
+      "packaged_sha256": "098529c33919f7a2b149f3d56d816dafebee6ec08716ee721f41f52c0f29f888",
+      "source_bytes": 6589,
+      "source_directory": "rectangular-moment-hierarchy-20261018",
+      "source_file": "check.py",
+      "source_sha256": "098529c33919f7a2b149f3d56d816dafebee6ec08716ee721f41f52c0f29f888"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 2045,
+      "packaged_path": "check_cancellation.py",
+      "packaged_sha256": "e243e74bfa8197550699ec696938f30eaf34f0b48786643af79b6e4cc38ea94d",
+      "source_bytes": 2045,
+      "source_directory": "rectangular-moment-hierarchy-20261018",
+      "source_file": "check_cancellation.py",
+      "source_sha256": "e243e74bfa8197550699ec696938f30eaf34f0b48786643af79b6e4cc38ea94d"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 3169,
+      "packaged_path": "results.json",
+      "packaged_sha256": "4f43d2b83c8440b0a9d76c1024c67c0b2b2c5a3d8e811d166a9a2288243b2599",
+      "source_bytes": 3169,
+      "source_directory": "rectangular-moment-hierarchy-20261018",
+      "source_file": "results.json",
+      "source_sha256": "4f43d2b83c8440b0a9d76c1024c67c0b2b2c5a3d8e811d166a9a2288243b2599"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 521,
+      "packaged_path": "cancellation_result.json",
+      "packaged_sha256": "a1455445702ddefbdf2d28ff7ddc5c39232915d2edf25fe72cb9739ed4fc5854",
+      "source_bytes": 521,
+      "source_directory": "rectangular-moment-hierarchy-20261018",
+      "source_file": "cancellation_result.json",
+      "source_sha256": "a1455445702ddefbdf2d28ff7ddc5c39232915d2edf25fe72cb9739ed4fc5854"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Rebased audit paths; replaced historical external diagnostic paths by self-contained verification references; updated packaged inventory and omitted-log descriptions. Mathematical statements unchanged."
+      ],
+      "packaged_bytes": 3458,
+      "packaged_path": "CHECKPOINT.md",
+      "packaged_sha256": "96215817143acb59c5cca34728c63a105cd8a2f1d7ce35da9fca859bd15202fd",
+      "source_bytes": 3607,
+      "source_directory": "rectangular-moment-hierarchy-20261018",
+      "source_file": "CHECKPOINT.md",
+      "source_sha256": "40873d01b17611c2e068fc7f855e90202db2c332dffea42ccdbde3fc4f5d5f1e"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 6510,
+      "packaged_path": "audit/check_independent.py",
+      "packaged_sha256": "fdaa1372421d991aed6787750aca9d4b11faadeb1f3a15e02c6cbe1db042bc7f",
+      "source_bytes": 6510,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "check_independent.py",
+      "source_sha256": "fdaa1372421d991aed6787750aca9d4b11faadeb1f3a15e02c6cbe1db042bc7f"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1040,
+      "packaged_path": "audit/check_qclosed.py",
+      "packaged_sha256": "5373c63e31d35946b55d4c8181b2dcd5527c1e8ea3b289d90cdeb286fa082da2",
+      "source_bytes": 1040,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "check_qclosed.py",
+      "source_sha256": "5373c63e31d35946b55d4c8181b2dcd5527c1e8ea3b289d90cdeb286fa082da2"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1279,
+      "packaged_path": "audit/check_negative_controls.py",
+      "packaged_sha256": "9694c26cacf55d656ad4b7dd6ea94a5d9dd4ee57595fba4aff89001699e7c971",
+      "source_bytes": 1279,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "check_negative_controls.py",
+      "source_sha256": "9694c26cacf55d656ad4b7dd6ea94a5d9dd4ee57595fba4aff89001699e7c971"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 84719,
+      "packaged_path": "audit/independent-results.json",
+      "packaged_sha256": "bbd43b1cadf4dee727a17e4ae4c69f7cb7e6e462129cb29477e34de4b3aedf2c",
+      "source_bytes": 84719,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "independent-results.json",
+      "source_sha256": "bbd43b1cadf4dee727a17e4ae4c69f7cb7e6e462129cb29477e34de4b3aedf2c"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 52312,
+      "packaged_path": "audit/qclosed-results.json",
+      "packaged_sha256": "94124a05978ee5ae7e287012e66dad73014b830f0763bac00c891906e37260c4",
+      "source_bytes": 52312,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "qclosed-results.json",
+      "source_sha256": "94124a05978ee5ae7e287012e66dad73014b830f0763bac00c891906e37260c4"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 410,
+      "packaged_path": "audit/negative-control-results.json",
+      "packaged_sha256": "805a3783d115341cb2ceeee71093210a09c6663fe892188bb65024f73cdcce0c",
+      "source_bytes": 410,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "negative-control-results.json",
+      "source_sha256": "805a3783d115341cb2ceeee71093210a09c6663fe892188bb65024f73cdcce0c"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 716,
+      "packaged_path": "audit/REPRODUCE.txt",
+      "packaged_sha256": "9fef936a8f4b3a0bb63210d7787db5ddb2c857fe4d0cbfb37a3c522fba6223bc",
+      "source_bytes": 716,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "REPRODUCE.txt",
+      "source_sha256": "9fef936a8f4b3a0bb63210d7787db5ddb2c857fe4d0cbfb37a3c522fba6223bc"
+    },
+    {
+      "byte_for_byte": true,
+      "changes": [],
+      "packaged_bytes": 1341,
+      "packaged_path": "audit/SOURCE_MANIFEST.json",
+      "packaged_sha256": "3fba823bbeb205b4ebdca916f4d8915fd75cd7e3aa0f4ee3ebbd385927280d04",
+      "source_bytes": 1341,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "MANIFEST.json",
+      "source_sha256": "3fba823bbeb205b4ebdca916f4d8915fd75cd7e3aa0f4ee3ebbd385927280d04"
+    },
+    {
+      "byte_for_byte": false,
+      "changes": [
+        "Rebased the reviewed proof path and renamed the historical source manifest reference. Mathematical audit unchanged."
+      ],
+      "packaged_bytes": 8960,
+      "packaged_path": "audit/AUDIT.md",
+      "packaged_sha256": "44302a3a31eaa2fe57ec722964238914ba5477a11f873fc93adb7d516338c2ab",
+      "source_bytes": 8991,
+      "source_directory": "rectangular-moment-hierarchy-audit-20261018",
+      "source_file": "AUDIT.md",
+      "source_sha256": "ff4e8fa763332973ce5b1671b9f3b70aa17a452aac33373a5899fa09a2d4ef64"
+    }
+  ],
+  "omissions": "Duplicate source normal/optimized logs, caches, and the superseded root diagnostics are omitted. The complete diagnostic polynomials are independently rederived by included checkers. No symbolic-algebra dependency or nested archive is included.",
+  "remote_writes": false,
+  "repository": "mio-qwq/p-vs-np",
+  "review_limit": "AI-assisted mathematical review and exact finite arithmetic; no historical novelty, human peer review, Lean, or other proof-assistant verification claim.",
+  "schema": "rectangular-moment-provenance-v1",
+  "source_freeze_confirmed": true,
+  "source_freeze_manifest": {
+    "all_entries_verified": true,
+    "entries": [
+      {
+        "path": "PROOF.md",
+        "sha256": "f796d745708ca05d4f69e3c55949cc053ab8b6c8561dc07cc090c5838556183f"
+      },
+      {
+        "path": "CHECKPOINT.md",
+        "sha256": "40873d01b17611c2e068fc7f855e90202db2c332dffea42ccdbde3fc4f5d5f1e"
+      },
+      {
+        "path": "check.py",
+        "sha256": "098529c33919f7a2b149f3d56d816dafebee6ec08716ee721f41f52c0f29f888"
+      },
+      {
+        "path": "check_cancellation.py",
+        "sha256": "e243e74bfa8197550699ec696938f30eaf34f0b48786643af79b6e4cc38ea94d"
+      },
+      {
+        "path": "results.json",
+        "sha256": "4f43d2b83c8440b0a9d76c1024c67c0b2b2c5a3d8e811d166a9a2288243b2599"
+      },
+      {
+        "path": "cancellation_result.json",
+        "sha256": "a1455445702ddefbdf2d28ff7ddc5c39232915d2edf25fe72cb9739ed4fc5854"
+      },
+      {
+        "path": "optimized.log",
+        "sha256": "a43aa993cc07a3af760bbe8ace7eb4330d148b587e2fa16d6ddb443716bea8d2"
+      },
+      {
+        "path": "optimized_cancellation.log",
+        "sha256": "a1455445702ddefbdf2d28ff7ddc5c39232915d2edf25fe72cb9739ed4fc5854"
+      }
+    ],
+    "filename": "SHA256SUMS",
+    "sha256": "5f879bb3e004663d8997a3e46ecf1d274ddd15c0ad129a19af536dbc8d02478d",
+    "source_directory": "rectangular-moment-hierarchy-20261018"
+  }
+}

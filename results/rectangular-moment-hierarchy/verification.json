@@ -1,0 +1,15 @@
+{
+  "schema": "rectangular-moment-verification-protocol-v1",
+  "date_utc": "2026-10-18",
+  "runtime": "Python 3.10 or later; standard library only",
+  "commands": ["python -B verify.py", "python -B -O verify.py"],
+  "producer_cases": 7,
+  "cancellation_permutations": 720,
+  "independent_complete_bivariate_cases": 15,
+  "affine_closed_form_families": 90,
+  "source_level_negative_controls": 2,
+  "highest_first_differing_moment_in_complete_reconstruction": 5,
+  "mathematical_basis": "General algebraic proof with independent AI-assisted mathematical review; finite exact tests are corroboration, not exhaustive all-coloring verification.",
+  "package_validation": "Fresh temporary copies rerun all five original checkers, compare every certificate byte, and reject both changed mathematical certificates and inventory corruption. The outer staging MANIFEST and checks directory record actual normal and optimized results from the stage and fresh deterministic ZIP extractions.",
+  "scope": "Structured equal-halves rectangular family; no arbitrary-coloring, general ASNC, P-versus-NP, novelty, human-peer-review, or proof-assistant-verification claim."
+}

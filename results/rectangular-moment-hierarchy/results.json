@@ -1,0 +1,181 @@
+[
+  {
+    "name": "n8 first two moments equal",
+    "r": 3,
+    "first_differing_moment": 3,
+    "D": 15,
+    "q": "8",
+    "coefficient": "-37324800",
+    "degree": 13,
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "-37324800"
+    ],
+    "checked_smaller_layers": [
+      {
+        "size": 2,
+        "coefficients": [
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "n8 first moment equal",
+    "r": 3,
+    "first_differing_moment": 2,
+    "D": 15,
+    "q": "4",
+    "coefficient": "967680",
+    "degree": 14,
+    "maximal_layer_coefficients": [
+      "0",
+      "967680"
+    ],
+    "checked_smaller_layers": []
+  },
+  {
+    "name": "n6 gapped first two moments equal",
+    "r": 2,
+    "first_differing_moment": 3,
+    "D": 11,
+    "q": "9/2",
+    "coefficient": "21600",
+    "degree": 9,
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "21600"
+    ],
+    "checked_smaller_layers": [
+      {
+        "size": 1,
+        "coefficients": [
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "n8 gapped first three moments equal",
+    "r": 3,
+    "first_differing_moment": 4,
+    "D": 51,
+    "q": "32/3",
+    "coefficient": "118970202193920",
+    "degree": 48,
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "0",
+      "118970202193920"
+    ],
+    "checked_smaller_layers": [
+      {
+        "size": 2,
+        "coefficients": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "size": 1,
+        "coefficients": [
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "n16 first three moments equal",
+    "r": 7,
+    "first_differing_moment": 4,
+    "D": 63,
+    "q": "256/3",
+    "coefficient": "6120913302498012746223508279787520000000000",
+    "degree": 60,
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "0",
+      "6120913302498012746223508279787520000000000"
+    ],
+    "checked_smaller_layers": [
+      {
+        "size": 6,
+        "coefficients": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "size": 5,
+        "coefficients": [
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "n10 first four moments equal",
+    "r": 4,
+    "first_differing_moment": 5,
+    "D": 69,
+    "q": "625/24",
+    "coefficient": "20071103433434726400000",
+    "degree": 65,
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "20071103433434726400000"
+    ],
+    "checked_smaller_layers": [
+      {
+        "size": 3,
+        "coefficients": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "size": 2,
+        "coefficients": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "size": 1,
+        "coefficients": [
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "unsorted rational offsets",
+    "r": 3,
+    "first_differing_moment": 3,
+    "D": 15,
+    "q": "-2629/5400",
+    "coefficient": "570406160457287/180",
+    "degree": 13,
+    "maximal_layer_coefficients": [
+      "0",
+      "0",
+      "570406160457287/180"
+    ],
+    "checked_smaller_layers": [
+      {
+        "size": 2,
+        "coefficients": [
+          "0"
+        ]
+      }
+    ]
+  }
+]

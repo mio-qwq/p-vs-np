@@ -1,0 +1,12 @@
+[
+  {
+    "control": "reverse candidate leading sign",
+    "caught": true,
+    "error": "r1_k1_unsorted candidate mismatch ([0, 324], [0, Fraction(-324, 1)])"
+  },
+  {
+    "control": "replace third-order factorial by seven",
+    "caught": true,
+    "error": "(3, 0, 1, [Fraction(1, 1), Fraction(4, 1), Fraction(8, 1), Fraction(32, 3)], [Fraction(1, 1), Fraction(4, 1), Fraction(8, 1), Fraction(64, 7)])"
+  }
+]
