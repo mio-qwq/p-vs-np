@@ -1,0 +1,10 @@
+Canonical final theorem: PROOF.md.
+Run:
+  python check.py
+  python -O check.py
+The checker uses only the Python standard library and exact fractions.
+Its eight cases provide nonzero coefficient minors, not a substitute for the proof.
+Independent mathematical audits: ADVERSARIAL_AUDIT.md and ALGORITHMIC_AUDIT.md.
+Structural-review rerun logs independently reproduce the checker outputs.
+SUPERSEDED_ROOT_DRAFT.md is historical provenance only and should not replace the canonical proof.
+Verify file bytes against SHA256.json before editing any frozen package.

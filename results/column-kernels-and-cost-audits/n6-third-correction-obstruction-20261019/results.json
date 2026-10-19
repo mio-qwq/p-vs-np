@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "exponents": [
+    0,
+    8,
+    9,
+    10,
+    21,
+    22
+  ],
+  "minor_exponents": [
+    0,
+    8,
+    9,
+    21,
+    22
+  ],
+  "mean": "12",
+  "centered_second_sum": "350",
+  "centered_third_sum": "-90",
+  "nu": "17/6",
+  "third_centered_weight_moment": "-6/7",
+  "u_squared": "60/67",
+  "v_squared": "62/67",
+  "Q": "122/67",
+  "normalized_degree57_coefficient": "67*Q/21 - 122/21",
+  "specialized_degree57_coefficient": "0",
+  "masked_degree_upper_bound": 55,
+  "zero_polynomial_claim": false,
+  "character_coefficients_descending": [
+    "6/1001",
+    "50/3003",
+    "92/3003",
+    "20/429",
+    "190/3003",
+    "34/429",
+    "40/429",
+    "8/77",
+    "10/91",
+    "10/91",
+    "4/39",
+    "20/231",
+    "2/33",
+    "4/99",
+    "5/198",
+    "10/693",
+    "5/693",
+    "2/693",
+    "1/1386"
+  ]
+}

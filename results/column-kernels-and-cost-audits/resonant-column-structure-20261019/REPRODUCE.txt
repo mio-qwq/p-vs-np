@@ -1,0 +1,11 @@
+Read PROOF.md for the universal arguments and exact remaining scope.
+Run:
+    python check.py
+    python -O check.py
+
+The checker verifies the signed-dependence certificate, the exact signed
+Schur-ratio identity on explicit inputs, and boundary-value signs for each
+proved route. Finite checks corroborate implementation signs; they do not
+replace the structural proof or resolve the remaining regime.
+
+No external service or remote repository was changed.

@@ -1,0 +1,72 @@
+{
+  "all_selected_source_bytes_verified": true,
+  "checks": "SHA-256 and byte count at copy time; historical inventories checked before inclusion. Rechecked again after final archive verification.",
+  "source_manifest_checks": [
+    {
+      "group": "constructive-cost-audit-20261019",
+      "historical_entries_verified": 4,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "separation-reduction-audit-20261019",
+      "historical_entries_verified": 6,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "resonant-column-structure-20261019",
+      "historical_entries_verified": 8,
+      "historical_inventory": "SHA256.json",
+      "status": "PASS"
+    },
+    {
+      "group": "noncancellation-adversarial-20261019",
+      "historical_entries_verified": 9,
+      "historical_inventory": "SHA256SUMS",
+      "status": "PASS"
+    },
+    {
+      "group": "nonnegative-column-kernel-cost-20261019",
+      "historical_entries_verified": 3,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "n6-boundary-root-limit-20261019",
+      "historical_entries_verified": 8,
+      "historical_inventory": "SHA256.json",
+      "status": "PASS"
+    },
+    {
+      "group": "n6-third-correction-obstruction-20261019",
+      "historical_entries_verified": 8,
+      "historical_inventory": "SHA256.json",
+      "status": "PASS"
+    },
+    {
+      "group": "parity-column-kernel-20261019",
+      "historical_entries_verified": 10,
+      "historical_inventory": "SHA256.json",
+      "status": "PASS"
+    },
+    {
+      "group": "even-background-column-kernel-20261019",
+      "historical_entries_verified": 12,
+      "historical_inventory": "MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "group": "cyclotomic-column-root-20261019",
+      "historical_entries_verified": 13,
+      "historical_inventory": "SHA256.json",
+      "status": "PASS"
+    },
+    {
+      "group": "column-kernel-prior-art-20261019",
+      "historical_entries_verified": 3,
+      "historical_inventory": "SHA256SUMS",
+      "status": "PASS"
+    }
+  ]
+}

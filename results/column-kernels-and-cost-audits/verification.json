@@ -1,0 +1,111 @@
+{
+  "checkers": [
+    {
+      "certificates": [
+        "constructive-cost-audit-20261019/results.json"
+      ],
+      "path": "constructive-cost-audit-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": false
+    },
+    {
+      "path": "separation-reduction-audit-20261019/check.py",
+      "requires_normal_python": false,
+      "stdout_json": "separation-reduction-audit-20261019/output.json",
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "resonant-column-structure-20261019/checks.json"
+      ],
+      "path": "resonant-column-structure-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": true
+    },
+    {
+      "certificates": [
+        "noncancellation-adversarial-20261019/kernel_checks.json"
+      ],
+      "path": "noncancellation-adversarial-20261019/check_kernel.py",
+      "requires_normal_python": false,
+      "sympy": true
+    },
+    {
+      "certificates": [
+        "nonnegative-column-kernel-cost-20261019/results.json"
+      ],
+      "path": "nonnegative-column-kernel-cost-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "n6-boundary-root-limit-20261019/results.json"
+      ],
+      "path": "n6-boundary-root-limit-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": true
+    },
+    {
+      "certificates": [
+        "n6-third-correction-obstruction-20261019/results.json"
+      ],
+      "path": "n6-third-correction-obstruction-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": true
+    },
+    {
+      "certificates": [
+        "parity-column-kernel-20261019/results.json"
+      ],
+      "path": "parity-column-kernel-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": true
+    },
+    {
+      "certificates": [
+        "even-background-column-kernel-20261019/results.json"
+      ],
+      "path": "even-background-column-kernel-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "even-background-column-kernel-20261019/cost-results.json"
+      ],
+      "path": "even-background-column-kernel-20261019/check_cost.py",
+      "requires_normal_python": false,
+      "sympy": false
+    },
+    {
+      "certificates": [
+        "cyclotomic-column-root-20261019/results.json"
+      ],
+      "path": "cyclotomic-column-root-20261019/check.py",
+      "requires_normal_python": false,
+      "sympy": false
+    }
+  ],
+  "exhaustive": {
+    "source": "noncancellation-adversarial-20261019/search_complete.cpp",
+    "stdout": "noncancellation-adversarial-20261019/search_complete.out"
+  },
+  "historical_only": [],
+  "scope": "Scoped one-column noncancellation, conditional constructive cost, reduction-template and coefficient-test limits; no P versus NP solution.",
+  "source_negative_controls": [
+    {
+      "error_marker": "RuntimeError",
+      "new": "scale = -((-1) ** (n - j) * comb(n, j) * value)",
+      "old": "scale = (-1) ** (n - j) * comb(n, j) * value",
+      "path": "constructive-cost-audit-20261019/check.py"
+    },
+    {
+      "error_marker": "Mixed derivative formula failed",
+      "new": "C3*(2-5*Q)/1261",
+      "old": "C3*(2-5*Q)/1260",
+      "path": "n6-third-correction-obstruction-20261019/check.py",
+      "sympy": true
+    }
+  ]
+}

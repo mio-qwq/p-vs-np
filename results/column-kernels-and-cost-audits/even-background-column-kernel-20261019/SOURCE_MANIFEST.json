@@ -1,0 +1,55 @@
+{
+  "frozen_utc": "2026-10-19T01:25:08Z",
+  "scope": "Constructive appendix to the broader parity theorem: explicit positive functional, exact Laurent coefficient realization, degree-dependent bit cost, and signed sharpness certificate. Not an independent general theorem or arbitrary-support result.",
+  "review_scope": "ADVERSARIAL_AUDIT.md reviews the main theorem and positive functional; CERTIFICATE-COST.md was checked by its author and exact Laurent coefficient tests. No separate external cost-review receipt is claimed.",
+  "files": {
+    "PROOF.md": {
+      "sha256": "a89accd6ed32434ea603ad56698d4ded667c0d1f8a988547d274de039ba9e95a",
+      "bytes": 8858
+    },
+    "CERTIFICATE-COST.md": {
+      "sha256": "25338f6d975785bed82f3352d29b14fc1872f15b2e9267c4bddff7105c98f850",
+      "bytes": 5615
+    },
+    "ADVERSARIAL_AUDIT.md": {
+      "sha256": "5fae90458274afa212e894969d305beb0af91373fba8a1186b630d35a7995b95",
+      "bytes": 1534
+    },
+    "HANDOFF.md": {
+      "sha256": "21accae27ab01d283f806ba8a87b49439bd1897cd51623de3385452e22eb9b33",
+      "bytes": 2758
+    },
+    "check.py": {
+      "sha256": "e0117258f398a3b77462f710df360decf82172473c3143a347dae7bb7003b67b",
+      "bytes": 6312
+    },
+    "check_cost.py": {
+      "sha256": "d77a8220888f1fd08fe3e4e2d3282ed1a483dfa1a0e290fd5e59afabc2709d42",
+      "bytes": 2927
+    },
+    "results.json": {
+      "sha256": "ca2434e94eb2eb32369c38381407d25cb87f25dffcda7ab004e5f84a5f032e24",
+      "bytes": 8528
+    },
+    "cost-results.json": {
+      "sha256": "94625d05a47a7304fd2b706b702b79a30a8691add735df87e76e69ef9e5f8a30",
+      "bytes": 2027
+    },
+    "check-normal.log": {
+      "sha256": "48c9a603ad0d751607fa146c1d3504d6434b91fa554baa336139ee84d1e0d530",
+      "bytes": 662
+    },
+    "check-optimized.log": {
+      "sha256": "48c9a603ad0d751607fa146c1d3504d6434b91fa554baa336139ee84d1e0d530",
+      "bytes": 662
+    },
+    "cost-check-normal.log": {
+      "sha256": "635bfc2b6d17c079623bbd00f80533d9aad2a3957f67daced34a362599d735ee",
+      "bytes": 78
+    },
+    "cost-check-optimized.log": {
+      "sha256": "635bfc2b6d17c079623bbd00f80533d9aad2a3957f67daced34a362599d735ee",
+      "bytes": 78
+    }
+  }
+}

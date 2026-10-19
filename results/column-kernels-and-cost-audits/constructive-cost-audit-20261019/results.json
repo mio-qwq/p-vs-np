@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "scope": "finite certificates, not universal ASNC",
+  "tight_cut": {
+    "matchings": [
+      {
+        "ids": [
+          0,
+          2,
+          4
+        ],
+        "red": 2
+      },
+      {
+        "ids": [
+          1,
+          3,
+          5
+        ],
+        "red": 0
+      }
+    ],
+    "cut_edge_ids": [
+      2,
+      5
+    ],
+    "left_block": [
+      {
+        "ids": [
+          0,
+          2
+        ],
+        "red": 1
+      },
+      {
+        "ids": [
+          1,
+          5
+        ],
+        "red": 0
+      }
+    ],
+    "right_block": [
+      {
+        "ids": [
+          2,
+          4
+        ],
+        "red": 1
+      },
+      {
+        "ids": [
+          3,
+          5
+        ],
+        "red": 0
+      }
+    ],
+    "naive_counts": [
+      0,
+      1,
+      2
+    ],
+    "compatible_counts": [
+      0,
+      2
+    ],
+    "incompatible_pairs": [
+      [
+        {
+          "ids": [
+            0,
+            2
+          ],
+          "red": 1
+        },
+        {
+          "ids": [
+            3,
+            5
+          ],
+          "red": 0
+        }
+      ],
+      [
+        {
+          "ids": [
+            1,
+            5
+          ],
+          "red": 0
+        },
+        {
+          "ids": [
+            2,
+            4
+          ],
+          "red": 1
+        }
+      ]
+    ],
+    "strict_proper_Hall": true,
+    "side_size_sum": 4,
+    "original_side_size": 3
+  },
+  "subset_sum": [
+    {
+      "weights": [
+        1
+      ],
+      "subset_totals": [
+        0,
+        1
+      ],
+      "vertices_per_side": 2,
+      "edges": 4,
+      "weight_input_bits": 1,
+      "path_gadget_internal_vertices": 2
+    },
+    {
+      "weights": [
+        2,
+        3
+      ],
+      "subset_totals": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "vertices_per_side": 4,
+      "edges": 8,
+      "weight_input_bits": 4,
+      "path_gadget_internal_vertices": 10
+    },
+    {
+      "weights": [
+        2,
+        5,
+        9
+      ],
+      "subset_totals": [
+        0,
+        2,
+        5,
+        7,
+        9,
+        11,
+        14,
+        16
+      ],
+      "vertices_per_side": 6,
+      "edges": 12,
+      "weight_input_bits": 9,
+      "path_gadget_internal_vertices": 32
+    },
+    {
+      "weights": [
+        1,
+        1,
+        2,
+        7
+      ],
+      "subset_totals": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11
+      ],
+      "vertices_per_side": 8,
+      "edges": 16,
+      "weight_input_bits": 7,
+      "path_gadget_internal_vertices": 22
+    },
+    {
+      "weights": [
+        1,
+        1208925819614629174706176,
+        2417851639229258349412355
+      ],
+      "subset_totals": [
+        0,
+        1,
+        1208925819614629174706176,
+        1208925819614629174706177,
+        2417851639229258349412355,
+        2417851639229258349412356,
+        3626777458843887524118531,
+        3626777458843887524118532
+      ],
+      "vertices_per_side": 6,
+      "edges": 12,
+      "weight_input_bits": 164,
+      "path_gadget_internal_vertices": 7253554917687775048237064
+    }
+  ],
+  "interpolation_and_extraction": {
+    "graphs": 689,
+    "determinant_evaluations": 11126,
+    "extracted_matchings": 1643
+  }
+}

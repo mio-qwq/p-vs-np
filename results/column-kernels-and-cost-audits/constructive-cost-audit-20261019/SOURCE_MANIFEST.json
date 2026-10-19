@@ -1,0 +1,10 @@
+{
+  "frozen_utc": "2026-10-19T00:52:00Z",
+  "scope": "conditional cost theorem and explicit reduction-scope certificates; no ASNC theorem",
+  "files": {
+    "PROOF.md": "dcc8c31b8089326410a008bcd40222171654db9e7fbe716be331f1a3e41bf0b1",
+    "SOURCE-RECEIPT.md": "d73d95d4e56720290e0743a6ca2c1dc7e8136f06f535d86c1905f2f5408025bb",
+    "check.py": "dcbf1171d6e7e981848177d686233bbb5d3712a0abb92e92d62b8d49f94bb119",
+    "results.json": "066b7721650f0a31303b1aaa6226425a524a7ed59a77dea1b6a063a8263d0519"
+  }
+}

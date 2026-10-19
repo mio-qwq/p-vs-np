@@ -1,0 +1,59 @@
+{
+  "c6_naive_counts": [
+    0,
+    1,
+    2
+  ],
+  "c6_original_counts": [
+    0,
+    2
+  ],
+  "linear_maps_checked": 4448,
+  "nonzero_support_graphs": [
+    {
+      "dimension": 1,
+      "edges": 9,
+      "matchings": 1,
+      "vertices_per_side": 5
+    },
+    {
+      "dimension": 2,
+      "edges": 23,
+      "matchings": 3,
+      "vertices_per_side": 11
+    },
+    {
+      "dimension": 3,
+      "edges": 37,
+      "matchings": 7,
+      "vertices_per_side": 17
+    },
+    {
+      "dimension": 4,
+      "edges": 51,
+      "matchings": 15,
+      "vertices_per_side": 23
+    },
+    {
+      "dimension": 5,
+      "edges": 65,
+      "matchings": 31,
+      "vertices_per_side": 29
+    },
+    {
+      "dimension": 6,
+      "edges": 79,
+      "matchings": 63,
+      "vertices_per_side": 35
+    },
+    {
+      "dimension": 7,
+      "edges": 93,
+      "matchings": 127,
+      "vertices_per_side": 41
+    }
+  ],
+  "onehot_compression_maps_checked": 283,
+  "status": "PASS",
+  "three_dm_instances": 359
+}
