@@ -1,0 +1,82 @@
+{
+  "archive": "pnp-mixed-cycle-real-offset-counterexample-20261019.zip",
+  "archive_bytes": 124277,
+  "archive_sha256": "4ae6982a06fdc863b8b04fef1c071a5d3e1d31dce74835126785006ad18355db",
+  "branch": "research-mixed-cycle-free-cube-20261019",
+  "checkpoint_verification": {
+    "archive_bytes": 124277,
+    "archive_entry_count": 22,
+    "archive_filename": "pnp-mixed-cycle-real-offset-counterexample-20261019.zip",
+    "archive_path": "/workspace/shared/research-checkpoint-20261019-1326/pnp-mixed-cycle-real-offset-counterexample-20261019.zip",
+    "archive_sha256": "4ae6982a06fdc863b8b04fef1c071a5d3e1d31dce74835126785006ad18355db",
+    "checks": {
+      "actual_permutation_signs": "PASS; baseline sign -1, three terms of each sign",
+      "clean_extracted_bundle_under_optimized_python": "PASS; report byte-identical to staging normal run",
+      "complete_cost_fiber": "PASS; 16 supported matchings, histogram 1,4,6,4,1, exactly six cost-two permutations",
+      "deterministic_rebuild": "PASS; clean-extracted rebuild byte-identical",
+      "fresh_independent_normal_and_optimized": "PASS; byte-identical to frozen outputs",
+      "fresh_primary_normal_and_optimized": "PASS; byte-identical to frozen receipts",
+      "frozen_independent_sha256sums": "PASS",
+      "frozen_primary_manifest": "PASS",
+      "manifest_membership_and_zip_crc": "PASS",
+      "original_independent_mutation_harness": "PASS; four rejected faults; receipt byte-identical",
+      "same_algebraic_parameter": "PASS; monic degree-51 polynomial equality and nested isolating intervals",
+      "serialized_data_mutations": "PASS; corrupt cost and permutation rejected",
+      "source_mutations_normal_and_optimized": "PASS; algebra, root interval, cost, permutation rejected at intended checks in both modes"
+    },
+    "commands_from_extracted_package": [
+      "python verify_bundle.py --negative-controls --output /tmp/pnp-validation.json",
+      "python -O verify_bundle.py --negative-controls --output /tmp/pnp-validation-optimized.json",
+      "python rebuild_archive.py /tmp/pnp-mixed-cycle-real-offset-counterexample-20261019.zip"
+    ],
+    "excluded": "Exploratory probes, candidate numeric output, Python caches, and redundant console logs",
+    "external_writes": false,
+    "frozen": true,
+    "manifest_sha256": "e3ad1de7916c6eb5463ed32dc89af4faa9504a9c552dd30ceeeb5b088c815286",
+    "package_root": "pnp-mixed-cycle-real-offset-counterexample-20261019",
+    "scope": {
+      "canonical_row_offsets_a_i_equals_i": "OPEN; not addressed by this counterexample",
+      "established": "A 16-row complete cost-two six-permutation fiber cancels identically for distinct positive algebraic real row offsets, canonical column exponents 0..15, and a full nonnegative integer cost matrix.",
+      "p_versus_np": "No claim"
+    },
+    "status": "COMPLETE",
+    "tested_environment": {
+      "python": "3.12.14",
+      "sympy": "1.14.0"
+    },
+    "validation_sha256": "ae3c42888037a4e3ec83cb5ce09134e19ba6a9988ae164d77a30bbf7a6b28676"
+  },
+  "fresh_archival_verification": {
+    "archive": "pnp-mixed-cycle-real-offset-counterexample-20261019.zip",
+    "bytes": 124277,
+    "clean_rebuild_byte_identical": true,
+    "crc_and_unique_safe_nonsymlink_paths": true,
+    "entries": 22,
+    "fresh_clean_full_replay_normal": "PASS",
+    "fresh_clean_full_replay_optimized": "PASS",
+    "frozen_replay_bytes_identical": true,
+    "independent_root_replay_matches_packaged_output": true,
+    "sha256": "4ae6982a06fdc863b8b04fef1c071a5d3e1d31dce74835126785006ad18355db",
+    "status": "PASS"
+  },
+  "fresh_replay_receipts": {
+    "pnp-fresh-rebuild.json": {
+      "bytes": 212,
+      "sha256": "f9303b909ab809da37c60082b977d84d2b2d51f793ea1a76bf5d7aa324b9d567"
+    },
+    "pnp-fresh-replay-normal.json": {
+      "bytes": 2457,
+      "sha256": "ae3c42888037a4e3ec83cb5ce09134e19ba6a9988ae164d77a30bbf7a6b28676"
+    },
+    "pnp-fresh-replay-optimized.json": {
+      "bytes": 2457,
+      "sha256": "ae3c42888037a4e3ec83cb5ce09134e19ba6a9988ae164d77a30bbf7a6b28676"
+    }
+  },
+  "limits": "Exact finite, algebraic and byte-integrity checks; not proof-assistant certification, external peer review, a cryptographic signature or a hostile-code sandbox.",
+  "path": "results/mixed-cycle-free-cube-20261019",
+  "repository": "mio-qwq/p-vs-np",
+  "role": "Exact source ZIP on an additive source-only research branch",
+  "single_parent_commit": "9bb128032c2526b674110fa08be9be94c95359d0",
+  "status": "PASS"
+}
