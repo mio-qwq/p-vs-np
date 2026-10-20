@@ -1,0 +1,107 @@
+{
+  "bundle": "pnp-packet-transfer-supplement",
+  "inventory_entries": 25,
+  "negative_controls": [
+    {
+      "kind": "source-level mathematical mutation",
+      "name": "delete wrong distinguished edge",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "source-level mathematical mutation",
+      "name": "replace minimal-circuit row by matching row",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "source-level mathematical mutation",
+      "name": "change independent circuit layer",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "source-level mathematical mutation",
+      "name": "destroy supplemental doubled-state coloring",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "source-level mathematical mutation",
+      "name": "change independent supplemental coloring",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "fresh-replay receipt comparison",
+      "name": "claim only two literal Schur survivors",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "fresh-replay receipt comparison",
+      "name": "claim matching-induced determinant vanishes",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "fresh-replay receipt comparison",
+      "name": "change H extension count",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "inventory integrity",
+      "name": "tamper",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "inventory integrity",
+      "name": "missing",
+      "result": "REJECTED"
+    },
+    {
+      "kind": "inventory integrity",
+      "name": "unlisted",
+      "result": "REJECTED"
+    }
+  ],
+  "optimization_safe_checks": true,
+  "replays": [
+    {
+      "assertions_preserved": 0,
+      "outputs": [
+        {
+          "path": "construction/RESULT.json",
+          "sha256": "cf3201b5fa27941d7949313c996502062f0a94612f528273604faf30c36cd21f"
+        },
+        {
+          "path": "construction/GRAPH.json",
+          "sha256": "3003943697396a789eaef621959e67730d1b6df6e4f47846eb869a83a6d25412"
+        }
+      ],
+      "script": "construction/verify.py",
+      "status": "PASS"
+    },
+    {
+      "assertions_preserved": 0,
+      "outputs": [
+        {
+          "path": "independent_audit/VERIFICATION.json",
+          "sha256": "6f4a82f84a929d4d5a865f2b2bb0e2cc3784d6a34dd7cb940f1134665d7eb85e"
+        },
+        {
+          "path": "independent_audit/GRAPH.json",
+          "sha256": "140ac97423d6aff8046bccea95fdb6e7ed8ad6c7b3a7fd91310e76d03c956bfe"
+        }
+      ],
+      "script": "independent_audit/verify_packet_transfer.py",
+      "status": "PASS"
+    },
+    {
+      "assertions_preserved": 0,
+      "outputs": [
+        {
+          "path": "verification/SMALL_PACKET.json",
+          "sha256": "9c712742e987f4acfe8f37d7cef8cd9c5c8a36f99cffacb63d76d9c271456c41"
+        }
+      ],
+      "script": "verify_small_packet.py",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Private exact row-support-transfer failure; no matching-minor-existence counterclaim, P-versus-NP conclusion, Lean build claim, or external publication.",
+  "status": "PASS"
+}

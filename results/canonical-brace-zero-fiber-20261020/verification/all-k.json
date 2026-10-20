@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "expected_json_matches": true,
+      "fault_controls": [
+        {
+          "intended_error": "ValueError: entire old target fiber has eight choices",
+          "mode": "normal",
+          "returncode": 1
+        },
+        {
+          "intended_error": "ValueError: entire old target fiber has eight choices",
+          "mode": "optimized",
+          "returncode": 1
+        }
+      ],
+      "normal_optimized_stdout_identical": true,
+      "script": "audit/verify_extendable.py",
+      "source_sha256": "0e5358283c9918d8fcd1a8ce24e2db386d0e47f31244ddb0914bc908b103a010",
+      "status": "PASS",
+      "stdout_sha256": "36ac3bd7add4c06e501b2cc6a17b13f274e8a86213415deb300dc9a18632cab8"
+    }
+  ],
+  "intended_fault_rejections": 2,
+  "network_or_repository_actions": "None",
+  "normal_and_optimized_checker_runs": 2,
+  "payload_files_verified": 10,
+  "scope": "PRIVATE arbitrary-extendability cancellation; publication pending fresh major-claim approval; no complexity-class claim.",
+  "status": "PASS",
+  "versions": {
+    "python": "3.12.14",
+    "python_implementation": "CPython"
+  }
+}

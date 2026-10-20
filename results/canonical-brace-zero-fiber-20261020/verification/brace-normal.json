@@ -1,0 +1,58 @@
+{
+  "active_coefficients": 47,
+  "added_red_edges": 141,
+  "all_active_coefficients_zero": true,
+  "all_disjoint_edge_pairs_extend": 24508,
+  "canonical_dimension": 73,
+  "certificate_mutations": {
+    "alter_independent_fiber": "REJECTED",
+    "alter_independent_graph": "REJECTED",
+    "alter_permutation": "REJECTED",
+    "alter_prior_fiber": "REJECTED",
+    "alter_prior_graph": "REJECTED",
+    "change_active_coefficient": "REJECTED",
+    "change_binary_cost": "REJECTED",
+    "delete_edge": "REJECTED",
+    "delete_matching": "REJECTED",
+    "duplicate_edge": "REJECTED",
+    "duplicate_matching": "REJECTED",
+    "relabel_row": "REJECTED",
+    "reverse_permutation_sign": "REJECTED",
+    "truncate_active_coefficients": "REJECTED"
+  },
+  "clean_reconstruction_runs": 6,
+  "common_nonzero_factor_degree": 2582,
+  "construction_negative_controls": {
+    "one_cost_mutation_changes_fiber_and_polynomial": true,
+    "one_way_completion_not_matching_covered": true
+  },
+  "edge_count": 224,
+  "frozen_hash_entries_checked": 32,
+  "independence_note": "Construction and audit reconstruct separately. Root replay reruns the audit code; it is not a third implementation.",
+  "independent_target_counts_0_through_6": [
+    1,
+    4,
+    7,
+    8,
+    7,
+    4,
+    1
+  ],
+  "minimum_new_edge_matching_red_count_proved": 34,
+  "normal_optimized_receipts_agree": true,
+  "prior_five_cycle_certificates_agree": true,
+  "prior_negative_controls": {
+    "cost_change_rejects_zero": true,
+    "exponent_change_rejects_zero": true
+  },
+  "receipt_fields_ignored_for_comparison": [
+    "elapsed_seconds",
+    "python"
+  ],
+  "root_replay_agrees": true,
+  "scope": "Private local review only; no external publication or repository write.",
+  "status": "PASS",
+  "target": 3,
+  "target_fiber_size": 8,
+  "total_term_degree": 2628
+}

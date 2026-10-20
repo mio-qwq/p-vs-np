@@ -1,0 +1,46 @@
+{
+  "date_utc": "2026-10-20",
+  "status": "PASS",
+  "python": "3.12.14",
+  "frozen_archives": [
+    {
+      "path": "archives/pnp-arbitrary-extendability-private.zip",
+      "bytes": 23388,
+      "sha256": "688a59ecd010c1802f5afeb34a0b8bbc7904fcd86e1441df88e83dd79c12e9f1"
+    },
+    {
+      "path": "archives/pnp-packet-transfer-supplement.zip",
+      "bytes": 191979,
+      "sha256": "42d61bc45800fdbaa93071d62d4244cae77baaaa7a792b8795f43dff27b5095a"
+    },
+    {
+      "path": "archives/research-checkpoint-20261019-1501.zip",
+      "bytes": 205667,
+      "sha256": "db6e7f3e4e96ddcc9b98f0a5639723070e937067da1f0f6545ad83e6ee324b3b"
+    }
+  ],
+  "replay_cases": [
+    {
+      "receipt": "verification/all-k.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "verification/brace-normal.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "verification/brace-optimized.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "verification/packet-normal.json",
+      "status": "PASS"
+    },
+    {
+      "receipt": "verification/packet-optimized.json",
+      "status": "PASS"
+    }
+  ],
+  "checks": "Frozen-archive manifests, exact source reconstruction, full expected-result comparisons, normal and optimized execution, and required negative controls passed. These checks are not an independent Lean build or human peer review.",
+  "historical_metadata": "Private/source-time status strings in the frozen archives and checker outputs describe their original preparation, not the later publication of this archive."
+}
