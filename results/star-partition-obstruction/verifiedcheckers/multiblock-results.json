@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integers/Fraction",
+  "cases": [
+    {
+      "n": 14,
+      "r": 2,
+      "b": 7,
+      "probability": "21021/65536",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 16,
+      "r": 2,
+      "b": 7,
+      "probability": "315315/1048576",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 16,
+      "r": 4,
+      "b": 3,
+      "probability": "799227/4194304",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 20,
+      "r": 4,
+      "b": 3,
+      "probability": "5797935/33554432",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 24,
+      "r": 6,
+      "b": 3,
+      "probability": "1905686757/8589934592",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 32,
+      "r": 8,
+      "b": 3,
+      "probability": "14938596440955/70368744177664",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 32,
+      "r": 4,
+      "b": 7,
+      "probability": "607585630995/4398046511104",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 40,
+      "r": 8,
+      "b": 3,
+      "probability": "1726431819267375/9007199254740992",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 64,
+      "r": 8,
+      "b": 7,
+      "probability": "12343634004937916916506579/77371252455336267181195264",
+      "conditional_and_global_bounds": true
+    },
+    {
+      "n": 64,
+      "r": 16,
+      "b": 3,
+      "probability": "4323310105094815732758955899/19807040628566084398385987584",
+      "conditional_and_global_bounds": true
+    }
+  ]
+}
