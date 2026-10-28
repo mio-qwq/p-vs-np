@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-27",
+  "copied_inputs": [
+    {
+      "source": "research-20261027-0654/inputs/C7_FORMULAS.json",
+      "packet_path": "inputs/C7_FORMULAS.json",
+      "sha256": "79004d58417cc2d0e61fbb2647ca38c853b6ef1ff1f9d7d92cd86f9cbb523112",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261026-2054/compatibility/raw_coefficients.json",
+      "packet_path": "inputs/raw_coefficients.json",
+      "sha256": "be58a81d1e673e73d7df63bfe2e44c115f8e65c36fef047c7d9d6fbb1ffe0a20",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/root/bounded_c3_all_orders.cpp",
+      "packet_path": "sources/engine_a.cpp",
+      "sha256": "6a4054672c4274e7919ee1ae27c8a6ec778a7384f1aa65d4890059edf757b344",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/exhaustion-review/enumerate.cpp",
+      "packet_path": "sources/engine_b.cpp",
+      "sha256": "9f32cec2942a61bd47a13d687a3ea32c4edf81091f4a47935464599a0c6e0660",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/exhaustion-review/allorders-survivors-1632.tsv",
+      "packet_path": "certificates/survivors.tsv",
+      "sha256": "b10b59f7c09d9c074d41d86ea5e86cf7023be87345eabb5f41edde93dbbdb817",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/root/ALL_BOUNDED_1632.json",
+      "packet_path": "certificates/engine_a_counts.json",
+      "sha256": "4ed4bfa1d0559fa50997e87c3f86e27e6f56c7747e5bb2eeb7c508b3e8fdeb8f",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/exhaustion-review/AUDIT.json",
+      "packet_path": "certificates/engine_b_audit.json",
+      "sha256": "7375bdca7ff8f668aee83049cdf09b54a8d67c10bfa9e95f353aadec8e341fe9",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/check_height_inputs.py",
+      "packet_path": "scripts/check_structure.py",
+      "sha256": "9c5e7efcd1dfe1ef270429a7cd559fb6b9a94b0d373d45479f1bf1126f60c82e",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/root/FULL_MODEL_PROOF_DRAFT.md",
+      "packet_path": "reviews/root/FULL_MODEL_PROOF_DRAFT.md",
+      "sha256": "2839bd0a872384adf0a9758885fd6e079dbd5f533a4f14c231be9bc59de3bd77",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/structural/PROOF.md",
+      "packet_path": "reviews/structural/PROOF.md",
+      "sha256": "8541b26cc3251e2d9cf34abc64e4e7cbc9f1dc9537a3f123b8ce986d0ab6f2e9",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/structural/LOCAL_CERTIFICATE.json",
+      "packet_path": "reviews/structural/LOCAL_CERTIFICATE.json",
+      "sha256": "b706251a341539cf8be5622db263c2fb1ef869f8266fb3e5bfee1ebad5470049",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/REVIEW.md",
+      "packet_path": "reviews/height/REVIEW.md",
+      "sha256": "a176d2057c1dacf5d782982adb2b4912003b8997af1e41104b8ef1e580a63957",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/FINAL_REVIEW.json",
+      "packet_path": "reviews/height/FINAL_REVIEW.json",
+      "sha256": "376a1eec46a98b09d2dbf2e363258a0580837c94db8ea7b5c0c2226d19602d2b",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/UNIVERSAL_GUARD_PROOF.md",
+      "packet_path": "reviews/height/UNIVERSAL_GUARD_PROOF.md",
+      "sha256": "2d56a1614882796394815a277950726292073bc8da6ca08f2e7f707a1ac725f1",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/SOURCE_AUDIT.md",
+      "packet_path": "reviews/height/SOURCE_AUDIT.md",
+      "sha256": "1a1e8fcba3e736df8aad00d40e9697977105a709f506a2c3eceb9dc78893073a",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/BOUNDED_SOURCE_AUDIT.json",
+      "packet_path": "reviews/height/BOUNDED_SOURCE_AUDIT.json",
+      "sha256": "3bc4c23c9500b952aa5510d9b594b3ce17b1f49c7e702af014d29b08b1b707c0",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/height-review/COMPLEX_EXTENSION_AUDIT.json",
+      "packet_path": "reviews/height/COMPLEX_EXTENSION_AUDIT.json",
+      "sha256": "a1985c484ac519668b7a83389b1902200173b48bcd4b00a51cb14c98383f2a19",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/exhaustion-review/REVIEW.md",
+      "packet_path": "reviews/exhaustion/REVIEW.md",
+      "sha256": "2f2dddb8290c217c57a389fdcb4597140c11a1450d9b22155f845859ab68dc8c",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/exhaustion-review/allorders-EXACT_CHECK.json",
+      "packet_path": "reviews/exhaustion/allorders-EXACT_CHECK.json",
+      "sha256": "c1c3517c46b6258531caffe20c388a2aa0803082af21497958adc529079b00ba",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/exhaustion-review/DIRECT_SINGULAR_CHECK.json",
+      "packet_path": "reviews/exhaustion/DIRECT_SINGULAR_CHECK.json",
+      "sha256": "1dafd86de7f4e3baa29f725ae306934d4261d0aec1224008e12b299e33d15438",
+      "edit": "none; byte-for-byte copy"
+    },
+    {
+      "source": "research-20261027-0826/global-c8/INDEPENDENT_CHECK.json",
+      "packet_path": "reviews/global-c8/INDEPENDENT_CHECK.json",
+      "sha256": "43297092776fc188d30276466785e7cd0a3f1e4bb92bed8de3a3e2ed035dfee8",
+      "edit": "none; byte-for-byte copy"
+    }
+  ],
+  "source_labels_note": "Source labels are relative to the original research archive, are provenance only, and are not runtime dependencies."
+}

@@ -1,0 +1,132 @@
+{
+  "K_zero_six": [
+    [
+      "K_zero",
+      -52,
+      -49,
+      -45,
+      -10,
+      -3,
+      -6
+    ],
+    [
+      "K_zero",
+      -35,
+      -32,
+      -27,
+      -11,
+      -3,
+      -6
+    ],
+    [
+      "K_zero",
+      -30,
+      -27,
+      -21,
+      -12,
+      -3,
+      -6
+    ],
+    [
+      "K_zero",
+      -28,
+      -25,
+      -18,
+      -13,
+      -3,
+      -6
+    ],
+    [
+      "K_zero",
+      5,
+      8,
+      -7,
+      9,
+      -3,
+      -6
+    ],
+    [
+      "K_zero",
+      22,
+      25,
+      -8,
+      27,
+      -3,
+      -6
+    ]
+  ],
+  "balance4": [
+    "bcade",
+    "dbeca",
+    "deabc",
+    "debac"
+  ],
+  "degree_bounds": [
+    8,
+    6,
+    6
+  ],
+  "extreme17": [
+    "abcde",
+    "abdce",
+    "abdec",
+    "adbce",
+    "adbec",
+    "adebc",
+    "bacde",
+    "badce",
+    "badec",
+    "bcdae",
+    "bdace",
+    "bdaec",
+    "bdcae",
+    "bdcea",
+    "bdeac",
+    "daebc",
+    "dbcea"
+  ],
+  "height80_counts": {
+    "BC_pairs": 9480,
+    "K_zero": 6,
+    "mod101": 76,
+    "mod103": 1,
+    "regular": 6828,
+    "shapes": 6834
+  },
+  "height80_orders": [
+    504,
+    1359,
+    848,
+    1024,
+    1669,
+    1430
+  ],
+  "height80_survivors": [
+    [
+      -34,
+      -11,
+      -79,
+      -67,
+      -112,
+      -135,
+      101
+    ]
+  ],
+  "max_absolute_coefficient": 140850,
+  "remaining6": [
+    "bcdea",
+    "bdeca",
+    "dabce",
+    "dbaec",
+    "dbeac",
+    "debca"
+  ],
+  "scope": "Real-offset full theorem imports17+4+3 exclusions. New height bound alone also holds for complex offsets. Small-H controls only; no duplicate full run.",
+  "source_polynomial_terms": 112,
+  "status": "PASS",
+  "variance3": [
+    "dabec",
+    "dbace",
+    "dbcae"
+  ]
+}

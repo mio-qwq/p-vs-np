@@ -1,0 +1,60 @@
+{
+  "method": "Direct 3x3 determinants of ordinary powers and binomial polynomials, exact division by Vandermonde, symmetric conversion, Cauchy-Binet and the original three-term G identity. No old raw coefficients read until fresh universal derivation complete.",
+  "universal_coefficients_checked": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "fixtures": [
+    {
+      "order": "bcdea",
+      "G7": "-550461423680/1791",
+      "G8": "10338294890000/1791"
+    },
+    {
+      "order": "bdeca",
+      "G7": "-19459009647/137642608",
+      "G8": "1516364456607/1169962168"
+    },
+    {
+      "order": "dabce",
+      "G7": "25709100417/807500",
+      "G8": "-2628088947/40375"
+    },
+    {
+      "order": "dbaec",
+      "G7": "-20568087/14641",
+      "G8": "839798928/161051"
+    },
+    {
+      "order": "dbeac",
+      "G7": "8624/3825",
+      "G8": "68992/11475"
+    },
+    {
+      "order": "debca",
+      "G7": "-315450/5285401",
+      "G8": "32568750/58139411"
+    }
+  ],
+  "mod17": {
+    "guard": "17 does not divide A L K M (x-y) B C; C3 discriminant is square (zero allowed)",
+    "tested": 1290,
+    "survivors": [
+      [
+        3,
+        8,
+        2
+      ],
+      [
+        8,
+        3,
+        2
+      ]
+    ]
+  },
+  "raw_data_sha256": "be58a81d1e673e73d7df63bfe2e44c115f8e65c36fef047c7d9d6fbb1ffe0a20"
+}

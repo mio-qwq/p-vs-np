@@ -1,0 +1,30 @@
+{
+  "brute_height": 40,
+  "brute_distinct_C3_tuples": 3402,
+  "signed_divisor_equals_brute": true,
+  "negative_negative_missing_control_count": 1081,
+  "modular_survivors": 2432,
+  "exact_factored_and_expanded_P7_agree": true,
+  "P7zeros": [],
+  "byorder_modular_survivors": {
+    "bdeca": 144,
+    "bcdea": 61,
+    "bdcea": 156,
+    "bdcae": 132,
+    "dbaec": 131,
+    "dbeac": 229,
+    "debca": 189,
+    "dbcae": 103,
+    "dbace": 232,
+    "bdace": 147,
+    "badce": 191,
+    "abdec": 159,
+    "abcde": 158,
+    "dabec": 110,
+    "dabce": 109,
+    "adbec": 128,
+    "adebc": 53
+  },
+  "survivor_sha256": "b10b59f7c09d9c074d41d86ea5e86cf7023be87345eabb5f41edde93dbbdb817",
+  "matches_independent_root_survivor_tuple_set": true
+}
