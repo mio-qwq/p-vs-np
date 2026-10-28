@@ -1,0 +1,199 @@
+{
+  "code_sha256": {
+    "inputs/C7_FORMULAS.json": "79004d58417cc2d0e61fbb2647ca38c853b6ef1ff1f9d7d92cd86f9cbb523112",
+    "inputs/raw_coefficients.json": "be58a81d1e673e73d7df63bfe2e44c115f8e65c36fef047c7d9d6fbb1ffe0a20",
+    "scripts/check.py": "0908ee6fff25eda5e40e8d6efd4b6a2d73c69c993dc4416627e17e8f36e52013",
+    "scripts/check_coefficients.py": "079b2d81b74de61cd5ae978ed058347874fde403ccdab20f7894f1e708693992",
+    "scripts/check_structure.py": "9c5e7efcd1dfe1ef270429a7cd559fb6b9a94b0d373d45479f1bf1126f60c82e",
+    "scripts/phi.py": "dad4b8c76d409b0127308228d44222844cff48864d45f75e05868b23fdfd5bba",
+    "sources/engine_a.cpp": "6a4054672c4274e7919ee1ae27c8a6ec778a7384f1aa65d4890059edf757b344",
+    "sources/engine_b.cpp": "9f32cec2942a61bd47a13d687a3ea32c4edf81091f4a47935464599a0c6e0660"
+  },
+  "coefficient_standalone_normal_and_optimized_stdout_identical_sha256": "8a06dd2f711056066820b5bf027107ffc6d42e1404eb1c923d5d4bf0c24f5f03",
+  "full_sanitized": {
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "elapsed_seconds": 24.281,
+    "exact_certificate": {
+      "P7_zeros": 0,
+      "handwritten_factored_Phi_agrees": true,
+      "negative_P7": 1236,
+      "positive_P7": 1196,
+      "rows": 2432
+    },
+    "fresh_coefficient_control": {
+      "C3_before_substitution": "-B**2/2 + B*u/2 - C**2/2 + C*u/2 - v/2",
+      "K0_integer_cases": [
+        [
+          -6,
+          -3,
+          -6,
+          9,
+          0
+        ],
+        [
+          -3,
+          -6,
+          -6,
+          9,
+          0
+        ],
+        [
+          -1,
+          2,
+          4,
+          -1,
+          20
+        ],
+        [
+          2,
+          -1,
+          4,
+          -1,
+          20
+        ]
+      ],
+      "P7_terms": 112,
+      "checks": [
+        "exact five-row Laplace normalization",
+        "C3 before any C3 substitution",
+        "fresh C3 equals prior raw data",
+        "fresh C4 equals prior raw data",
+        "fresh C5 equals prior raw data",
+        "fresh C6 equals prior raw data",
+        "fresh C7 equals prior raw data",
+        "undivided C4 identity",
+        "C5 after C4, without dividing by K",
+        "L=0 makes C4 a nonzero multiple of B-C",
+        "A=0 x branch forces exponent C",
+        "A=0 y branch forces exponent B",
+        "K=0 and C5 force u=L+3",
+        "K=0 signed factor equation",
+        "K=0 factor -4 gives repeated or noninteger roots",
+        "K=0 factor -1 gives repeated or noninteger roots",
+        "K=0 factor 1 gives repeated or noninteger roots",
+        "K=0 factor 4 gives repeated or noninteger roots",
+        "complete K=0 signed integer divisor list",
+        "compact Phi definition",
+        "fresh C6 free-q compact identity",
+        "fresh C7 free-q compact identity",
+        "mu-undivided C6/C7 syzygy",
+        "P7 is the 112-term integer polynomial of degrees 8,6,6"
+      ],
+      "fresh_coefficient_term_counts": {
+        "3": 1,
+        "4": 5,
+        "5": 22,
+        "6": 90,
+        "7": 241
+      },
+      "input_sha256": {
+        "C7_FORMULAS.json": "79004d58417cc2d0e61fbb2647ca38c853b6ef1ff1f9d7d92cd86f9cbb523112",
+        "raw_coefficients.json": "be58a81d1e673e73d7df63bfe2e44c115f8e65c36fef047c7d9d6fbb1ffe0a20"
+      },
+      "no_mu_division": true,
+      "q_remains_free": true,
+      "scope": "Exact C3-C7 necessity for the specified overlap mask over complex offsets; not a formal proof-assistant or human-peer-review claim.",
+      "status": "PASS"
+    },
+    "full_engine_counts": {
+      "A_zero": 0,
+      "BC_pairs": 3992688,
+      "K_zero": 6,
+      "L_zero": 3540,
+      "height": 1632,
+      "mod101": 220631,
+      "mod103": 2432,
+      "orders": [
+        1311004,
+        0,
+        1360133,
+        0,
+        1046159,
+        522707,
+        0,
+        1673250,
+        0,
+        0,
+        0,
+        522707,
+        1046159,
+        0,
+        1046159,
+        1046159,
+        0,
+        1360133,
+        911159,
+        1046159,
+        0,
+        1824622,
+        1046159,
+        911159,
+        0,
+        1673250,
+        0,
+        0,
+        0,
+        1311004
+      ],
+      "regular": 19654536,
+      "shapes": 19658082
+    },
+    "full_exact_replay": {
+      "P7_zeros": 0,
+      "handwritten_factored_Phi_agrees": true,
+      "negative_P7": 1236,
+      "positive_P7": 1196,
+      "rows": 2432
+    },
+    "full_singular_counts": {
+      "M_zero": 2,
+      "R_minus4": 32,
+      "Z_zero": 37
+    },
+    "integer_P7_terms": 112,
+    "mode": "full",
+    "python": "3.12.14",
+    "sanitizers": true,
+    "small_control": {
+      "BC_pairs": 2340,
+      "C3_tuples": 3402,
+      "both_engines_and_direct_E_counts_agree": true,
+      "height": 40,
+      "omitting_negative_negative_branch_loses": 1081
+    },
+    "status": "PASS",
+    "structural_control": "PASS",
+    "sympy": "1.14.0",
+    "verified_manifest_files": 32
+  },
+  "local_only": true,
+  "optimized_quick": {
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "elapsed_seconds": 3.152,
+    "exact_certificate": {
+      "P7_zeros": 0,
+      "handwritten_factored_Phi_agrees": true,
+      "negative_P7": 1236,
+      "positive_P7": 1196,
+      "rows": 2432
+    },
+    "integer_P7_terms": 112,
+    "mode": "quick",
+    "python": "3.12.14",
+    "sanitizers": false,
+    "small_control": {
+      "BC_pairs": 2340,
+      "C3_tuples": 3402,
+      "both_engines_and_direct_E_counts_agree": true,
+      "height": 40,
+      "omitting_negative_negative_branch_loses": 1081
+    },
+    "status": "PASS",
+    "structural_control": "PASS",
+    "sympy": "1.14.0",
+    "verified_manifest_files": 32
+  },
+  "seal_note": "After these successful code/input/source checks, only PROOF.md English spacing and package provenance/editorial notes were polished; sealed originals and all executed source/data stayed unchanged. The manifest was regenerated and an extracted-archive optimized quick replay verified final file hashes.",
+  "status": "PASS",
+  "working_directory_during_tests": "/tmp"
+}

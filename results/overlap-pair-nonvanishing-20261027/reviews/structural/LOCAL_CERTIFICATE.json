@@ -1,0 +1,578 @@
+{
+  "all_exact_checks_pass": true,
+  "checks": {
+    "h1": true,
+    "h2": true,
+    "h3": true,
+    "h4": true,
+    "permitted_terms_18": true,
+    "nonempty_pattern_1": true,
+    "nonempty_pattern_2": true,
+    "nonempty_pattern_3": true,
+    "nonempty_pattern_4": true,
+    "nonempty_pattern_5": true,
+    "nonempty_pattern_6": true,
+    "nonempty_pattern_7": true,
+    "nonempty_pattern_8": true,
+    "nonempty_pattern_9": true,
+    "nonempty_pattern_10": true,
+    "nonempty_pattern_11": true,
+    "nonempty_pattern_12": true,
+    "nonempty_pattern_13": true,
+    "nonempty_pattern_14": true,
+    "nonempty_pattern_15": true,
+    "nonempty_pattern_16": true,
+    "nonempty_pattern_17": true,
+    "nonempty_pattern_18": true,
+    "nonempty_pattern_19": true,
+    "nonempty_pattern_20": true,
+    "nonempty_pattern_21": true,
+    "nonempty_pattern_22": true,
+    "nonempty_pattern_23": true,
+    "nonempty_pattern_24": true,
+    "nonempty_pattern_25": true,
+    "nonempty_pattern_26": true,
+    "nonempty_pattern_27": true,
+    "nonempty_pattern_28": true,
+    "nonempty_pattern_29": true,
+    "nonempty_pattern_30": true
+  },
+  "gap_bound": 408,
+  "normalized_span_bound": 1632,
+  "block_patterns": [
+    {
+      "split": [
+        0
+      ],
+      "partial_side": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        1
+      ],
+      "partial_side": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        1
+      ],
+      "partial_side": [
+        0,
+        1
+      ],
+      "partial_rows_side": [
+        0,
+        1
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        2
+      ],
+      "partial_side": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        2
+      ],
+      "partial_side": [
+        0,
+        2
+      ],
+      "partial_rows_side": [
+        0,
+        1
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        1,
+        2
+      ],
+      "partial_side": [
+        1,
+        2
+      ],
+      "partial_rows_side": [
+        0,
+        1
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        0,
+        1,
+        2
+      ],
+      "partial_side": [
+        0,
+        1,
+        2
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        3
+      ],
+      "partial_side": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        0,
+        3
+      ],
+      "partial_side": [
+        1,
+        2,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        1,
+        3
+      ],
+      "partial_side": [
+        0,
+        2,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        1,
+        3
+      ],
+      "partial_side": [
+        0,
+        1,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        2,
+        3
+      ],
+      "partial_side": [
+        0,
+        1,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        2,
+        3
+      ],
+      "partial_side": [
+        0,
+        2,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        1,
+        2,
+        3
+      ],
+      "partial_side": [
+        1,
+        2,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "partial_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        4
+      ],
+      "partial_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        0,
+        4
+      ],
+      "partial_side": [
+        1,
+        2,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        1,
+        4
+      ],
+      "partial_side": [
+        0,
+        2,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        1,
+        4
+      ],
+      "partial_side": [
+        0,
+        1,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        2,
+        4
+      ],
+      "partial_side": [
+        0,
+        1,
+        3
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        2,
+        4
+      ],
+      "partial_side": [
+        0,
+        2,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        1,
+        2,
+        4
+      ],
+      "partial_side": [
+        1,
+        2,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "partial_side": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        3,
+        4
+      ],
+      "partial_side": [
+        0,
+        1,
+        2
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        0,
+        3,
+        4
+      ],
+      "partial_side": [
+        1,
+        2
+      ],
+      "partial_rows_side": [
+        0,
+        1
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        1,
+        3,
+        4
+      ],
+      "partial_side": [
+        0,
+        2
+      ],
+      "partial_rows_side": [
+        0,
+        1
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "partial_side": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        2,
+        3,
+        4
+      ],
+      "partial_side": [
+        0,
+        1
+      ],
+      "partial_rows_side": [
+        0,
+        1
+      ],
+      "term_count": 6
+    },
+    {
+      "split": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "partial_side": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 2
+    },
+    {
+      "split": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "partial_side": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "partial_rows_side": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "term_count": 2
+    }
+  ],
+  "scope": "symbolic minor identities and exact mask combinatorics only; Wronskian and direct-sum arguments are proved in PROOF.md"
+}

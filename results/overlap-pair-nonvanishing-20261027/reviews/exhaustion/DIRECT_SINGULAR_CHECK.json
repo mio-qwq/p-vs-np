@@ -1,0 +1,93 @@
+{
+  "all_pass": true,
+  "cases": [
+    {
+      "tuple": [
+        -52,
+        -49,
+        -45,
+        -10
+      ],
+      "branch": "K0_C5",
+      "e1": "1",
+      "direct_normalized_obstruction": "-62426"
+    },
+    {
+      "tuple": [
+        -35,
+        -32,
+        -27,
+        -11
+      ],
+      "branch": "K0_C5",
+      "e1": "1",
+      "direct_normalized_obstruction": "-17920"
+    },
+    {
+      "tuple": [
+        -30,
+        -27,
+        -21,
+        -12
+      ],
+      "branch": "K0_C5",
+      "e1": "1",
+      "direct_normalized_obstruction": "-10935"
+    },
+    {
+      "tuple": [
+        -28,
+        -25,
+        -18,
+        -13
+      ],
+      "branch": "K0_C5",
+      "e1": "1",
+      "direct_normalized_obstruction": "-8750"
+    },
+    {
+      "tuple": [
+        -22,
+        -1,
+        -67,
+        -24
+      ],
+      "branch": "M0_C6",
+      "e1": "69/53",
+      "direct_normalized_obstruction": "-4215865500/1379219"
+    },
+    {
+      "tuple": [
+        -3,
+        2,
+        -4,
+        3
+      ],
+      "branch": "M0_C6",
+      "e1": "-6",
+      "direct_normalized_obstruction": "-2355/2"
+    },
+    {
+      "tuple": [
+        5,
+        8,
+        -7,
+        9
+      ],
+      "branch": "K0_C5",
+      "e1": "1",
+      "direct_normalized_obstruction": "160"
+    },
+    {
+      "tuple": [
+        22,
+        25,
+        -8,
+        27
+      ],
+      "branch": "K0_C5",
+      "e1": "1",
+      "direct_normalized_obstruction": "6875"
+    }
+  ]
+}
